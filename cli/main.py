@@ -1,6 +1,12 @@
 import argparse
 from pathlib import Path
+import sys
 from tqdm import tqdm
+
+# Ensure project root is on sys.path so 'mindat' package can be imported when running this file directly
+ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
 
 from mindat.config import load_config, read_api_key
 from mindat.endpoints import MindatEndpoints
@@ -9,7 +15,7 @@ from mindat.http import HttpSession
 from mindat.api_client import MindatClient
 from mindat.repositories.localities_repo import LocalitiesRepository
 from mindat.services.download_service import DownloadService
-from .prompts import Questioner
+from cli.prompts import Questioner
 
 def main():
     ap = argparse.ArgumentParser("mindat-downloader")
