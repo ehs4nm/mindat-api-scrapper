@@ -1,0 +1,40 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.2833333333,
+          33.65
+        ]
+      },
+      "properties": {
+        "id": "mindat_225167",
+        "name": "Khur agate field, Khur and Biabanak County, Isfahan Province, Iran",
+        "type": "541",
+        "country": "Iran",
+        "description": "<h3>Khur agate field, Khur and Biabanak County, Isfahan Province, Iran</h3>\n<p><strong>Type:</strong> 541</p>\n<p><strong>Location:</strong> Iran</p>\n<p>25 km SE of Khur.\r\n(Minerals listed here are all from the agate/chalcedony nodules themselves, not the country rock.)</p>\n<p><a href=\"https://www.mindat.org/loc-225167.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Barite",
+          "Hematite",
+          "Limonite",
+          "Material_1719",
+          "Material_234",
+          "Material_307",
+          "Material_3318",
+          "Material_3647",
+          "Material_422",
+          "Material_51",
+          "Material_926",
+          "Material_927",
+          "Material_960",
+          "Quartz",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

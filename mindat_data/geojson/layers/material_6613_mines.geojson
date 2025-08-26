@@ -1,0 +1,217 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.666666666667,
+          31.816666666667
+        ]
+      },
+      "properties": {
+        "id": "mindat_187999",
+        "name": "Esfordi deposit, Bafq County, Yazd Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Esfordi deposit, Bafq County, Yazd Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Apatite-magnetite deposit, consisting of a funnel-shaped ore body.\r\n\r\nThe Esfordi apatite-magnetite deposit, the P-richest deposit in the Bafq district, is hosted by Early Cambrian rhyolitic volcanics intercalated with shallow-water sedimentary rocks.[...</p>\n<p><a href=\"https://www.mindat.org/loc-187999.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Barite",
+          "Limonite",
+          "Material_1016",
+          "Material_1389",
+          "Material_18",
+          "Material_207",
+          "Material_2538",
+          "Material_2750",
+          "Material_29229",
+          "Material_4011",
+          "Material_4333",
+          "Material_4421",
+          "Material_46220",
+          "Material_563",
+          "Material_6613",
+          "Quartz",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.4672222222,
+          31.7
+        ]
+      },
+      "properties": {
+        "id": "mindat_205068",
+        "name": "Chogart Mine, Bafq County, Yazd Province, Iran",
+        "type": "60",
+        "country": "Iran",
+        "description": "<h3>Chogart Mine, Bafq County, Yazd Province, Iran</h3>\n<p><strong>Type:</strong> 60</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Iron oxide-apatite (IOA) deposit (apatite-magnetite), hosted by Early Cambrian volcano-sedimentary rhyolitic rocks. Diabase dykes cross-cut both host rocks and the orebodies. \r\nMined since the 1970s.\r\n\r\nLocated 12 km northeast of the town of Bafq and 1...</p>\n<p><a href=\"https://www.mindat.org/loc-205068.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Calcite",
+          "Magnetite",
+          "Material_1233",
+          "Material_1234",
+          "Material_1294",
+          "Material_1572",
+          "Material_18",
+          "Material_2013",
+          "Material_2538",
+          "Material_2704",
+          "Material_2750",
+          "Material_29229",
+          "Material_3026",
+          "Material_3486",
+          "Material_3946",
+          "Material_3977",
+          "Material_419",
+          "Material_4421",
+          "Material_6613",
+          "Material_9581",
+          "Material_96",
+          "Quartz",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.141666666667,
+          32.216666666667
+        ]
+      },
+      "properties": {
+        "id": "mindat_266628",
+        "name": "Chah-Gaz iron oxide-apatite ore deposit, Rabatat Rural District, Kharanaq District, Ardakan County, Yazd Province, Iran",
+        "type": "281",
+        "country": "Iran",
+        "description": "<h3>Chah-Gaz iron oxide-apatite ore deposit, Rabatat Rural District, Kharanaq District, Ardakan County, Yazd Province, Iran</h3>\n<p><strong>Type:</strong> 281</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Shale-hosted Pb-Zn mineralisation.\r\nThe Chah-Gaz magmatic complex occupies an area of ∼ 5 km². It consists of rhyolite/rhyodacite of the CVSU, and granite and alkaline gabbro-diorite that occur as elongated bodies bounded by NW–SE faults.[[1]]</p>\n<p><a href=\"https://www.mindat.org/loc-266628.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Chalcopyrite",
+          "Limonite",
+          "Magnetite",
+          "Material_1016",
+          "Material_10967",
+          "Material_11135",
+          "Material_1389",
+          "Material_18",
+          "Material_207",
+          "Material_239",
+          "Material_2538",
+          "Material_2750",
+          "Material_2821",
+          "Material_29229",
+          "Material_3193",
+          "Material_3486",
+          "Material_3521",
+          "Material_3647",
+          "Material_3875",
+          "Material_3946",
+          "Material_3977",
+          "Material_4011",
+          "Material_419",
+          "Material_4421",
+          "Material_46220",
+          "Material_6613",
+          "Material_677",
+          "Material_7630",
+          "Material_9252",
+          "Material_9264",
+          "Material_9581",
+          "Material_96",
+          "Molybdenite",
+          "Quartz",
+          "Sphalerite",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.416666666667,
+          36.5
+        ]
+      },
+      "properties": {
+        "id": "mindat_276466",
+        "name": "Piranshahr intrusion (Piranshahr massif), Piranshahr County, West Azerbaijan Province, Iran",
+        "type": "323",
+        "country": "Iran",
+        "description": "<h3>Piranshahr intrusion (Piranshahr massif), Piranshahr County, West Azerbaijan Province, Iran</h3>\n<p><strong>Type:</strong> 323</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Intrusion c.16x10 km in extent emplaced into Mesozoic limestones and pelites.</p>\n<p><a href=\"https://www.mindat.org/loc-276466.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Calcite",
+          "Chalcopyrite",
+          "Fluorite",
+          "Gersdorffite",
+          "Iron",
+          "Lead",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_1168",
+          "Material_118",
+          "Material_1294",
+          "Material_1365",
+          "Material_1384",
+          "Material_1458",
+          "Material_1624",
+          "Material_1720",
+          "Material_1740",
+          "Material_1842",
+          "Material_2013",
+          "Material_207",
+          "Material_2129",
+          "Material_2402",
+          "Material_241",
+          "Material_2538",
+          "Material_2571",
+          "Material_2750",
+          "Material_2880",
+          "Material_29229",
+          "Material_31",
+          "Material_3119",
+          "Material_3304",
+          "Material_3328",
+          "Material_3418",
+          "Material_3486",
+          "Material_3688",
+          "Material_3924",
+          "Material_3946",
+          "Material_3978",
+          "Material_419",
+          "Material_43733",
+          "Material_4421",
+          "Material_46220",
+          "Material_6613",
+          "Material_6683",
+          "Material_677",
+          "Material_8658",
+          "Material_8789",
+          "Material_9252",
+          "Material_9264",
+          "Material_934",
+          "Material_9767",
+          "Molybdenite",
+          "Pyrite",
+          "Quartz",
+          "Sphalerite"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.705,
+          38.701
+        ]
+      },
+      "properties": {
+        "id": "mindat_205026",
+        "name": "Sungun Mine (Songun Mine), Varzaqan county, East Azerbaijan Province, Iran",
+        "type": "60",
+        "country": "Iran",
+        "description": "<h3>Sungun Mine (Songun Mine), Varzaqan county, East Azerbaijan Province, Iran</h3>\n<p><strong>Type:</strong> 60</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Porphyry copper deposit with minor skarns developed in the rim zone of the intrusive stock.\r\nThe largest open-cast copper mine in Iran.\r\n\r\nPorphyry copper Oligocene- Miocene\r\n850 Mt, 0.62% Cu, 0.01% Mo</p>\n<p><a href=\"https://www.mindat.org/loc-205026.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Calcite",
+          "Chalcopyrite",
+          "Covellite",
+          "Cubanite",
+          "Fluorite",
+          "Iron",
+          "Limonite",
+          "Magnetite",
+          "Material_1016",
+          "Material_10272",
+          "Material_1070",
+          "Material_118",
+          "Material_1389",
+          "Material_1437",
+          "Material_1720",
+          "Material_1784",
+          "Material_2013",
+          "Material_207",
+          "Material_234",
+          "Material_2524",
+          "Material_2538",
+          "Material_26894",
+          "Material_2746",
+          "Material_29229",
+          "Material_3026",
+          "Material_3189",
+          "Material_3328",
+          "Material_3486",
+          "Material_3521",
+          "Material_3560",
+          "Material_3977",
+          "Material_4011",
+          "Material_4035",
+          "Material_419",
+          "Material_4421",
+          "Material_677",
+          "Material_686",
+          "Material_75",
+          "Material_8789",
+          "Material_9252",
+          "Material_9264",
+          "Material_9581",
+          "Material_96",
+          "Material_9767",
+          "Molybdenite",
+          "Pyrite",
+          "Quartz",
+          "Sphalerite",
+          "Tetrahedrite",
+          "Uraninite"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

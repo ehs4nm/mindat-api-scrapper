@@ -1,0 +1,222 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.07,
+          38.4775
+        ]
+      },
+      "properties": {
+        "id": "mindat_207546",
+        "name": "Ahar, Ahar County, East Azerbaijan Province, Iran",
+        "type": "491",
+        "country": "Iran",
+        "geomaterials": [
+          "Barite",
+          "Calcite",
+          "Chalcopyrite",
+          "Fluorite",
+          "Iron",
+          "Iron_Oxide",
+          "Lead",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_1016",
+          "Material_10272",
+          "Material_1062",
+          "Material_1168",
+          "Material_1285",
+          "Material_1294",
+          "Material_1329",
+          "Material_1351",
+          "Material_1389",
+          "Material_161",
+          "Material_1624",
+          "Material_1668",
+          "Material_1719",
+          "Material_1720",
+          "Material_1755",
+          "Material_18",
+          "Material_1842",
+          "Material_1930",
+          "Material_207",
+          "Material_2078",
+          "Material_217",
+          "Material_223",
+          "Material_234",
+          "Material_239",
+          "Material_2538",
+          "Material_2583",
+          "Material_26894",
+          "Material_2746",
+          "Material_29229",
+          "Material_29365",
+          "Material_2976",
+          "Material_3323",
+          "Material_3328",
+          "Material_3486",
+          "Material_3647",
+          "Material_3662",
+          "Material_3875",
+          "Material_3911",
+          "Material_3977",
+          "Material_4003",
+          "Material_4011",
+          "Material_4223",
+          "Material_4323",
+          "Material_4421",
+          "Material_46861",
+          "Material_5574",
+          "Material_6252",
+          "Material_677",
+          "Material_7630",
+          "Material_8778",
+          "Material_8789",
+          "Material_9252",
+          "Material_9264",
+          "Material_934",
+          "Material_9581",
+          "Material_96",
+          "Material_9767",
+          "Molybdenite",
+          "Pyrite",
+          "Quartz",
+          "Sphalerite",
+          "Tetrahedrite",
+          "Uraninite"
+        ],
+        "description": "<h3>Ahar, Ahar County, East Azerbaijan Province, Iran</h3>\n<p><strong>Type:</strong> 491</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-207546.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.3641666667,
+          32.8902777778
+        ]
+      },
+      "properties": {
+        "id": "mindat_245559",
+        "name": "Feshark skarn, Feshark village, Isfahan County, Isfahan Province, Iran",
+        "type": "351",
+        "country": "Iran",
+        "description": "<h3>Feshark skarn, Feshark village, Isfahan County, Isfahan Province, Iran</h3>\n<p><strong>Type:</strong> 351</p>\n<p><strong>Location:</strong> Iran</p>\n<p>There is a garnet-bearing skarn, located at 5 km north of Feshark village (close to Hana farm) about 30 km northeast of Isfahan, Central Iran. An intrusive granodiorite of the Oligocene-Miocene age intruded Cretaceous carbonate rocks which ultimately p...</p>\n<p><a href=\"https://www.mindat.org/loc-245559.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Material_1088",
+          "Material_1294",
+          "Material_1755",
+          "Material_3193",
+          "Material_3729",
+          "Material_4223",
+          "Quartz"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.765277777778,
+          34.144722222222
+        ]
+      },
+      "properties": {
+        "id": "mindat_299426",
+        "name": "Savian deposit, Delijan, Delijan County, Markazi Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Savian deposit, Delijan, Delijan County, Markazi Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Fe-skarn magnetite deposit in the northeastern part of the Ravanj Anticline, in the Urumieh–Dokhtar magmatic arc.\r\n\r\nOriginated when the Sarvian quartz diorite intruded surrounding Permian to Tertiary limestones.\r\n\r\nLocated northeast of Delijan city.</p>\n<p><a href=\"https://www.mindat.org/loc-299426.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Calcite",
+          "Iron",
+          "Lead",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_1016",
+          "Material_1294",
+          "Material_1389",
+          "Material_1755",
+          "Material_18",
+          "Material_207",
+          "Material_223",
+          "Material_2402",
+          "Material_2538",
+          "Material_3328",
+          "Material_4011",
+          "Material_9264",
+          "Material_9581",
+          "Material_9767",
+          "Quartz",
+          "Sphalerite",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.333055555556,
+          28.3
+        ]
+      },
+      "properties": {
+        "id": "mindat_457921",
+        "name": "Nain-Dehshir-Baft Ophiolitic Belt, Nain County, Isfahan Province, Iran",
+        "type": "639",
+        "country": "Iran",
+        "description": "<h3>Nain-Dehshir-Baft Ophiolitic Belt, Nain County, Isfahan Province, Iran</h3>\n<p><strong>Type:</strong> 639</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Crops out along the Nain-Baft fault, around the Central Iranian Microcontinent (CIM), comprises a set of dismembered ultramafic, mafic and sedimentary complexes. The northernmost branch of this ophiolitic belt is known as \"Nain ophiolitic mélange\" and ...</p>\n<p><a href=\"https://www.mindat.org/loc-457921.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Chalcopyrite",
+          "Chrysocolla",
+          "Covellite",
+          "Iron",
+          "Material_1016",
+          "Material_10272",
+          "Material_1036",
+          "Material_10967",
+          "Material_11135",
+          "Material_1294",
+          "Material_1384",
+          "Material_1666",
+          "Material_1755",
+          "Material_1839",
+          "Material_1930",
+          "Material_1974",
+          "Material_2047",
+          "Material_223",
+          "Material_29264",
+          "Material_29365",
+          "Material_3155",
+          "Material_3193",
+          "Material_3328",
+          "Material_3631",
+          "Material_3912",
+          "Material_3977",
+          "Material_419",
+          "Material_4223",
+          "Material_4343",
+          "Material_4354",
+          "Material_7630",
+          "Native_Copper",
+          "Pyrite",
+          "Quartz"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

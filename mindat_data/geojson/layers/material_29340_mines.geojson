@@ -1,0 +1,55 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.3327777778,
+          36.7769444444
+        ]
+      },
+      "properties": {
+        "id": "mindat_25357",
+        "name": "Nishapur Turquoise deposit, Ali-mersai mountain, Nishapur (Nishabur; Neyshabur), Nishapur County, Razavi Khorasan Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Nishapur Turquoise deposit, Ali-mersai mountain, Nishapur (Nishabur; Neyshabur), Nishapur County, Razavi Khorasan Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Turquoise in weathered trachyte. Numerous mines in the area.\r\n\r\nArguably the world's finest specimens of turquoise have come from this deposit. The occurrences were already mined by the ancient Persians from at least 5,000 years BC.\r\n\r\nThe Ali-mersai M...</p>\n<p><a href=\"https://www.mindat.org/loc-25357.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Magnetite",
+          "Material_2402",
+          "Material_29340",
+          "Material_3234",
+          "Material_4060"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.795833333333,
+          36.213333333333
+        ]
+      },
+      "properties": {
+        "id": "mindat_293310",
+        "name": "Nishapur (Nishabur; Neyshabur), Nishapur County, Razavi Khorasan Province, Iran",
+        "type": "491",
+        "country": "Iran",
+        "geomaterials": [
+          "Magnetite",
+          "Material_2402",
+          "Material_29340",
+          "Material_3234",
+          "Material_4060"
+        ],
+        "description": "<h3>Nishapur (Nishabur; Neyshabur), Nishapur County, Razavi Khorasan Province, Iran</h3>\n<p><strong>Type:</strong> 491</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-293310.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    }
+  ]
+}

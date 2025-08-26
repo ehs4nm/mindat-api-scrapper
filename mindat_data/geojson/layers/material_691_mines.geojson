@@ -1,0 +1,37 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.663055555556,
+          28.984166666667
+        ]
+      },
+      "properties": {
+        "id": "mindat_307914",
+        "name": "Dehoo manganese deposit, Dehoo, Zahedan County, Sistan and Baluchestan Province, Iran",
+        "country": "Iran",
+        "description": "<h3>Dehoo manganese deposit, Dehoo, Zahedan County, Sistan and Baluchestan Province, Iran</h3>\n<p><strong>Location:</strong> Iran</p>\n<p>A predominantly submarine hydrothermal Mn deposit complemented by terrigenous detrital mafic material. Situated in the central part of the Iranian Flysch Zone.\r\n\r\nLocated 52 km to the south-southwest of Zahedan and 7 km to the southeast of Dehoo.</p>\n<p><a href=\"https://www.mindat.org/loc-307914.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Iron_Oxide",
+          "Limonite",
+          "Material_1164",
+          "Material_1921",
+          "Material_2061",
+          "Material_2519",
+          "Material_3208",
+          "Material_3304",
+          "Material_3318",
+          "Material_3988",
+          "Material_691",
+          "Material_757",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

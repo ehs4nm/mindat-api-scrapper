@@ -1,0 +1,104 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.117224,
+          28.650325
+        ]
+      },
+      "properties": {
+        "id": "mindat_287886",
+        "name": "Esfandaqeh, Jiroft County, Kerman Province, Iran",
+        "type": "529",
+        "country": "Iran",
+        "description": "<h3>Esfandaqeh, Jiroft County, Kerman Province, Iran</h3>\n<p><strong>Type:</strong> 529</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Esfandaqeh Rural District (Persian: دهستان اسفندقه) is a rural district (dehestan) in the Central District of Jiroft County, Kerman Province, Iran.\r\n\r\nThe rural district has 52 villages.</p>\n<p><a href=\"https://www.mindat.org/loc-287886.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Barite",
+          "Calcite",
+          "Chalcopyrite",
+          "Fluorite",
+          "Iron",
+          "Iron_Oxide",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_1016",
+          "Material_1036",
+          "Material_1437",
+          "Material_234",
+          "Material_3037",
+          "Material_3155",
+          "Material_3758",
+          "Material_3911",
+          "Material_3924",
+          "Material_3991",
+          "Material_8658",
+          "Material_9252",
+          "Molybdenite",
+          "Quartz",
+          "Sphalerite",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.333055555556,
+          28.3
+        ]
+      },
+      "properties": {
+        "id": "mindat_457921",
+        "name": "Nain-Dehshir-Baft Ophiolitic Belt, Nain County, Isfahan Province, Iran",
+        "type": "639",
+        "country": "Iran",
+        "description": "<h3>Nain-Dehshir-Baft Ophiolitic Belt, Nain County, Isfahan Province, Iran</h3>\n<p><strong>Type:</strong> 639</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Crops out along the Nain-Baft fault, around the Central Iranian Microcontinent (CIM), comprises a set of dismembered ultramafic, mafic and sedimentary complexes. The northernmost branch of this ophiolitic belt is known as \"Nain ophiolitic mélange\" and ...</p>\n<p><a href=\"https://www.mindat.org/loc-457921.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Chalcopyrite",
+          "Chrysocolla",
+          "Covellite",
+          "Iron",
+          "Material_1016",
+          "Material_10272",
+          "Material_1036",
+          "Material_10967",
+          "Material_11135",
+          "Material_1294",
+          "Material_1384",
+          "Material_1666",
+          "Material_1755",
+          "Material_1839",
+          "Material_1930",
+          "Material_1974",
+          "Material_2047",
+          "Material_223",
+          "Material_29264",
+          "Material_29365",
+          "Material_3155",
+          "Material_3193",
+          "Material_3328",
+          "Material_3631",
+          "Material_3912",
+          "Material_3977",
+          "Material_419",
+          "Material_4223",
+          "Material_4343",
+          "Material_4354",
+          "Material_7630",
+          "Native_Copper",
+          "Pyrite",
+          "Quartz"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

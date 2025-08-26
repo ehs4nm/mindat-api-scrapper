@@ -1,0 +1,72 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.45,
+          27.0666666667
+        ]
+      },
+      "properties": {
+        "id": "mindat_5689",
+        "name": "Hormuz Island, Qeshm County, Hormozgan Province, Iran",
+        "type": "187",
+        "country": "Iran",
+        "description": "<h3>Hormuz Island, Qeshm County, Hormozgan Province, Iran</h3>\n<p><strong>Type:</strong> 187</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Island in the Strait of Hormuz, 8 kilometres off the Iranian coast.\r\n\r\nEvaporitic rocks including a nearly circular-shaped salt plug (with solution caverns) exposed at the surface with a maximum length of 7 km along its east-west axis.\r\nHematite ore is...</p>\n<p><a href=\"https://www.mindat.org/loc-5689.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Barite",
+          "Iron_Oxide",
+          "Limonite",
+          "Magnetite",
+          "Material_1218",
+          "Material_1459",
+          "Material_1576",
+          "Material_1784",
+          "Material_18",
+          "Material_1804",
+          "Material_2078",
+          "Material_234",
+          "Material_2402",
+          "Material_29229",
+          "Material_3826",
+          "Material_419",
+          "Material_4433",
+          "Material_5574",
+          "Quartz",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.065378189087,
+          27.297197817777
+        ]
+      },
+      "properties": {
+        "id": "mindat_309384",
+        "name": "Qalat Payeen, Bandar Abbas County, Hormozgan Province, Iran",
+        "type": "274",
+        "country": "Iran",
+        "description": "<h3>Qalat Payeen, Bandar Abbas County, Hormozgan Province, Iran</h3>\n<p><strong>Type:</strong> 274</p>\n<p><strong>Location:</strong> Iran</p>\n<p>The salt dome near the village of Qalat-e-Payeen is situated 24 km NW of the harbor of Bandar Abbas. It was also known as Qalat-e Bala in Bosák et al. (1998). The highly deformed and concentrically structured plug, 4 km in diameter, is composed of nume...</p>\n<p><a href=\"https://www.mindat.org/loc-309384.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Magnetite",
+          "Material_1572",
+          "Material_1576",
+          "Material_1784",
+          "Material_1804",
+          "Material_4433",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

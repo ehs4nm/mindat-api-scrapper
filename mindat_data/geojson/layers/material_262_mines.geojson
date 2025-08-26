@@ -1,0 +1,29 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.87353,
+          38.34728
+        ]
+      },
+      "properties": {
+        "id": "mindat_19991",
+        "name": "Valilu Mines, Heris County, East Azerbaijan Province, Iran",
+        "type": "60",
+        "country": "Iran",
+        "description": "<h3>Valilu Mines, Heris County, East Azerbaijan Province, Iran</h3>\n<p><strong>Type:</strong> 60</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Note: Coordinates courtesy of Branko Rieck (pers. comm. to Uwe Kolitsch, Jan. 2025).</p>\n<p><a href=\"https://www.mindat.org/loc-19991.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Material_1686",
+          "Material_262",
+          "Material_3021",
+          "Material_3375"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

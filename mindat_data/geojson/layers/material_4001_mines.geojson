@@ -1,0 +1,43 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.270833333333,
+          29.205555555556
+        ]
+      },
+      "properties": {
+        "id": "mindat_453443",
+        "name": "SinAbad area, Jiroft County, Kerman Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>SinAbad area, Jiroft County, Kerman Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>In the Kerman magmatic belt within the Urumieh–Dokhtar magmatic belt in Iran. In the argillic alteration zone of the SinAbad area of the Urumieh–Dokhtar magmatic belt (Iran), Mg-rich, Fe-poor chlorites, which crystallised at temperatures between 160 °C...</p>\n<p><a href=\"https://www.mindat.org/loc-453443.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Limonite",
+          "Material_1016",
+          "Material_11119",
+          "Material_1389",
+          "Material_1624",
+          "Material_1930",
+          "Material_2538",
+          "Material_29365",
+          "Material_3486",
+          "Material_4001",
+          "Material_677",
+          "Material_9252",
+          "Material_9264",
+          "Material_9581",
+          "Material_96",
+          "Molybdenite",
+          "Quartz",
+          "Uraninite"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

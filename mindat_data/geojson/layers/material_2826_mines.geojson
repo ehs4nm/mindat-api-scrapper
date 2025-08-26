@@ -1,0 +1,37 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.633333333333,
+          31.891666666667
+        ]
+      },
+      "properties": {
+        "id": "mindat_424097",
+        "name": "Dopolan bauxite deposit, Kiar County, Chaharmahal and Bakhtiari Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Dopolan bauxite deposit, Kiar County, Chaharmahal and Bakhtiari Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>The Dopolan bauxite deposit has an estimated reserve of 8–15 million tons with an average grade of 45% Al2O3. The Dopolan bauxite deposit show that the bauxite formed as a continental deposit filling karstic cavities at the boundary of the Khaneh–Kat a...</p>\n<p><a href=\"https://www.mindat.org/loc-424097.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Barite",
+          "Limonite",
+          "Magnetite",
+          "Material_1285",
+          "Material_213",
+          "Material_2821",
+          "Material_2826",
+          "Material_3486",
+          "Material_707",
+          "Molybdenite",
+          "Quartz",
+          "Sphalerite"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

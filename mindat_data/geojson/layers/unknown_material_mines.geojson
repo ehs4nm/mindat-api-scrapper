@@ -1,0 +1,820 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.266667,
+          27.183333
+        ]
+      },
+      "properties": {
+        "id": "mindat_146022",
+        "name": "Bandar Abbas, Bandar Abbas County, Hormozgan Province, Iran",
+        "type": "491",
+        "country": "Iran",
+        "description": "<h3>Bandar Abbas, Bandar Abbas County, Hormozgan Province, Iran</h3>\n<p><strong>Type:</strong> 491</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Bandar Abbas or Bandar-e ‘Abbās (Persian: بندر عباس, IPA: [bændæɾ æbːɑs], lit. 'Port of Abbas'), is a port city and capital of Hormozgān Province on the southern coast of Iran, on the Persian Gulf. The city occupies a strategic position on the narrow S...</p>\n<p><a href=\"https://www.mindat.org/loc-146022.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Unknown_Material"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.2583333333,
+          33.7833333333
+        ]
+      },
+      "properties": {
+        "id": "mindat_223395",
+        "name": "Akhtarchi Mine, Khomeyn County, Markazi Province, Iran",
+        "type": "60",
+        "country": "Iran",
+        "description": "<h3>Akhtarchi Mine, Khomeyn County, Markazi Province, Iran</h3>\n<p><strong>Type:</strong> 60</p>\n<p><strong>Location:</strong> Iran</p>\n<p>A gold mine.</p>\n<p><a href=\"https://www.mindat.org/loc-223395.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Unknown_Material"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.0138888889,
+          32.6236111111
+        ]
+      },
+      "properties": {
+        "id": "mindat_223501",
+        "name": "Howz-e Rasi Mine, Nayband (Neyband), Deyhuk District, Tabas County, South Khorasan Province, Iran",
+        "type": "60",
+        "country": "Iran",
+        "description": "<h3>Howz-e Rasi Mine, Nayband (Neyband), Deyhuk District, Tabas County, South Khorasan Province, Iran</h3>\n<p><strong>Type:</strong> 60</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Abandoned mine in a vein-type lead-zinc deposit.\r\nLocated NE of Nayband.</p>\n<p><a href=\"https://www.mindat.org/loc-223501.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Unknown_Material"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.3930555556,
+          33.2138888889
+        ]
+      },
+      "properties": {
+        "id": "mindat_223502",
+        "name": "Gazu Cu deposit, Deyhuk District, Tabas County, South Khorasan Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Gazu Cu deposit, Deyhuk District, Tabas County, South Khorasan Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Porphyry copper deposit.</p>\n<p><a href=\"https://www.mindat.org/loc-223502.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Unknown_Material"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.172222222222,
+          34.018611111111
+        ]
+      },
+      "properties": {
+        "id": "mindat_223503",
+        "name": "Ferdows, Ferdows County, South Khorasan Province, Iran",
+        "country": "Iran",
+        "geomaterials": [
+          "Unknown_Material"
+        ],
+        "description": "<h3>Ferdows, Ferdows County, South Khorasan Province, Iran</h3>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-223503.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.1166666667,
+          33.5944444444
+        ]
+      },
+      "properties": {
+        "id": "mindat_223506",
+        "name": "Galeh Chah Mine, Sarayan County, South Khorasan Province, Iran",
+        "type": "60",
+        "country": "Iran",
+        "description": "<h3>Galeh Chah Mine, Sarayan County, South Khorasan Province, Iran</h3>\n<p><strong>Type:</strong> 60</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Vein-type lead-zinc deposit.\r\nLocated SW of Sarayan.</p>\n<p><a href=\"https://www.mindat.org/loc-223506.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Unknown_Material"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.0583333333,
+          33.5791666667
+        ]
+      },
+      "properties": {
+        "id": "mindat_223507",
+        "name": "Shurab Mine, Sarayan County, South Khorasan Province, Iran",
+        "type": "60",
+        "country": "Iran",
+        "description": "<h3>Shurab Mine, Sarayan County, South Khorasan Province, Iran</h3>\n<p><strong>Type:</strong> 60</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Vein-type lead-zinc deposit.\r\nLocated SW of Sarayan.</p>\n<p><a href=\"https://www.mindat.org/loc-223507.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Unknown_Material"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.4041666667,
+          32.3069444444
+        ]
+      },
+      "properties": {
+        "id": "mindat_223512",
+        "name": "Sorkh-e Kuh Cu deposit, Birjand County, South Khorasan Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Sorkh-e Kuh Cu deposit, Birjand County, South Khorasan Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Porphyry copper deposit.</p>\n<p><a href=\"https://www.mindat.org/loc-223512.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Unknown_Material"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6,
+          36.3
+        ]
+      },
+      "properties": {
+        "id": "mindat_254264",
+        "name": "Mashhad, Mashhad County, Razavi Khorasan Province, Iran",
+        "country": "Iran",
+        "geomaterials": [
+          "Unknown_Material"
+        ],
+        "description": "<h3>Mashhad, Mashhad County, Razavi Khorasan Province, Iran</h3>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-254264.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.5705088,
+          30.7855748
+        ]
+      },
+      "properties": {
+        "id": "mindat_273044",
+        "name": "Dehdasht (Dehdast; Kuhgiluyeh), Kohgiluyeh County, Kohgiluyeh and Boyer-Ahmad Province, Iran",
+        "country": "Iran",
+        "geomaterials": [
+          "Unknown_Material"
+        ],
+        "description": "<h3>Dehdasht (Dehdast; Kuhgiluyeh), Kohgiluyeh County, Kohgiluyeh and Boyer-Ahmad Province, Iran</h3>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-273044.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.8128757,
+          29.9427453
+        ]
+      },
+      "properties": {
+        "id": "mindat_279028",
+        "name": "Dashte Azadegan, Mamasani County, Fars Province, Iran",
+        "country": "Iran",
+        "geomaterials": [
+          "Unknown_Material"
+        ],
+        "description": "<h3>Dashte Azadegan, Mamasani County, Fars Province, Iran</h3>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-279028.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.340749819285,
+          34.169406454007
+        ]
+      },
+      "properties": {
+        "id": "mindat_299421",
+        "name": "Kahak Cave, Kahak, Delijan, Delijan County, Markazi Province, Iran",
+        "type": "169",
+        "country": "Iran",
+        "description": "<h3>Kahak Cave, Kahak, Delijan, Delijan County, Markazi Province, Iran</h3>\n<p><strong>Type:</strong> 169</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Cave located east of Kahak Village, near Deljian.</p>\n<p><a href=\"https://www.mindat.org/loc-299421.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Unknown_Material"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.3339922,
+          34.1815259
+        ]
+      },
+      "properties": {
+        "id": "mindat_299555",
+        "name": "Kahak, Delijan, Delijan County, Markazi Province, Iran",
+        "type": "259",
+        "country": "Iran",
+        "geomaterials": [
+          "Unknown_Material"
+        ],
+        "description": "<h3>Kahak, Delijan, Delijan County, Markazi Province, Iran</h3>\n<p><strong>Type:</strong> 259</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-299555.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          61.215833,
+          28.221111
+        ]
+      },
+      "properties": {
+        "id": "mindat_307906",
+        "name": "Khash, Khash County, Sistan and Baluchestan Province, Iran",
+        "type": "491",
+        "country": "Iran",
+        "description": "<h3>Khash, Khash County, Sistan and Baluchestan Province, Iran</h3>\n<p><strong>Type:</strong> 491</p>\n<p><strong>Location:</strong> Iran</p>\n<p>City.</p>\n<p><a href=\"https://www.mindat.org/loc-307906.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Unknown_Material"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.267,
+          32.75
+        ]
+      },
+      "properties": {
+        "id": "mindat_337537",
+        "name": "Olang Sar deposit, Birjand County, South Khorasan Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Olang Sar deposit, Birjand County, South Khorasan Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Chromium deposit and a separate Cyprus type VMS  deposit</p>\n<p><a href=\"https://www.mindat.org/loc-337537.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Unknown_Material"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.785833333333,
+          32.353888888889
+        ]
+      },
+      "properties": {
+        "id": "mindat_421521",
+        "name": "Zargaran prospect, Sarbisheh County, South Khorasan Province, Iran",
+        "type": "73",
+        "country": "Iran",
+        "geomaterials": [
+          "Unknown_Material"
+        ],
+        "description": "<h3>Zargaran prospect, Sarbisheh County, South Khorasan Province, Iran</h3>\n<p><strong>Type:</strong> 73</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-421521.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.611111111111,
+          32.544444444444
+        ]
+      },
+      "properties": {
+        "id": "mindat_422684",
+        "name": "Tappehsorkh I deposit, Irankuh Mining District, Isfahan Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "geomaterials": [
+          "Unknown_Material"
+        ],
+        "description": "<h3>Tappehsorkh I deposit, Irankuh Mining District, Isfahan Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-422684.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.607675554988,
+          32.529326604652
+        ]
+      },
+      "properties": {
+        "id": "mindat_422685",
+        "name": "Tappehsorkh II deposit, Irankuh Mining District, Isfahan Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "geomaterials": [
+          "Unknown_Material"
+        ],
+        "description": "<h3>Tappehsorkh II deposit, Irankuh Mining District, Isfahan Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-422685.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.613888888889,
+          32.522222222222
+        ]
+      },
+      "properties": {
+        "id": "mindat_422687",
+        "name": "Rowmarmar deposit, Irankuh Mining District, Isfahan Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "geomaterials": [
+          "Unknown_Material"
+        ],
+        "description": "<h3>Rowmarmar deposit, Irankuh Mining District, Isfahan Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-422687.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.604166666667,
+          32.529166666667
+        ]
+      },
+      "properties": {
+        "id": "mindat_422689",
+        "name": "Baghabrisham prospect, Irankuh Mining District, Isfahan Province, Iran",
+        "type": "73",
+        "country": "Iran",
+        "geomaterials": [
+          "Unknown_Material"
+        ],
+        "description": "<h3>Baghabrisham prospect, Irankuh Mining District, Isfahan Province, Iran</h3>\n<p><strong>Type:</strong> 73</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-422689.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.576388888889,
+          32.520833333333
+        ]
+      },
+      "properties": {
+        "id": "mindat_422690",
+        "name": "Gowdezendan prospect, Irankuh Mining District, Isfahan Province, Iran",
+        "type": "73",
+        "country": "Iran",
+        "geomaterials": [
+          "Unknown_Material"
+        ],
+        "description": "<h3>Gowdezendan prospect, Irankuh Mining District, Isfahan Province, Iran</h3>\n<p><strong>Type:</strong> 73</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-422690.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.579166666667,
+          32.518888888889
+        ]
+      },
+      "properties": {
+        "id": "mindat_422691",
+        "name": "Khanenhgorgi prospect, Irankuh Mining District, Isfahan Province, Iran",
+        "type": "73",
+        "country": "Iran",
+        "geomaterials": [
+          "Unknown_Material"
+        ],
+        "description": "<h3>Khanenhgorgi prospect, Irankuh Mining District, Isfahan Province, Iran</h3>\n<p><strong>Type:</strong> 73</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-422691.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.566666666667,
+          32.5375
+        ]
+      },
+      "properties": {
+        "id": "mindat_422692",
+        "name": "Tofangchiha prospect, Irankuh Mining District, Isfahan Province, Iran",
+        "type": "73",
+        "country": "Iran",
+        "geomaterials": [
+          "Unknown_Material"
+        ],
+        "description": "<h3>Tofangchiha prospect, Irankuh Mining District, Isfahan Province, Iran</h3>\n<p><strong>Type:</strong> 73</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-422692.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.279285017812,
+          30.352583192279
+        ]
+      },
+      "properties": {
+        "id": "mindat_433735",
+        "name": "Abadan, Abadan County, Khuzestan Province, Iran",
+        "type": "491",
+        "country": "Iran",
+        "geomaterials": [
+          "Unknown_Material"
+        ],
+        "description": "<h3>Abadan, Abadan County, Khuzestan Province, Iran</h3>\n<p><strong>Type:</strong> 491</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-433735.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.653907775087,
+          36.064817716317
+        ]
+      },
+      "properties": {
+        "id": "mindat_433907",
+        "name": "Hue, Savojbolagh County, Alborz Province, Iran",
+        "type": "492",
+        "country": "Iran",
+        "description": "<h3>Hue, Savojbolagh County, Alborz Province, Iran</h3>\n<p><strong>Type:</strong> 492</p>\n<p><strong>Location:</strong> Iran</p>\n<p>A small town.</p>\n<p><a href=\"https://www.mindat.org/loc-433907.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Unknown_Material"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.445555555556,
+          34.549444444444
+        ]
+      },
+      "properties": {
+        "id": "mindat_445849",
+        "name": "Khakoo deposit, Tuyserkan County, Hamadan Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Khakoo deposit, Tuyserkan County, Hamadan Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Sadeghi et al. indicate in the Abstract that \"[t]he Khakoo deposit is located in south and southeast of Hamedan city, near the Khakoo village, in western Iran. In this area, blue corundum formed inside the pegmatite veins and granite body.\"</p>\n<p><a href=\"https://www.mindat.org/loc-445849.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Unknown_Material"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.54475593,
+          38.83302746
+        ]
+      },
+      "properties": {
+        "id": "mindat_452962",
+        "name": "Mardan Ghom, Khoda Afarin County, East Azerbaijan Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Mardan Ghom, Khoda Afarin County, East Azerbaijan Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Skarn</p>\n<p><a href=\"https://www.mindat.org/loc-452962.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Unknown_Material"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.8108966,
+          38.72624262
+        ]
+      },
+      "properties": {
+        "id": "mindat_452965",
+        "name": "Brazin, Ahar County, East Azerbaijan Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "geomaterials": [
+          "Unknown_Material"
+        ],
+        "description": "<h3>Brazin, Ahar County, East Azerbaijan Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-452965.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.61375537,
+          38.69338575
+        ]
+      },
+      "properties": {
+        "id": "mindat_452968",
+        "name": "Khoynarood, Varzaqan County, East Azerbaijan Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "geomaterials": [
+          "Unknown_Material"
+        ],
+        "description": "<h3>Khoynarood, Varzaqan County, East Azerbaijan Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-452968.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.66796921,
+          38.66052887
+        ]
+      },
+      "properties": {
+        "id": "mindat_452971",
+        "name": "Kigal, Varzaqan County, East Azerbaijan Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "geomaterials": [
+          "Unknown_Material"
+        ],
+        "description": "<h3>Kigal, Varzaqan County, East Azerbaijan Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-452971.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.90453869,
+          38.76238518
+        ]
+      },
+      "properties": {
+        "id": "mindat_452974",
+        "name": "Barghzar, Kaleybar County, East Azerbaijan Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "geomaterials": [
+          "Unknown_Material"
+        ],
+        "description": "<h3>Barghzar, Kaleybar County, East Azerbaijan Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-452974.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.96203822,
+          38.64245759
+        ]
+      },
+      "properties": {
+        "id": "mindat_452977",
+        "name": "Zandabad, Ahar County, East Azerbaijan Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "geomaterials": [
+          "Unknown_Material"
+        ],
+        "description": "<h3>Zandabad, Ahar County, East Azerbaijan Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-452977.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.00968069,
+          38.64985039
+        ]
+      },
+      "properties": {
+        "id": "mindat_452980",
+        "name": "Javansheikh, Ahar County, East Azerbaijan Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "geomaterials": [
+          "Unknown_Material"
+        ],
+        "description": "<h3>Javansheikh, Ahar County, East Azerbaijan Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-452980.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.09100145,
+          38.61781494
+        ]
+      },
+      "properties": {
+        "id": "mindat_452983",
+        "name": "Gowdoul, Ahar County, East Azerbaijan Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "geomaterials": [
+          "Unknown_Material"
+        ],
+        "description": "<h3>Gowdoul, Ahar County, East Azerbaijan Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-452983.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.49103388,
+          38.58577949
+        ]
+      },
+      "properties": {
+        "id": "mindat_452986",
+        "name": "Saheb Divan, Ahar County, East Azerbaijan Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "geomaterials": [
+          "Unknown_Material"
+        ],
+        "description": "<h3>Saheb Divan, Ahar County, East Azerbaijan Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-452986.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.87677611,
+          33.75805927
+        ]
+      },
+      "properties": {
+        "id": "mindat_457323",
+        "name": "Gowmar deposit, Tabas County, South Khorasan Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "geomaterials": [
+          "Unknown_Material"
+        ],
+        "description": "<h3>Gowmar deposit, Tabas County, South Khorasan Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-457323.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.79377113,
+          33.69580554
+        ]
+      },
+      "properties": {
+        "id": "mindat_457326",
+        "name": "Talkhab deposit, Tabas County, South Khorasan Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "geomaterials": [
+          "Unknown_Material"
+        ],
+        "description": "<h3>Talkhab deposit, Tabas County, South Khorasan Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-457326.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.52400494,
+          30.99814365
+        ]
+      },
+      "properties": {
+        "id": "mindat_457329",
+        "name": "Gojar deposit, Zarand County, Kerman Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "geomaterials": [
+          "Unknown_Material"
+        ],
+        "description": "<h3>Gojar deposit, Zarand County, Kerman Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-457329.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.72757717,
+          32.26396961
+        ]
+      },
+      "properties": {
+        "id": "mindat_457332",
+        "name": "Zenoghan deposit, Zarand County, Kerman Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "geomaterials": [
+          "Unknown_Material"
+        ],
+        "description": "<h3>Zenoghan deposit, Zarand County, Kerman Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-457332.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    }
+  ]
+}

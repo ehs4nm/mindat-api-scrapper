@@ -1,0 +1,111 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.333,
+          33.578
+        ]
+      },
+      "properties": {
+        "id": "mindat_28816",
+        "name": "Mooteh Mine (Muteh Mine), Mooteh District (Muteh District), Golpayegan (Golpayan), Golpayegan County, Isfahan Province, Iran",
+        "type": "60",
+        "country": "Iran",
+        "description": "<h3>Mooteh Mine (Muteh Mine), Mooteh District (Muteh District), Golpayegan (Golpayan), Golpayegan County, Isfahan Province, Iran</h3>\n<p><strong>Type:</strong> 60</p>\n<p><strong>Location:</strong> Iran</p>\n<p>A gold mine, located between 1,800 and 2,200 m asl north of the village of Mooteh. Numerous old vertical surface diggings exist in the area, which are attributed to gold mining during the Sassanian and the Islamic periods (3rd-11th centuries). Presentl...</p>\n<p><a href=\"https://www.mindat.org/loc-28816.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Barite",
+          "Calcite",
+          "Chalcopyrite",
+          "Chrysocolla",
+          "Fluorite",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_1016",
+          "Material_1642",
+          "Material_1720",
+          "Material_18",
+          "Material_239",
+          "Material_2571",
+          "Material_3021",
+          "Material_305",
+          "Material_3328",
+          "Material_3375",
+          "Material_4011",
+          "Material_677",
+          "Material_684",
+          "Material_687",
+          "Material_852",
+          "Material_9252",
+          "Material_96",
+          "Molybdenite",
+          "Pyrite",
+          "Quartz",
+          "Sphalerite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.2708163,
+          33.4572358
+        ]
+      },
+      "properties": {
+        "id": "mindat_233382",
+        "name": "Golpayegan (Golpayan), Golpayegan County, Isfahan Province, Iran",
+        "country": "Iran",
+        "geomaterials": [
+          "Barite",
+          "Calcite",
+          "Chalcopyrite",
+          "Chrysocolla",
+          "Fluorite",
+          "Gersdorffite",
+          "Iron_Oxide",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_1016",
+          "Material_1389",
+          "Material_1642",
+          "Material_1719",
+          "Material_1720",
+          "Material_18",
+          "Material_239",
+          "Material_2402",
+          "Material_2538",
+          "Material_2571",
+          "Material_3021",
+          "Material_305",
+          "Material_3328",
+          "Material_3375",
+          "Material_4003",
+          "Material_4011",
+          "Material_419",
+          "Material_677",
+          "Material_684",
+          "Material_687",
+          "Material_852",
+          "Material_9252",
+          "Material_96",
+          "Molybdenite",
+          "Pyrite",
+          "Quartz",
+          "Sphalerite",
+          "Tetrahedrite"
+        ],
+        "description": "<h3>Golpayegan (Golpayan), Golpayegan County, Isfahan Province, Iran</h3>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-233382.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    }
+  ]
+}

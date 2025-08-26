@@ -1,0 +1,112 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.416666666667,
+          36.5
+        ]
+      },
+      "properties": {
+        "id": "mindat_276466",
+        "name": "Piranshahr intrusion (Piranshahr massif), Piranshahr County, West Azerbaijan Province, Iran",
+        "type": "323",
+        "country": "Iran",
+        "description": "<h3>Piranshahr intrusion (Piranshahr massif), Piranshahr County, West Azerbaijan Province, Iran</h3>\n<p><strong>Type:</strong> 323</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Intrusion c.16x10 km in extent emplaced into Mesozoic limestones and pelites.</p>\n<p><a href=\"https://www.mindat.org/loc-276466.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Calcite",
+          "Chalcopyrite",
+          "Fluorite",
+          "Gersdorffite",
+          "Iron",
+          "Lead",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_1168",
+          "Material_118",
+          "Material_1294",
+          "Material_1365",
+          "Material_1384",
+          "Material_1458",
+          "Material_1624",
+          "Material_1720",
+          "Material_1740",
+          "Material_1842",
+          "Material_2013",
+          "Material_207",
+          "Material_2129",
+          "Material_2402",
+          "Material_241",
+          "Material_2538",
+          "Material_2571",
+          "Material_2750",
+          "Material_2880",
+          "Material_29229",
+          "Material_31",
+          "Material_3119",
+          "Material_3304",
+          "Material_3328",
+          "Material_3418",
+          "Material_3486",
+          "Material_3688",
+          "Material_3924",
+          "Material_3946",
+          "Material_3978",
+          "Material_419",
+          "Material_43733",
+          "Material_4421",
+          "Material_46220",
+          "Material_6613",
+          "Material_6683",
+          "Material_677",
+          "Material_8658",
+          "Material_8789",
+          "Material_9252",
+          "Material_9264",
+          "Material_934",
+          "Material_9767",
+          "Molybdenite",
+          "Pyrite",
+          "Quartz",
+          "Sphalerite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.5,
+          30.333333333333
+        ]
+      },
+      "properties": {
+        "id": "mindat_337727",
+        "name": "Sistan Suture Zone, Zahedan County, Sistan and Baluchestan Province, Iran",
+        "type": "397",
+        "country": "Iran",
+        "description": "<h3>Sistan Suture Zone, Zahedan County, Sistan and Baluchestan Province, Iran</h3>\n<p><strong>Type:</strong> 397</p>\n<p><strong>Location:</strong> Iran</p>\n<p>NS-trending area between the Lut to the west and Afghan blocks in which there are major fractures and extensive areas of volcanics intercalated with sedimentary rocks.</p>\n<p><a href=\"https://www.mindat.org/loc-337727.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Material_207",
+          "Material_210",
+          "Material_2129",
+          "Material_2880",
+          "Material_29310",
+          "Material_32",
+          "Material_3701",
+          "Material_419",
+          "Material_5385",
+          "Material_8658",
+          "Material_9264"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

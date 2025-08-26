@@ -1,0 +1,33 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.75,
+          30.0166666667
+        ]
+      },
+      "properties": {
+        "id": "mindat_269678",
+        "name": "Sarcheshmeh township, Pariz, Sirjan County, Kerman Province, Iran",
+        "type": "156",
+        "country": "Iran",
+        "description": "<h3>Sarcheshmeh township, Pariz, Sirjan County, Kerman Province, Iran</h3>\n<p><strong>Type:</strong> 156</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Red travertine deposits</p>\n<p><a href=\"https://www.mindat.org/loc-269678.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Limonite",
+          "Material_307",
+          "Material_3318",
+          "Material_4377",
+          "Material_6728",
+          "Material_96",
+          "Quartz",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

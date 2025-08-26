@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.390833333333,
+          36.46
+        ]
+      },
+      "properties": {
+        "id": "mindat_416486",
+        "name": "Darzi-Vali, Bukan County, West Azerbaijan Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "geomaterials": [
+          "Material_1787",
+          "Material_2750",
+          "Material_29229",
+          "Material_2976",
+          "Material_96"
+        ],
+        "description": "<h3>Darzi-Vali, Bukan County, West Azerbaijan Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-416486.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    }
+  ]
+}

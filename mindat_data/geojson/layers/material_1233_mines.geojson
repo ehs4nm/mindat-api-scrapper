@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.4672222222,
+          31.7
+        ]
+      },
+      "properties": {
+        "id": "mindat_205068",
+        "name": "Chogart Mine, Bafq County, Yazd Province, Iran",
+        "type": "60",
+        "country": "Iran",
+        "description": "<h3>Chogart Mine, Bafq County, Yazd Province, Iran</h3>\n<p><strong>Type:</strong> 60</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Iron oxide-apatite (IOA) deposit (apatite-magnetite), hosted by Early Cambrian volcano-sedimentary rhyolitic rocks. Diabase dykes cross-cut both host rocks and the orebodies. \r\nMined since the 1970s.\r\n\r\nLocated 12 km northeast of the town of Bafq and 1...</p>\n<p><a href=\"https://www.mindat.org/loc-205068.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Calcite",
+          "Magnetite",
+          "Material_1233",
+          "Material_1234",
+          "Material_1294",
+          "Material_1572",
+          "Material_18",
+          "Material_2013",
+          "Material_2538",
+          "Material_2704",
+          "Material_2750",
+          "Material_29229",
+          "Material_3026",
+          "Material_3486",
+          "Material_3946",
+          "Material_3977",
+          "Material_419",
+          "Material_4421",
+          "Material_6613",
+          "Material_9581",
+          "Material_96",
+          "Quartz",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

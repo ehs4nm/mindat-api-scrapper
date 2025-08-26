@@ -89,20 +89,25 @@ def extract_coordinates(rec: Dict[str, Any]) -> Optional[Tuple[float, float]]:
 def get_material_id_name() -> Dict[int, str]:
     """Hard-coded mapping of material IDs to names based on your data."""
     return {
-        # Common geomaterials seen in the data
-        114: "Copper", 240: "Nickel",
-        406: "Gold", 433: "Silver",
-        447: "Lead", 727: "Iron",
-        859: "Quartz", 934: "Sulfur",
-        955: "Calcite", 962: "Pyrite",
-        1040: "Hematite", 1641: "Chalcopyrite",
-        2714: "Galena", 3314: "Magnetite",
-        3727: "Sphalerite", 4322: "Zincite",
-        # Industrial materials
-        1304: "Barite",
-        1576: "Fluorite", 
-        2550: "Malachite",
-        # Add more ID -> name mappings as needed
+        # From your sample data
+        114: "Copper", 240: "Nickel", 406: "Gold", 433: "Silver", 447: "Lead",
+        549: "Iron_Oxide", 727: "Iron", 754: "Magnetite", 836: "Chalcocite", 859: "Quartz",
+        955: "Calcite", 962: "Pyrite", 1040: "Hematite", 1097: "Gypsum", 1106: "Goethite",
+        1119: "Galena", 1120: "Gangue", 1144: "Fluorite", 1172: "Epidote", 1191: "Dolomite",
+        1209: "Covellite", 1291: "Chrysocolla", 1304: "Barite", 1306: "Bornite", 1407: "Azurite",
+        1443: "Arsenopyrite", 1641: "Chalcopyrite", 1856: "Tetrahedrite", 2011: "Uraninite",
+        2156: "Sphalerite", 2265: "Skutterudite", 2298: "Smaltite", 2349: "Siegenite",
+        2404: "Rammelsbergite", 2550: "Malachite", 2599: "Millerite", 2698: "Nickeline",
+        2711: "Native_Copper", 2730: "Native_Silver", 2815: "Molybdenite", 2897: "Marcasite",
+        2901: "Maucherite", 3106: "Linnaeite", 3184: "Libethenite", 3222: "Lautite",
+        3258: "Langite", 3314: "Magnetite", 3337: "Limonite", 3357: "Linarite",
+        3450: "Jarosite", 3484: "Iodargyrite", 3500: "Ilmenite", 3595: "Hematite_Variety",
+        3604: "Halite", 3633: "Greenockite", 3664: "Gersdorffite", 3682: "Galena_Variety",
+        3693: "Freibergite", 3727: "Sphalerite", 3876: "Erythrite", 4070: "Digenite",
+        4102: "Cubanite", 4107: "Cuprite", 4113: "Cristobalite", 4327: "Cobaltite",
+        4388: "Chalcanthite", 4397: "Cerussite", 6858: "Annabergite", 8601: "Uranospinite",
+        9658: "Tennantite", 10936: "Silver_Amalgam", 30150: "Polybasite", 47672: "Cobalt_Bloom",
+        47780: "Nickel_Bloom"
     }
 
 
@@ -160,6 +165,14 @@ def build_description(rec: Dict[str, Any]) -> str:
     return "\n".join(parts)
 
 
+def extract_elements_from_string(elements_str: str) -> List[str]:
+    """Extract element symbols from elements string like '-As-Cu-Ni-O-H-Cl-Ca-P-U-C-Ba-S-Fe-Ti-Al-Si-Co-Mg-Mn-Pb-K-Ag-Na-Bi-Zn-'"""
+    if not elements_str:
+        return []
+    # Remove leading/trailing dashes and split by dash
+    elements = [e.strip() for e in elements_str.strip('-').split('-') if e.strip()]
+    return elements
+
 def clean_record(rec: Dict[str, Any]) -> Dict[str, Any]:
     """Extract relevant properties, focusing mainly on coordinates and geomaterials."""
     # Only require valid coordinates
@@ -192,24 +205,41 @@ def clean_record(rec: Dict[str, Any]) -> Dict[str, Any]:
     if "description_short" in rec:
         props["description"] = str(rec["description_short"]).strip()
 
-    # Materials - look for both in top-level and detail.
+    # Materials - look for geomaterials in flattened structure
     materials = set()
     mat_id_name = get_material_id_name()
 
-    detail = rec.get("detail", {})
-    all_mats = []
-    if "geomaterials" in rec:
-        all_mats.extend(rec["geomaterials"])
-    if isinstance(detail, dict) and "geomaterials" in detail:
-        all_mats.extend(detail["geomaterials"])
+    # Check for detail.geomaterials (flattened key)
+    if "detail.geomaterials" in rec and isinstance(rec["detail.geomaterials"], list):
+        for mat_id in rec["detail.geomaterials"]:
+            if isinstance(mat_id, (int, str)):
+                try:
+                    mat_int = int(mat_id)
+                    if mat_int in mat_id_name:
+                        materials.add(mat_id_name[mat_int])
+                    else:
+                        # For unknown IDs, just use the ID as name
+                        materials.add(f"Material_{mat_int}")
+                except ValueError:
+                    pass
 
-    # Convert material IDs to names
-    for mat_id in all_mats:
-        if isinstance(mat_id, (int, str)) and int(mat_id) in mat_id_name:
-            materials.add(mat_id_name[int(mat_id)])
+    # Fallback to elements field for basic material categories
+    if not materials:
+        elements_str = rec.get("elements") or rec.get("detail.elements", "")
+        elements = extract_elements_from_string(elements_str)
+        # Group by major economic elements
+        major_elements = {"Cu": "Copper", "Au": "Gold", "Ag": "Silver", "Pb": "Lead", 
+                         "Zn": "Zinc", "Fe": "Iron", "Ni": "Nickel", "Co": "Cobalt",
+                         "Mo": "Molybdenum", "U": "Uranium", "S": "Sulfide"}
+        for elem in elements:
+            if elem in major_elements:
+                materials.add(major_elements[elem])
 
-    if materials:
-        props["geomaterials"] = sorted(materials)
+    # If still no materials, create a generic category
+    if not materials:
+        materials.add("Unknown_Material")
+
+    props["geomaterials"] = sorted(materials)
 
     # Rich description
     props["description"] = build_description(rec)

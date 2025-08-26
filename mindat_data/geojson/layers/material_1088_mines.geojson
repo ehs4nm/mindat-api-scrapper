@@ -1,0 +1,32 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.3641666667,
+          32.8902777778
+        ]
+      },
+      "properties": {
+        "id": "mindat_245559",
+        "name": "Feshark skarn, Feshark village, Isfahan County, Isfahan Province, Iran",
+        "type": "351",
+        "country": "Iran",
+        "description": "<h3>Feshark skarn, Feshark village, Isfahan County, Isfahan Province, Iran</h3>\n<p><strong>Type:</strong> 351</p>\n<p><strong>Location:</strong> Iran</p>\n<p>There is a garnet-bearing skarn, located at 5 km north of Feshark village (close to Hana farm) about 30 km northeast of Isfahan, Central Iran. An intrusive granodiorite of the Oligocene-Miocene age intruded Cretaceous carbonate rocks which ultimately p...</p>\n<p><a href=\"https://www.mindat.org/loc-245559.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Material_1088",
+          "Material_1294",
+          "Material_1755",
+          "Material_3193",
+          "Material_3729",
+          "Material_4223",
+          "Quartz"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

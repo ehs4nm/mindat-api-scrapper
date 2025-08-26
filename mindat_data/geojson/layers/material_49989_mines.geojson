@@ -1,0 +1,80 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.871666666667,
+          36.8775
+        ]
+      },
+      "properties": {
+        "id": "mindat_281370",
+        "name": "Chehrabad, Hamzehlu village, Zanjan County, Zanjan Province, Iran",
+        "type": "501",
+        "country": "Iran",
+        "geomaterials": [
+          "Calcite",
+          "Chalcopyrite",
+          "Fluorite",
+          "Gold",
+          "Lead",
+          "Magnetite",
+          "Malachite",
+          "Material_1719",
+          "Material_1804",
+          "Material_2587",
+          "Material_2619",
+          "Material_4139",
+          "Material_49989",
+          "Material_934",
+          "Pyrite",
+          "Quartz",
+          "Sphalerite",
+          "Tetrahedrite"
+        ],
+        "description": "<h3>Chehrabad, Hamzehlu village, Zanjan County, Zanjan Province, Iran</h3>\n<p><strong>Type:</strong> 501</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-281370.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.866666666667,
+          36.825
+        ]
+      },
+      "properties": {
+        "id": "mindat_443145",
+        "name": "Chehrabad Pb–Zn–Cu deposit, Chehrabad, Hamzehlu village, Zanjan County, Zanjan Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Chehrabad Pb–Zn–Cu deposit, Chehrabad, Hamzehlu village, Zanjan County, Zanjan Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Rock units exposed in this area belong to the Upper Red Formation, and consist of alternations of red and green marl intercalated with red to grey, medium- to thick-bedded sandstone. In this area, URF has 980 m thickness and consists of four main parts...</p>\n<p><a href=\"https://www.mindat.org/loc-443145.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Calcite",
+          "Chalcopyrite",
+          "Fluorite",
+          "Gold",
+          "Lead",
+          "Magnetite",
+          "Malachite",
+          "Material_1719",
+          "Material_2587",
+          "Material_2619",
+          "Material_4139",
+          "Material_49989",
+          "Material_934",
+          "Pyrite",
+          "Quartz",
+          "Sphalerite",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

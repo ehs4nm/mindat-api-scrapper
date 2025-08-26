@@ -1,0 +1,71 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.341666666667,
+          36.133333333333
+        ]
+      },
+      "properties": {
+        "id": "mindat_457266",
+        "name": "Duna Pb-Ba-(Ag) deposit, Karaj County, Alborz Province, Iran",
+        "type": "60",
+        "country": "Iran",
+        "description": "<h3>Duna Pb-Ba-(Ag) deposit, Karaj County, Alborz Province, Iran</h3>\n<p><strong>Type:</strong> 60</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Mineralization at the Duna Pb-Ba-(Ag) mine has been structurally controlled by the Duna anticline and faults and has chemically been affected by bituminous layers, dolomitic horizons, and impermeable volcanic rocks of Permian age. The structure of the ...</p>\n<p><a href=\"https://www.mindat.org/loc-457266.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Barite",
+          "Calcite",
+          "Chalcopyrite",
+          "Fluorite",
+          "Iron_Oxide",
+          "Lead",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_233",
+          "Material_3924",
+          "Material_53316",
+          "Material_934",
+          "Quartz",
+          "Sphalerite",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.116666666667,
+          30.875
+        ]
+      },
+      "properties": {
+        "id": "mindat_457691",
+        "name": "Likak deposit, Bahmai County, Kohgiluyeh and Boyer-Ahmad Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Likak deposit, Bahmai County, Kohgiluyeh and Boyer-Ahmad Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Celestite mineralization occurs as two northwest-southeast trending beds in the Gachsaran Formation, showing an average dip of 60 toward northeast. The lower celestite bed has a length of 1.5 km, and its thickness decreases from southeast to northwest....</p>\n<p><a href=\"https://www.mindat.org/loc-457691.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Barite",
+          "Limonite",
+          "Material_1282",
+          "Material_1784",
+          "Material_234",
+          "Material_471273",
+          "Material_471274",
+          "Material_53316",
+          "Material_927",
+          "Quartz"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

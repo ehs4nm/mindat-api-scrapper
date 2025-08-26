@@ -1,0 +1,131 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.3083333333,
+          33.7666666667
+        ]
+      },
+      "properties": {
+        "id": "mindat_223294",
+        "name": "Deh Hosein prospect (Deh Hosein mine), Astaneh, Shazand County, Markazi Province, Iran",
+        "type": "73",
+        "country": "Iran",
+        "description": "<h3>Deh Hosein prospect (Deh Hosein mine), Astaneh, Shazand County, Markazi Province, Iran</h3>\n<p><strong>Type:</strong> 73</p>\n<p><strong>Location:</strong> Iran</p>\n<p>A copper-tin deposit, already mined in ancient times, with high contents of gold, hosted in Mesozoic schists and phyllites at the southern contact of the Astaneh intrusive complex.\r\n\r\nLocated southwest of Astaneh.</p>\n<p><a href=\"https://www.mindat.org/loc-223294.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Calcite",
+          "Chalcopyrite",
+          "Covellite",
+          "Epidote",
+          "Fluorite",
+          "Hematite_Variety",
+          "Iron",
+          "Lead",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_1248",
+          "Material_1476",
+          "Material_1719",
+          "Material_1720",
+          "Material_2013",
+          "Material_2033",
+          "Material_2233",
+          "Material_2278",
+          "Material_233",
+          "Material_2402",
+          "Material_2426",
+          "Material_2571",
+          "Material_2750",
+          "Material_29229",
+          "Material_305",
+          "Material_3248",
+          "Material_3318",
+          "Material_3328",
+          "Material_3444",
+          "Material_3486",
+          "Material_363",
+          "Material_3747",
+          "Material_3825",
+          "Material_3826",
+          "Material_3912",
+          "Material_4003",
+          "Material_4333",
+          "Material_591",
+          "Material_682",
+          "Material_684",
+          "Material_686",
+          "Material_7323",
+          "Material_917",
+          "Material_9252",
+          "Material_934",
+          "Molybdenite",
+          "Sphalerite",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.2583333333,
+          33.6625
+        ]
+      },
+      "properties": {
+        "id": "mindat_223315",
+        "name": "Nezam Abad prospect, Shazand County, Markazi Province, Iran",
+        "type": "73",
+        "country": "Iran",
+        "description": "<h3>Nezam Abad prospect, Shazand County, Markazi Province, Iran</h3>\n<p><strong>Type:</strong> 73</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Vein-type copper-tungsten deposit with considerable gold content, hosted in granodiorite in the area west of Nezam Abad village. The deposit area is about 5.5 km long and 4.5 km wide and encompasses numerous outcrops and several old mine workings, both...</p>\n<p><a href=\"https://www.mindat.org/loc-223315.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Calcite",
+          "Fluorite",
+          "Hematite_Variety",
+          "Lead",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_1016",
+          "Material_1168",
+          "Material_1318",
+          "Material_1389",
+          "Material_1719",
+          "Material_1740",
+          "Material_2013",
+          "Material_2115",
+          "Material_2549",
+          "Material_2553",
+          "Material_2571",
+          "Material_29212",
+          "Material_305",
+          "Material_3224",
+          "Material_3328",
+          "Material_3444",
+          "Material_3560",
+          "Material_3571",
+          "Material_3747",
+          "Material_3782",
+          "Material_4318",
+          "Material_5499",
+          "Material_6814",
+          "Material_684",
+          "Material_686",
+          "Material_917",
+          "Material_9252",
+          "Molybdenite",
+          "Quartz",
+          "Sphalerite"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

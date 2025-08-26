@@ -1,0 +1,477 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.45,
+          27.0666666667
+        ]
+      },
+      "properties": {
+        "id": "mindat_5689",
+        "name": "Hormuz Island, Qeshm County, Hormozgan Province, Iran",
+        "type": "187",
+        "country": "Iran",
+        "description": "<h3>Hormuz Island, Qeshm County, Hormozgan Province, Iran</h3>\n<p><strong>Type:</strong> 187</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Island in the Strait of Hormuz, 8 kilometres off the Iranian coast.\r\n\r\nEvaporitic rocks including a nearly circular-shaped salt plug (with solution caverns) exposed at the surface with a maximum length of 7 km along its east-west axis.\r\nHematite ore is...</p>\n<p><a href=\"https://www.mindat.org/loc-5689.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Barite",
+          "Iron_Oxide",
+          "Limonite",
+          "Magnetite",
+          "Material_1218",
+          "Material_1459",
+          "Material_1576",
+          "Material_1784",
+          "Material_18",
+          "Material_1804",
+          "Material_2078",
+          "Material_234",
+          "Material_2402",
+          "Material_29229",
+          "Material_3826",
+          "Material_419",
+          "Material_4433",
+          "Material_5574",
+          "Quartz",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.8619444444,
+          29.945
+        ]
+      },
+      "properties": {
+        "id": "mindat_21589",
+        "name": "Sar Cheshmeh Mine (Sarcheshmeh Mine), Pariz, Sirjan County, Kerman Province, Iran",
+        "type": "60",
+        "country": "Iran",
+        "description": "<h3>Sar Cheshmeh Mine (Sarcheshmeh Mine), Pariz, Sirjan County, Kerman Province, Iran</h3>\n<p><strong>Type:</strong> 60</p>\n<p><strong>Location:</strong> Iran</p>\n<p>A porphyry copper-gold-silver-molybdenum mine. Produced 9 million tons of ore grading at 1.12% Cu between 1981 and 1984, and had 450 million tons of ore reserves in 1984. The Sarcheshmeh deposit is a giant copper deposit located about 165 km of Kerman,...</p>\n<p><a href=\"https://www.mindat.org/loc-21589.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Calcite",
+          "Chalcopyrite",
+          "Chrysocolla",
+          "Covellite",
+          "Epidote",
+          "Fluorite",
+          "Hematite",
+          "Iron",
+          "Lead",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_1016",
+          "Material_1070",
+          "Material_1126",
+          "Material_1168",
+          "Material_1248",
+          "Material_1295",
+          "Material_1380",
+          "Material_1389",
+          "Material_1398",
+          "Material_161",
+          "Material_162",
+          "Material_1624",
+          "Material_1719",
+          "Material_1720",
+          "Material_1784",
+          "Material_1804",
+          "Material_1891",
+          "Material_1983",
+          "Material_2078",
+          "Material_2137",
+          "Material_2204",
+          "Material_2253",
+          "Material_234",
+          "Material_2377",
+          "Material_2402",
+          "Material_2415",
+          "Material_2486",
+          "Material_268",
+          "Material_2713",
+          "Material_2729",
+          "Material_2746",
+          "Material_2821",
+          "Material_2856",
+          "Material_3026",
+          "Material_3249",
+          "Material_3328",
+          "Material_3428",
+          "Material_3878",
+          "Material_3911",
+          "Material_3912",
+          "Material_3924",
+          "Material_4395",
+          "Material_4406",
+          "Material_4411",
+          "Material_635",
+          "Material_677",
+          "Material_718",
+          "Material_779",
+          "Material_810",
+          "Material_9252",
+          "Material_96",
+          "Material_9767",
+          "Molybdenite",
+          "Pyrite",
+          "Quartz",
+          "Sphalerite",
+          "Tetrahedrite",
+          "Uraninite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.9004181,
+          37.4633593
+        ]
+      },
+      "properties": {
+        "id": "mindat_145457",
+        "name": "Maman, Mianeh County, East Azerbaijan Province, Iran",
+        "type": "257",
+        "country": "Iran",
+        "geomaterials": [
+          "Material_1804",
+          "Material_3259"
+        ],
+        "description": "<h3>Maman, Mianeh County, East Azerbaijan Province, Iran</h3>\n<p><strong>Type:</strong> 257</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-145457.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.495474345422,
+          26.621335241338
+        ]
+      },
+      "properties": {
+        "id": "mindat_192948",
+        "name": "Namakdan saltdome, Qeshm Island, Qeshm County, Hormozgan Province, Iran",
+        "country": "Iran",
+        "description": "<h3>Namakdan saltdome, Qeshm Island, Qeshm County, Hormozgan Province, Iran</h3>\n<p><strong>Location:</strong> Iran</p>\n<p>Salt dome.</p>\n<p><a href=\"https://www.mindat.org/loc-192948.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Barite",
+          "Calcite",
+          "Gold",
+          "Iron",
+          "Iron_Oxide",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_1070",
+          "Material_10790",
+          "Material_1294",
+          "Material_1389",
+          "Material_1784",
+          "Material_18",
+          "Material_1804",
+          "Material_207",
+          "Material_2078",
+          "Material_234",
+          "Material_29239",
+          "Material_3072",
+          "Material_3115",
+          "Material_3826",
+          "Quartz",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.478333333333,
+          27.576666666667
+        ]
+      },
+      "properties": {
+        "id": "mindat_192949",
+        "name": "Khurgu saltdome, Bandar Abbas County, Hormozgan Province, Iran",
+        "type": "274",
+        "country": "Iran",
+        "geomaterials": [
+          "Magnetite",
+          "Material_1784",
+          "Material_18",
+          "Material_1804",
+          "Material_234",
+          "Material_3826",
+          "Quartz",
+          "Tetrahedrite"
+        ],
+        "description": "<h3>Khurgu saltdome, Bandar Abbas County, Hormozgan Province, Iran</h3>\n<p><strong>Type:</strong> 274</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-192949.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.6666666667,
+          27.1
+        ]
+      },
+      "properties": {
+        "id": "mindat_207444",
+        "name": "Sar Pohl (Puhal; Pukal; Pujal; Pohl; Pol), Khamir County, Hormozgan Province, Iran",
+        "country": "Iran",
+        "description": "<h3>Sar Pohl (Puhal; Pukal; Pujal; Pohl; Pol), Khamir County, Hormozgan Province, Iran</h3>\n<p><strong>Location:</strong> Iran</p>\n<p>Mountain of salt extruded from a diapir at the eastern end of the Zagros anticline.\r\nLocated about 60 km west of Bandar Abbas.</p>\n<p><a href=\"https://www.mindat.org/loc-207444.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Material_1408",
+          "Material_1804",
+          "Material_1982",
+          "Material_314",
+          "Material_3423",
+          "Material_3850"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.9666666667,
+          29.55
+        ]
+      },
+      "properties": {
+        "id": "mindat_223563",
+        "name": "Bagh Khoshk deposit, Pariz, Sirjan County, Kerman Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Bagh Khoshk deposit, Pariz, Sirjan County, Kerman Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Porphyry copper deposit located south of the Cenozoic Urumieh-Dokhtar magmatic belt in Iran (~15 km SE of the giant Sarcheshmeh Cu-Mo-Au porphyry deposit).\r\n\r\nPorphyry copper Oligo-Miocene \r\n24 Mt, 0.27% Cu</p>\n<p><a href=\"https://www.mindat.org/loc-223563.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Calcite",
+          "Fluorite",
+          "Iron",
+          "Limonite",
+          "Magnetite",
+          "Material_1804",
+          "Material_2746",
+          "Pyrite",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.85,
+          36.905555555556
+        ]
+      },
+      "properties": {
+        "id": "mindat_247982",
+        "name": "Douzlakh salt mine, Chehrabad, Hamzehlu village, Zanjan County, Zanjan Province, Iran",
+        "type": "60",
+        "country": "Iran",
+        "description": "<h3>Douzlakh salt mine, Chehrabad, Hamzehlu village, Zanjan County, Zanjan Province, Iran</h3>\n<p><strong>Type:</strong> 60</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Salt mine that has been exploited in various periods over a long time span from about 600BCE to modern times, particularly during four longer periods: Achaemenian, Sassanian, Seljuk and Safavid to Pahlavi periods in the 20th century. A number of mining...</p>\n<p><a href=\"https://www.mindat.org/loc-247982.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Material_1804"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.0276,
+          33.0263
+        ]
+      },
+      "properties": {
+        "id": "mindat_251507",
+        "name": "Khas-e-Tarash Cave, Ardestan County, Isfahan Province, Iran",
+        "type": "169",
+        "country": "Iran",
+        "geomaterials": [
+          "Limonite",
+          "Material_1784",
+          "Material_1804",
+          "Material_307",
+          "Material_3935",
+          "Quartz"
+        ],
+        "description": "<h3>Khas-e-Tarash Cave, Ardestan County, Isfahan Province, Iran</h3>\n<p><strong>Type:</strong> 169</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-251507.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.871666666667,
+          36.8775
+        ]
+      },
+      "properties": {
+        "id": "mindat_281370",
+        "name": "Chehrabad, Hamzehlu village, Zanjan County, Zanjan Province, Iran",
+        "type": "501",
+        "country": "Iran",
+        "geomaterials": [
+          "Calcite",
+          "Chalcopyrite",
+          "Fluorite",
+          "Gold",
+          "Lead",
+          "Magnetite",
+          "Malachite",
+          "Material_1719",
+          "Material_1804",
+          "Material_2587",
+          "Material_2619",
+          "Material_4139",
+          "Material_49989",
+          "Material_934",
+          "Pyrite",
+          "Quartz",
+          "Sphalerite",
+          "Tetrahedrite"
+        ],
+        "description": "<h3>Chehrabad, Hamzehlu village, Zanjan County, Zanjan Province, Iran</h3>\n<p><strong>Type:</strong> 501</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-281370.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.950171661377,
+          27.094301959948
+        ]
+      },
+      "properties": {
+        "id": "mindat_301437",
+        "name": "Gchine Uranium Mine, Bandar Abbas County, Hormozgan Province, Iran",
+        "type": "60",
+        "country": "Iran",
+        "description": "<h3>Gchine Uranium Mine, Bandar Abbas County, Hormozgan Province, Iran</h3>\n<p><strong>Type:</strong> 60</p>\n<p><strong>Location:</strong> Iran</p>\n<p>This mine produced the first batch of yellow cake uranium in December 2010.\r\n\r\nEstimated production of 21 tons of uranium per year.\r\n\r\nAccording to the Institute for Science and International Security, the mine's output is inadequate for meeting the re...</p>\n<p><a href=\"https://www.mindat.org/loc-301437.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Barite",
+          "Cubanite",
+          "Lautite",
+          "Material_1784",
+          "Material_1804",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.783333333333,
+          34.233333333333
+        ]
+      },
+      "properties": {
+        "id": "mindat_301818",
+        "name": "Mighan Playa, Arak County, Markazi Province, Iran",
+        "country": "Iran",
+        "description": "<h3>Mighan Playa, Arak County, Markazi Province, Iran</h3>\n<p><strong>Location:</strong> Iran</p>\n<p>110 Km2 .</p>\n<p><a href=\"https://www.mindat.org/loc-301818.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Limonite",
+          "Material_1016",
+          "Material_1706",
+          "Material_1748",
+          "Material_1784",
+          "Material_1804",
+          "Material_2482",
+          "Material_2821",
+          "Material_3323",
+          "Material_3875",
+          "Material_3935",
+          "Molybdenite",
+          "Quartz"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.065378189087,
+          27.297197817777
+        ]
+      },
+      "properties": {
+        "id": "mindat_309384",
+        "name": "Qalat Payeen, Bandar Abbas County, Hormozgan Province, Iran",
+        "type": "274",
+        "country": "Iran",
+        "description": "<h3>Qalat Payeen, Bandar Abbas County, Hormozgan Province, Iran</h3>\n<p><strong>Type:</strong> 274</p>\n<p><strong>Location:</strong> Iran</p>\n<p>The salt dome near the village of Qalat-e-Payeen is situated 24 km NW of the harbor of Bandar Abbas. It was also known as Qalat-e Bala in Bosák et al. (1998). The highly deformed and concentrically structured plug, 4 km in diameter, is composed of nume...</p>\n<p><a href=\"https://www.mindat.org/loc-309384.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Magnetite",
+          "Material_1572",
+          "Material_1576",
+          "Material_1784",
+          "Material_1804",
+          "Material_4433",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.513324101771,
+          26.609496312619
+        ]
+      },
+      "properties": {
+        "id": "mindat_411235",
+        "name": "Namakdan Cave, Namakdan saltdome, Qeshm Island, Qeshm County, Hormozgan Province, Iran",
+        "type": "169",
+        "country": "Iran",
+        "description": "<h3>Namakdan Cave, Namakdan saltdome, Qeshm Island, Qeshm County, Hormozgan Province, Iran</h3>\n<p><strong>Type:</strong> 169</p>\n<p><strong>Location:</strong> Iran</p>\n<p>A salt cave extending some 6.58km. The cave itself includes 15 other caves.\r\nUsed as a tourist attraction.</p>\n<p><a href=\"https://www.mindat.org/loc-411235.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Barite",
+          "Material_1784",
+          "Material_1804",
+          "Material_234",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

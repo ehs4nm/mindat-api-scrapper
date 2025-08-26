@@ -1,0 +1,547 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.762651986602,
+          28.3991571
+        ]
+      },
+      "properties": {
+        "id": "mindat_2012",
+        "name": "Soghan, Arzuiyeh County, Kerman Province, Iran",
+        "type": "118",
+        "country": "Iran",
+        "description": "<h3>Soghan, Arzuiyeh County, Kerman Province, Iran</h3>\n<p><strong>Type:</strong> 118</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Soghan District (Persian: بخش صوغان‎) is a district (bakhsh) in Arzuiyeh County, Kerman Province, Iran. The District has no cities. The District has one rural district (dehestan): Soghan Rural District.\r\n\r\nSoghan Rural District (Persian: بخش صوغان‎) is...</p>\n<p><a href=\"https://www.mindat.org/loc-2012.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Material_1036",
+          "Material_1070",
+          "Material_1258",
+          "Material_1384",
+          "Material_1584",
+          "Material_1704",
+          "Material_1979",
+          "Material_223",
+          "Material_2353",
+          "Material_2482",
+          "Material_2538",
+          "Material_260",
+          "Material_2991",
+          "Material_3189",
+          "Material_3486",
+          "Material_3875",
+          "Material_4125",
+          "Material_7535",
+          "Material_820",
+          "Material_96",
+          "Material_975",
+          "Molybdenite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.07,
+          38.4775
+        ]
+      },
+      "properties": {
+        "id": "mindat_207546",
+        "name": "Ahar, Ahar County, East Azerbaijan Province, Iran",
+        "type": "491",
+        "country": "Iran",
+        "geomaterials": [
+          "Barite",
+          "Calcite",
+          "Chalcopyrite",
+          "Fluorite",
+          "Iron",
+          "Iron_Oxide",
+          "Lead",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_1016",
+          "Material_10272",
+          "Material_1062",
+          "Material_1168",
+          "Material_1285",
+          "Material_1294",
+          "Material_1329",
+          "Material_1351",
+          "Material_1389",
+          "Material_161",
+          "Material_1624",
+          "Material_1668",
+          "Material_1719",
+          "Material_1720",
+          "Material_1755",
+          "Material_18",
+          "Material_1842",
+          "Material_1930",
+          "Material_207",
+          "Material_2078",
+          "Material_217",
+          "Material_223",
+          "Material_234",
+          "Material_239",
+          "Material_2538",
+          "Material_2583",
+          "Material_26894",
+          "Material_2746",
+          "Material_29229",
+          "Material_29365",
+          "Material_2976",
+          "Material_3323",
+          "Material_3328",
+          "Material_3486",
+          "Material_3647",
+          "Material_3662",
+          "Material_3875",
+          "Material_3911",
+          "Material_3977",
+          "Material_4003",
+          "Material_4011",
+          "Material_4223",
+          "Material_4323",
+          "Material_4421",
+          "Material_46861",
+          "Material_5574",
+          "Material_6252",
+          "Material_677",
+          "Material_7630",
+          "Material_8778",
+          "Material_8789",
+          "Material_9252",
+          "Material_9264",
+          "Material_934",
+          "Material_9581",
+          "Material_96",
+          "Material_9767",
+          "Molybdenite",
+          "Pyrite",
+          "Quartz",
+          "Sphalerite",
+          "Tetrahedrite",
+          "Uraninite"
+        ],
+        "description": "<h3>Ahar, Ahar County, East Azerbaijan Province, Iran</h3>\n<p><strong>Type:</strong> 491</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-207546.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.92425282,
+          38.67038594
+        ]
+      },
+      "properties": {
+        "id": "mindat_207549",
+        "name": "Anjerd Mine, Ahar, Ahar County, East Azerbaijan Province, Iran",
+        "type": "60",
+        "country": "Iran",
+        "description": "<h3>Anjerd Mine, Ahar, Ahar County, East Azerbaijan Province, Iran</h3>\n<p><strong>Type:</strong> 60</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Skarn-type iron-copper deposit in the Ahar batholith.\r\nLocated NW of Ahar.\r\nThe deposit, discovered in 1978, is estimated to contain 290 Mt with grades of 0.8% copper, 0.02% molybdenum, and 0.2 ppm gold. Patchy development of garnet and epidote skarn f...</p>\n<p><a href=\"https://www.mindat.org/loc-207549.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Barite",
+          "Calcite",
+          "Chalcopyrite",
+          "Fluorite",
+          "Iron",
+          "Iron_Oxide",
+          "Lead",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_1016",
+          "Material_10272",
+          "Material_1285",
+          "Material_1294",
+          "Material_1329",
+          "Material_1389",
+          "Material_161",
+          "Material_1668",
+          "Material_1719",
+          "Material_1720",
+          "Material_18",
+          "Material_1842",
+          "Material_1930",
+          "Material_207",
+          "Material_2078",
+          "Material_217",
+          "Material_223",
+          "Material_234",
+          "Material_239",
+          "Material_2538",
+          "Material_2583",
+          "Material_2746",
+          "Material_29229",
+          "Material_29365",
+          "Material_2976",
+          "Material_3323",
+          "Material_3328",
+          "Material_3486",
+          "Material_3662",
+          "Material_3875",
+          "Material_3911",
+          "Material_3977",
+          "Material_4003",
+          "Material_4011",
+          "Material_4223",
+          "Material_4323",
+          "Material_46861",
+          "Material_5574",
+          "Material_6252",
+          "Material_677",
+          "Material_7630",
+          "Material_8778",
+          "Material_8789",
+          "Material_9264",
+          "Material_934",
+          "Material_9581",
+          "Material_96",
+          "Material_9767",
+          "Molybdenite",
+          "Pyrite",
+          "Quartz",
+          "Sphalerite",
+          "Tetrahedrite",
+          "Uraninite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.67,
+          33.9938888889
+        ]
+      },
+      "properties": {
+        "id": "mindat_235366",
+        "name": "Talc mine, Markazal, Mahallat County, Markazi Province, Iran",
+        "type": "60",
+        "country": "Iran",
+        "geomaterials": [
+          "Material_3875"
+        ],
+        "description": "<h3>Talc mine, Markazal, Mahallat County, Markazi Province, Iran</h3>\n<p><strong>Type:</strong> 60</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-235366.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.874166666667,
+          28.346388888889
+        ]
+      },
+      "properties": {
+        "id": "mindat_265116",
+        "name": "Sorkhan, Soghan, Arzuiyeh County, Kerman Province, Iran",
+        "type": "501",
+        "country": "Iran",
+        "description": "<h3>Sorkhan, Soghan, Arzuiyeh County, Kerman Province, Iran</h3>\n<p><strong>Type:</strong> 501</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Sorkhan (Persian: سرخان‎, also Romanized as Sorkhān) is a village in Soghan Rural District, Soghan District, Arzuiyeh County, Kerman Province, Iran.\r\n\r\nOphiolite melange.</p>\n<p><a href=\"https://www.mindat.org/loc-265116.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Material_1036",
+          "Material_1070",
+          "Material_1384",
+          "Material_1584",
+          "Material_1704",
+          "Material_2353",
+          "Material_2482",
+          "Material_260",
+          "Material_2991",
+          "Material_3189",
+          "Material_3486",
+          "Material_3875",
+          "Material_96",
+          "Molybdenite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.141666666667,
+          32.216666666667
+        ]
+      },
+      "properties": {
+        "id": "mindat_266628",
+        "name": "Chah-Gaz iron oxide-apatite ore deposit, Rabatat Rural District, Kharanaq District, Ardakan County, Yazd Province, Iran",
+        "type": "281",
+        "country": "Iran",
+        "description": "<h3>Chah-Gaz iron oxide-apatite ore deposit, Rabatat Rural District, Kharanaq District, Ardakan County, Yazd Province, Iran</h3>\n<p><strong>Type:</strong> 281</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Shale-hosted Pb-Zn mineralisation.\r\nThe Chah-Gaz magmatic complex occupies an area of ∼ 5 km². It consists of rhyolite/rhyodacite of the CVSU, and granite and alkaline gabbro-diorite that occur as elongated bodies bounded by NW–SE faults.[[1]]</p>\n<p><a href=\"https://www.mindat.org/loc-266628.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Chalcopyrite",
+          "Limonite",
+          "Magnetite",
+          "Material_1016",
+          "Material_10967",
+          "Material_11135",
+          "Material_1389",
+          "Material_18",
+          "Material_207",
+          "Material_239",
+          "Material_2538",
+          "Material_2750",
+          "Material_2821",
+          "Material_29229",
+          "Material_3193",
+          "Material_3486",
+          "Material_3521",
+          "Material_3647",
+          "Material_3875",
+          "Material_3946",
+          "Material_3977",
+          "Material_4011",
+          "Material_419",
+          "Material_4421",
+          "Material_46220",
+          "Material_6613",
+          "Material_677",
+          "Material_7630",
+          "Material_9252",
+          "Material_9264",
+          "Material_9581",
+          "Material_96",
+          "Molybdenite",
+          "Quartz",
+          "Sphalerite",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.242777777778,
+          32.529166666667
+        ]
+      },
+      "properties": {
+        "id": "mindat_285191",
+        "name": "Saghand, Rabatat Rural District, Kharanaq District, Ardakan County, Yazd Province, Iran",
+        "type": "501",
+        "country": "Iran",
+        "description": "<h3>Saghand, Rabatat Rural District, Kharanaq District, Ardakan County, Yazd Province, Iran</h3>\n<p><strong>Type:</strong> 501</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Saghand (Persian: ساغند, also Romanized as Sāghand; also known as Sagand and Sāqand) is a village in Rabatat Rural District, Kharanaq District, Ardakan County, Yazd Province, Iran.</p>\n<p><a href=\"https://www.mindat.org/loc-285191.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Barite",
+          "Cubanite",
+          "Limonite",
+          "Magnetite",
+          "Material_1016",
+          "Material_11135",
+          "Material_1124",
+          "Material_1126",
+          "Material_1232",
+          "Material_126",
+          "Material_162",
+          "Material_18",
+          "Material_182",
+          "Material_2013",
+          "Material_207",
+          "Material_2078",
+          "Material_2193",
+          "Material_2538",
+          "Material_2583",
+          "Material_2696",
+          "Material_2746",
+          "Material_29957",
+          "Material_3081",
+          "Material_3193",
+          "Material_3267",
+          "Material_3428",
+          "Material_3486",
+          "Material_3859",
+          "Material_3875",
+          "Material_3878",
+          "Material_3944",
+          "Material_3946",
+          "Material_3977",
+          "Material_4114",
+          "Material_4203",
+          "Material_46220",
+          "Material_810",
+          "Material_845",
+          "Material_96",
+          "Quartz",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.586421094984,
+          32.516999483235
+        ]
+      },
+      "properties": {
+        "id": "mindat_301438",
+        "name": "Saghand Uranium Mine, Saghand, Rabatat Rural District, Kharanaq District, Ardakan County, Yazd Province, Iran",
+        "type": "60",
+        "country": "Iran",
+        "description": "<h3>Saghand Uranium Mine, Saghand, Rabatat Rural District, Kharanaq District, Ardakan County, Yazd Province, Iran</h3>\n<p><strong>Type:</strong> 60</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Ore reserves of 1.5 million tons with an average grade of 553 ppm.</p>\n<p><a href=\"https://www.mindat.org/loc-301438.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Cubanite",
+          "Limonite",
+          "Magnetite",
+          "Material_207",
+          "Material_2538",
+          "Material_2583",
+          "Material_2746",
+          "Material_3875",
+          "Material_3944",
+          "Material_4114",
+          "Material_96",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.783333333333,
+          34.233333333333
+        ]
+      },
+      "properties": {
+        "id": "mindat_301818",
+        "name": "Mighan Playa, Arak County, Markazi Province, Iran",
+        "country": "Iran",
+        "description": "<h3>Mighan Playa, Arak County, Markazi Province, Iran</h3>\n<p><strong>Location:</strong> Iran</p>\n<p>110 Km2 .</p>\n<p><a href=\"https://www.mindat.org/loc-301818.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Limonite",
+          "Material_1016",
+          "Material_1706",
+          "Material_1748",
+          "Material_1784",
+          "Material_1804",
+          "Material_2482",
+          "Material_2821",
+          "Material_3323",
+          "Material_3875",
+          "Material_3935",
+          "Molybdenite",
+          "Quartz"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.376944444444,
+          34.870833333333
+        ]
+      },
+      "properties": {
+        "id": "mindat_419685",
+        "name": "Narm deposit, Tabas County, South Khorasan Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "geomaterials": [
+          "Barite",
+          "Calcite",
+          "Limonite",
+          "Magnetite",
+          "Material_1016",
+          "Material_1389",
+          "Material_1719",
+          "Material_18",
+          "Material_207",
+          "Material_2538",
+          "Material_2583",
+          "Material_29229",
+          "Material_3193",
+          "Material_3875",
+          "Material_4011",
+          "Material_5574",
+          "Material_677",
+          "Material_9264",
+          "Material_9767",
+          "Quartz",
+          "Tetrahedrite"
+        ],
+        "description": "<h3>Narm deposit, Tabas County, South Khorasan Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-419685.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.3125,
+          29.088888888889
+        ]
+      },
+      "properties": {
+        "id": "mindat_441196",
+        "name": "Golgohar Fe deposit, Sirjan County, Kerman Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "geomaterials": [
+          "Calcite",
+          "Limonite",
+          "Magnetite",
+          "Material_1016",
+          "Material_1070",
+          "Material_11135",
+          "Material_1389",
+          "Material_148",
+          "Material_2013",
+          "Material_207",
+          "Material_2538",
+          "Material_29229",
+          "Material_29264",
+          "Material_3328",
+          "Material_3486",
+          "Material_3647",
+          "Material_3875",
+          "Material_3977",
+          "Material_4003",
+          "Material_4011",
+          "Material_46220",
+          "Material_677",
+          "Material_9264",
+          "Material_9581",
+          "Material_96",
+          "Quartz"
+        ],
+        "description": "<h3>Golgohar Fe deposit, Sirjan County, Kerman Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-441196.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    }
+  ]
+}

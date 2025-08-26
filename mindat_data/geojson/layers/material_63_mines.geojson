@@ -1,0 +1,128 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.0,
+          31.8333333333
+        ]
+      },
+      "properties": {
+        "id": "mindat_122266",
+        "name": "Qaleh-Zari Mine (Ghale Zari Mine), Nehbandan County, South Khorasan Province, Iran",
+        "type": "60",
+        "country": "Iran",
+        "description": "<h3>Qaleh-Zari Mine (Ghale Zari Mine), Nehbandan County, South Khorasan Province, Iran</h3>\n<p><strong>Type:</strong> 60</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Iron oxide-copper-gold (IOCG) deposit, consisting of specularite-rich veins with copper, gold and silver ores, hosted in Jurassic shale and sandstone in the core of an anticline. The ore typically grades at 2-9& of Cu, 0.1-0.65 g/kg of Ag and 0.5-35 mg...</p>\n<p><a href=\"https://www.mindat.org/loc-122266.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Barite",
+          "Calcite",
+          "Chalcopyrite",
+          "Chrysocolla",
+          "Covellite",
+          "Epidote",
+          "Fluorite",
+          "Gersdorffite",
+          "Gold",
+          "Hematite",
+          "Iron",
+          "Iron_Oxide",
+          "Lead",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_1016",
+          "Material_1070",
+          "Material_10975",
+          "Material_1134",
+          "Material_1139",
+          "Material_1365",
+          "Material_1389",
+          "Material_1720",
+          "Material_1860",
+          "Material_2402",
+          "Material_2403",
+          "Material_2592",
+          "Material_26600",
+          "Material_318",
+          "Material_32259",
+          "Material_3424",
+          "Material_3447",
+          "Material_3924",
+          "Material_4003",
+          "Material_4300",
+          "Material_4322",
+          "Material_5574",
+          "Material_6128",
+          "Material_63",
+          "Material_638",
+          "Material_779",
+          "Material_934",
+          "Material_9563",
+          "Pyrite",
+          "Quartz",
+          "Sphalerite",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.052777777778,
+          36.686111111111
+        ]
+      },
+      "properties": {
+        "id": "mindat_441561",
+        "name": "Chodarchay deposit, Tarom County, Zanjan Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Chodarchay deposit, Tarom County, Zanjan Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>The mineralization is mainly hosted in the volcanic and volcaniclastic units (Eocene); some mineralization occurred within the quartz monzonite (Late Eocene). The porphyry type is mostly accompanied by a potassic alteration. The potassic alteration is ...</p>\n<p><a href=\"https://www.mindat.org/loc-441561.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Calcite",
+          "Chalcopyrite",
+          "Chrysocolla",
+          "Fluorite",
+          "Iron",
+          "Lead",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_1113",
+          "Material_1177",
+          "Material_1187",
+          "Material_1300",
+          "Material_1378",
+          "Material_1610",
+          "Material_1642",
+          "Material_1719",
+          "Material_1782",
+          "Material_1914",
+          "Material_2013",
+          "Material_2078",
+          "Material_236",
+          "Material_2402",
+          "Material_2538",
+          "Material_2549",
+          "Material_2888",
+          "Material_3059",
+          "Material_4246",
+          "Material_6294",
+          "Material_63",
+          "Material_686",
+          "Material_9264",
+          "Pyrite",
+          "Sphalerite",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

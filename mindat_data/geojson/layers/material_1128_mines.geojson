@@ -1,0 +1,76 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.7261111111,
+          33.8483333333
+        ]
+      },
+      "properties": {
+        "id": "mindat_228920",
+        "name": "Ghohroud, Qamsar, Kashan County, Isfahan Province, Iran",
+        "country": "Iran",
+        "description": "<h3>Ghohroud, Qamsar, Kashan County, Isfahan Province, Iran</h3>\n<p><strong>Location:</strong> Iran</p>\n<p>Ghohroud is a village near Kashan and 150 km away from Isfahan.\r\nMineralogy of the Ghohroud metamorphic rocks (http://adsabs.harvard.edu/abs/2010EGUGA..12.1606A).</p>\n<p><a href=\"https://www.mindat.org/loc-228920.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Barite",
+          "Calcite",
+          "Limonite",
+          "Malachite",
+          "Material_1016",
+          "Material_1128",
+          "Material_217",
+          "Material_2402",
+          "Material_677",
+          "Molybdenite",
+          "Quartz",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.5,
+          32.725
+        ]
+      },
+      "properties": {
+        "id": "mindat_446388",
+        "name": "Corundum-bearing pegmatite, Alvand Mountains, Hamadan Province, Iran",
+        "type": "309",
+        "country": "Iran",
+        "description": "<h3>Corundum-bearing pegmatite, Alvand Mountains, Hamadan Province, Iran</h3>\n<p><strong>Type:</strong> 309</p>\n<p><strong>Location:</strong> Iran</p>\n<p>A N20E trending pegmatite dyke, about 80 m  long and 1-2 m thick is intruded the contact metamorphic  rocks (andalusite, garnet and cordierite-bearing hornfels)  and the Alvand granitoid, at south of Hamedan. Corundum-bearing pegmatite (CBP) dyke conta...</p>\n<p><a href=\"https://www.mindat.org/loc-446388.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Limonite",
+          "Material_10272",
+          "Material_1128",
+          "Material_1136",
+          "Material_1875",
+          "Material_217",
+          "Material_2704",
+          "Material_29229",
+          "Material_3529",
+          "Material_3729",
+          "Material_4003",
+          "Material_4421",
+          "Material_4518",
+          "Material_46220",
+          "Material_677",
+          "Material_9252",
+          "Material_9264",
+          "Material_9581",
+          "Material_96",
+          "Molybdenite"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

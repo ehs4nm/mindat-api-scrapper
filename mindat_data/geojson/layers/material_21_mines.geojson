@@ -1,0 +1,46 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.2091666667,
+          31.7166666667
+        ]
+      },
+      "properties": {
+        "id": "mindat_68255",
+        "name": "Darreh Zanjir Mine, Taft County, Yazd Province, Iran",
+        "type": "60",
+        "country": "Iran",
+        "description": "<h3>Darreh Zanjir Mine, Taft County, Yazd Province, Iran</h3>\n<p><strong>Type:</strong> 60</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Zn, Pb and Cu sulfide deposit in dolomitized limestones, with well developed oxidation zone. Elevation: 1772 m asl</p>\n<p><a href=\"https://www.mindat.org/loc-68255.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Calcite",
+          "Chalcopyrite",
+          "Iron_Oxide",
+          "Material_1784",
+          "Material_1860",
+          "Material_1993",
+          "Material_21",
+          "Material_2402",
+          "Material_2403",
+          "Material_2714",
+          "Material_307",
+          "Material_3237",
+          "Material_3320",
+          "Material_3447",
+          "Material_3688",
+          "Material_422",
+          "Material_4292",
+          "Material_927",
+          "Material_934",
+          "Quartz",
+          "Sphalerite"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.321341,
+          32.75154
+        ]
+      },
+      "properties": {
+        "id": "mindat_457422",
+        "name": "Kuh-e-Chehr Mn deposit, Zarrin Rural District, Kharanaq District, Ardakan County, Yazd Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Kuh-e-Chehr Mn deposit, Zarrin Rural District, Kharanaq District, Ardakan County, Yazd Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>The manganese deposit of Kuh-e-Chehr, northeast of Ardakan, in the Yazd block, consists of the main minerals pyrolusite, cryptomelane, manganosite, limonite, and goethite. The high ratio of Si/Al, Mn/Fe, enrichment of Pb, Sr, Ba, Zn, and depletion of C...</p>\n<p><a href=\"https://www.mindat.org/loc-457422.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Limonite",
+          "Material_1164",
+          "Material_1719",
+          "Material_2503",
+          "Material_3318",
+          "Molybdenite",
+          "Quartz",
+          "Tetrahedrite",
+          "Uraninite"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

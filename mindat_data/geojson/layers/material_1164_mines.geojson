@@ -1,0 +1,171 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.663055555556,
+          28.984166666667
+        ]
+      },
+      "properties": {
+        "id": "mindat_307914",
+        "name": "Dehoo manganese deposit, Dehoo, Zahedan County, Sistan and Baluchestan Province, Iran",
+        "country": "Iran",
+        "description": "<h3>Dehoo manganese deposit, Dehoo, Zahedan County, Sistan and Baluchestan Province, Iran</h3>\n<p><strong>Location:</strong> Iran</p>\n<p>A predominantly submarine hydrothermal Mn deposit complemented by terrigenous detrital mafic material. Situated in the central part of the Iranian Flysch Zone.\r\n\r\nLocated 52 km to the south-southwest of Zahedan and 7 km to the southeast of Dehoo.</p>\n<p><a href=\"https://www.mindat.org/loc-307914.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Iron_Oxide",
+          "Limonite",
+          "Material_1164",
+          "Material_1921",
+          "Material_2061",
+          "Material_2519",
+          "Material_3208",
+          "Material_3304",
+          "Material_3318",
+          "Material_3988",
+          "Material_691",
+          "Material_757",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.20776467,
+          30.7928536
+        ]
+      },
+      "properties": {
+        "id": "mindat_456570",
+        "name": "Cheshmeh Esi Fe deposit, Khorrambid County, Fars Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Cheshmeh Esi Fe deposit, Khorrambid County, Fars Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Iron oxide mineralization occurs in the form of small lenses and layers in Triassic–Jurassic dolomites and schists, ranging from 10 to 50 m in length and 2 to 4 m in thickness. The ore body outcrops with a northeast–southwest trend and a dip of approxi...</p>\n<p><a href=\"https://www.mindat.org/loc-456570.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Barite",
+          "Limonite",
+          "Magnetite",
+          "Material_1016",
+          "Material_1164",
+          "Material_1719",
+          "Material_239",
+          "Material_2538",
+          "Material_3304",
+          "Material_3318",
+          "Material_3359",
+          "Material_9252",
+          "Molybdenite",
+          "Quartz",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.24763205,
+          30.78728074
+        ]
+      },
+      "properties": {
+        "id": "mindat_456573",
+        "name": "Goli Fe deposit, Khorrambid County, Fars Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "geomaterials": [
+          "Barite",
+          "Limonite",
+          "Magnetite",
+          "Material_1016",
+          "Material_1164",
+          "Material_1719",
+          "Material_239",
+          "Material_2538",
+          "Material_3304",
+          "Material_3318",
+          "Material_3359",
+          "Material_9252",
+          "Molybdenite",
+          "Quartz",
+          "Tetrahedrite"
+        ],
+        "description": "<h3>Goli Fe deposit, Khorrambid County, Fars Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-456573.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.42596358,
+          30.64281506
+        ]
+      },
+      "properties": {
+        "id": "mindat_456576",
+        "name": "Cheshme Sorkh Fe deposit, Bavanat County, Fars Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "geomaterials": [
+          "Barite",
+          "Limonite",
+          "Magnetite",
+          "Material_1016",
+          "Material_1164",
+          "Material_1719",
+          "Material_239",
+          "Material_2538",
+          "Material_3304",
+          "Material_3318",
+          "Material_3359",
+          "Material_9252",
+          "Molybdenite",
+          "Quartz",
+          "Tetrahedrite"
+        ],
+        "description": "<h3>Cheshme Sorkh Fe deposit, Bavanat County, Fars Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-456576.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.321341,
+          32.75154
+        ]
+      },
+      "properties": {
+        "id": "mindat_457422",
+        "name": "Kuh-e-Chehr Mn deposit, Zarrin Rural District, Kharanaq District, Ardakan County, Yazd Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Kuh-e-Chehr Mn deposit, Zarrin Rural District, Kharanaq District, Ardakan County, Yazd Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>The manganese deposit of Kuh-e-Chehr, northeast of Ardakan, in the Yazd block, consists of the main minerals pyrolusite, cryptomelane, manganosite, limonite, and goethite. The high ratio of Si/Al, Mn/Fe, enrichment of Pb, Sr, Ba, Zn, and depletion of C...</p>\n<p><a href=\"https://www.mindat.org/loc-457422.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Limonite",
+          "Material_1164",
+          "Material_1719",
+          "Material_2503",
+          "Material_3318",
+          "Molybdenite",
+          "Quartz",
+          "Tetrahedrite",
+          "Uraninite"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

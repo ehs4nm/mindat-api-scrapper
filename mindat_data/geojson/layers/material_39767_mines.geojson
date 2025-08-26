@@ -1,0 +1,38 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.366666666667,
+          38.616666666667
+        ]
+      },
+      "properties": {
+        "id": "mindat_278309",
+        "name": "Marand, Marand County, East Azerbaijan Province, Iran",
+        "type": "281",
+        "country": "Iran",
+        "description": "<h3>Marand, Marand County, East Azerbaijan Province, Iran</h3>\n<p><strong>Type:</strong> 281</p>\n<p><strong>Location:</strong> Iran</p>\n<p>A thick sequence of Cenozoic volcanic rocks overlies Mesozoic limestones in an area c. 20 km NW of the city Marand.</p>\n<p><a href=\"https://www.mindat.org/loc-278309.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Material_2013",
+          "Material_2465",
+          "Material_26411",
+          "Material_29229",
+          "Material_3328",
+          "Material_3521",
+          "Material_39767",
+          "Material_677",
+          "Material_7630",
+          "Material_8658",
+          "Material_8789",
+          "Material_9264",
+          "Material_9767"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

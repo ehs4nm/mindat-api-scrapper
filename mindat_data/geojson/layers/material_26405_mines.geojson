@@ -1,0 +1,28 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.38236,
+          33.88744
+        ]
+      },
+      "properties": {
+        "id": "mindat_416197",
+        "name": "Ayask, Sarayan County, South Khorasan Province, Iran",
+        "type": "251",
+        "country": "Iran",
+        "geomaterials": [
+          "Limonite",
+          "Material_26405",
+          "Material_51"
+        ],
+        "description": "<h3>Ayask, Sarayan County, South Khorasan Province, Iran</h3>\n<p><strong>Type:</strong> 251</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-416197.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    }
+  ]
+}

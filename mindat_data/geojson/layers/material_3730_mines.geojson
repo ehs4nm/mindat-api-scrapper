@@ -1,0 +1,49 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.324444444444,
+          32.406388888889
+        ]
+      },
+      "properties": {
+        "id": "mindat_25132",
+        "name": "Baryte deposit, Zarrin Rural District, Kharanaq District, Ardakan County, Yazd Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Baryte deposit, Zarrin Rural District, Kharanaq District, Ardakan County, Yazd Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Carbonate-hosted baryte ore.\r\nThe Ardakan barite deposit is located in the central part of the Yazd Block. The area of the Ardakan barite deposit is a highly tectonized and faulted terrane. The discovery of the Ardakan barite deposit apparently dates b...</p>\n<p><a href=\"https://www.mindat.org/loc-25132.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Barite",
+          "Calcite",
+          "Epidote",
+          "Fluorite",
+          "Hematite",
+          "Iron_Oxide",
+          "Lead",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_1576",
+          "Material_1666",
+          "Material_1719",
+          "Material_1720",
+          "Material_1784",
+          "Material_236",
+          "Material_2379",
+          "Material_26664",
+          "Material_3730",
+          "Material_4354",
+          "Material_927",
+          "Pyrite",
+          "Quartz",
+          "Sphalerite"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

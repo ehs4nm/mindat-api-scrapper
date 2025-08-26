@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.495474345422,
+          26.621335241338
+        ]
+      },
+      "properties": {
+        "id": "mindat_192948",
+        "name": "Namakdan saltdome, Qeshm Island, Qeshm County, Hormozgan Province, Iran",
+        "country": "Iran",
+        "description": "<h3>Namakdan saltdome, Qeshm Island, Qeshm County, Hormozgan Province, Iran</h3>\n<p><strong>Location:</strong> Iran</p>\n<p>Salt dome.</p>\n<p><a href=\"https://www.mindat.org/loc-192948.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Barite",
+          "Calcite",
+          "Gold",
+          "Iron",
+          "Iron_Oxide",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_1070",
+          "Material_10790",
+          "Material_1294",
+          "Material_1389",
+          "Material_1784",
+          "Material_18",
+          "Material_1804",
+          "Material_207",
+          "Material_2078",
+          "Material_234",
+          "Material_29239",
+          "Material_3072",
+          "Material_3115",
+          "Material_3826",
+          "Quartz",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

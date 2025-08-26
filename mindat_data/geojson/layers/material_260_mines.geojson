@@ -1,0 +1,108 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.762651986602,
+          28.3991571
+        ]
+      },
+      "properties": {
+        "id": "mindat_2012",
+        "name": "Soghan, Arzuiyeh County, Kerman Province, Iran",
+        "type": "118",
+        "country": "Iran",
+        "description": "<h3>Soghan, Arzuiyeh County, Kerman Province, Iran</h3>\n<p><strong>Type:</strong> 118</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Soghan District (Persian: بخش صوغان‎) is a district (bakhsh) in Arzuiyeh County, Kerman Province, Iran. The District has no cities. The District has one rural district (dehestan): Soghan Rural District.\r\n\r\nSoghan Rural District (Persian: بخش صوغان‎) is...</p>\n<p><a href=\"https://www.mindat.org/loc-2012.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Material_1036",
+          "Material_1070",
+          "Material_1258",
+          "Material_1384",
+          "Material_1584",
+          "Material_1704",
+          "Material_1979",
+          "Material_223",
+          "Material_2353",
+          "Material_2482",
+          "Material_2538",
+          "Material_260",
+          "Material_2991",
+          "Material_3189",
+          "Material_3486",
+          "Material_3875",
+          "Material_4125",
+          "Material_7535",
+          "Material_820",
+          "Material_96",
+          "Material_975",
+          "Molybdenite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.874166666667,
+          28.346388888889
+        ]
+      },
+      "properties": {
+        "id": "mindat_265116",
+        "name": "Sorkhan, Soghan, Arzuiyeh County, Kerman Province, Iran",
+        "type": "501",
+        "country": "Iran",
+        "description": "<h3>Sorkhan, Soghan, Arzuiyeh County, Kerman Province, Iran</h3>\n<p><strong>Type:</strong> 501</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Sorkhan (Persian: سرخان‎, also Romanized as Sorkhān) is a village in Soghan Rural District, Soghan District, Arzuiyeh County, Kerman Province, Iran.\r\n\r\nOphiolite melange.</p>\n<p><a href=\"https://www.mindat.org/loc-265116.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Material_1036",
+          "Material_1070",
+          "Material_1384",
+          "Material_1584",
+          "Material_1704",
+          "Material_2353",
+          "Material_2482",
+          "Material_260",
+          "Material_2991",
+          "Material_3189",
+          "Material_3486",
+          "Material_3875",
+          "Material_96",
+          "Molybdenite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.766666666667,
+          29.866666666667
+        ]
+      },
+      "properties": {
+        "id": "mindat_337397",
+        "name": "Cheshmeh-Bid deposit, Neyriz County, Fars Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "geomaterials": [
+          "Calcite",
+          "Material_1016",
+          "Material_1036",
+          "Material_10967",
+          "Material_260",
+          "Material_8658",
+          "Material_9903"
+        ],
+        "description": "<h3>Cheshmeh-Bid deposit, Neyriz County, Fars Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-337397.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    }
+  ]
+}

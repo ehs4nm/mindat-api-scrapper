@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.75,
+          35.366666666667
+        ]
+      },
+      "properties": {
+        "id": "mindat_337722",
+        "name": "Ezatabad, Bardaskan County, Razavi Khorasan Province, Iran",
+        "type": "281",
+        "country": "Iran",
+        "description": "<h3>Ezatabad, Bardaskan County, Razavi Khorasan Province, Iran</h3>\n<p><strong>Type:</strong> 281</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Fragments of tephrite in a Miocene breccia, WNW of the village of Ezatabad.</p>\n<p><a href=\"https://www.mindat.org/loc-337722.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Material_11105",
+          "Material_2880",
+          "Material_29229",
+          "Material_419",
+          "Material_9264"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

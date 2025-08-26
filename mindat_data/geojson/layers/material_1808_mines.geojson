@@ -1,0 +1,40 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.005555555556,
+          37.516666666667
+        ]
+      },
+      "properties": {
+        "id": "mindat_435280",
+        "name": "Huri bauxite deposit, Ajab Shir County, East Azerbaijan Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Huri bauxite deposit, Ajab Shir County, East Azerbaijan Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Bauxite horizons at Huri develop within karstic depressions and sinkholes of carbonate footwalls of the Ruteh Formation, overlain by carbonate of the Elika Formation.</p>\n<p><a href=\"https://www.mindat.org/loc-435280.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Barite",
+          "Material_1070",
+          "Material_1285",
+          "Material_1719",
+          "Material_1808",
+          "Material_197",
+          "Material_2751",
+          "Material_3323",
+          "Material_3486",
+          "Material_4421",
+          "Molybdenite",
+          "Quartz",
+          "Sphalerite",
+          "Tetrahedrite",
+          "Uraninite"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

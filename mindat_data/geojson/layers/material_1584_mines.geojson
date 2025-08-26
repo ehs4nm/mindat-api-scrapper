@@ -1,0 +1,289 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.762651986602,
+          28.3991571
+        ]
+      },
+      "properties": {
+        "id": "mindat_2012",
+        "name": "Soghan, Arzuiyeh County, Kerman Province, Iran",
+        "type": "118",
+        "country": "Iran",
+        "description": "<h3>Soghan, Arzuiyeh County, Kerman Province, Iran</h3>\n<p><strong>Type:</strong> 118</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Soghan District (Persian: بخش صوغان‎) is a district (bakhsh) in Arzuiyeh County, Kerman Province, Iran. The District has no cities. The District has one rural district (dehestan): Soghan Rural District.\r\n\r\nSoghan Rural District (Persian: بخش صوغان‎) is...</p>\n<p><a href=\"https://www.mindat.org/loc-2012.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Material_1036",
+          "Material_1070",
+          "Material_1258",
+          "Material_1384",
+          "Material_1584",
+          "Material_1704",
+          "Material_1979",
+          "Material_223",
+          "Material_2353",
+          "Material_2482",
+          "Material_2538",
+          "Material_260",
+          "Material_2991",
+          "Material_3189",
+          "Material_3486",
+          "Material_3875",
+          "Material_4125",
+          "Material_7535",
+          "Material_820",
+          "Material_96",
+          "Material_975",
+          "Molybdenite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.8375,
+          34.010833333333
+        ]
+      },
+      "properties": {
+        "id": "mindat_263358",
+        "name": "Naragh meteorite, Naragh (Naraq; Narāq; Narāk), Delijan County, Markazi Province, Iran",
+        "type": "1",
+        "country": "Iran",
+        "description": "<h3>Naragh meteorite, Naragh (Naraq; Narāq; Narāk), Delijan County, Markazi Province, Iran</h3>\n<p><strong>Type:</strong> 1</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Ordinary chondrite, H6.\r\n\r\nFallen at 09:20 a. m. local time on August 18, 1974, on the flat roof of a secondary school at Naragh (51°30'E, 33°45'N [note: apparently wrong coordinates - they place the fall about 90 km away from Naragh, and were therefor...</p>\n<p><a href=\"https://www.mindat.org/loc-263358.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Material_1013",
+          "Material_1036",
+          "Material_10964",
+          "Material_1384",
+          "Material_1584",
+          "Material_2047",
+          "Material_2143",
+          "Material_3868",
+          "Material_4029",
+          "Material_4280",
+          "Material_7630",
+          "Material_7765",
+          "Material_96"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.874166666667,
+          28.346388888889
+        ]
+      },
+      "properties": {
+        "id": "mindat_265116",
+        "name": "Sorkhan, Soghan, Arzuiyeh County, Kerman Province, Iran",
+        "type": "501",
+        "country": "Iran",
+        "description": "<h3>Sorkhan, Soghan, Arzuiyeh County, Kerman Province, Iran</h3>\n<p><strong>Type:</strong> 501</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Sorkhan (Persian: سرخان‎, also Romanized as Sorkhān) is a village in Soghan Rural District, Soghan District, Arzuiyeh County, Kerman Province, Iran.\r\n\r\nOphiolite melange.</p>\n<p><a href=\"https://www.mindat.org/loc-265116.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Material_1036",
+          "Material_1070",
+          "Material_1384",
+          "Material_1584",
+          "Material_1704",
+          "Material_2353",
+          "Material_2482",
+          "Material_260",
+          "Material_2991",
+          "Material_3189",
+          "Material_3486",
+          "Material_3875",
+          "Material_96",
+          "Molybdenite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.975,
+          35.1186111111
+        ]
+      },
+      "properties": {
+        "id": "mindat_268831",
+        "name": "Famenin meteorite, Famenin County, Hamadan Province, Iran",
+        "type": "1",
+        "country": "Iran",
+        "description": "<h3>Famenin meteorite, Famenin County, Hamadan Province, Iran</h3>\n<p><strong>Type:</strong> 1</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Ordinary chondrite, unequilibrated (H/L3)\r\nFell, 27 June 2015; 630 g\r\n\r\nDuring the early morning a loud sound on the roof led to the discovery of several small fragments of a small stone on the roof and yard. The meteorite is an unequilibrated chondrit...</p>\n<p><a href=\"https://www.mindat.org/loc-268831.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Material_10663",
+          "Material_10967",
+          "Material_1584",
+          "Material_2047",
+          "Material_2143",
+          "Material_3328",
+          "Material_4029",
+          "Material_8658"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.837777777778,
+          34.011111111111
+        ]
+      },
+      "properties": {
+        "id": "mindat_279396",
+        "name": "Naragh (Naraq; Narāq; Narāk), Delijan County, Markazi Province, Iran",
+        "country": "Iran",
+        "geomaterials": [
+          "Material_1013",
+          "Material_1036",
+          "Material_10964",
+          "Material_1384",
+          "Material_1584",
+          "Material_2047",
+          "Material_2143",
+          "Material_3868",
+          "Material_4029",
+          "Material_4280",
+          "Material_7630",
+          "Material_7765",
+          "Material_96"
+        ],
+        "description": "<h3>Naragh (Naraq; Narāq; Narāk), Delijan County, Markazi Province, Iran</h3>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-279396.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.40333,
+          30.50167
+        ]
+      },
+      "properties": {
+        "id": "mindat_413299",
+        "name": "Kerman 001 meteorite, Kerman meteorite field, Kerman County, Kerman Province, Iran",
+        "type": "1",
+        "country": "Iran",
+        "description": "<h3>Kerman 001 meteorite, Kerman meteorite field, Kerman County, Kerman Province, Iran</h3>\n<p><strong>Type:</strong> 1</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Official name: Kerman 001\r\nObserved fall: no\r\nFound: 2013 Dec 8\r\nCoordinates (Meteoritical Bulletin 103): 30°30.1’N, 58°24.2’E\r\nRecovered weight: 17 kg\r\nH5 chondrite, weathering grade W4\r\n\r\n\r\nMr. Reza Eslami Fetrat, a frequent traveler to the Lut deser...</p>\n<p><a href=\"https://www.mindat.org/loc-413299.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Material_1384",
+          "Material_1584",
+          "Material_1719",
+          "Material_246",
+          "Material_2533",
+          "Material_4029",
+          "Material_43607",
+          "Material_5293"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.789333333333,
+          30.788833333333
+        ]
+      },
+      "properties": {
+        "id": "mindat_413332",
+        "name": "Kerman 002 meteorite, Kerman meteorite field, Kerman County, Kerman Province, Iran",
+        "type": "1",
+        "country": "Iran",
+        "description": "<h3>Kerman 002 meteorite, Kerman meteorite field, Kerman County, Kerman Province, Iran</h3>\n<p><strong>Type:</strong> 1</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Official name: Kerman 002\r\nObserved fall: no\r\nFound: 2012 Oct 23\r\nCoordinates (Meteoritical Bulletin 103): 30°47.33’N, 57°47.36’E\r\nRecovered weight: 211 g\r\nL6 chondrite, weathering grade W3\r\n\r\n\r\nFound by Majid Khatami on December 8, 2013. The meteorite...</p>\n<p><a href=\"https://www.mindat.org/loc-413332.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Material_1384",
+          "Material_1584",
+          "Material_1719",
+          "Material_246",
+          "Material_2533",
+          "Material_4029",
+          "Material_43607",
+          "Material_47876",
+          "Material_5293",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.45,
+          30.446666666667
+        ]
+      },
+      "properties": {
+        "id": "mindat_413340",
+        "name": "Kerman 003 meteorite, Kerman meteorite field, Kerman County, Kerman Province, Iran",
+        "type": "1",
+        "country": "Iran",
+        "description": "<h3>Kerman 003 meteorite, Kerman meteorite field, Kerman County, Kerman Province, Iran</h3>\n<p><strong>Type:</strong> 1</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Official name: Kerman 003\r\nObserved fall: no\r\nFound: 2014 Aug 07\r\nCoordinates (Meteoritical Bulletin 103): 30°26.80’N, 58°27.00’E\r\nRecovered weight: 615 g\r\nL5 chondrite, weathering grade W2\r\n\r\n\r\nFound by Bahman Izadi during an expedition in the Lut des...</p>\n<p><a href=\"https://www.mindat.org/loc-413340.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Material_1384",
+          "Material_1584",
+          "Material_1719",
+          "Material_246",
+          "Material_2533",
+          "Material_4029",
+          "Material_43607",
+          "Material_5293",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.784166666667,
+          30.553833333333
+        ]
+      },
+      "properties": {
+        "id": "mindat_413399",
+        "name": "Shahdad meteorite, Kerman meteorite field, Kerman County, Kerman Province, Iran",
+        "type": "1",
+        "country": "Iran",
+        "description": "<h3>Shahdad meteorite, Kerman meteorite field, Kerman County, Kerman Province, Iran</h3>\n<p><strong>Type:</strong> 1</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Official name: Shahdad\r\nObserved fall: no\r\nFound: 2005\r\nCoordinates (Meteoritical Bulletin 103): 30°33.23’N, 57°47.05’E\r\nRecovered weight: 1074 g\r\nH5 chondrite, weathering grade W4\r\n\r\nA single stone found by Ardeshir Hezarkhani and Reza Sangghaleh in 2...</p>\n<p><a href=\"https://www.mindat.org/loc-413399.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Material_10967",
+          "Material_1584",
+          "Material_1719",
+          "Material_246",
+          "Material_2533",
+          "Material_4029",
+          "Material_43607",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

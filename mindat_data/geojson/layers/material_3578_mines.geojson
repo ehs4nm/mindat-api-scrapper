@@ -1,0 +1,70 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.56208478,
+          35.20457008
+        ]
+      },
+      "properties": {
+        "id": "mindat_446797",
+        "name": "Mamuniyeh Cu deposit, Zarandieh County, Markazi Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Mamuniyeh Cu deposit, Zarandieh County, Markazi Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>The Mamuniyeh Cu deposit, with a mining area of approximately 57 km2, is located in the central part of Urumieh-Dokhtar Magmatic Arc. The main lithological units are Eocene pyroclastic to effusive volcanic sequences with acidic to alkaline compositions...</p>\n<p><a href=\"https://www.mindat.org/loc-446797.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Calcite",
+          "Chrysocolla",
+          "Covellite",
+          "Epidote",
+          "Fluorite",
+          "Hematite",
+          "Iron",
+          "Lead",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_1016",
+          "Material_1062",
+          "Material_11119",
+          "Material_1389",
+          "Material_161",
+          "Material_1624",
+          "Material_1719",
+          "Material_1930",
+          "Material_207",
+          "Material_2078",
+          "Material_2402",
+          "Material_2538",
+          "Material_2705",
+          "Material_2821",
+          "Material_29229",
+          "Material_29365",
+          "Material_3578",
+          "Material_3912",
+          "Material_3978",
+          "Material_4003",
+          "Material_4421",
+          "Material_5574",
+          "Material_677",
+          "Material_7630",
+          "Material_9252",
+          "Material_9264",
+          "Material_9581",
+          "Material_9767",
+          "Molybdenite",
+          "Pyrite",
+          "Quartz",
+          "Sphalerite",
+          "Tetrahedrite",
+          "Uraninite"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

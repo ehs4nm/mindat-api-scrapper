@@ -1,0 +1,159 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.16403915,
+          30.82328999
+        ]
+      },
+      "properties": {
+        "id": "mindat_456597",
+        "name": "Dehbid Pb-Zn deposit, Abadeh County, Fars Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "geomaterials": [
+          "Lead",
+          "Zinc"
+        ],
+        "description": "<h3>Dehbid Pb-Zn deposit, Abadeh County, Fars Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-456597.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.135272,
+          33.65245614
+        ]
+      },
+      "properties": {
+        "id": "mindat_457335",
+        "name": "Ghasabi deposit, Natanz County, Isfahan Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Ghasabi deposit, Natanz County, Isfahan Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>MVT</p>\n<p><a href=\"https://www.mindat.org/loc-457335.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Lead",
+          "Zinc"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.24654253,
+          32.3574389
+        ]
+      },
+      "properties": {
+        "id": "mindat_457338",
+        "name": "Hovzesefid deposit, Mohammadiyeh Rural District, Central District, Ardakan County, Yazd Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Hovzesefid deposit, Mohammadiyeh Rural District, Central District, Ardakan County, Yazd Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Irish type</p>\n<p><a href=\"https://www.mindat.org/loc-457338.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Lead",
+          "Zinc"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.44275727,
+          32.23971006
+        ]
+      },
+      "properties": {
+        "id": "mindat_457341",
+        "name": "Anjireh deposit, Rabatat Rural District, Kharanaq District, Ardakan County, Yazd Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Anjireh deposit, Rabatat Rural District, Kharanaq District, Ardakan County, Yazd Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Irish type</p>\n<p><a href=\"https://www.mindat.org/loc-457341.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Lead",
+          "Zinc"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.74607168,
+          33.35420975
+        ]
+      },
+      "properties": {
+        "id": "mindat_457359",
+        "name": "Darehdahaneh deposit, Shahin Shahr and Meymeh County, Isfahan Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "geomaterials": [
+          "Lead",
+          "Zinc"
+        ],
+        "description": "<h3>Darehdahaneh deposit, Shahin Shahr and Meymeh County, Isfahan Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-457359.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.55770554,
+          33.39345269
+        ]
+      },
+      "properties": {
+        "id": "mindat_457362",
+        "name": "Salehpeyghambar deposit, Golpayegan County, Isfahan Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Salehpeyghambar deposit, Golpayegan County, Isfahan Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>SEDEX</p>\n<p><a href=\"https://www.mindat.org/loc-457362.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Lead",
+          "Zinc"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.20451902,
+          33.52687871
+        ]
+      },
+      "properties": {
+        "id": "mindat_457365",
+        "name": "Darrehnoghreh deposit, Golpayegan County, Isfahan Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Darrehnoghreh deposit, Golpayegan County, Isfahan Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>SEDEX</p>\n<p><a href=\"https://www.mindat.org/loc-457365.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Lead",
+          "Zinc"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

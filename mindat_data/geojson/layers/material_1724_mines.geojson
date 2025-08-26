@@ -1,0 +1,40 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.463323,
+          34.633924
+        ]
+      },
+      "properties": {
+        "id": "mindat_345140",
+        "name": "Kahrizak Mountains, Qom Province, Iran",
+        "type": "198",
+        "country": "Iran",
+        "geomaterials": [
+          "Limonite",
+          "Material_1016",
+          "Material_11119",
+          "Material_1724",
+          "Material_210",
+          "Material_2388",
+          "Material_2657",
+          "Material_2779",
+          "Material_28896",
+          "Material_2947",
+          "Material_3594",
+          "Material_6854",
+          "Material_6988",
+          "Material_7313",
+          "Quartz"
+        ],
+        "description": "<h3>Kahrizak Mountains, Qom Province, Iran</h3>\n<p><strong>Type:</strong> 198</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-345140.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    }
+  ]
+}

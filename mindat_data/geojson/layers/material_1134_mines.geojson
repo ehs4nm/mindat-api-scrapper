@@ -1,0 +1,168 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.0,
+          31.8333333333
+        ]
+      },
+      "properties": {
+        "id": "mindat_122266",
+        "name": "Qaleh-Zari Mine (Ghale Zari Mine), Nehbandan County, South Khorasan Province, Iran",
+        "type": "60",
+        "country": "Iran",
+        "description": "<h3>Qaleh-Zari Mine (Ghale Zari Mine), Nehbandan County, South Khorasan Province, Iran</h3>\n<p><strong>Type:</strong> 60</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Iron oxide-copper-gold (IOCG) deposit, consisting of specularite-rich veins with copper, gold and silver ores, hosted in Jurassic shale and sandstone in the core of an anticline. The ore typically grades at 2-9& of Cu, 0.1-0.65 g/kg of Ag and 0.5-35 mg...</p>\n<p><a href=\"https://www.mindat.org/loc-122266.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Barite",
+          "Calcite",
+          "Chalcopyrite",
+          "Chrysocolla",
+          "Covellite",
+          "Epidote",
+          "Fluorite",
+          "Gersdorffite",
+          "Gold",
+          "Hematite",
+          "Iron",
+          "Iron_Oxide",
+          "Lead",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_1016",
+          "Material_1070",
+          "Material_10975",
+          "Material_1134",
+          "Material_1139",
+          "Material_1365",
+          "Material_1389",
+          "Material_1720",
+          "Material_1860",
+          "Material_2402",
+          "Material_2403",
+          "Material_2592",
+          "Material_26600",
+          "Material_318",
+          "Material_32259",
+          "Material_3424",
+          "Material_3447",
+          "Material_3924",
+          "Material_4003",
+          "Material_4300",
+          "Material_4322",
+          "Material_5574",
+          "Material_6128",
+          "Material_63",
+          "Material_638",
+          "Material_779",
+          "Material_934",
+          "Material_9563",
+          "Pyrite",
+          "Quartz",
+          "Sphalerite",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.000021740562,
+          34.177831884225
+        ]
+      },
+      "properties": {
+        "id": "mindat_223323",
+        "name": "Āhangarān Pb-Ag deposit, Malayer County, Hamadan Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Āhangarān Pb-Ag deposit, Malayer County, Hamadan Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Located about 20 km ESE of Malayer, besides the road leading to Arak.\r\n\r\n1.52 Mt @ 3.7 wt% Pb.\r\nStrata-bound Pb-Ag (Zn) sulfide mineralization in the Ahangaran deposit is hosted by dolomitic sandstone of the Kc3 unit. Sulfides and related gangue minera...</p>\n<p><a href=\"https://www.mindat.org/loc-223323.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Barite",
+          "Calcite",
+          "Chalcopyrite",
+          "Covellite",
+          "Fluorite",
+          "Iron_Oxide",
+          "Lead",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_10",
+          "Material_1134",
+          "Material_1380",
+          "Material_1437",
+          "Material_1451",
+          "Material_1605",
+          "Material_1624",
+          "Material_1719",
+          "Material_1860",
+          "Material_233",
+          "Material_2402",
+          "Material_2538",
+          "Material_2644",
+          "Material_3328",
+          "Material_3647",
+          "Material_3924",
+          "Material_4421",
+          "Material_741",
+          "Material_9252",
+          "Material_934",
+          "Molybdenite",
+          "Quartz",
+          "Sphalerite",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.725,
+          33.793611111111
+        ]
+      },
+      "properties": {
+        "id": "mindat_457419",
+        "name": "Shamsabad Fe-Mn deposit, Arak County, Markazi Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Shamsabad Fe-Mn deposit, Arak County, Markazi Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Mineralization in the Shamsabad manganese-bearing iron deposit occurs as stratabound in dark gray, thickbedded to massive orbitolina-bearing limestones with a lower Cretaceous age. The Shamsabad ferromanganese deposit is\r\ndeposited from submarine-hydro...</p>\n<p><a href=\"https://www.mindat.org/loc-457419.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Barite",
+          "Chalcopyrite",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_1016",
+          "Material_1134",
+          "Material_1624",
+          "Material_1719",
+          "Material_2379",
+          "Material_2402",
+          "Material_2976",
+          "Material_3318",
+          "Material_3406",
+          "Material_3988",
+          "Material_677",
+          "Material_9252",
+          "Material_96",
+          "Molybdenite",
+          "Quartz",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

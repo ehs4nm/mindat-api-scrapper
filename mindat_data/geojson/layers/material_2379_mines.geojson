@@ -1,0 +1,143 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.324444444444,
+          32.406388888889
+        ]
+      },
+      "properties": {
+        "id": "mindat_25132",
+        "name": "Baryte deposit, Zarrin Rural District, Kharanaq District, Ardakan County, Yazd Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Baryte deposit, Zarrin Rural District, Kharanaq District, Ardakan County, Yazd Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Carbonate-hosted baryte ore.\r\nThe Ardakan barite deposit is located in the central part of the Yazd Block. The area of the Ardakan barite deposit is a highly tectonized and faulted terrane. The discovery of the Ardakan barite deposit apparently dates b...</p>\n<p><a href=\"https://www.mindat.org/loc-25132.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Barite",
+          "Calcite",
+          "Epidote",
+          "Fluorite",
+          "Hematite",
+          "Iron_Oxide",
+          "Lead",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_1576",
+          "Material_1666",
+          "Material_1719",
+          "Material_1720",
+          "Material_1784",
+          "Material_236",
+          "Material_2379",
+          "Material_26664",
+          "Material_3730",
+          "Material_4354",
+          "Material_927",
+          "Pyrite",
+          "Quartz",
+          "Sphalerite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.3083333333,
+          33.85
+        ]
+      },
+      "properties": {
+        "id": "mindat_223297",
+        "name": "Astaneh prospect, Astaneh, Shazand County, Markazi Province, Iran",
+        "type": "73",
+        "country": "Iran",
+        "description": "<h3>Astaneh prospect, Astaneh, Shazand County, Markazi Province, Iran</h3>\n<p><strong>Type:</strong> 73</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Gold deposit, hosted in a granodiorite stock of probably Eocenic age (Shirmazd stock) in the northern part of the Astaneh intrusive complex, which is cut by numerous micro-granodioritic dykes. Gold is associated with sulphide disseminations in the dyke...</p>\n<p><a href=\"https://www.mindat.org/loc-223297.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Calcite",
+          "Chalcopyrite",
+          "Chrysocolla",
+          "Fluorite",
+          "Hematite_Variety",
+          "Iron",
+          "Lead",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_1016",
+          "Material_1719",
+          "Material_1720",
+          "Material_2013",
+          "Material_2379",
+          "Material_2402",
+          "Material_2571",
+          "Material_2746",
+          "Material_305",
+          "Material_3328",
+          "Material_3444",
+          "Material_3486",
+          "Material_3560",
+          "Material_3912",
+          "Material_4003",
+          "Material_684",
+          "Material_9252",
+          "Material_934",
+          "Molybdenite",
+          "Pyrite",
+          "Quartz",
+          "Sphalerite",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.725,
+          33.793611111111
+        ]
+      },
+      "properties": {
+        "id": "mindat_457419",
+        "name": "Shamsabad Fe-Mn deposit, Arak County, Markazi Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Shamsabad Fe-Mn deposit, Arak County, Markazi Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Mineralization in the Shamsabad manganese-bearing iron deposit occurs as stratabound in dark gray, thickbedded to massive orbitolina-bearing limestones with a lower Cretaceous age. The Shamsabad ferromanganese deposit is\r\ndeposited from submarine-hydro...</p>\n<p><a href=\"https://www.mindat.org/loc-457419.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Barite",
+          "Chalcopyrite",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_1016",
+          "Material_1134",
+          "Material_1624",
+          "Material_1719",
+          "Material_2379",
+          "Material_2402",
+          "Material_2976",
+          "Material_3318",
+          "Material_3406",
+          "Material_3988",
+          "Material_677",
+          "Material_9252",
+          "Material_96",
+          "Molybdenite",
+          "Quartz",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

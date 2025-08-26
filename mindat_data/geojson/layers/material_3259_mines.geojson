@@ -1,0 +1,27 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.9004181,
+          37.4633593
+        ]
+      },
+      "properties": {
+        "id": "mindat_145457",
+        "name": "Maman, Mianeh County, East Azerbaijan Province, Iran",
+        "type": "257",
+        "country": "Iran",
+        "geomaterials": [
+          "Material_1804",
+          "Material_3259"
+        ],
+        "description": "<h3>Maman, Mianeh County, East Azerbaijan Province, Iran</h3>\n<p><strong>Type:</strong> 257</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-145457.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    }
+  ]
+}

@@ -1,0 +1,294 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.416666666667,
+          36.5
+        ]
+      },
+      "properties": {
+        "id": "mindat_276466",
+        "name": "Piranshahr intrusion (Piranshahr massif), Piranshahr County, West Azerbaijan Province, Iran",
+        "type": "323",
+        "country": "Iran",
+        "description": "<h3>Piranshahr intrusion (Piranshahr massif), Piranshahr County, West Azerbaijan Province, Iran</h3>\n<p><strong>Type:</strong> 323</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Intrusion c.16x10 km in extent emplaced into Mesozoic limestones and pelites.</p>\n<p><a href=\"https://www.mindat.org/loc-276466.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Calcite",
+          "Chalcopyrite",
+          "Fluorite",
+          "Gersdorffite",
+          "Iron",
+          "Lead",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_1168",
+          "Material_118",
+          "Material_1294",
+          "Material_1365",
+          "Material_1384",
+          "Material_1458",
+          "Material_1624",
+          "Material_1720",
+          "Material_1740",
+          "Material_1842",
+          "Material_2013",
+          "Material_207",
+          "Material_2129",
+          "Material_2402",
+          "Material_241",
+          "Material_2538",
+          "Material_2571",
+          "Material_2750",
+          "Material_2880",
+          "Material_29229",
+          "Material_31",
+          "Material_3119",
+          "Material_3304",
+          "Material_3328",
+          "Material_3418",
+          "Material_3486",
+          "Material_3688",
+          "Material_3924",
+          "Material_3946",
+          "Material_3978",
+          "Material_419",
+          "Material_43733",
+          "Material_4421",
+          "Material_46220",
+          "Material_6613",
+          "Material_6683",
+          "Material_677",
+          "Material_8658",
+          "Material_8789",
+          "Material_9252",
+          "Material_9264",
+          "Material_934",
+          "Material_9767",
+          "Molybdenite",
+          "Pyrite",
+          "Quartz",
+          "Sphalerite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.983333333333,
+          38.8
+        ]
+      },
+      "properties": {
+        "id": "mindat_337058",
+        "name": "Kaleybar Intrusion, Kaleybar County, East Azerbaijan Province, Iran",
+        "type": "323",
+        "country": "Iran",
+        "description": "<h3>Kaleybar Intrusion, Kaleybar County, East Azerbaijan Province, Iran</h3>\n<p><strong>Type:</strong> 323</p>\n<p><strong>Location:</strong> Iran</p>\n<p>70km² alkaline intrusion, which is emplaced into Cretaceous sediments and volcanic rocks and has developed a thermal aureole up to 1km wide.</p>\n<p><a href=\"https://www.mindat.org/loc-337058.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Material_10272",
+          "Material_10436",
+          "Material_10583",
+          "Material_1294",
+          "Material_207",
+          "Material_210",
+          "Material_2880",
+          "Material_29229",
+          "Material_3701",
+          "Material_3977",
+          "Material_4421",
+          "Material_677",
+          "Material_7630",
+          "Material_9264",
+          "Material_9581",
+          "Material_9767"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.516666666667,
+          37.8
+        ]
+      },
+      "properties": {
+        "id": "mindat_337059",
+        "name": "Saray volcano, Osku County, East Azerbaijan Province, Iran",
+        "type": "231",
+        "country": "Iran",
+        "description": "<h3>Saray volcano, Osku County, East Azerbaijan Province, Iran</h3>\n<p><strong>Type:</strong> 231</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Volcano situated in a rift zone and forming an island on the eastern margin of lake Urmieh. It covers and area of 22 x 13km and reaches a hight of 800m.</p>\n<p><a href=\"https://www.mindat.org/loc-337059.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Material_10583",
+          "Material_118",
+          "Material_1294",
+          "Material_210",
+          "Material_2465",
+          "Material_2538",
+          "Material_26411",
+          "Material_2880",
+          "Material_3193",
+          "Material_3521",
+          "Material_3978",
+          "Material_48541",
+          "Material_677",
+          "Material_8658",
+          "Material_9264",
+          "Material_9581"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.916666666667,
+          36.75
+        ]
+      },
+      "properties": {
+        "id": "mindat_337060",
+        "name": "Mahabad lava flows, Mahabad County, West Azerbaijan Province, Iran",
+        "type": "349",
+        "country": "Iran",
+        "description": "<h3>Mahabad lava flows, Mahabad County, West Azerbaijan Province, Iran</h3>\n<p><strong>Type:</strong> 349</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Scattered lava flows to the east of town Mahabad overlie Miocene and Jurassic to Cretaceous sedimentary rocks.\r\n\r\nAge probably Quaternary, based on freshness.</p>\n<p><a href=\"https://www.mindat.org/loc-337060.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Material_26411",
+          "Material_2880",
+          "Material_4395",
+          "Material_7630",
+          "Material_8658",
+          "Material_9767"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.666666666667,
+          35.566666666667
+        ]
+      },
+      "properties": {
+        "id": "mindat_337717",
+        "name": "Bijar occurrence, Bijar County, Kurdistan Province, Iran",
+        "type": "537",
+        "country": "Iran",
+        "description": "<h3>Bijar occurrence, Bijar County, Kurdistan Province, Iran</h3>\n<p><strong>Type:</strong> 537</p>\n<p><strong>Location:</strong> Iran</p>\n<p>NW-SW-trending line of spatter and cinder cones c. 60km long, situated south of Bijar town. There are 6 major cones up to c.10km in diameter and at the southern end a group of 4 smaller cones c.2-3 km across, associated with which are 2 rhyolite domes....</p>\n<p><a href=\"https://www.mindat.org/loc-337717.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Material_1833",
+          "Material_207",
+          "Material_2880",
+          "Material_2976",
+          "Material_677",
+          "Material_7630",
+          "Material_8658",
+          "Material_96"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.75,
+          35.366666666667
+        ]
+      },
+      "properties": {
+        "id": "mindat_337722",
+        "name": "Ezatabad, Bardaskan County, Razavi Khorasan Province, Iran",
+        "type": "281",
+        "country": "Iran",
+        "description": "<h3>Ezatabad, Bardaskan County, Razavi Khorasan Province, Iran</h3>\n<p><strong>Type:</strong> 281</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Fragments of tephrite in a Miocene breccia, WNW of the village of Ezatabad.</p>\n<p><a href=\"https://www.mindat.org/loc-337722.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Material_11105",
+          "Material_2880",
+          "Material_29229",
+          "Material_419",
+          "Material_9264"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.4,
+          35.3
+        ]
+      },
+      "properties": {
+        "id": "mindat_337723",
+        "name": "Kariz Now Area, Torbat-e Jam County, Razavi Khorasan Province, Iran",
+        "type": "270",
+        "country": "Iran",
+        "description": "<h3>Kariz Now Area, Torbat-e Jam County, Razavi Khorasan Province, Iran</h3>\n<p><strong>Type:</strong> 270</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Extensive travertine deposits in the area related to hot springs, which are probably associated with recent volcanic activity.\r\nAge: Neogene or Quaternary.</p>\n<p><a href=\"https://www.mindat.org/loc-337723.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Material_10967",
+          "Material_207",
+          "Material_2538",
+          "Material_26411",
+          "Material_2880",
+          "Material_29229",
+          "Material_3521",
+          "Material_3978",
+          "Material_7630",
+          "Material_8658",
+          "Material_9264"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.5,
+          30.333333333333
+        ]
+      },
+      "properties": {
+        "id": "mindat_337727",
+        "name": "Sistan Suture Zone, Zahedan County, Sistan and Baluchestan Province, Iran",
+        "type": "397",
+        "country": "Iran",
+        "description": "<h3>Sistan Suture Zone, Zahedan County, Sistan and Baluchestan Province, Iran</h3>\n<p><strong>Type:</strong> 397</p>\n<p><strong>Location:</strong> Iran</p>\n<p>NS-trending area between the Lut to the west and Afghan blocks in which there are major fractures and extensive areas of volcanics intercalated with sedimentary rocks.</p>\n<p><a href=\"https://www.mindat.org/loc-337727.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Material_207",
+          "Material_210",
+          "Material_2129",
+          "Material_2880",
+          "Material_29310",
+          "Material_32",
+          "Material_3701",
+          "Material_419",
+          "Material_5385",
+          "Material_8658",
+          "Material_9264"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

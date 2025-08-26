@@ -1,0 +1,253 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.366666666667,
+          38.616666666667
+        ]
+      },
+      "properties": {
+        "id": "mindat_337057",
+        "name": "Sabalan volcanic plateau, Ahar County, East Azerbaijan Province, Iran",
+        "type": "205",
+        "country": "Iran",
+        "description": "<h3>Sabalan volcanic plateau, Ahar County, East Azerbaijan Province, Iran</h3>\n<p><strong>Type:</strong> 205</p>\n<p><strong>Location:</strong> Iran</p>\n<p>The area NW of Iran, immediately S of the border with Azerbaijan and W of the Caspian Sea, comprises a volcanic plateau, the southern margin of which is dominated by large Sabalan (Savalan) volcano. The plateau covers c. 15000km², while Sabalan extends...</p>\n<p><a href=\"https://www.mindat.org/loc-337057.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Material_1995",
+          "Material_207",
+          "Material_210",
+          "Material_248",
+          "Material_2538",
+          "Material_26411",
+          "Material_2705",
+          "Material_29229",
+          "Material_3521",
+          "Material_419",
+          "Material_677",
+          "Material_8658",
+          "Material_9264",
+          "Material_9581",
+          "Material_9767",
+          "Quartz"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.2,
+          31.75
+        ]
+      },
+      "properties": {
+        "id": "mindat_337372",
+        "name": "Divar deposit, Nehbandan County, South Khorasan Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "geomaterials": [
+          "Calcite",
+          "Covellite",
+          "Epidote",
+          "Fluorite",
+          "Iron",
+          "Lead",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_1016",
+          "Material_10967",
+          "Material_1389",
+          "Material_1719",
+          "Material_2402",
+          "Material_2538",
+          "Material_2571",
+          "Material_2705",
+          "Material_3328",
+          "Material_4395",
+          "Material_5574",
+          "Material_7630",
+          "Material_8658",
+          "Material_9252",
+          "Material_9264",
+          "Material_96",
+          "Material_9767",
+          "Molybdenite",
+          "Pyrite",
+          "Quartz",
+          "Sphalerite",
+          "Tetrahedrite"
+        ],
+        "description": "<h3>Divar deposit, Nehbandan County, South Khorasan Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-337372.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.216666666667,
+          32.25
+        ]
+      },
+      "properties": {
+        "id": "mindat_337721",
+        "name": "Qaleh-Khargooshi complex, Narestan Rural District, Aqda District, Ardakan County, Yazd Province, Iran",
+        "type": "270",
+        "country": "Iran",
+        "description": "<h3>Qaleh-Khargooshi complex, Narestan Rural District, Aqda District, Ardakan County, Yazd Province, Iran</h3>\n<p><strong>Type:</strong> 270</p>\n<p><strong>Location:</strong> Iran</p>\n<p>The locality lies about halfway along the Urumieh-Dokhtar magmatic belt, together with  and .\r\n\r\nThe rocks consist of a sequence of lavas and pyroclastic rocks extending for ca. 25 km.</p>\n<p><a href=\"https://www.mindat.org/loc-337721.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Limonite",
+          "Material_118",
+          "Material_1294",
+          "Material_2013",
+          "Material_210",
+          "Material_2538",
+          "Material_26411",
+          "Material_2705",
+          "Material_29229",
+          "Material_3521",
+          "Material_6728",
+          "Material_8658",
+          "Material_9264",
+          "Material_9581"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.841666666667,
+          34.225
+        ]
+      },
+      "properties": {
+        "id": "mindat_426241",
+        "name": "Veshnaveh, Aran and Bidgol County, Isfahan Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Veshnaveh, Aran and Bidgol County, Isfahan Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Ancient copper mines.</p>\n<p><a href=\"https://www.mindat.org/loc-426241.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Calcite",
+          "Chrysocolla",
+          "Covellite",
+          "Fluorite",
+          "Gold",
+          "Hematite",
+          "Iron",
+          "Iron_Oxide",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_1016",
+          "Material_1070",
+          "Material_1294",
+          "Material_1745",
+          "Material_18",
+          "Material_1837",
+          "Material_1875",
+          "Material_2308",
+          "Material_2340",
+          "Material_239",
+          "Material_246",
+          "Material_2538",
+          "Material_2704",
+          "Material_2705",
+          "Material_2976",
+          "Material_3026",
+          "Material_3277",
+          "Material_3305",
+          "Material_3729",
+          "Material_419",
+          "Material_4395",
+          "Material_7630",
+          "Material_779",
+          "Material_9264",
+          "Material_96",
+          "Material_9767",
+          "Molybdenite",
+          "Pyrite",
+          "Quartz",
+          "Sphalerite",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.56208478,
+          35.20457008
+        ]
+      },
+      "properties": {
+        "id": "mindat_446797",
+        "name": "Mamuniyeh Cu deposit, Zarandieh County, Markazi Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Mamuniyeh Cu deposit, Zarandieh County, Markazi Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>The Mamuniyeh Cu deposit, with a mining area of approximately 57 km2, is located in the central part of Urumieh-Dokhtar Magmatic Arc. The main lithological units are Eocene pyroclastic to effusive volcanic sequences with acidic to alkaline compositions...</p>\n<p><a href=\"https://www.mindat.org/loc-446797.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Calcite",
+          "Chrysocolla",
+          "Covellite",
+          "Epidote",
+          "Fluorite",
+          "Hematite",
+          "Iron",
+          "Lead",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_1016",
+          "Material_1062",
+          "Material_11119",
+          "Material_1389",
+          "Material_161",
+          "Material_1624",
+          "Material_1719",
+          "Material_1930",
+          "Material_207",
+          "Material_2078",
+          "Material_2402",
+          "Material_2538",
+          "Material_2705",
+          "Material_2821",
+          "Material_29229",
+          "Material_29365",
+          "Material_3578",
+          "Material_3912",
+          "Material_3978",
+          "Material_4003",
+          "Material_4421",
+          "Material_5574",
+          "Material_677",
+          "Material_7630",
+          "Material_9252",
+          "Material_9264",
+          "Material_9581",
+          "Material_9767",
+          "Molybdenite",
+          "Pyrite",
+          "Quartz",
+          "Sphalerite",
+          "Tetrahedrite",
+          "Uraninite"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

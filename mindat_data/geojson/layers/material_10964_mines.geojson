@@ -1,0 +1,70 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.8375,
+          34.010833333333
+        ]
+      },
+      "properties": {
+        "id": "mindat_263358",
+        "name": "Naragh meteorite, Naragh (Naraq; Narāq; Narāk), Delijan County, Markazi Province, Iran",
+        "type": "1",
+        "country": "Iran",
+        "description": "<h3>Naragh meteorite, Naragh (Naraq; Narāq; Narāk), Delijan County, Markazi Province, Iran</h3>\n<p><strong>Type:</strong> 1</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Ordinary chondrite, H6.\r\n\r\nFallen at 09:20 a. m. local time on August 18, 1974, on the flat roof of a secondary school at Naragh (51°30'E, 33°45'N [note: apparently wrong coordinates - they place the fall about 90 km away from Naragh, and were therefor...</p>\n<p><a href=\"https://www.mindat.org/loc-263358.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Material_1013",
+          "Material_1036",
+          "Material_10964",
+          "Material_1384",
+          "Material_1584",
+          "Material_2047",
+          "Material_2143",
+          "Material_3868",
+          "Material_4029",
+          "Material_4280",
+          "Material_7630",
+          "Material_7765",
+          "Material_96"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.837777777778,
+          34.011111111111
+        ]
+      },
+      "properties": {
+        "id": "mindat_279396",
+        "name": "Naragh (Naraq; Narāq; Narāk), Delijan County, Markazi Province, Iran",
+        "country": "Iran",
+        "geomaterials": [
+          "Material_1013",
+          "Material_1036",
+          "Material_10964",
+          "Material_1384",
+          "Material_1584",
+          "Material_2047",
+          "Material_2143",
+          "Material_3868",
+          "Material_4029",
+          "Material_4280",
+          "Material_7630",
+          "Material_7765",
+          "Material_96"
+        ],
+        "description": "<h3>Naragh (Naraq; Narāq; Narāk), Delijan County, Markazi Province, Iran</h3>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-279396.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    }
+  ]
+}

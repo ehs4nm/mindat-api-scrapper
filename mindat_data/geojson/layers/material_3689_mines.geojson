@@ -1,0 +1,67 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.203333333333,
+          37.138888888889
+        ]
+      },
+      "properties": {
+        "id": "mindat_420337",
+        "name": "Chumalu deposit, Zanjan County, Zanjan Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Chumalu deposit, Zanjan County, Zanjan Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Vein-type polymetallic epithermal deposit near the village of Chumalu (in n Qareh Poshtelu-e Pain Rural District, Qareh Poshtelu District).\r\nPart of the Tarom-Hashtjin Metallogenic Province. \r\n\r\nEvidence of \"ancient workings and dumps\" have been found ...</p>\n<p><a href=\"https://www.mindat.org/loc-420337.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Calcite",
+          "Chalcopyrite",
+          "Fluorite",
+          "Iron",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_10",
+          "Material_1016",
+          "Material_1389",
+          "Material_1576",
+          "Material_161",
+          "Material_1719",
+          "Material_1784",
+          "Material_1860",
+          "Material_2078",
+          "Material_213",
+          "Material_2482",
+          "Material_2538",
+          "Material_2821",
+          "Material_29212",
+          "Material_2978",
+          "Material_305",
+          "Material_3406",
+          "Material_3647",
+          "Material_3688",
+          "Material_3689",
+          "Material_3924",
+          "Material_46861",
+          "Material_6129",
+          "Material_9252",
+          "Material_9264",
+          "Material_934",
+          "Material_9581",
+          "Material_96",
+          "Material_960",
+          "Molybdenite",
+          "Pyrite",
+          "Quartz",
+          "Sphalerite",
+          "Tetrahedrite",
+          "Uraninite"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

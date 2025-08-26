@@ -1,3 +1,3664 @@
 {
-  "layers": []
+  "layers": [
+    {
+      "id": "annabergite",
+      "name": "Annabergite",
+      "file": "layers/annabergite_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "arsenopyrite",
+      "name": "Arsenopyrite",
+      "file": "layers/arsenopyrite_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "azurite",
+      "name": "Azurite",
+      "file": "layers/azurite_mines.geojson",
+      "count": 4
+    },
+    {
+      "id": "barite",
+      "name": "Barite",
+      "file": "layers/barite_mines.geojson",
+      "count": 69
+    },
+    {
+      "id": "bornite",
+      "name": "Bornite",
+      "file": "layers/bornite_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "calcite",
+      "name": "Calcite",
+      "file": "layers/calcite_mines.geojson",
+      "count": 155
+    },
+    {
+      "id": "cerussite",
+      "name": "Cerussite",
+      "file": "layers/cerussite_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "chalcanthite",
+      "name": "Chalcanthite",
+      "file": "layers/chalcanthite_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "chalcocite",
+      "name": "Chalcocite",
+      "file": "layers/chalcocite_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "chalcopyrite",
+      "name": "Chalcopyrite",
+      "file": "layers/chalcopyrite_mines.geojson",
+      "count": 115
+    },
+    {
+      "id": "chrysocolla",
+      "name": "Chrysocolla",
+      "file": "layers/chrysocolla_mines.geojson",
+      "count": 24
+    },
+    {
+      "id": "cobalt_bloom",
+      "name": "Cobalt_Bloom",
+      "file": "layers/cobalt_bloom_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "cobaltite",
+      "name": "Cobaltite",
+      "file": "layers/cobaltite_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "copper",
+      "name": "Copper",
+      "file": "layers/copper_mines.geojson",
+      "count": 14
+    },
+    {
+      "id": "covellite",
+      "name": "Covellite",
+      "file": "layers/covellite_mines.geojson",
+      "count": 18
+    },
+    {
+      "id": "cristobalite",
+      "name": "Cristobalite",
+      "file": "layers/cristobalite_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "cubanite",
+      "name": "Cubanite",
+      "file": "layers/cubanite_mines.geojson",
+      "count": 9
+    },
+    {
+      "id": "cuprite",
+      "name": "Cuprite",
+      "file": "layers/cuprite_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "digenite",
+      "name": "Digenite",
+      "file": "layers/digenite_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "dolomite",
+      "name": "Dolomite",
+      "file": "layers/dolomite_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "epidote",
+      "name": "Epidote",
+      "file": "layers/epidote_mines.geojson",
+      "count": 16
+    },
+    {
+      "id": "erythrite",
+      "name": "Erythrite",
+      "file": "layers/erythrite_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "fluorite",
+      "name": "Fluorite",
+      "file": "layers/fluorite_mines.geojson",
+      "count": 69
+    },
+    {
+      "id": "freibergite",
+      "name": "Freibergite",
+      "file": "layers/freibergite_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "galena",
+      "name": "Galena",
+      "file": "layers/galena_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "galena_variety",
+      "name": "Galena_Variety",
+      "file": "layers/galena_variety_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "gangue",
+      "name": "Gangue",
+      "file": "layers/gangue_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "gersdorffite",
+      "name": "Gersdorffite",
+      "file": "layers/gersdorffite_mines.geojson",
+      "count": 11
+    },
+    {
+      "id": "goethite",
+      "name": "Goethite",
+      "file": "layers/goethite_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "gold",
+      "name": "Gold",
+      "file": "layers/gold_mines.geojson",
+      "count": 10
+    },
+    {
+      "id": "greenockite",
+      "name": "Greenockite",
+      "file": "layers/greenockite_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "gypsum",
+      "name": "Gypsum",
+      "file": "layers/gypsum_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "halite",
+      "name": "Halite",
+      "file": "layers/halite_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "hematite",
+      "name": "Hematite",
+      "file": "layers/hematite_mines.geojson",
+      "count": 18
+    },
+    {
+      "id": "hematite_variety",
+      "name": "Hematite_Variety",
+      "file": "layers/hematite_variety_mines.geojson",
+      "count": 8
+    },
+    {
+      "id": "ilmenite",
+      "name": "Ilmenite",
+      "file": "layers/ilmenite_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "iodargyrite",
+      "name": "Iodargyrite",
+      "file": "layers/iodargyrite_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "iron",
+      "name": "Iron",
+      "file": "layers/iron_mines.geojson",
+      "count": 67
+    },
+    {
+      "id": "iron_oxide",
+      "name": "Iron_Oxide",
+      "file": "layers/iron_oxide_mines.geojson",
+      "count": 62
+    },
+    {
+      "id": "jarosite",
+      "name": "Jarosite",
+      "file": "layers/jarosite_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "langite",
+      "name": "Langite",
+      "file": "layers/langite_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "lautite",
+      "name": "Lautite",
+      "file": "layers/lautite_mines.geojson",
+      "count": 6
+    },
+    {
+      "id": "lead",
+      "name": "Lead",
+      "file": "layers/lead_mines.geojson",
+      "count": 66
+    },
+    {
+      "id": "libethenite",
+      "name": "Libethenite",
+      "file": "layers/libethenite_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "limonite",
+      "name": "Limonite",
+      "file": "layers/limonite_mines.geojson",
+      "count": 160
+    },
+    {
+      "id": "linarite",
+      "name": "Linarite",
+      "file": "layers/linarite_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "linnaeite",
+      "name": "Linnaeite",
+      "file": "layers/linnaeite_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "magnetite",
+      "name": "Magnetite",
+      "file": "layers/magnetite_mines.geojson",
+      "count": 180
+    },
+    {
+      "id": "malachite",
+      "name": "Malachite",
+      "file": "layers/malachite_mines.geojson",
+      "count": 93
+    },
+    {
+      "id": "marcasite",
+      "name": "Marcasite",
+      "file": "layers/marcasite_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "maucherite",
+      "name": "Maucherite",
+      "file": "layers/maucherite_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "millerite",
+      "name": "Millerite",
+      "file": "layers/millerite_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "molybdenite",
+      "name": "Molybdenite",
+      "file": "layers/molybdenite_mines.geojson",
+      "count": 105
+    },
+    {
+      "id": "native_copper",
+      "name": "Native_Copper",
+      "file": "layers/native_copper_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "native_silver",
+      "name": "Native_Silver",
+      "file": "layers/native_silver_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "nickel",
+      "name": "Nickel",
+      "file": "layers/nickel_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "nickel_bloom",
+      "name": "Nickel_Bloom",
+      "file": "layers/nickel_bloom_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "nickeline",
+      "name": "Nickeline",
+      "file": "layers/nickeline_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "polybasite",
+      "name": "Polybasite",
+      "file": "layers/polybasite_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "pyrite",
+      "name": "Pyrite",
+      "file": "layers/pyrite_mines.geojson",
+      "count": 64
+    },
+    {
+      "id": "quartz",
+      "name": "Quartz",
+      "file": "layers/quartz_mines.geojson",
+      "count": 135
+    },
+    {
+      "id": "rammelsbergite",
+      "name": "Rammelsbergite",
+      "file": "layers/rammelsbergite_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "siegenite",
+      "name": "Siegenite",
+      "file": "layers/siegenite_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "silver",
+      "name": "Silver",
+      "file": "layers/silver_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "silver_amalgam",
+      "name": "Silver_Amalgam",
+      "file": "layers/silver_amalgam_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "skutterudite",
+      "name": "Skutterudite",
+      "file": "layers/skutterudite_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "smaltite",
+      "name": "Smaltite",
+      "file": "layers/smaltite_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "sphalerite",
+      "name": "Sphalerite",
+      "file": "layers/sphalerite_mines.geojson",
+      "count": 122
+    },
+    {
+      "id": "tennantite",
+      "name": "Tennantite",
+      "file": "layers/tennantite_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "tetrahedrite",
+      "name": "Tetrahedrite",
+      "file": "layers/tetrahedrite_mines.geojson",
+      "count": 123
+    },
+    {
+      "id": "uraninite",
+      "name": "Uraninite",
+      "file": "layers/uraninite_mines.geojson",
+      "count": 31
+    },
+    {
+      "id": "uranospinite",
+      "name": "Uranospinite",
+      "file": "layers/uranospinite_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_1036",
+      "name": "Material_1036",
+      "file": "layers/material_1036_mines.geojson",
+      "count": 9
+    },
+    {
+      "id": "material_1070",
+      "name": "Material_1070",
+      "file": "layers/material_1070_mines.geojson",
+      "count": 12
+    },
+    {
+      "id": "material_1258",
+      "name": "Material_1258",
+      "file": "layers/material_1258_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "material_1384",
+      "name": "Material_1384",
+      "file": "layers/material_1384_mines.geojson",
+      "count": 10
+    },
+    {
+      "id": "material_1584",
+      "name": "Material_1584",
+      "file": "layers/material_1584_mines.geojson",
+      "count": 9
+    },
+    {
+      "id": "material_1704",
+      "name": "Material_1704",
+      "file": "layers/material_1704_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_1979",
+      "name": "Material_1979",
+      "file": "layers/material_1979_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_223",
+      "name": "Material_223",
+      "file": "layers/material_223_mines.geojson",
+      "count": 8
+    },
+    {
+      "id": "material_2353",
+      "name": "Material_2353",
+      "file": "layers/material_2353_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_2482",
+      "name": "Material_2482",
+      "file": "layers/material_2482_mines.geojson",
+      "count": 4
+    },
+    {
+      "id": "material_2538",
+      "name": "Material_2538",
+      "file": "layers/material_2538_mines.geojson",
+      "count": 85
+    },
+    {
+      "id": "material_260",
+      "name": "Material_260",
+      "file": "layers/material_260_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "material_2991",
+      "name": "Material_2991",
+      "file": "layers/material_2991_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_3189",
+      "name": "Material_3189",
+      "file": "layers/material_3189_mines.geojson",
+      "count": 5
+    },
+    {
+      "id": "material_3486",
+      "name": "Material_3486",
+      "file": "layers/material_3486_mines.geojson",
+      "count": 35
+    },
+    {
+      "id": "material_3875",
+      "name": "Material_3875",
+      "file": "layers/material_3875_mines.geojson",
+      "count": 11
+    },
+    {
+      "id": "material_4125",
+      "name": "Material_4125",
+      "file": "layers/material_4125_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_7535",
+      "name": "Material_7535",
+      "file": "layers/material_7535_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_820",
+      "name": "Material_820",
+      "file": "layers/material_820_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_96",
+      "name": "Material_96",
+      "file": "layers/material_96_mines.geojson",
+      "count": 51
+    },
+    {
+      "id": "material_975",
+      "name": "Material_975",
+      "file": "layers/material_975_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_1860",
+      "name": "Material_1860",
+      "file": "layers/material_1860_mines.geojson",
+      "count": 20
+    },
+    {
+      "id": "material_2714",
+      "name": "Material_2714",
+      "file": "layers/material_2714_mines.geojson",
+      "count": 13
+    },
+    {
+      "id": "material_307",
+      "name": "Material_307",
+      "file": "layers/material_307_mines.geojson",
+      "count": 13
+    },
+    {
+      "id": "material_3320",
+      "name": "Material_3320",
+      "file": "layers/material_3320_mines.geojson",
+      "count": 6
+    },
+    {
+      "id": "material_4322",
+      "name": "Material_4322",
+      "file": "layers/material_4322_mines.geojson",
+      "count": 12
+    },
+    {
+      "id": "material_934",
+      "name": "Material_934",
+      "file": "layers/material_934_mines.geojson",
+      "count": 37
+    },
+    {
+      "id": "material_1276",
+      "name": "Material_1276",
+      "file": "layers/material_1276_mines.geojson",
+      "count": 4
+    },
+    {
+      "id": "material_1583",
+      "name": "Material_1583",
+      "file": "layers/material_1583_mines.geojson",
+      "count": 4
+    },
+    {
+      "id": "material_1969",
+      "name": "Material_1969",
+      "file": "layers/material_1969_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_3194",
+      "name": "Material_3194",
+      "file": "layers/material_3194_mines.geojson",
+      "count": 4
+    },
+    {
+      "id": "material_8953",
+      "name": "Material_8953",
+      "file": "layers/material_8953_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_1108",
+      "name": "Material_1108",
+      "file": "layers/material_1108_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_1967",
+      "name": "Material_1967",
+      "file": "layers/material_1967_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_4085",
+      "name": "Material_4085",
+      "file": "layers/material_4085_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_1267",
+      "name": "Material_1267",
+      "file": "layers/material_1267_mines.geojson",
+      "count": 4
+    },
+    {
+      "id": "material_1993",
+      "name": "Material_1993",
+      "file": "layers/material_1993_mines.geojson",
+      "count": 11
+    },
+    {
+      "id": "material_2361",
+      "name": "Material_2361",
+      "file": "layers/material_2361_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_2403",
+      "name": "Material_2403",
+      "file": "layers/material_2403_mines.geojson",
+      "count": 5
+    },
+    {
+      "id": "material_2721",
+      "name": "Material_2721",
+      "file": "layers/material_2721_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "material_3237",
+      "name": "Material_3237",
+      "file": "layers/material_3237_mines.geojson",
+      "count": 8
+    },
+    {
+      "id": "material_422",
+      "name": "Material_422",
+      "file": "layers/material_422_mines.geojson",
+      "count": 7
+    },
+    {
+      "id": "material_4292",
+      "name": "Material_4292",
+      "file": "layers/material_4292_mines.geojson",
+      "count": 5
+    },
+    {
+      "id": "material_865",
+      "name": "Material_865",
+      "file": "layers/material_865_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "material_10",
+      "name": "Material_10",
+      "file": "layers/material_10_mines.geojson",
+      "count": 7
+    },
+    {
+      "id": "material_233",
+      "name": "Material_233",
+      "file": "layers/material_233_mines.geojson",
+      "count": 20
+    },
+    {
+      "id": "material_3911",
+      "name": "Material_3911",
+      "file": "layers/material_3911_mines.geojson",
+      "count": 12
+    },
+    {
+      "id": "material_3924",
+      "name": "Material_3924",
+      "file": "layers/material_3924_mines.geojson",
+      "count": 23
+    },
+    {
+      "id": "material_1218",
+      "name": "Material_1218",
+      "file": "layers/material_1218_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_1459",
+      "name": "Material_1459",
+      "file": "layers/material_1459_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_1576",
+      "name": "Material_1576",
+      "file": "layers/material_1576_mines.geojson",
+      "count": 17
+    },
+    {
+      "id": "material_1784",
+      "name": "Material_1784",
+      "file": "layers/material_1784_mines.geojson",
+      "count": 33
+    },
+    {
+      "id": "material_18",
+      "name": "Material_18",
+      "file": "layers/material_18_mines.geojson",
+      "count": 25
+    },
+    {
+      "id": "material_1804",
+      "name": "Material_1804",
+      "file": "layers/material_1804_mines.geojson",
+      "count": 14
+    },
+    {
+      "id": "material_2078",
+      "name": "Material_2078",
+      "file": "layers/material_2078_mines.geojson",
+      "count": 26
+    },
+    {
+      "id": "material_234",
+      "name": "Material_234",
+      "file": "layers/material_234_mines.geojson",
+      "count": 28
+    },
+    {
+      "id": "material_2402",
+      "name": "Material_2402",
+      "file": "layers/material_2402_mines.geojson",
+      "count": 62
+    },
+    {
+      "id": "material_29229",
+      "name": "Material_29229",
+      "file": "layers/material_29229_mines.geojson",
+      "count": 45
+    },
+    {
+      "id": "material_3826",
+      "name": "Material_3826",
+      "file": "layers/material_3826_mines.geojson",
+      "count": 9
+    },
+    {
+      "id": "material_419",
+      "name": "Material_419",
+      "file": "layers/material_419_mines.geojson",
+      "count": 16
+    },
+    {
+      "id": "material_4433",
+      "name": "Material_4433",
+      "file": "layers/material_4433_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_5574",
+      "name": "Material_5574",
+      "file": "layers/material_5574_mines.geojson",
+      "count": 11
+    },
+    {
+      "id": "material_1065",
+      "name": "Material_1065",
+      "file": "layers/material_1065_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_11125",
+      "name": "Material_11125",
+      "file": "layers/material_11125_mines.geojson",
+      "count": 5
+    },
+    {
+      "id": "material_1141",
+      "name": "Material_1141",
+      "file": "layers/material_1141_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_1295",
+      "name": "Material_1295",
+      "file": "layers/material_1295_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_1380",
+      "name": "Material_1380",
+      "file": "layers/material_1380_mines.geojson",
+      "count": 8
+    },
+    {
+      "id": "material_1720",
+      "name": "Material_1720",
+      "file": "layers/material_1720_mines.geojson",
+      "count": 50
+    },
+    {
+      "id": "material_1859",
+      "name": "Material_1859",
+      "file": "layers/material_1859_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_1883",
+      "name": "Material_1883",
+      "file": "layers/material_1883_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "material_2040",
+      "name": "Material_2040",
+      "file": "layers/material_2040_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_26600",
+      "name": "Material_26600",
+      "file": "layers/material_26600_mines.geojson",
+      "count": 4
+    },
+    {
+      "id": "material_26664",
+      "name": "Material_26664",
+      "file": "layers/material_26664_mines.geojson",
+      "count": 8
+    },
+    {
+      "id": "material_268",
+      "name": "Material_268",
+      "file": "layers/material_268_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "material_2746",
+      "name": "Material_2746",
+      "file": "layers/material_2746_mines.geojson",
+      "count": 33
+    },
+    {
+      "id": "material_2812",
+      "name": "Material_2812",
+      "file": "layers/material_2812_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_305",
+      "name": "Material_305",
+      "file": "layers/material_305_mines.geojson",
+      "count": 33
+    },
+    {
+      "id": "material_3115",
+      "name": "Material_3115",
+      "file": "layers/material_3115_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "material_3195",
+      "name": "Material_3195",
+      "file": "layers/material_3195_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_3301",
+      "name": "Material_3301",
+      "file": "layers/material_3301_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_3328",
+      "name": "Material_3328",
+      "file": "layers/material_3328_mines.geojson",
+      "count": 37
+    },
+    {
+      "id": "material_3447",
+      "name": "Material_3447",
+      "file": "layers/material_3447_mines.geojson",
+      "count": 6
+    },
+    {
+      "id": "material_3560",
+      "name": "Material_3560",
+      "file": "layers/material_3560_mines.geojson",
+      "count": 6
+    },
+    {
+      "id": "material_3625",
+      "name": "Material_3625",
+      "file": "layers/material_3625_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_3688",
+      "name": "Material_3688",
+      "file": "layers/material_3688_mines.geojson",
+      "count": 17
+    },
+    {
+      "id": "material_3782",
+      "name": "Material_3782",
+      "file": "layers/material_3782_mines.geojson",
+      "count": 11
+    },
+    {
+      "id": "material_3803",
+      "name": "Material_3803",
+      "file": "layers/material_3803_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "material_3912",
+      "name": "Material_3912",
+      "file": "layers/material_3912_mines.geojson",
+      "count": 10
+    },
+    {
+      "id": "material_4139",
+      "name": "Material_4139",
+      "file": "layers/material_4139_mines.geojson",
+      "count": 5
+    },
+    {
+      "id": "material_4414",
+      "name": "Material_4414",
+      "file": "layers/material_4414_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_47202",
+      "name": "Material_47202",
+      "file": "layers/material_47202_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_51",
+      "name": "Material_51",
+      "file": "layers/material_51_mines.geojson",
+      "count": 4
+    },
+    {
+      "id": "material_591",
+      "name": "Material_591",
+      "file": "layers/material_591_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "material_677",
+      "name": "Material_677",
+      "file": "layers/material_677_mines.geojson",
+      "count": 56
+    },
+    {
+      "id": "material_712",
+      "name": "Material_712",
+      "file": "layers/material_712_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_960",
+      "name": "Material_960",
+      "file": "layers/material_960_mines.geojson",
+      "count": 13
+    },
+    {
+      "id": "material_1686",
+      "name": "Material_1686",
+      "file": "layers/material_1686_mines.geojson",
+      "count": 4
+    },
+    {
+      "id": "material_262",
+      "name": "Material_262",
+      "file": "layers/material_262_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_3021",
+      "name": "Material_3021",
+      "file": "layers/material_3021_mines.geojson",
+      "count": 10
+    },
+    {
+      "id": "material_3375",
+      "name": "Material_3375",
+      "file": "layers/material_3375_mines.geojson",
+      "count": 11
+    },
+    {
+      "id": "material_1016",
+      "name": "Material_1016",
+      "file": "layers/material_1016_mines.geojson",
+      "count": 92
+    },
+    {
+      "id": "material_1126",
+      "name": "Material_1126",
+      "file": "layers/material_1126_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "material_1168",
+      "name": "Material_1168",
+      "file": "layers/material_1168_mines.geojson",
+      "count": 7
+    },
+    {
+      "id": "material_1248",
+      "name": "Material_1248",
+      "file": "layers/material_1248_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_1389",
+      "name": "Material_1389",
+      "file": "layers/material_1389_mines.geojson",
+      "count": 59
+    },
+    {
+      "id": "material_1398",
+      "name": "Material_1398",
+      "file": "layers/material_1398_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_161",
+      "name": "Material_161",
+      "file": "layers/material_161_mines.geojson",
+      "count": 12
+    },
+    {
+      "id": "material_162",
+      "name": "Material_162",
+      "file": "layers/material_162_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "material_1624",
+      "name": "Material_1624",
+      "file": "layers/material_1624_mines.geojson",
+      "count": 27
+    },
+    {
+      "id": "material_1719",
+      "name": "Material_1719",
+      "file": "layers/material_1719_mines.geojson",
+      "count": 73
+    },
+    {
+      "id": "material_1891",
+      "name": "Material_1891",
+      "file": "layers/material_1891_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_1983",
+      "name": "Material_1983",
+      "file": "layers/material_1983_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_2137",
+      "name": "Material_2137",
+      "file": "layers/material_2137_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_2204",
+      "name": "Material_2204",
+      "file": "layers/material_2204_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_2253",
+      "name": "Material_2253",
+      "file": "layers/material_2253_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_2377",
+      "name": "Material_2377",
+      "file": "layers/material_2377_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_2415",
+      "name": "Material_2415",
+      "file": "layers/material_2415_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_2486",
+      "name": "Material_2486",
+      "file": "layers/material_2486_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_2713",
+      "name": "Material_2713",
+      "file": "layers/material_2713_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_2729",
+      "name": "Material_2729",
+      "file": "layers/material_2729_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_2821",
+      "name": "Material_2821",
+      "file": "layers/material_2821_mines.geojson",
+      "count": 15
+    },
+    {
+      "id": "material_2856",
+      "name": "Material_2856",
+      "file": "layers/material_2856_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "material_3026",
+      "name": "Material_3026",
+      "file": "layers/material_3026_mines.geojson",
+      "count": 13
+    },
+    {
+      "id": "material_3249",
+      "name": "Material_3249",
+      "file": "layers/material_3249_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_3428",
+      "name": "Material_3428",
+      "file": "layers/material_3428_mines.geojson",
+      "count": 4
+    },
+    {
+      "id": "material_3878",
+      "name": "Material_3878",
+      "file": "layers/material_3878_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "material_4395",
+      "name": "Material_4395",
+      "file": "layers/material_4395_mines.geojson",
+      "count": 7
+    },
+    {
+      "id": "material_4406",
+      "name": "Material_4406",
+      "file": "layers/material_4406_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_4411",
+      "name": "Material_4411",
+      "file": "layers/material_4411_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_635",
+      "name": "Material_635",
+      "file": "layers/material_635_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_718",
+      "name": "Material_718",
+      "file": "layers/material_718_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_779",
+      "name": "Material_779",
+      "file": "layers/material_779_mines.geojson",
+      "count": 6
+    },
+    {
+      "id": "material_810",
+      "name": "Material_810",
+      "file": "layers/material_810_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "material_9252",
+      "name": "Material_9252",
+      "file": "layers/material_9252_mines.geojson",
+      "count": 78
+    },
+    {
+      "id": "material_9767",
+      "name": "Material_9767",
+      "file": "layers/material_9767_mines.geojson",
+      "count": 24
+    },
+    {
+      "id": "material_1124",
+      "name": "Material_1124",
+      "file": "layers/material_1124_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "material_182",
+      "name": "Material_182",
+      "file": "layers/material_182_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_2193",
+      "name": "Material_2193",
+      "file": "layers/material_2193_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_2696",
+      "name": "Material_2696",
+      "file": "layers/material_2696_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "material_3081",
+      "name": "Material_3081",
+      "file": "layers/material_3081_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_3267",
+      "name": "Material_3267",
+      "file": "layers/material_3267_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_3859",
+      "name": "Material_3859",
+      "file": "layers/material_3859_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_4203",
+      "name": "Material_4203",
+      "file": "layers/material_4203_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "material_845",
+      "name": "Material_845",
+      "file": "layers/material_845_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_1666",
+      "name": "Material_1666",
+      "file": "layers/material_1666_mines.geojson",
+      "count": 5
+    },
+    {
+      "id": "material_236",
+      "name": "Material_236",
+      "file": "layers/material_236_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_2379",
+      "name": "Material_2379",
+      "file": "layers/material_2379_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "material_3730",
+      "name": "Material_3730",
+      "file": "layers/material_3730_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_4354",
+      "name": "Material_4354",
+      "file": "layers/material_4354_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_927",
+      "name": "Material_927",
+      "file": "layers/material_927_mines.geojson",
+      "count": 6
+    },
+    {
+      "id": "material_1746",
+      "name": "Material_1746",
+      "file": "layers/material_1746_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_2466",
+      "name": "Material_2466",
+      "file": "layers/material_2466_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "material_3248",
+      "name": "Material_3248",
+      "file": "layers/material_3248_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_4225",
+      "name": "Material_4225",
+      "file": "layers/material_4225_mines.geojson",
+      "count": 4
+    },
+    {
+      "id": "material_4410",
+      "name": "Material_4410",
+      "file": "layers/material_4410_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_652",
+      "name": "Material_652",
+      "file": "layers/material_652_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_1093",
+      "name": "Material_1093",
+      "file": "layers/material_1093_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_134",
+      "name": "Material_134",
+      "file": "layers/material_134_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_1683",
+      "name": "Material_1683",
+      "file": "layers/material_1683_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_1931",
+      "name": "Material_1931",
+      "file": "layers/material_1931_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_2571",
+      "name": "Material_2571",
+      "file": "layers/material_2571_mines.geojson",
+      "count": 23
+    },
+    {
+      "id": "material_3207",
+      "name": "Material_3207",
+      "file": "layers/material_3207_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_3265",
+      "name": "Material_3265",
+      "file": "layers/material_3265_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_684",
+      "name": "Material_684",
+      "file": "layers/material_684_mines.geojson",
+      "count": 8
+    },
+    {
+      "id": "material_686",
+      "name": "Material_686",
+      "file": "layers/material_686_mines.geojson",
+      "count": 6
+    },
+    {
+      "id": "material_1029",
+      "name": "Material_1029",
+      "file": "layers/material_1029_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_1052",
+      "name": "Material_1052",
+      "file": "layers/material_1052_mines.geojson",
+      "count": 4
+    },
+    {
+      "id": "material_1110",
+      "name": "Material_1110",
+      "file": "layers/material_1110_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_1127",
+      "name": "Material_1127",
+      "file": "layers/material_1127_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_1294",
+      "name": "Material_1294",
+      "file": "layers/material_1294_mines.geojson",
+      "count": 19
+    },
+    {
+      "id": "material_147",
+      "name": "Material_147",
+      "file": "layers/material_147_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_1572",
+      "name": "Material_1572",
+      "file": "layers/material_1572_mines.geojson",
+      "count": 6
+    },
+    {
+      "id": "material_1643",
+      "name": "Material_1643",
+      "file": "layers/material_1643_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_1674",
+      "name": "Material_1674",
+      "file": "layers/material_1674_mines.geojson",
+      "count": 4
+    },
+    {
+      "id": "material_1689",
+      "name": "Material_1689",
+      "file": "layers/material_1689_mines.geojson",
+      "count": 5
+    },
+    {
+      "id": "material_1930",
+      "name": "Material_1930",
+      "file": "layers/material_1930_mines.geojson",
+      "count": 9
+    },
+    {
+      "id": "material_1954",
+      "name": "Material_1954",
+      "file": "layers/material_1954_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_1992",
+      "name": "Material_1992",
+      "file": "layers/material_1992_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_207",
+      "name": "Material_207",
+      "file": "layers/material_207_mines.geojson",
+      "count": 38
+    },
+    {
+      "id": "material_213",
+      "name": "Material_213",
+      "file": "layers/material_213_mines.geojson",
+      "count": 11
+    },
+    {
+      "id": "material_2187",
+      "name": "Material_2187",
+      "file": "layers/material_2187_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "material_2348",
+      "name": "Material_2348",
+      "file": "layers/material_2348_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_2426",
+      "name": "Material_2426",
+      "file": "layers/material_2426_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "material_2434",
+      "name": "Material_2434",
+      "file": "layers/material_2434_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_2453",
+      "name": "Material_2453",
+      "file": "layers/material_2453_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_2526",
+      "name": "Material_2526",
+      "file": "layers/material_2526_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_2568",
+      "name": "Material_2568",
+      "file": "layers/material_2568_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_2633",
+      "name": "Material_2633",
+      "file": "layers/material_2633_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_2670",
+      "name": "Material_2670",
+      "file": "layers/material_2670_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_2750",
+      "name": "Material_2750",
+      "file": "layers/material_2750_mines.geojson",
+      "count": 9
+    },
+    {
+      "id": "material_29180",
+      "name": "Material_29180",
+      "file": "layers/material_29180_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_29212",
+      "name": "Material_29212",
+      "file": "layers/material_29212_mines.geojson",
+      "count": 8
+    },
+    {
+      "id": "material_2924",
+      "name": "Material_2924",
+      "file": "layers/material_2924_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_29276",
+      "name": "Material_29276",
+      "file": "layers/material_29276_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_29365",
+      "name": "Material_29365",
+      "file": "layers/material_29365_mines.geojson",
+      "count": 9
+    },
+    {
+      "id": "material_3232",
+      "name": "Material_3232",
+      "file": "layers/material_3232_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_32349",
+      "name": "Material_32349",
+      "file": "layers/material_32349_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_3253",
+      "name": "Material_3253",
+      "file": "layers/material_3253_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_3323",
+      "name": "Material_3323",
+      "file": "layers/material_3323_mines.geojson",
+      "count": 9
+    },
+    {
+      "id": "material_3616",
+      "name": "Material_3616",
+      "file": "layers/material_3616_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "material_3667",
+      "name": "Material_3667",
+      "file": "layers/material_3667_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_3801",
+      "name": "Material_3801",
+      "file": "layers/material_3801_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_3805",
+      "name": "Material_3805",
+      "file": "layers/material_3805_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_39645",
+      "name": "Material_39645",
+      "file": "layers/material_39645_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_3977",
+      "name": "Material_3977",
+      "file": "layers/material_3977_mines.geojson",
+      "count": 20
+    },
+    {
+      "id": "material_4060",
+      "name": "Material_4060",
+      "file": "layers/material_4060_mines.geojson",
+      "count": 10
+    },
+    {
+      "id": "material_4067",
+      "name": "Material_4067",
+      "file": "layers/material_4067_mines.geojson",
+      "count": 4
+    },
+    {
+      "id": "material_4223",
+      "name": "Material_4223",
+      "file": "layers/material_4223_mines.geojson",
+      "count": 8
+    },
+    {
+      "id": "material_4333",
+      "name": "Material_4333",
+      "file": "layers/material_4333_mines.geojson",
+      "count": 5
+    },
+    {
+      "id": "material_4421",
+      "name": "Material_4421",
+      "file": "layers/material_4421_mines.geojson",
+      "count": 29
+    },
+    {
+      "id": "material_46220",
+      "name": "Material_46220",
+      "file": "layers/material_46220_mines.geojson",
+      "count": 10
+    },
+    {
+      "id": "material_51559",
+      "name": "Material_51559",
+      "file": "layers/material_51559_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "material_54973",
+      "name": "Material_54973",
+      "file": "layers/material_54973_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_5499",
+      "name": "Material_5499",
+      "file": "layers/material_5499_mines.geojson",
+      "count": 4
+    },
+    {
+      "id": "material_572",
+      "name": "Material_572",
+      "file": "layers/material_572_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_580",
+      "name": "Material_580",
+      "file": "layers/material_580_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_738",
+      "name": "Material_738",
+      "file": "layers/material_738_mines.geojson",
+      "count": 5
+    },
+    {
+      "id": "material_74",
+      "name": "Material_74",
+      "file": "layers/material_74_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_9424",
+      "name": "Material_9424",
+      "file": "layers/material_9424_mines.geojson",
+      "count": 4
+    },
+    {
+      "id": "material_9532",
+      "name": "Material_9532",
+      "file": "layers/material_9532_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "material_9581",
+      "name": "Material_9581",
+      "file": "layers/material_9581_mines.geojson",
+      "count": 35
+    },
+    {
+      "id": "material_29340",
+      "name": "Material_29340",
+      "file": "layers/material_29340_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_3234",
+      "name": "Material_3234",
+      "file": "layers/material_3234_mines.geojson",
+      "count": 4
+    },
+    {
+      "id": "material_1642",
+      "name": "Material_1642",
+      "file": "layers/material_1642_mines.geojson",
+      "count": 4
+    },
+    {
+      "id": "material_239",
+      "name": "Material_239",
+      "file": "layers/material_239_mines.geojson",
+      "count": 25
+    },
+    {
+      "id": "material_4011",
+      "name": "Material_4011",
+      "file": "layers/material_4011_mines.geojson",
+      "count": 12
+    },
+    {
+      "id": "material_687",
+      "name": "Material_687",
+      "file": "layers/material_687_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_852",
+      "name": "Material_852",
+      "file": "layers/material_852_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_21",
+      "name": "Material_21",
+      "file": "layers/material_21_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_3193",
+      "name": "Material_3193",
+      "file": "layers/material_3193_mines.geojson",
+      "count": 8
+    },
+    {
+      "id": "material_10975",
+      "name": "Material_10975",
+      "file": "layers/material_10975_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_1134",
+      "name": "Material_1134",
+      "file": "layers/material_1134_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "material_1139",
+      "name": "Material_1139",
+      "file": "layers/material_1139_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_1365",
+      "name": "Material_1365",
+      "file": "layers/material_1365_mines.geojson",
+      "count": 10
+    },
+    {
+      "id": "material_2592",
+      "name": "Material_2592",
+      "file": "layers/material_2592_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_318",
+      "name": "Material_318",
+      "file": "layers/material_318_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_32259",
+      "name": "Material_32259",
+      "file": "layers/material_32259_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_3424",
+      "name": "Material_3424",
+      "file": "layers/material_3424_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_4003",
+      "name": "Material_4003",
+      "file": "layers/material_4003_mines.geojson",
+      "count": 20
+    },
+    {
+      "id": "material_4300",
+      "name": "Material_4300",
+      "file": "layers/material_4300_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_6128",
+      "name": "Material_6128",
+      "file": "layers/material_6128_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_63",
+      "name": "Material_63",
+      "file": "layers/material_63_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_638",
+      "name": "Material_638",
+      "file": "layers/material_638_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_9563",
+      "name": "Material_9563",
+      "file": "layers/material_9563_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_3259",
+      "name": "Material_3259",
+      "file": "layers/material_3259_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "unknown_material",
+      "name": "Unknown_Material",
+      "file": "layers/unknown_material_mines.geojson",
+      "count": 39
+    },
+    {
+      "id": "material_2013",
+      "name": "Material_2013",
+      "file": "layers/material_2013_mines.geojson",
+      "count": 16
+    },
+    {
+      "id": "material_3304",
+      "name": "Material_3304",
+      "file": "layers/material_3304_mines.geojson",
+      "count": 9
+    },
+    {
+      "id": "material_3647",
+      "name": "Material_3647",
+      "file": "layers/material_3647_mines.geojson",
+      "count": 19
+    },
+    {
+      "id": "material_9264",
+      "name": "Material_9264",
+      "file": "layers/material_9264_mines.geojson",
+      "count": 50
+    },
+    {
+      "id": "material_563",
+      "name": "Material_563",
+      "file": "layers/material_563_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_6613",
+      "name": "Material_6613",
+      "file": "layers/material_6613_mines.geojson",
+      "count": 4
+    },
+    {
+      "id": "material_10790",
+      "name": "Material_10790",
+      "file": "layers/material_10790_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_29239",
+      "name": "Material_29239",
+      "file": "layers/material_29239_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_3072",
+      "name": "Material_3072",
+      "file": "layers/material_3072_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "material_959",
+      "name": "Material_959",
+      "file": "layers/material_959_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "material_2519",
+      "name": "Material_2519",
+      "file": "layers/material_2519_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "material_10272",
+      "name": "Material_10272",
+      "file": "layers/material_10272_mines.geojson",
+      "count": 11
+    },
+    {
+      "id": "material_118",
+      "name": "Material_118",
+      "file": "layers/material_118_mines.geojson",
+      "count": 9
+    },
+    {
+      "id": "material_1437",
+      "name": "Material_1437",
+      "file": "layers/material_1437_mines.geojson",
+      "count": 7
+    },
+    {
+      "id": "material_2524",
+      "name": "Material_2524",
+      "file": "layers/material_2524_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_26894",
+      "name": "Material_26894",
+      "file": "layers/material_26894_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_3521",
+      "name": "Material_3521",
+      "file": "layers/material_3521_mines.geojson",
+      "count": 8
+    },
+    {
+      "id": "material_4035",
+      "name": "Material_4035",
+      "file": "layers/material_4035_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_75",
+      "name": "Material_75",
+      "file": "layers/material_75_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_8789",
+      "name": "Material_8789",
+      "file": "layers/material_8789_mines.geojson",
+      "count": 10
+    },
+    {
+      "id": "material_1233",
+      "name": "Material_1233",
+      "file": "layers/material_1233_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_1234",
+      "name": "Material_1234",
+      "file": "layers/material_1234_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_2704",
+      "name": "Material_2704",
+      "file": "layers/material_2704_mines.geojson",
+      "count": 7
+    },
+    {
+      "id": "material_3946",
+      "name": "Material_3946",
+      "file": "layers/material_3946_mines.geojson",
+      "count": 4
+    },
+    {
+      "id": "material_51386",
+      "name": "Material_51386",
+      "file": "layers/material_51386_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_1408",
+      "name": "Material_1408",
+      "file": "layers/material_1408_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_1982",
+      "name": "Material_1982",
+      "file": "layers/material_1982_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_314",
+      "name": "Material_314",
+      "file": "layers/material_314_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_3423",
+      "name": "Material_3423",
+      "file": "layers/material_3423_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_3850",
+      "name": "Material_3850",
+      "file": "layers/material_3850_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_1062",
+      "name": "Material_1062",
+      "file": "layers/material_1062_mines.geojson",
+      "count": 4
+    },
+    {
+      "id": "material_1285",
+      "name": "Material_1285",
+      "file": "layers/material_1285_mines.geojson",
+      "count": 11
+    },
+    {
+      "id": "material_1329",
+      "name": "Material_1329",
+      "file": "layers/material_1329_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_1351",
+      "name": "Material_1351",
+      "file": "layers/material_1351_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_1668",
+      "name": "Material_1668",
+      "file": "layers/material_1668_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_1755",
+      "name": "Material_1755",
+      "file": "layers/material_1755_mines.geojson",
+      "count": 4
+    },
+    {
+      "id": "material_1842",
+      "name": "Material_1842",
+      "file": "layers/material_1842_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "material_217",
+      "name": "Material_217",
+      "file": "layers/material_217_mines.geojson",
+      "count": 5
+    },
+    {
+      "id": "material_2583",
+      "name": "Material_2583",
+      "file": "layers/material_2583_mines.geojson",
+      "count": 6
+    },
+    {
+      "id": "material_2976",
+      "name": "Material_2976",
+      "file": "layers/material_2976_mines.geojson",
+      "count": 11
+    },
+    {
+      "id": "material_3662",
+      "name": "Material_3662",
+      "file": "layers/material_3662_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_4323",
+      "name": "Material_4323",
+      "file": "layers/material_4323_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "material_46861",
+      "name": "Material_46861",
+      "file": "layers/material_46861_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "material_6252",
+      "name": "Material_6252",
+      "file": "layers/material_6252_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_7630",
+      "name": "Material_7630",
+      "file": "layers/material_7630_mines.geojson",
+      "count": 23
+    },
+    {
+      "id": "material_8778",
+      "name": "Material_8778",
+      "file": "layers/material_8778_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_1192",
+      "name": "Material_1192",
+      "file": "layers/material_1192_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_1834",
+      "name": "Material_1834",
+      "file": "layers/material_1834_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_1881",
+      "name": "Material_1881",
+      "file": "layers/material_1881_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_2037",
+      "name": "Material_2037",
+      "file": "layers/material_2037_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_2047",
+      "name": "Material_2047",
+      "file": "layers/material_2047_mines.geojson",
+      "count": 7
+    },
+    {
+      "id": "material_2623",
+      "name": "Material_2623",
+      "file": "layers/material_2623_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_28",
+      "name": "Material_28",
+      "file": "layers/material_28_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "material_2866",
+      "name": "Material_2866",
+      "file": "layers/material_2866_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_2942",
+      "name": "Material_2942",
+      "file": "layers/material_2942_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_3090",
+      "name": "Material_3090",
+      "file": "layers/material_3090_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_3138",
+      "name": "Material_3138",
+      "file": "layers/material_3138_mines.geojson",
+      "count": 4
+    },
+    {
+      "id": "material_3275",
+      "name": "Material_3275",
+      "file": "layers/material_3275_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_39819",
+      "name": "Material_39819",
+      "file": "layers/material_39819_mines.geojson",
+      "count": 4
+    },
+    {
+      "id": "material_47912",
+      "name": "Material_47912",
+      "file": "layers/material_47912_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_59",
+      "name": "Material_59",
+      "file": "layers/material_59_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_3544",
+      "name": "Material_3544",
+      "file": "layers/material_3544_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_8129",
+      "name": "Material_8129",
+      "file": "layers/material_8129_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_947",
+      "name": "Material_947",
+      "file": "layers/material_947_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_1740",
+      "name": "Material_1740",
+      "file": "layers/material_1740_mines.geojson",
+      "count": 4
+    },
+    {
+      "id": "material_4156",
+      "name": "Material_4156",
+      "file": "layers/material_4156_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_1476",
+      "name": "Material_1476",
+      "file": "layers/material_1476_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_2033",
+      "name": "Material_2033",
+      "file": "layers/material_2033_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_2233",
+      "name": "Material_2233",
+      "file": "layers/material_2233_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_2278",
+      "name": "Material_2278",
+      "file": "layers/material_2278_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_3318",
+      "name": "Material_3318",
+      "file": "layers/material_3318_mines.geojson",
+      "count": 16
+    },
+    {
+      "id": "material_3444",
+      "name": "Material_3444",
+      "file": "layers/material_3444_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "material_363",
+      "name": "Material_363",
+      "file": "layers/material_363_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_3747",
+      "name": "Material_3747",
+      "file": "layers/material_3747_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_3825",
+      "name": "Material_3825",
+      "file": "layers/material_3825_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_682",
+      "name": "Material_682",
+      "file": "layers/material_682_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_7323",
+      "name": "Material_7323",
+      "file": "layers/material_7323_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_917",
+      "name": "Material_917",
+      "file": "layers/material_917_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_1318",
+      "name": "Material_1318",
+      "file": "layers/material_1318_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_2115",
+      "name": "Material_2115",
+      "file": "layers/material_2115_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_2549",
+      "name": "Material_2549",
+      "file": "layers/material_2549_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_2553",
+      "name": "Material_2553",
+      "file": "layers/material_2553_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_3224",
+      "name": "Material_3224",
+      "file": "layers/material_3224_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_3571",
+      "name": "Material_3571",
+      "file": "layers/material_3571_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_4318",
+      "name": "Material_4318",
+      "file": "layers/material_4318_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_6814",
+      "name": "Material_6814",
+      "file": "layers/material_6814_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_1451",
+      "name": "Material_1451",
+      "file": "layers/material_1451_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "material_1605",
+      "name": "Material_1605",
+      "file": "layers/material_1605_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_2644",
+      "name": "Material_2644",
+      "file": "layers/material_2644_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_741",
+      "name": "Material_741",
+      "file": "layers/material_741_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_1617",
+      "name": "Material_1617",
+      "file": "layers/material_1617_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_424",
+      "name": "Material_424",
+      "file": "layers/material_424_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_6683",
+      "name": "Material_6683",
+      "file": "layers/material_6683_mines.geojson",
+      "count": 5
+    },
+    {
+      "id": "material_926",
+      "name": "Material_926",
+      "file": "layers/material_926_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_1128",
+      "name": "Material_1128",
+      "file": "layers/material_1128_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_2271",
+      "name": "Material_2271",
+      "file": "layers/material_2271_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_1088",
+      "name": "Material_1088",
+      "file": "layers/material_1088_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_3729",
+      "name": "Material_3729",
+      "file": "layers/material_3729_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "material_1768",
+      "name": "Material_1768",
+      "file": "layers/material_1768_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_222",
+      "name": "Material_222",
+      "file": "layers/material_222_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_2702",
+      "name": "Material_2702",
+      "file": "layers/material_2702_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_3313",
+      "name": "Material_3313",
+      "file": "layers/material_3313_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_3613",
+      "name": "Material_3613",
+      "file": "layers/material_3613_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_3687",
+      "name": "Material_3687",
+      "file": "layers/material_3687_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_3764",
+      "name": "Material_3764",
+      "file": "layers/material_3764_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_3768",
+      "name": "Material_3768",
+      "file": "layers/material_3768_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_4009",
+      "name": "Material_4009",
+      "file": "layers/material_4009_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_4167",
+      "name": "Material_4167",
+      "file": "layers/material_4167_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_43578",
+      "name": "Material_43578",
+      "file": "layers/material_43578_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_43594",
+      "name": "Material_43594",
+      "file": "layers/material_43594_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_43603",
+      "name": "Material_43603",
+      "file": "layers/material_43603_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_43852",
+      "name": "Material_43852",
+      "file": "layers/material_43852_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_46247",
+      "name": "Material_46247",
+      "file": "layers/material_46247_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_470704",
+      "name": "Material_470704",
+      "file": "layers/material_470704_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_470883",
+      "name": "Material_470883",
+      "file": "layers/material_470883_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_3935",
+      "name": "Material_3935",
+      "file": "layers/material_3935_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_10967",
+      "name": "Material_10967",
+      "file": "layers/material_10967_mines.geojson",
+      "count": 9
+    },
+    {
+      "id": "material_2143",
+      "name": "Material_2143",
+      "file": "layers/material_2143_mines.geojson",
+      "count": 4
+    },
+    {
+      "id": "material_246",
+      "name": "Material_246",
+      "file": "layers/material_246_mines.geojson",
+      "count": 10
+    },
+    {
+      "id": "material_3582",
+      "name": "Material_3582",
+      "file": "layers/material_3582_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_3868",
+      "name": "Material_3868",
+      "file": "layers/material_3868_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "material_3927",
+      "name": "Material_3927",
+      "file": "layers/material_3927_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_4015",
+      "name": "Material_4015",
+      "file": "layers/material_4015_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_4029",
+      "name": "Material_4029",
+      "file": "layers/material_4029_mines.geojson",
+      "count": 9
+    },
+    {
+      "id": "material_5293",
+      "name": "Material_5293",
+      "file": "layers/material_5293_mines.geojson",
+      "count": 4
+    },
+    {
+      "id": "material_6577",
+      "name": "Material_6577",
+      "file": "layers/material_6577_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_815",
+      "name": "Material_815",
+      "file": "layers/material_815_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_8658",
+      "name": "Material_8658",
+      "file": "layers/material_8658_mines.geojson",
+      "count": 18
+    },
+    {
+      "id": "material_1013",
+      "name": "Material_1013",
+      "file": "layers/material_1013_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_10964",
+      "name": "Material_10964",
+      "file": "layers/material_10964_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_4280",
+      "name": "Material_4280",
+      "file": "layers/material_4280_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "material_7765",
+      "name": "Material_7765",
+      "file": "layers/material_7765_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_1378",
+      "name": "Material_1378",
+      "file": "layers/material_1378_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "material_2575",
+      "name": "Material_2575",
+      "file": "layers/material_2575_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_11135",
+      "name": "Material_11135",
+      "file": "layers/material_11135_mines.geojson",
+      "count": 4
+    },
+    {
+      "id": "material_10663",
+      "name": "Material_10663",
+      "file": "layers/material_10663_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_4377",
+      "name": "Material_4377",
+      "file": "layers/material_4377_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_6728",
+      "name": "Material_6728",
+      "file": "layers/material_6728_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "material_707",
+      "name": "Material_707",
+      "file": "layers/material_707_mines.geojson",
+      "count": 5
+    },
+    {
+      "id": "material_1287",
+      "name": "Material_1287",
+      "file": "layers/material_1287_mines.geojson",
+      "count": 4
+    },
+    {
+      "id": "material_36064",
+      "name": "Material_36064",
+      "file": "layers/material_36064_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_733",
+      "name": "Material_733",
+      "file": "layers/material_733_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_3776",
+      "name": "Material_3776",
+      "file": "layers/material_3776_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_430",
+      "name": "Material_430",
+      "file": "layers/material_430_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_1458",
+      "name": "Material_1458",
+      "file": "layers/material_1458_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_2129",
+      "name": "Material_2129",
+      "file": "layers/material_2129_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_241",
+      "name": "Material_241",
+      "file": "layers/material_241_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_2880",
+      "name": "Material_2880",
+      "file": "layers/material_2880_mines.geojson",
+      "count": 8
+    },
+    {
+      "id": "material_31",
+      "name": "Material_31",
+      "file": "layers/material_31_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_3119",
+      "name": "Material_3119",
+      "file": "layers/material_3119_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_3418",
+      "name": "Material_3418",
+      "file": "layers/material_3418_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_3978",
+      "name": "Material_3978",
+      "file": "layers/material_3978_mines.geojson",
+      "count": 4
+    },
+    {
+      "id": "material_43733",
+      "name": "Material_43733",
+      "file": "layers/material_43733_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_2069",
+      "name": "Material_2069",
+      "file": "layers/material_2069_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "material_2299",
+      "name": "Material_2299",
+      "file": "layers/material_2299_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_2308",
+      "name": "Material_2308",
+      "file": "layers/material_2308_mines.geojson",
+      "count": 5
+    },
+    {
+      "id": "material_2461",
+      "name": "Material_2461",
+      "file": "layers/material_2461_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_29338",
+      "name": "Material_29338",
+      "file": "layers/material_29338_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_3247",
+      "name": "Material_3247",
+      "file": "layers/material_3247_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_3406",
+      "name": "Material_3406",
+      "file": "layers/material_3406_mines.geojson",
+      "count": 4
+    },
+    {
+      "id": "material_48009",
+      "name": "Material_48009",
+      "file": "layers/material_48009_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_817",
+      "name": "Material_817",
+      "file": "layers/material_817_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_2465",
+      "name": "Material_2465",
+      "file": "layers/material_2465_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "material_26411",
+      "name": "Material_26411",
+      "file": "layers/material_26411_mines.geojson",
+      "count": 8
+    },
+    {
+      "id": "material_39767",
+      "name": "Material_39767",
+      "file": "layers/material_39767_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_2587",
+      "name": "Material_2587",
+      "file": "layers/material_2587_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_2619",
+      "name": "Material_2619",
+      "file": "layers/material_2619_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_49989",
+      "name": "Material_49989",
+      "file": "layers/material_49989_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_1232",
+      "name": "Material_1232",
+      "file": "layers/material_1232_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_126",
+      "name": "Material_126",
+      "file": "layers/material_126_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_29957",
+      "name": "Material_29957",
+      "file": "layers/material_29957_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_3944",
+      "name": "Material_3944",
+      "file": "layers/material_3944_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_4114",
+      "name": "Material_4114",
+      "file": "layers/material_4114_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_3037",
+      "name": "Material_3037",
+      "file": "layers/material_3037_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_3155",
+      "name": "Material_3155",
+      "file": "layers/material_3155_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_3758",
+      "name": "Material_3758",
+      "file": "layers/material_3758_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_3991",
+      "name": "Material_3991",
+      "file": "layers/material_3991_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_1706",
+      "name": "Material_1706",
+      "file": "layers/material_1706_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_1748",
+      "name": "Material_1748",
+      "file": "layers/material_1748_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_1164",
+      "name": "Material_1164",
+      "file": "layers/material_1164_mines.geojson",
+      "count": 5
+    },
+    {
+      "id": "material_1921",
+      "name": "Material_1921",
+      "file": "layers/material_1921_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_2061",
+      "name": "Material_2061",
+      "file": "layers/material_2061_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_3208",
+      "name": "Material_3208",
+      "file": "layers/material_3208_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_3988",
+      "name": "Material_3988",
+      "file": "layers/material_3988_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "material_691",
+      "name": "Material_691",
+      "file": "layers/material_691_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_757",
+      "name": "Material_757",
+      "file": "layers/material_757_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "material_967",
+      "name": "Material_967",
+      "file": "layers/material_967_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_1505",
+      "name": "Material_1505",
+      "file": "layers/material_1505_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_210",
+      "name": "Material_210",
+      "file": "layers/material_210_mines.geojson",
+      "count": 11
+    },
+    {
+      "id": "material_1087",
+      "name": "Material_1087",
+      "file": "layers/material_1087_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_1197",
+      "name": "Material_1197",
+      "file": "layers/material_1197_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_3681",
+      "name": "Material_3681",
+      "file": "layers/material_3681_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_3702",
+      "name": "Material_3702",
+      "file": "layers/material_3702_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_3948",
+      "name": "Material_3948",
+      "file": "layers/material_3948_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_4422",
+      "name": "Material_4422",
+      "file": "layers/material_4422_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_4430",
+      "name": "Material_4430",
+      "file": "layers/material_4430_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_480",
+      "name": "Material_480",
+      "file": "layers/material_480_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_716",
+      "name": "Material_716",
+      "file": "layers/material_716_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_1995",
+      "name": "Material_1995",
+      "file": "layers/material_1995_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_248",
+      "name": "Material_248",
+      "file": "layers/material_248_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_2705",
+      "name": "Material_2705",
+      "file": "layers/material_2705_mines.geojson",
+      "count": 5
+    },
+    {
+      "id": "material_10436",
+      "name": "Material_10436",
+      "file": "layers/material_10436_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_10583",
+      "name": "Material_10583",
+      "file": "layers/material_10583_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_3701",
+      "name": "Material_3701",
+      "file": "layers/material_3701_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_48541",
+      "name": "Material_48541",
+      "file": "layers/material_48541_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_1519",
+      "name": "Material_1519",
+      "file": "layers/material_1519_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_325",
+      "name": "Material_325",
+      "file": "layers/material_325_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_9903",
+      "name": "Material_9903",
+      "file": "layers/material_9903_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_1610",
+      "name": "Material_1610",
+      "file": "layers/material_1610_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "material_10916",
+      "name": "Material_10916",
+      "file": "layers/material_10916_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_1833",
+      "name": "Material_1833",
+      "file": "layers/material_1833_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_11105",
+      "name": "Material_11105",
+      "file": "layers/material_11105_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_31542",
+      "name": "Material_31542",
+      "file": "layers/material_31542_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_32",
+      "name": "Material_32",
+      "file": "layers/material_32_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_29310",
+      "name": "Material_29310",
+      "file": "layers/material_29310_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_5385",
+      "name": "Material_5385",
+      "file": "layers/material_5385_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_11119",
+      "name": "Material_11119",
+      "file": "layers/material_11119_mines.geojson",
+      "count": 5
+    },
+    {
+      "id": "material_1724",
+      "name": "Material_1724",
+      "file": "layers/material_1724_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_2388",
+      "name": "Material_2388",
+      "file": "layers/material_2388_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_2657",
+      "name": "Material_2657",
+      "file": "layers/material_2657_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_2779",
+      "name": "Material_2779",
+      "file": "layers/material_2779_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_28896",
+      "name": "Material_28896",
+      "file": "layers/material_28896_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_2947",
+      "name": "Material_2947",
+      "file": "layers/material_2947_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_3594",
+      "name": "Material_3594",
+      "file": "layers/material_3594_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_6854",
+      "name": "Material_6854",
+      "file": "layers/material_6854_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_6988",
+      "name": "Material_6988",
+      "file": "layers/material_6988_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_7313",
+      "name": "Material_7313",
+      "file": "layers/material_7313_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_54017",
+      "name": "Material_54017",
+      "file": "layers/material_54017_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_819",
+      "name": "Material_819",
+      "file": "layers/material_819_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_2533",
+      "name": "Material_2533",
+      "file": "layers/material_2533_mines.geojson",
+      "count": 4
+    },
+    {
+      "id": "material_43607",
+      "name": "Material_43607",
+      "file": "layers/material_43607_mines.geojson",
+      "count": 4
+    },
+    {
+      "id": "material_47876",
+      "name": "Material_47876",
+      "file": "layers/material_47876_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_26405",
+      "name": "Material_26405",
+      "file": "layers/material_26405_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_1787",
+      "name": "Material_1787",
+      "file": "layers/material_1787_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_29264",
+      "name": "Material_29264",
+      "file": "layers/material_29264_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "material_2978",
+      "name": "Material_2978",
+      "file": "layers/material_2978_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_3689",
+      "name": "Material_3689",
+      "file": "layers/material_3689_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_6129",
+      "name": "Material_6129",
+      "file": "layers/material_6129_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_2826",
+      "name": "Material_2826",
+      "file": "layers/material_2826_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_1593",
+      "name": "Material_1593",
+      "file": "layers/material_1593_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_2385",
+      "name": "Material_2385",
+      "file": "layers/material_2385_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_2917",
+      "name": "Material_2917",
+      "file": "layers/material_2917_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_3197",
+      "name": "Material_3197",
+      "file": "layers/material_3197_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_3728",
+      "name": "Material_3728",
+      "file": "layers/material_3728_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_3890",
+      "name": "Material_3890",
+      "file": "layers/material_3890_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_4117",
+      "name": "Material_4117",
+      "file": "layers/material_4117_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_7260",
+      "name": "Material_7260",
+      "file": "layers/material_7260_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_793",
+      "name": "Material_793",
+      "file": "layers/material_793_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_938",
+      "name": "Material_938",
+      "file": "layers/material_938_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_1745",
+      "name": "Material_1745",
+      "file": "layers/material_1745_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "material_1837",
+      "name": "Material_1837",
+      "file": "layers/material_1837_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_1875",
+      "name": "Material_1875",
+      "file": "layers/material_1875_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_2340",
+      "name": "Material_2340",
+      "file": "layers/material_2340_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_3277",
+      "name": "Material_3277",
+      "file": "layers/material_3277_mines.geojson",
+      "count": 4
+    },
+    {
+      "id": "material_3305",
+      "name": "Material_3305",
+      "file": "layers/material_3305_mines.geojson",
+      "count": 3
+    },
+    {
+      "id": "material_1808",
+      "name": "Material_1808",
+      "file": "layers/material_1808_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_197",
+      "name": "Material_197",
+      "file": "layers/material_197_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_2751",
+      "name": "Material_2751",
+      "file": "layers/material_2751_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_1147",
+      "name": "Material_1147",
+      "file": "layers/material_1147_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_26645",
+      "name": "Material_26645",
+      "file": "layers/material_26645_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_3120",
+      "name": "Material_3120",
+      "file": "layers/material_3120_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_148",
+      "name": "Material_148",
+      "file": "layers/material_148_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_1113",
+      "name": "Material_1113",
+      "file": "layers/material_1113_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_1177",
+      "name": "Material_1177",
+      "file": "layers/material_1177_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_1187",
+      "name": "Material_1187",
+      "file": "layers/material_1187_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_1300",
+      "name": "Material_1300",
+      "file": "layers/material_1300_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_1782",
+      "name": "Material_1782",
+      "file": "layers/material_1782_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_1914",
+      "name": "Material_1914",
+      "file": "layers/material_1914_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_2888",
+      "name": "Material_2888",
+      "file": "layers/material_2888_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_3059",
+      "name": "Material_3059",
+      "file": "layers/material_3059_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_4246",
+      "name": "Material_4246",
+      "file": "layers/material_4246_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_6294",
+      "name": "Material_6294",
+      "file": "layers/material_6294_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_911",
+      "name": "Material_911",
+      "file": "layers/material_911_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_1136",
+      "name": "Material_1136",
+      "file": "layers/material_1136_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_3529",
+      "name": "Material_3529",
+      "file": "layers/material_3529_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_4518",
+      "name": "Material_4518",
+      "file": "layers/material_4518_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_3578",
+      "name": "Material_3578",
+      "file": "layers/material_3578_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_4001",
+      "name": "Material_4001",
+      "file": "layers/material_4001_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_7403",
+      "name": "Material_7403",
+      "file": "layers/material_7403_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_3359",
+      "name": "Material_3359",
+      "file": "layers/material_3359_mines.geojson",
+      "count": 4
+    },
+    {
+      "id": "zinc",
+      "name": "Zinc",
+      "file": "layers/zinc_mines.geojson",
+      "count": 7
+    },
+    {
+      "id": "material_53316",
+      "name": "Material_53316",
+      "file": "layers/material_53316_mines.geojson",
+      "count": 2
+    },
+    {
+      "id": "material_2503",
+      "name": "Material_2503",
+      "file": "layers/material_2503_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_1832",
+      "name": "Material_1832",
+      "file": "layers/material_1832_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_3004",
+      "name": "Material_3004",
+      "file": "layers/material_3004_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_1282",
+      "name": "Material_1282",
+      "file": "layers/material_1282_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_471273",
+      "name": "Material_471273",
+      "file": "layers/material_471273_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_471274",
+      "name": "Material_471274",
+      "file": "layers/material_471274_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_1839",
+      "name": "Material_1839",
+      "file": "layers/material_1839_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_1974",
+      "name": "Material_1974",
+      "file": "layers/material_1974_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_3631",
+      "name": "Material_3631",
+      "file": "layers/material_3631_mines.geojson",
+      "count": 1
+    },
+    {
+      "id": "material_4343",
+      "name": "Material_4343",
+      "file": "layers/material_4343_mines.geojson",
+      "count": 1
+    }
+  ]
 }

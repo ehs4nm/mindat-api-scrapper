@@ -1,0 +1,28 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.621634843316,
+          36.552934751299
+        ]
+      },
+      "properties": {
+        "id": "mindat_2017",
+        "name": "Dandi, Mahneshan County, Zanjan Province, Iran",
+        "type": "251",
+        "country": "Iran",
+        "geomaterials": [
+          "Material_1108",
+          "Material_1967",
+          "Material_4085"
+        ],
+        "description": "<h3>Dandi, Mahneshan County, Zanjan Province, Iran</h3>\n<p><strong>Type:</strong> 251</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-2017.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    }
+  ]
+}

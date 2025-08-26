@@ -1,0 +1,237 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.7508333333,
+          33.8977777778
+        ]
+      },
+      "properties": {
+        "id": "mindat_223582",
+        "name": "Borujerd County, Lorestan Province, Iran",
+        "type": "115",
+        "country": "Iran",
+        "geomaterials": [
+          "Limonite",
+          "Magnetite",
+          "Material_10272",
+          "Material_1624",
+          "Material_217",
+          "Material_2704",
+          "Material_29229",
+          "Material_305",
+          "Material_4003",
+          "Material_4333",
+          "Material_4421",
+          "Material_6683",
+          "Material_677",
+          "Material_9581",
+          "Material_96",
+          "Molybdenite",
+          "Tetrahedrite"
+        ],
+        "description": "<h3>Borujerd County, Lorestan Province, Iran</h3>\n<p><strong>Type:</strong> 115</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-223582.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.416666666667,
+          36.5
+        ]
+      },
+      "properties": {
+        "id": "mindat_276466",
+        "name": "Piranshahr intrusion (Piranshahr massif), Piranshahr County, West Azerbaijan Province, Iran",
+        "type": "323",
+        "country": "Iran",
+        "description": "<h3>Piranshahr intrusion (Piranshahr massif), Piranshahr County, West Azerbaijan Province, Iran</h3>\n<p><strong>Type:</strong> 323</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Intrusion c.16x10 km in extent emplaced into Mesozoic limestones and pelites.</p>\n<p><a href=\"https://www.mindat.org/loc-276466.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Calcite",
+          "Chalcopyrite",
+          "Fluorite",
+          "Gersdorffite",
+          "Iron",
+          "Lead",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_1168",
+          "Material_118",
+          "Material_1294",
+          "Material_1365",
+          "Material_1384",
+          "Material_1458",
+          "Material_1624",
+          "Material_1720",
+          "Material_1740",
+          "Material_1842",
+          "Material_2013",
+          "Material_207",
+          "Material_2129",
+          "Material_2402",
+          "Material_241",
+          "Material_2538",
+          "Material_2571",
+          "Material_2750",
+          "Material_2880",
+          "Material_29229",
+          "Material_31",
+          "Material_3119",
+          "Material_3304",
+          "Material_3328",
+          "Material_3418",
+          "Material_3486",
+          "Material_3688",
+          "Material_3924",
+          "Material_3946",
+          "Material_3978",
+          "Material_419",
+          "Material_43733",
+          "Material_4421",
+          "Material_46220",
+          "Material_6613",
+          "Material_6683",
+          "Material_677",
+          "Material_8658",
+          "Material_8789",
+          "Material_9252",
+          "Material_9264",
+          "Material_934",
+          "Material_9767",
+          "Molybdenite",
+          "Pyrite",
+          "Quartz",
+          "Sphalerite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.133333333333,
+          32.345833333333
+        ]
+      },
+      "properties": {
+        "id": "mindat_312855",
+        "name": "Khoshumi, Rabatat Rural District, Kharanaq District, Ardakan County, Yazd Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Khoshumi, Rabatat Rural District, Kharanaq District, Ardakan County, Yazd Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Anomaly 6</p>\n<p><a href=\"https://www.mindat.org/loc-312855.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Cubanite",
+          "Cuprite",
+          "Dolomite",
+          "Goethite",
+          "Lautite",
+          "Limonite",
+          "Magnetite",
+          "Material_1016",
+          "Material_10272",
+          "Material_1087",
+          "Material_1197",
+          "Material_1389",
+          "Material_1624",
+          "Material_2013",
+          "Material_207",
+          "Material_213",
+          "Material_2538",
+          "Material_2704",
+          "Material_2750",
+          "Material_29229",
+          "Material_3026",
+          "Material_305",
+          "Material_3486",
+          "Material_3681",
+          "Material_3702",
+          "Material_3948",
+          "Material_3977",
+          "Material_4003",
+          "Material_4421",
+          "Material_4422",
+          "Material_4430",
+          "Material_46220",
+          "Material_480",
+          "Material_6683",
+          "Material_677",
+          "Material_716",
+          "Material_8789",
+          "Material_9252",
+          "Material_9264",
+          "Material_96",
+          "Molybdenite",
+          "Quartz",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.233333333333,
+          37.2
+        ]
+      },
+      "properties": {
+        "id": "mindat_337061",
+        "name": "Bardkish syenite, Urmia County, West Azerbaijan Province, Iran",
+        "type": "323",
+        "country": "Iran",
+        "description": "<h3>Bardkish syenite, Urmia County, West Azerbaijan Province, Iran</h3>\n<p><strong>Type:</strong> 323</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Bardkish peralkaline syenite is a part of Urumieh Complex. The intrusion has an area of c. 25 km².</p>\n<p><a href=\"https://www.mindat.org/loc-337061.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Limonite",
+          "Material_1519",
+          "Material_1624",
+          "Material_207",
+          "Material_29229",
+          "Material_31",
+          "Material_325",
+          "Material_3977",
+          "Material_4421",
+          "Material_6683"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.316666666667,
+          36.0
+        ]
+      },
+      "properties": {
+        "id": "mindat_337715",
+        "name": "Saqqez granite complex, Saqqez County, Kurdistan Province, Iran",
+        "type": "270",
+        "country": "Iran",
+        "description": "<h3>Saqqez granite complex, Saqqez County, Kurdistan Province, Iran</h3>\n<p><strong>Type:</strong> 270</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Granite complex situated 20 km to the SE of the Saqqez city, comprises an older peralkaline granitoid and younger calc-alkaline granitoid. The peralkaline intrusion is over 12km long, up to 3 km wide and emplaced into limestones.</p>\n<p><a href=\"https://www.mindat.org/loc-337715.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Limonite",
+          "Material_1624",
+          "Material_325",
+          "Material_6683",
+          "Material_677",
+          "Material_9264"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

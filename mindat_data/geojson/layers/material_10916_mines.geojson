@@ -1,0 +1,37 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.689281,
+          28.231577
+        ]
+      },
+      "properties": {
+        "id": "mindat_337553",
+        "name": "Sheikh-Ali deposit, Arzuiyeh County, Kerman Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Sheikh-Ali deposit, Arzuiyeh County, Kerman Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Cyprus (mafic)-type VMS deposit\r\n 0.64 t. @75 g/Au</p>\n<p><a href=\"https://www.mindat.org/loc-337553.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Calcite",
+          "Chrysocolla",
+          "Covellite",
+          "Fluorite",
+          "Iron",
+          "Limonite",
+          "Magnetite",
+          "Material_10916",
+          "Material_5574",
+          "Material_960",
+          "Sphalerite",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

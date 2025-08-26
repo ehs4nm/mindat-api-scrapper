@@ -1,0 +1,39 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.8038272,
+          35.1678934
+        ]
+      },
+      "properties": {
+        "id": "mindat_276077",
+        "name": "Qorveh, Qorveh County, Kurdistan Province, Iran",
+        "country": "Iran",
+        "geomaterials": [
+          "Calcite",
+          "Chalcopyrite",
+          "Iron",
+          "Limonite",
+          "Magnetite",
+          "Material_1719",
+          "Material_1720",
+          "Material_2187",
+          "Material_3021",
+          "Material_3328",
+          "Material_3375",
+          "Material_3776",
+          "Material_3782",
+          "Material_430",
+          "Material_738"
+        ],
+        "description": "<h3>Qorveh, Qorveh County, Kurdistan Province, Iran</h3>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-276077.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    }
+  ]
+}

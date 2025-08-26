@@ -1,0 +1,104 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.65,
+          36.1916666667
+        ]
+      },
+      "properties": {
+        "id": "mindat_248228",
+        "name": "Barika ore deposit, Sardasht, Sardasht County, West Azerbaijan Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Barika ore deposit, Sardasht, Sardasht County, West Azerbaijan Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Au-rich, lens-like Kuroko-type volcanogenic massive sulfide deposit of Cretaceous age (Lower Cretaceous-Tertiary according to other source). Discovered in 2003.\r\nAverage 0.5 to 5 g/t Au.\r\n\r\nThe original synvolcanic stratiform textures were overprinted ...</p>\n<p><a href=\"https://www.mindat.org/loc-248228.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Calcite",
+          "Chalcopyrite",
+          "Fluorite",
+          "Iron_Oxide",
+          "Limonite",
+          "Magnetite",
+          "Material_1365",
+          "Material_1437",
+          "Material_1674",
+          "Material_1720",
+          "Material_1768",
+          "Material_222",
+          "Material_2702",
+          "Material_3313",
+          "Material_3375",
+          "Material_3613",
+          "Material_3687",
+          "Material_3764",
+          "Material_3768",
+          "Material_3782",
+          "Material_3911",
+          "Material_3924",
+          "Material_4009",
+          "Material_4067",
+          "Material_4167",
+          "Material_43578",
+          "Material_43594",
+          "Material_43603",
+          "Material_43852",
+          "Material_46247",
+          "Material_470704",
+          "Material_470883",
+          "Material_738",
+          "Material_741",
+          "Material_9252",
+          "Molybdenite",
+          "Sphalerite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.166666666667,
+          37.375
+        ]
+      },
+      "properties": {
+        "id": "mindat_424520",
+        "name": "Shah-Ali-Beiglou deposit, Mianeh County, East Azerbaijan Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Shah-Ali-Beiglou deposit, Mianeh County, East Azerbaijan Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>epithermal base metal-silver deposit</p>\n<p><a href=\"https://www.mindat.org/loc-424520.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Barite",
+          "Calcite",
+          "Chalcopyrite",
+          "Fluorite",
+          "Iron",
+          "Iron_Oxide",
+          "Limonite",
+          "Magnetite",
+          "Material_1016",
+          "Material_1380",
+          "Material_1389",
+          "Material_1437",
+          "Material_2078",
+          "Material_3613",
+          "Material_3911",
+          "Material_3924",
+          "Material_9252",
+          "Material_9264",
+          "Molybdenite",
+          "Pyrite",
+          "Quartz",
+          "Sphalerite"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.8666666667,
+          33.9666666667
+        ]
+      },
+      "properties": {
+        "id": "mindat_263646",
+        "name": "Kuh-e Dom gold prospect, Kashan County, Isfahan Province, Iran",
+        "type": "73",
+        "country": "Iran",
+        "description": "<h3>Kuh-e Dom gold prospect, Kashan County, Isfahan Province, Iran</h3>\n<p><strong>Type:</strong> 73</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Copper–iron oxide and gold veins, stockworks and breccias hosted by the Eocene Kuh-e Dom intrusion, located in the Urumieh-Dokhtar Magmatic Belt.</p>\n<p><a href=\"https://www.mindat.org/loc-263646.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Calcite",
+          "Iron_Oxide",
+          "Limonite",
+          "Magnetite",
+          "Material_1016",
+          "Material_1378",
+          "Material_1720",
+          "Material_2538",
+          "Material_4003",
+          "Quartz",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.052777777778,
+          36.686111111111
+        ]
+      },
+      "properties": {
+        "id": "mindat_441561",
+        "name": "Chodarchay deposit, Tarom County, Zanjan Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Chodarchay deposit, Tarom County, Zanjan Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>The mineralization is mainly hosted in the volcanic and volcaniclastic units (Eocene); some mineralization occurred within the quartz monzonite (Late Eocene). The porphyry type is mostly accompanied by a potassic alteration. The potassic alteration is ...</p>\n<p><a href=\"https://www.mindat.org/loc-441561.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Calcite",
+          "Chalcopyrite",
+          "Chrysocolla",
+          "Fluorite",
+          "Iron",
+          "Lead",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_1113",
+          "Material_1177",
+          "Material_1187",
+          "Material_1300",
+          "Material_1378",
+          "Material_1610",
+          "Material_1642",
+          "Material_1719",
+          "Material_1782",
+          "Material_1914",
+          "Material_2013",
+          "Material_2078",
+          "Material_236",
+          "Material_2402",
+          "Material_2538",
+          "Material_2549",
+          "Material_2888",
+          "Material_3059",
+          "Material_4246",
+          "Material_6294",
+          "Material_63",
+          "Material_686",
+          "Material_9264",
+          "Pyrite",
+          "Sphalerite",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.583333333333,
+          35.733333333333
+        ]
+      },
+      "properties": {
+        "id": "mindat_446803",
+        "name": "Atash-Anbar Au deposit, Takestan County, Qazvin Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Atash-Anbar Au deposit, Takestan County, Qazvin Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>2 Mt of proven reserves grading at 2.13 g/t Au (locally up to 14 g/t) and 4.11 % Pb + Zn + Cu.\r\nA total of 34 orebodies in the form of veins, lenses and pods have been determined in the Atash-Anbar gold deposit. The deposit is divided into the No. I, I...</p>\n<p><a href=\"https://www.mindat.org/loc-446803.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Barite",
+          "Calcite",
+          "Chalcopyrite",
+          "Epidote",
+          "Fluorite",
+          "Iron_Oxide",
+          "Lead",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_1016",
+          "Material_11125",
+          "Material_1365",
+          "Material_1378",
+          "Material_1389",
+          "Material_1605",
+          "Material_1610",
+          "Material_1719",
+          "Material_1720",
+          "Material_207",
+          "Material_2402",
+          "Material_2538",
+          "Material_29229",
+          "Material_3924",
+          "Material_3977",
+          "Material_4421",
+          "Material_677",
+          "Material_686",
+          "Material_9252",
+          "Material_9264",
+          "Material_9581",
+          "Material_960",
+          "Molybdenite",
+          "Pyrite",
+          "Quartz",
+          "Sphalerite",
+          "Uraninite"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

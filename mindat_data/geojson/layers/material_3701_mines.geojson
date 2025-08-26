@@ -1,0 +1,72 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.983333333333,
+          38.8
+        ]
+      },
+      "properties": {
+        "id": "mindat_337058",
+        "name": "Kaleybar Intrusion, Kaleybar County, East Azerbaijan Province, Iran",
+        "type": "323",
+        "country": "Iran",
+        "description": "<h3>Kaleybar Intrusion, Kaleybar County, East Azerbaijan Province, Iran</h3>\n<p><strong>Type:</strong> 323</p>\n<p><strong>Location:</strong> Iran</p>\n<p>70km² alkaline intrusion, which is emplaced into Cretaceous sediments and volcanic rocks and has developed a thermal aureole up to 1km wide.</p>\n<p><a href=\"https://www.mindat.org/loc-337058.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Material_10272",
+          "Material_10436",
+          "Material_10583",
+          "Material_1294",
+          "Material_207",
+          "Material_210",
+          "Material_2880",
+          "Material_29229",
+          "Material_3701",
+          "Material_3977",
+          "Material_4421",
+          "Material_677",
+          "Material_7630",
+          "Material_9264",
+          "Material_9581",
+          "Material_9767"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.5,
+          30.333333333333
+        ]
+      },
+      "properties": {
+        "id": "mindat_337727",
+        "name": "Sistan Suture Zone, Zahedan County, Sistan and Baluchestan Province, Iran",
+        "type": "397",
+        "country": "Iran",
+        "description": "<h3>Sistan Suture Zone, Zahedan County, Sistan and Baluchestan Province, Iran</h3>\n<p><strong>Type:</strong> 397</p>\n<p><strong>Location:</strong> Iran</p>\n<p>NS-trending area between the Lut to the west and Afghan blocks in which there are major fractures and extensive areas of volcanics intercalated with sedimentary rocks.</p>\n<p><a href=\"https://www.mindat.org/loc-337727.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Material_207",
+          "Material_210",
+          "Material_2129",
+          "Material_2880",
+          "Material_29310",
+          "Material_32",
+          "Material_3701",
+          "Material_419",
+          "Material_5385",
+          "Material_8658",
+          "Material_9264"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

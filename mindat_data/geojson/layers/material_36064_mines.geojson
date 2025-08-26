@@ -1,0 +1,32 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.905277777778,
+          28.309722222222
+        ]
+      },
+      "properties": {
+        "id": "mindat_275661",
+        "name": "Hajjiabad, Hajjiabad County, Hormozgan Province, Iran",
+        "type": "491",
+        "country": "Iran",
+        "description": "<h3>Hajjiabad, Hajjiabad County, Hormozgan Province, Iran</h3>\n<p><strong>Type:</strong> 491</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Hajjiabad (Persian: حاجي اباد or حاجی‌آباد, also Romanized as Ḩājjīābād and Hājiābād) is a city and capital of Hajjiabad County, Hormozgan Province, Iran. \r\n\r\nHajjiabad is located about 100 km north of Bandar Abbas (capital of Hormozgan Province) and i...</p>\n<p><a href=\"https://www.mindat.org/loc-275661.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Magnetite",
+          "Material_161",
+          "Material_2696",
+          "Material_3428",
+          "Material_36064",
+          "Material_4203",
+          "Material_733"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

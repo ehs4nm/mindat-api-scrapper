@@ -1,0 +1,172 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.841666666667,
+          34.225
+        ]
+      },
+      "properties": {
+        "id": "mindat_426241",
+        "name": "Veshnaveh, Aran and Bidgol County, Isfahan Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Veshnaveh, Aran and Bidgol County, Isfahan Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Ancient copper mines.</p>\n<p><a href=\"https://www.mindat.org/loc-426241.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Calcite",
+          "Chrysocolla",
+          "Covellite",
+          "Fluorite",
+          "Gold",
+          "Hematite",
+          "Iron",
+          "Iron_Oxide",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_1016",
+          "Material_1070",
+          "Material_1294",
+          "Material_1745",
+          "Material_18",
+          "Material_1837",
+          "Material_1875",
+          "Material_2308",
+          "Material_2340",
+          "Material_239",
+          "Material_246",
+          "Material_2538",
+          "Material_2704",
+          "Material_2705",
+          "Material_2976",
+          "Material_3026",
+          "Material_3277",
+          "Material_3305",
+          "Material_3729",
+          "Material_419",
+          "Material_4395",
+          "Material_7630",
+          "Material_779",
+          "Material_9264",
+          "Material_96",
+          "Material_9767",
+          "Molybdenite",
+          "Pyrite",
+          "Quartz",
+          "Sphalerite",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.8375,
+          34.229166666667
+        ]
+      },
+      "properties": {
+        "id": "mindat_426242",
+        "name": "Mazrayeh mines, Veshnaveh, Aran and Bidgol County, Isfahan Province, Iran",
+        "type": "60",
+        "country": "Iran",
+        "geomaterials": [
+          "Limonite",
+          "Malachite",
+          "Material_1070",
+          "Material_1745",
+          "Material_239",
+          "Material_2976",
+          "Material_3026",
+          "Material_3277",
+          "Material_3305",
+          "Material_96",
+          "Material_9767",
+          "Molybdenite",
+          "Pyrite",
+          "Quartz",
+          "Tetrahedrite"
+        ],
+        "description": "<h3>Mazrayeh mines, Veshnaveh, Aran and Bidgol County, Isfahan Province, Iran</h3>\n<p><strong>Type:</strong> 60</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-426242.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.855555555556,
+          34.223611111111
+        ]
+      },
+      "properties": {
+        "id": "mindat_426243",
+        "name": "Lāghe Morād mines, Veshnaveh, Aran and Bidgol County, Isfahan Province, Iran",
+        "type": "60",
+        "country": "Iran",
+        "geomaterials": [
+          "Chrysocolla",
+          "Hematite",
+          "Iron",
+          "Limonite",
+          "Malachite",
+          "Material_1070",
+          "Material_1294",
+          "Material_1745",
+          "Material_239",
+          "Material_2704",
+          "Material_2976",
+          "Material_3026",
+          "Material_3277",
+          "Material_779",
+          "Material_96",
+          "Molybdenite",
+          "Pyrite",
+          "Quartz",
+          "Tetrahedrite"
+        ],
+        "description": "<h3>Lāghe Morād mines, Veshnaveh, Aran and Bidgol County, Isfahan Province, Iran</h3>\n<p><strong>Type:</strong> 60</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-426243.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.858333333333,
+          34.213888888889
+        ]
+      },
+      "properties": {
+        "id": "mindat_426244",
+        "name": "Chāle Ghār mines, Veshnaveh, Aran and Bidgol County, Isfahan Province, Iran",
+        "type": "60",
+        "country": "Iran",
+        "geomaterials": [
+          "Limonite",
+          "Material_1837",
+          "Material_2976",
+          "Material_3277",
+          "Material_3305",
+          "Material_419",
+          "Material_96",
+          "Molybdenite",
+          "Quartz",
+          "Sphalerite",
+          "Tetrahedrite"
+        ],
+        "description": "<h3>Chāle Ghār mines, Veshnaveh, Aran and Bidgol County, Isfahan Province, Iran</h3>\n<p><strong>Type:</strong> 60</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-426244.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    }
+  ]
+}

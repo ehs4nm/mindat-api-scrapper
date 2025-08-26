@@ -1,0 +1,191 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.3327777778,
+          36.7769444444
+        ]
+      },
+      "properties": {
+        "id": "mindat_25357",
+        "name": "Nishapur Turquoise deposit, Ali-mersai mountain, Nishapur (Nishabur; Neyshabur), Nishapur County, Razavi Khorasan Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Nishapur Turquoise deposit, Ali-mersai mountain, Nishapur (Nishabur; Neyshabur), Nishapur County, Razavi Khorasan Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Turquoise in weathered trachyte. Numerous mines in the area.\r\n\r\nArguably the world's finest specimens of turquoise have come from this deposit. The occurrences were already mined by the ancient Persians from at least 5,000 years BC.\r\n\r\nThe Ali-mersai M...</p>\n<p><a href=\"https://www.mindat.org/loc-25357.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Magnetite",
+          "Material_2402",
+          "Material_29340",
+          "Material_3234",
+          "Material_4060"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.1672222222,
+          30.4205555556
+        ]
+      },
+      "properties": {
+        "id": "mindat_205749",
+        "name": "Meiduk Mine (Miduk Mine; Meydouk Mine; Meydook Mine; Lachah Mine), Shahr-e Babak, Shahr-e Babak County, Kerman Province, Iran",
+        "type": "60",
+        "country": "Iran",
+        "description": "<h3>Meiduk Mine (Miduk Mine; Meydouk Mine; Meydook Mine; Lachah Mine), Shahr-e Babak, Shahr-e Babak County, Kerman Province, Iran</h3>\n<p><strong>Type:</strong> 60</p>\n<p><strong>Location:</strong> Iran</p>\n<p>The Meiduk porphyry copper deposit is positioned in the Shahr-Babak area in Kerman province, Iran. This deposit is located 42 km NE of Shahrebabak city and 85 km NW of the Sar Cheshmeh porphyry copper deposit. Preliminary mineral exploration was carrie...</p>\n<p><a href=\"https://www.mindat.org/loc-205749.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Calcite",
+          "Chalcopyrite",
+          "Fluorite",
+          "Hematite",
+          "Iron",
+          "Iron_Oxide",
+          "Lead",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_1016",
+          "Material_1389",
+          "Material_234",
+          "Material_2402",
+          "Material_2538",
+          "Material_2746",
+          "Material_3234",
+          "Material_3486",
+          "Material_3924",
+          "Material_3977",
+          "Material_4060",
+          "Material_4395",
+          "Material_4421",
+          "Material_677",
+          "Material_9252",
+          "Material_9264",
+          "Material_959",
+          "Material_9767",
+          "Molybdenite",
+          "Pyrite",
+          "Quartz",
+          "Sphalerite",
+          "Tetrahedrite",
+          "Uraninite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.0,
+          30.016666666667
+        ]
+      },
+      "properties": {
+        "id": "mindat_278302",
+        "name": "Shahr-e Babak, Shahr-e Babak County, Kerman Province, Iran",
+        "type": "491",
+        "country": "Iran",
+        "geomaterials": [
+          "Calcite",
+          "Chalcopyrite",
+          "Fluorite",
+          "Gersdorffite",
+          "Hematite",
+          "Iron",
+          "Iron_Oxide",
+          "Lead",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_1016",
+          "Material_1365",
+          "Material_1380",
+          "Material_1389",
+          "Material_1451",
+          "Material_1576",
+          "Material_1624",
+          "Material_1666",
+          "Material_1719",
+          "Material_1720",
+          "Material_2069",
+          "Material_207",
+          "Material_2299",
+          "Material_2308",
+          "Material_233",
+          "Material_234",
+          "Material_239",
+          "Material_2402",
+          "Material_246",
+          "Material_2461",
+          "Material_2538",
+          "Material_2746",
+          "Material_29229",
+          "Material_29338",
+          "Material_3138",
+          "Material_3234",
+          "Material_3247",
+          "Material_3323",
+          "Material_3406",
+          "Material_3486",
+          "Material_3647",
+          "Material_3924",
+          "Material_3977",
+          "Material_39819",
+          "Material_4060",
+          "Material_4395",
+          "Material_4421",
+          "Material_48009",
+          "Material_677",
+          "Material_817",
+          "Material_9252",
+          "Material_9264",
+          "Material_959",
+          "Material_960",
+          "Material_9767",
+          "Molybdenite",
+          "Pyrite",
+          "Quartz",
+          "Sphalerite",
+          "Tetrahedrite",
+          "Uraninite"
+        ],
+        "description": "<h3>Shahr-e Babak, Shahr-e Babak County, Kerman Province, Iran</h3>\n<p><strong>Type:</strong> 491</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-278302.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.795833333333,
+          36.213333333333
+        ]
+      },
+      "properties": {
+        "id": "mindat_293310",
+        "name": "Nishapur (Nishabur; Neyshabur), Nishapur County, Razavi Khorasan Province, Iran",
+        "type": "491",
+        "country": "Iran",
+        "geomaterials": [
+          "Magnetite",
+          "Material_2402",
+          "Material_29340",
+          "Material_3234",
+          "Material_4060"
+        ],
+        "description": "<h3>Nishapur (Nishabur; Neyshabur), Nishapur County, Razavi Khorasan Province, Iran</h3>\n<p><strong>Type:</strong> 491</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-293310.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.291666666667,
+          36.466666666667
+        ]
+      },
+      "properties": {
+        "id": "mindat_456537",
+        "name": "Yakshawa deposit, Bukan County, West Azerbaijan Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Yakshawa deposit, Bukan County, West Azerbaijan Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>The Yakshawa bauxite deposit forms NE- SW-trending lens-shaped bodies in karstic depressions of the Permian Ruteh Formation, with uniform thicknesses of 11–18 m, overlain by the Lower Triassic Elika. Integrated textural, mineralogical, and geochemical ...</p>\n<p><a href=\"https://www.mindat.org/loc-456537.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Magnetite",
+          "Material_1285",
+          "Material_213",
+          "Material_563",
+          "Material_7403",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.2,
+          35.4722
+        ]
+      },
+      "properties": {
+        "id": "mindat_311324",
+        "name": "Panj-Kuh iron deposit (Panj-Kuh iron mine), Damghan County, Semnan Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Panj-Kuh iron deposit (Panj-Kuh iron mine), Damghan County, Semnan Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>The Panj-Kuh iron deposit is located 50 km southeast of Damghan within the Central Iranian Zone (CIZ). \r\n\r\nThe Panj-Kuh deposit is hosted mainly in the Eocene andesite and basalt volcano-pyroclastic rocks as well as Oligocene syenite, monzonite and gab...</p>\n<p><a href=\"https://www.mindat.org/loc-311324.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Calcite",
+          "Chalcopyrite",
+          "Fluorite",
+          "Lead",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_1016",
+          "Material_1294",
+          "Material_1389",
+          "Material_1505",
+          "Material_1572",
+          "Material_18",
+          "Material_2013",
+          "Material_207",
+          "Material_210",
+          "Material_2538",
+          "Material_2571",
+          "Material_2575",
+          "Material_3486",
+          "Material_3977",
+          "Material_4011",
+          "Material_677",
+          "Material_7630",
+          "Material_9581",
+          "Material_96",
+          "Pyrite",
+          "Quartz",
+          "Sphalerite",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

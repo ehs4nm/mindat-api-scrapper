@@ -1,0 +1,79 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.078889,
+          33.642222
+        ]
+      },
+      "properties": {
+        "id": "mindat_411883",
+        "name": "Khomeyn, Khomeyn County, Markazi Province, Iran",
+        "type": "491",
+        "country": "Iran",
+        "geomaterials": [
+          "Calcite",
+          "Chalcopyrite",
+          "Iron_Oxide",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_2078",
+          "Material_233",
+          "Material_2538",
+          "Material_2856",
+          "Material_3688",
+          "Material_54017",
+          "Material_927",
+          "Material_934",
+          "Molybdenite",
+          "Sphalerite",
+          "Tetrahedrite"
+        ],
+        "description": "<h3>Khomeyn, Khomeyn County, Markazi Province, Iran</h3>\n<p><strong>Type:</strong> 491</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-411883.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.77,
+          33.75
+        ]
+      },
+      "properties": {
+        "id": "mindat_411884",
+        "name": "Robat Pb-Zn deposit, Khomeyn, Khomeyn County, Markazi Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Robat Pb-Zn deposit, Khomeyn, Khomeyn County, Markazi Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Limestone-hosted Pb-Zn mineralisation characterized by vein-veinlet, fracture-filling and replacement textures, associated with silica, carbonate, argillic and hematitic alterations. Situated in the Malayer-Esfahan Pb-Zn metallogenic belt.\r\nFluid-inclu...</p>\n<p><a href=\"https://www.mindat.org/loc-411884.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Calcite",
+          "Chalcopyrite",
+          "Iron_Oxide",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_2078",
+          "Material_233",
+          "Material_2538",
+          "Material_2856",
+          "Material_3688",
+          "Material_54017",
+          "Material_927",
+          "Material_934",
+          "Molybdenite",
+          "Sphalerite",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

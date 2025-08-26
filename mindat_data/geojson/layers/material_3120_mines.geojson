@@ -1,0 +1,42 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.883333333333,
+          36.7
+        ]
+      },
+      "properties": {
+        "id": "mindat_440257",
+        "name": "Kolijan bauxite deposit, Mahabad County, West Azerbaijan Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Kolijan bauxite deposit, Mahabad County, West Azerbaijan Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>The bauxite deposit in the Kolijan area is present in five discrete outcrops as stratiform layers and lenses in karstic sinkholes and depressions of the middle Permian dolomitic limestones of the Ruteh Formation. They have a length of 1.4 km and a vari...</p>\n<p><a href=\"https://www.mindat.org/loc-440257.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Barite",
+          "Material_1147",
+          "Material_1719",
+          "Material_197",
+          "Material_213",
+          "Material_26645",
+          "Material_26664",
+          "Material_2976",
+          "Material_3120",
+          "Material_3318",
+          "Material_3486",
+          "Material_96",
+          "Molybdenite",
+          "Quartz",
+          "Sphalerite",
+          "Tetrahedrite",
+          "Uraninite"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

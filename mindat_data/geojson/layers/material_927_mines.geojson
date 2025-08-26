@@ -1,0 +1,229 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.324444444444,
+          32.406388888889
+        ]
+      },
+      "properties": {
+        "id": "mindat_25132",
+        "name": "Baryte deposit, Zarrin Rural District, Kharanaq District, Ardakan County, Yazd Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Baryte deposit, Zarrin Rural District, Kharanaq District, Ardakan County, Yazd Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Carbonate-hosted baryte ore.\r\nThe Ardakan barite deposit is located in the central part of the Yazd Block. The area of the Ardakan barite deposit is a highly tectonized and faulted terrane. The discovery of the Ardakan barite deposit apparently dates b...</p>\n<p><a href=\"https://www.mindat.org/loc-25132.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Barite",
+          "Calcite",
+          "Epidote",
+          "Fluorite",
+          "Hematite",
+          "Iron_Oxide",
+          "Lead",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_1576",
+          "Material_1666",
+          "Material_1719",
+          "Material_1720",
+          "Material_1784",
+          "Material_236",
+          "Material_2379",
+          "Material_26664",
+          "Material_3730",
+          "Material_4354",
+          "Material_927",
+          "Pyrite",
+          "Quartz",
+          "Sphalerite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.2091666667,
+          31.7166666667
+        ]
+      },
+      "properties": {
+        "id": "mindat_68255",
+        "name": "Darreh Zanjir Mine, Taft County, Yazd Province, Iran",
+        "type": "60",
+        "country": "Iran",
+        "description": "<h3>Darreh Zanjir Mine, Taft County, Yazd Province, Iran</h3>\n<p><strong>Type:</strong> 60</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Zn, Pb and Cu sulfide deposit in dolomitized limestones, with well developed oxidation zone. Elevation: 1772 m asl</p>\n<p><a href=\"https://www.mindat.org/loc-68255.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Calcite",
+          "Chalcopyrite",
+          "Iron_Oxide",
+          "Material_1784",
+          "Material_1860",
+          "Material_1993",
+          "Material_21",
+          "Material_2402",
+          "Material_2403",
+          "Material_2714",
+          "Material_307",
+          "Material_3237",
+          "Material_3320",
+          "Material_3447",
+          "Material_3688",
+          "Material_422",
+          "Material_4292",
+          "Material_927",
+          "Material_934",
+          "Quartz",
+          "Sphalerite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.2833333333,
+          33.65
+        ]
+      },
+      "properties": {
+        "id": "mindat_225167",
+        "name": "Khur agate field, Khur and Biabanak County, Isfahan Province, Iran",
+        "type": "541",
+        "country": "Iran",
+        "description": "<h3>Khur agate field, Khur and Biabanak County, Isfahan Province, Iran</h3>\n<p><strong>Type:</strong> 541</p>\n<p><strong>Location:</strong> Iran</p>\n<p>25 km SE of Khur.\r\n(Minerals listed here are all from the agate/chalcedony nodules themselves, not the country rock.)</p>\n<p><a href=\"https://www.mindat.org/loc-225167.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Barite",
+          "Hematite",
+          "Limonite",
+          "Material_1719",
+          "Material_234",
+          "Material_307",
+          "Material_3318",
+          "Material_3647",
+          "Material_422",
+          "Material_51",
+          "Material_926",
+          "Material_927",
+          "Material_960",
+          "Quartz",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.078889,
+          33.642222
+        ]
+      },
+      "properties": {
+        "id": "mindat_411883",
+        "name": "Khomeyn, Khomeyn County, Markazi Province, Iran",
+        "type": "491",
+        "country": "Iran",
+        "geomaterials": [
+          "Calcite",
+          "Chalcopyrite",
+          "Iron_Oxide",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_2078",
+          "Material_233",
+          "Material_2538",
+          "Material_2856",
+          "Material_3688",
+          "Material_54017",
+          "Material_927",
+          "Material_934",
+          "Molybdenite",
+          "Sphalerite",
+          "Tetrahedrite"
+        ],
+        "description": "<h3>Khomeyn, Khomeyn County, Markazi Province, Iran</h3>\n<p><strong>Type:</strong> 491</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-411883.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.77,
+          33.75
+        ]
+      },
+      "properties": {
+        "id": "mindat_411884",
+        "name": "Robat Pb-Zn deposit, Khomeyn, Khomeyn County, Markazi Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Robat Pb-Zn deposit, Khomeyn, Khomeyn County, Markazi Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Limestone-hosted Pb-Zn mineralisation characterized by vein-veinlet, fracture-filling and replacement textures, associated with silica, carbonate, argillic and hematitic alterations. Situated in the Malayer-Esfahan Pb-Zn metallogenic belt.\r\nFluid-inclu...</p>\n<p><a href=\"https://www.mindat.org/loc-411884.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Calcite",
+          "Chalcopyrite",
+          "Iron_Oxide",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_2078",
+          "Material_233",
+          "Material_2538",
+          "Material_2856",
+          "Material_3688",
+          "Material_54017",
+          "Material_927",
+          "Material_934",
+          "Molybdenite",
+          "Sphalerite",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.116666666667,
+          30.875
+        ]
+      },
+      "properties": {
+        "id": "mindat_457691",
+        "name": "Likak deposit, Bahmai County, Kohgiluyeh and Boyer-Ahmad Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Likak deposit, Bahmai County, Kohgiluyeh and Boyer-Ahmad Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Celestite mineralization occurs as two northwest-southeast trending beds in the Gachsaran Formation, showing an average dip of 60 toward northeast. The lower celestite bed has a length of 1.5 km, and its thickness decreases from southeast to northwest....</p>\n<p><a href=\"https://www.mindat.org/loc-457691.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Barite",
+          "Limonite",
+          "Material_1282",
+          "Material_1784",
+          "Material_234",
+          "Material_471273",
+          "Material_471274",
+          "Material_53316",
+          "Material_927",
+          "Quartz"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

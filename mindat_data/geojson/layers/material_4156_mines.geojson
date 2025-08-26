@@ -1,0 +1,44 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.7636111111,
+          31.7525
+        ]
+      },
+      "properties": {
+        "id": "mindat_223166",
+        "name": "Kushk Mine (Koushk deposit), Bafq County, Yazd Province, Iran",
+        "type": "60",
+        "country": "Iran",
+        "description": "<h3>Kushk Mine (Koushk deposit), Bafq County, Yazd Province, Iran</h3>\n<p><strong>Type:</strong> 60</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Black shale-hosted, zinc-lead deposit, mined since 1939. In 1985, reserves were 1.5 million tons of ore grading at 15% Zn and 3% Pb.\r\n\r\nLocated 42 km northeast of Bafq.</p>\n<p><a href=\"https://www.mindat.org/loc-223166.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Barite",
+          "Calcite",
+          "Chalcopyrite",
+          "Limonite",
+          "Magnetite",
+          "Material_1016",
+          "Material_1740",
+          "Material_1784",
+          "Material_234",
+          "Material_239",
+          "Material_3647",
+          "Material_4156",
+          "Material_5499",
+          "Material_934",
+          "Material_96",
+          "Molybdenite",
+          "Quartz",
+          "Sphalerite",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

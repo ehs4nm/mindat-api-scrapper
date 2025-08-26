@@ -1,0 +1,45 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.5,
+          32.725
+        ]
+      },
+      "properties": {
+        "id": "mindat_446388",
+        "name": "Corundum-bearing pegmatite, Alvand Mountains, Hamadan Province, Iran",
+        "type": "309",
+        "country": "Iran",
+        "description": "<h3>Corundum-bearing pegmatite, Alvand Mountains, Hamadan Province, Iran</h3>\n<p><strong>Type:</strong> 309</p>\n<p><strong>Location:</strong> Iran</p>\n<p>A N20E trending pegmatite dyke, about 80 m  long and 1-2 m thick is intruded the contact metamorphic  rocks (andalusite, garnet and cordierite-bearing hornfels)  and the Alvand granitoid, at south of Hamedan. Corundum-bearing pegmatite (CBP) dyke conta...</p>\n<p><a href=\"https://www.mindat.org/loc-446388.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Limonite",
+          "Material_10272",
+          "Material_1128",
+          "Material_1136",
+          "Material_1875",
+          "Material_217",
+          "Material_2704",
+          "Material_29229",
+          "Material_3529",
+          "Material_3729",
+          "Material_4003",
+          "Material_4421",
+          "Material_4518",
+          "Material_46220",
+          "Material_677",
+          "Material_9252",
+          "Material_9264",
+          "Material_9581",
+          "Material_96",
+          "Molybdenite"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

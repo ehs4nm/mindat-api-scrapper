@@ -1,0 +1,120 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.40333,
+          30.50167
+        ]
+      },
+      "properties": {
+        "id": "mindat_413299",
+        "name": "Kerman 001 meteorite, Kerman meteorite field, Kerman County, Kerman Province, Iran",
+        "type": "1",
+        "country": "Iran",
+        "description": "<h3>Kerman 001 meteorite, Kerman meteorite field, Kerman County, Kerman Province, Iran</h3>\n<p><strong>Type:</strong> 1</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Official name: Kerman 001\r\nObserved fall: no\r\nFound: 2013 Dec 8\r\nCoordinates (Meteoritical Bulletin 103): 30°30.1’N, 58°24.2’E\r\nRecovered weight: 17 kg\r\nH5 chondrite, weathering grade W4\r\n\r\n\r\nMr. Reza Eslami Fetrat, a frequent traveler to the Lut deser...</p>\n<p><a href=\"https://www.mindat.org/loc-413299.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Material_1384",
+          "Material_1584",
+          "Material_1719",
+          "Material_246",
+          "Material_2533",
+          "Material_4029",
+          "Material_43607",
+          "Material_5293"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.789333333333,
+          30.788833333333
+        ]
+      },
+      "properties": {
+        "id": "mindat_413332",
+        "name": "Kerman 002 meteorite, Kerman meteorite field, Kerman County, Kerman Province, Iran",
+        "type": "1",
+        "country": "Iran",
+        "description": "<h3>Kerman 002 meteorite, Kerman meteorite field, Kerman County, Kerman Province, Iran</h3>\n<p><strong>Type:</strong> 1</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Official name: Kerman 002\r\nObserved fall: no\r\nFound: 2012 Oct 23\r\nCoordinates (Meteoritical Bulletin 103): 30°47.33’N, 57°47.36’E\r\nRecovered weight: 211 g\r\nL6 chondrite, weathering grade W3\r\n\r\n\r\nFound by Majid Khatami on December 8, 2013. The meteorite...</p>\n<p><a href=\"https://www.mindat.org/loc-413332.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Material_1384",
+          "Material_1584",
+          "Material_1719",
+          "Material_246",
+          "Material_2533",
+          "Material_4029",
+          "Material_43607",
+          "Material_47876",
+          "Material_5293",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.45,
+          30.446666666667
+        ]
+      },
+      "properties": {
+        "id": "mindat_413340",
+        "name": "Kerman 003 meteorite, Kerman meteorite field, Kerman County, Kerman Province, Iran",
+        "type": "1",
+        "country": "Iran",
+        "description": "<h3>Kerman 003 meteorite, Kerman meteorite field, Kerman County, Kerman Province, Iran</h3>\n<p><strong>Type:</strong> 1</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Official name: Kerman 003\r\nObserved fall: no\r\nFound: 2014 Aug 07\r\nCoordinates (Meteoritical Bulletin 103): 30°26.80’N, 58°27.00’E\r\nRecovered weight: 615 g\r\nL5 chondrite, weathering grade W2\r\n\r\n\r\nFound by Bahman Izadi during an expedition in the Lut des...</p>\n<p><a href=\"https://www.mindat.org/loc-413340.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Material_1384",
+          "Material_1584",
+          "Material_1719",
+          "Material_246",
+          "Material_2533",
+          "Material_4029",
+          "Material_43607",
+          "Material_5293",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.784166666667,
+          30.553833333333
+        ]
+      },
+      "properties": {
+        "id": "mindat_413399",
+        "name": "Shahdad meteorite, Kerman meteorite field, Kerman County, Kerman Province, Iran",
+        "type": "1",
+        "country": "Iran",
+        "description": "<h3>Shahdad meteorite, Kerman meteorite field, Kerman County, Kerman Province, Iran</h3>\n<p><strong>Type:</strong> 1</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Official name: Shahdad\r\nObserved fall: no\r\nFound: 2005\r\nCoordinates (Meteoritical Bulletin 103): 30°33.23’N, 57°47.05’E\r\nRecovered weight: 1074 g\r\nH5 chondrite, weathering grade W4\r\n\r\nA single stone found by Ardeshir Hezarkhani and Reza Sangghaleh in 2...</p>\n<p><a href=\"https://www.mindat.org/loc-413399.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Material_10967",
+          "Material_1584",
+          "Material_1719",
+          "Material_246",
+          "Material_2533",
+          "Material_4029",
+          "Material_43607",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

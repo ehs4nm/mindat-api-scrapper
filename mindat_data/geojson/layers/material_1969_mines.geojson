@@ -1,0 +1,59 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.0486111111,
+          32.5472222222
+        ]
+      },
+      "properties": {
+        "id": "mindat_2015",
+        "name": "Seh-Changi Mine, Nayband (Neyband), Deyhuk District, Tabas County, South Khorasan Province, Iran",
+        "type": "60",
+        "country": "Iran",
+        "description": "<h3>Seh-Changi Mine, Nayband (Neyband), Deyhuk District, Tabas County, South Khorasan Province, Iran</h3>\n<p><strong>Type:</strong> 60</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Abandoned mine in a vein-type lead-zinc deposit.\r\nLocated northeast of Nayband.\r\n\r\nNote: \"Neyband\" appears to be a mis-nomer (from the Handbook of Mineralogy).</p>\n<p><a href=\"https://www.mindat.org/loc-2015.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Material_1276",
+          "Material_1583",
+          "Material_1969",
+          "Material_2714",
+          "Material_3194",
+          "Material_4322",
+          "Material_8953"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.495277777778,
+          32.379444444444
+        ]
+      },
+      "properties": {
+        "id": "mindat_223500",
+        "name": "Nayband (Neyband), Deyhuk District, Tabas County, South Khorasan Province, Iran",
+        "type": "501",
+        "country": "Iran",
+        "description": "<h3>Nayband (Neyband), Deyhuk District, Tabas County, South Khorasan Province, Iran</h3>\n<p><strong>Type:</strong> 501</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Nay Band (Persian: ناي بند‎, also Romanized as Nāy Band, Naiband, and Ney Band; also known as Naibandān and Neyban) is a village in Kavir Rural District, Deyhuk District, Tabas County, South Khorasan Province, Iran.</p>\n<p><a href=\"https://www.mindat.org/loc-223500.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Material_1276",
+          "Material_1583",
+          "Material_1969",
+          "Material_2714",
+          "Material_3194",
+          "Material_4322",
+          "Material_8953"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.6666666667,
+          27.1
+        ]
+      },
+      "properties": {
+        "id": "mindat_207444",
+        "name": "Sar Pohl (Puhal; Pukal; Pujal; Pohl; Pol), Khamir County, Hormozgan Province, Iran",
+        "country": "Iran",
+        "description": "<h3>Sar Pohl (Puhal; Pukal; Pujal; Pohl; Pol), Khamir County, Hormozgan Province, Iran</h3>\n<p><strong>Location:</strong> Iran</p>\n<p>Mountain of salt extruded from a diapir at the eastern end of the Zagros anticline.\r\nLocated about 60 km west of Bandar Abbas.</p>\n<p><a href=\"https://www.mindat.org/loc-207444.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Material_1408",
+          "Material_1804",
+          "Material_1982",
+          "Material_314",
+          "Material_3423",
+          "Material_3850"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

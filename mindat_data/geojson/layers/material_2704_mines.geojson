@@ -1,0 +1,319 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.4672222222,
+          31.7
+        ]
+      },
+      "properties": {
+        "id": "mindat_205068",
+        "name": "Chogart Mine, Bafq County, Yazd Province, Iran",
+        "type": "60",
+        "country": "Iran",
+        "description": "<h3>Chogart Mine, Bafq County, Yazd Province, Iran</h3>\n<p><strong>Type:</strong> 60</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Iron oxide-apatite (IOA) deposit (apatite-magnetite), hosted by Early Cambrian volcano-sedimentary rhyolitic rocks. Diabase dykes cross-cut both host rocks and the orebodies. \r\nMined since the 1970s.\r\n\r\nLocated 12 km northeast of the town of Bafq and 1...</p>\n<p><a href=\"https://www.mindat.org/loc-205068.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Calcite",
+          "Magnetite",
+          "Material_1233",
+          "Material_1234",
+          "Material_1294",
+          "Material_1572",
+          "Material_18",
+          "Material_2013",
+          "Material_2538",
+          "Material_2704",
+          "Material_2750",
+          "Material_29229",
+          "Material_3026",
+          "Material_3486",
+          "Material_3946",
+          "Material_3977",
+          "Material_419",
+          "Material_4421",
+          "Material_6613",
+          "Material_9581",
+          "Material_96",
+          "Quartz",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.7508333333,
+          33.8977777778
+        ]
+      },
+      "properties": {
+        "id": "mindat_223582",
+        "name": "Borujerd County, Lorestan Province, Iran",
+        "type": "115",
+        "country": "Iran",
+        "geomaterials": [
+          "Limonite",
+          "Magnetite",
+          "Material_10272",
+          "Material_1624",
+          "Material_217",
+          "Material_2704",
+          "Material_29229",
+          "Material_305",
+          "Material_4003",
+          "Material_4333",
+          "Material_4421",
+          "Material_6683",
+          "Material_677",
+          "Material_9581",
+          "Material_96",
+          "Molybdenite",
+          "Tetrahedrite"
+        ],
+        "description": "<h3>Borujerd County, Lorestan Province, Iran</h3>\n<p><strong>Type:</strong> 115</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-223582.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.133333333333,
+          32.345833333333
+        ]
+      },
+      "properties": {
+        "id": "mindat_312855",
+        "name": "Khoshumi, Rabatat Rural District, Kharanaq District, Ardakan County, Yazd Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Khoshumi, Rabatat Rural District, Kharanaq District, Ardakan County, Yazd Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Anomaly 6</p>\n<p><a href=\"https://www.mindat.org/loc-312855.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Cubanite",
+          "Cuprite",
+          "Dolomite",
+          "Goethite",
+          "Lautite",
+          "Limonite",
+          "Magnetite",
+          "Material_1016",
+          "Material_10272",
+          "Material_1087",
+          "Material_1197",
+          "Material_1389",
+          "Material_1624",
+          "Material_2013",
+          "Material_207",
+          "Material_213",
+          "Material_2538",
+          "Material_2704",
+          "Material_2750",
+          "Material_29229",
+          "Material_3026",
+          "Material_305",
+          "Material_3486",
+          "Material_3681",
+          "Material_3702",
+          "Material_3948",
+          "Material_3977",
+          "Material_4003",
+          "Material_4421",
+          "Material_4422",
+          "Material_4430",
+          "Material_46220",
+          "Material_480",
+          "Material_6683",
+          "Material_677",
+          "Material_716",
+          "Material_8789",
+          "Material_9252",
+          "Material_9264",
+          "Material_96",
+          "Molybdenite",
+          "Quartz",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.65,
+          35.166666666667
+        ]
+      },
+      "properties": {
+        "id": "mindat_412528",
+        "name": "Ebrahim-Attar, Qorveh County, Kurdistan Province, Iran",
+        "type": "309",
+        "country": "Iran",
+        "description": "<h3>Ebrahim-Attar, Qorveh County, Kurdistan Province, Iran</h3>\n<p><strong>Type:</strong> 309</p>\n<p><strong>Location:</strong> Iran</p>\n<p>LCT type pegmatite</p>\n<p><a href=\"https://www.mindat.org/loc-412528.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Limonite",
+          "Material_118",
+          "Material_2704",
+          "Material_3026",
+          "Material_4003",
+          "Material_677",
+          "Material_819",
+          "Material_9264",
+          "Material_96",
+          "Molybdenite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.841666666667,
+          34.225
+        ]
+      },
+      "properties": {
+        "id": "mindat_426241",
+        "name": "Veshnaveh, Aran and Bidgol County, Isfahan Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Veshnaveh, Aran and Bidgol County, Isfahan Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Ancient copper mines.</p>\n<p><a href=\"https://www.mindat.org/loc-426241.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Calcite",
+          "Chrysocolla",
+          "Covellite",
+          "Fluorite",
+          "Gold",
+          "Hematite",
+          "Iron",
+          "Iron_Oxide",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_1016",
+          "Material_1070",
+          "Material_1294",
+          "Material_1745",
+          "Material_18",
+          "Material_1837",
+          "Material_1875",
+          "Material_2308",
+          "Material_2340",
+          "Material_239",
+          "Material_246",
+          "Material_2538",
+          "Material_2704",
+          "Material_2705",
+          "Material_2976",
+          "Material_3026",
+          "Material_3277",
+          "Material_3305",
+          "Material_3729",
+          "Material_419",
+          "Material_4395",
+          "Material_7630",
+          "Material_779",
+          "Material_9264",
+          "Material_96",
+          "Material_9767",
+          "Molybdenite",
+          "Pyrite",
+          "Quartz",
+          "Sphalerite",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.855555555556,
+          34.223611111111
+        ]
+      },
+      "properties": {
+        "id": "mindat_426243",
+        "name": "Lāghe Morād mines, Veshnaveh, Aran and Bidgol County, Isfahan Province, Iran",
+        "type": "60",
+        "country": "Iran",
+        "geomaterials": [
+          "Chrysocolla",
+          "Hematite",
+          "Iron",
+          "Limonite",
+          "Malachite",
+          "Material_1070",
+          "Material_1294",
+          "Material_1745",
+          "Material_239",
+          "Material_2704",
+          "Material_2976",
+          "Material_3026",
+          "Material_3277",
+          "Material_779",
+          "Material_96",
+          "Molybdenite",
+          "Pyrite",
+          "Quartz",
+          "Tetrahedrite"
+        ],
+        "description": "<h3>Lāghe Morād mines, Veshnaveh, Aran and Bidgol County, Isfahan Province, Iran</h3>\n<p><strong>Type:</strong> 60</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-426243.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.5,
+          32.725
+        ]
+      },
+      "properties": {
+        "id": "mindat_446388",
+        "name": "Corundum-bearing pegmatite, Alvand Mountains, Hamadan Province, Iran",
+        "type": "309",
+        "country": "Iran",
+        "description": "<h3>Corundum-bearing pegmatite, Alvand Mountains, Hamadan Province, Iran</h3>\n<p><strong>Type:</strong> 309</p>\n<p><strong>Location:</strong> Iran</p>\n<p>A N20E trending pegmatite dyke, about 80 m  long and 1-2 m thick is intruded the contact metamorphic  rocks (andalusite, garnet and cordierite-bearing hornfels)  and the Alvand granitoid, at south of Hamedan. Corundum-bearing pegmatite (CBP) dyke conta...</p>\n<p><a href=\"https://www.mindat.org/loc-446388.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Limonite",
+          "Material_10272",
+          "Material_1128",
+          "Material_1136",
+          "Material_1875",
+          "Material_217",
+          "Material_2704",
+          "Material_29229",
+          "Material_3529",
+          "Material_3729",
+          "Material_4003",
+          "Material_4421",
+          "Material_4518",
+          "Material_46220",
+          "Material_677",
+          "Material_9252",
+          "Material_9264",
+          "Material_9581",
+          "Material_96",
+          "Molybdenite"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

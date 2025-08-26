@@ -1,0 +1,59 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.406735077865,
+          36.622829891099
+        ]
+      },
+      "properties": {
+        "id": "mindat_25133",
+        "name": "Angouran Mine, Sheykhlar, Mahneshan County, Zanjan Province, Iran",
+        "type": "268",
+        "country": "Iran",
+        "description": "<h3>Angouran Mine, Sheykhlar, Mahneshan County, Zanjan Province, Iran</h3>\n<p><strong>Type:</strong> 268</p>\n<p><strong>Location:</strong> Iran</p>\n<p>VMS type deposit, located about 300 km NW of Teheran, and 120 km W of Zenjan. \r\nThe deposit is worked from an open pit (the largest one in Iran) and underground workings. One of the major zinc producers in Iran. The main ore is smithsonite.\r\n\r\nThe fine...</p>\n<p><a href=\"https://www.mindat.org/loc-25133.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Barite",
+          "Chalcopyrite",
+          "Iron_Oxide",
+          "Limonite",
+          "Magnetite",
+          "Material_1016",
+          "Material_1576",
+          "Material_1719",
+          "Material_1746",
+          "Material_1860",
+          "Material_1993",
+          "Material_2078",
+          "Material_233",
+          "Material_234",
+          "Material_2402",
+          "Material_2466",
+          "Material_26664",
+          "Material_2714",
+          "Material_2821",
+          "Material_305",
+          "Material_3248",
+          "Material_3320",
+          "Material_3688",
+          "Material_4225",
+          "Material_4292",
+          "Material_4410",
+          "Material_652",
+          "Material_9252",
+          "Material_934",
+          "Molybdenite",
+          "Quartz",
+          "Sphalerite",
+          "Tetrahedrite",
+          "Uraninite"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

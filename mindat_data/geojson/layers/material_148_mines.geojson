@@ -1,0 +1,51 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.3125,
+          29.088888888889
+        ]
+      },
+      "properties": {
+        "id": "mindat_441196",
+        "name": "Golgohar Fe deposit, Sirjan County, Kerman Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "geomaterials": [
+          "Calcite",
+          "Limonite",
+          "Magnetite",
+          "Material_1016",
+          "Material_1070",
+          "Material_11135",
+          "Material_1389",
+          "Material_148",
+          "Material_2013",
+          "Material_207",
+          "Material_2538",
+          "Material_29229",
+          "Material_29264",
+          "Material_3328",
+          "Material_3486",
+          "Material_3647",
+          "Material_3875",
+          "Material_3977",
+          "Material_4003",
+          "Material_4011",
+          "Material_46220",
+          "Material_677",
+          "Material_9264",
+          "Material_9581",
+          "Material_96",
+          "Quartz"
+        ],
+        "description": "<h3>Golgohar Fe deposit, Sirjan County, Kerman Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-441196.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    }
+  ]
+}

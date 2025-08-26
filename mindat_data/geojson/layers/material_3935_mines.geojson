@@ -1,0 +1,63 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.0276,
+          33.0263
+        ]
+      },
+      "properties": {
+        "id": "mindat_251507",
+        "name": "Khas-e-Tarash Cave, Ardestan County, Isfahan Province, Iran",
+        "type": "169",
+        "country": "Iran",
+        "geomaterials": [
+          "Limonite",
+          "Material_1784",
+          "Material_1804",
+          "Material_307",
+          "Material_3935",
+          "Quartz"
+        ],
+        "description": "<h3>Khas-e-Tarash Cave, Ardestan County, Isfahan Province, Iran</h3>\n<p><strong>Type:</strong> 169</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-251507.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.783333333333,
+          34.233333333333
+        ]
+      },
+      "properties": {
+        "id": "mindat_301818",
+        "name": "Mighan Playa, Arak County, Markazi Province, Iran",
+        "country": "Iran",
+        "description": "<h3>Mighan Playa, Arak County, Markazi Province, Iran</h3>\n<p><strong>Location:</strong> Iran</p>\n<p>110 Km2 .</p>\n<p><a href=\"https://www.mindat.org/loc-301818.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Limonite",
+          "Material_1016",
+          "Material_1706",
+          "Material_1748",
+          "Material_1784",
+          "Material_1804",
+          "Material_2482",
+          "Material_2821",
+          "Material_3323",
+          "Material_3875",
+          "Material_3935",
+          "Molybdenite",
+          "Quartz"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

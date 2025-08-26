@@ -1,0 +1,336 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.762651986602,
+          28.3991571
+        ]
+      },
+      "properties": {
+        "id": "mindat_2012",
+        "name": "Soghan, Arzuiyeh County, Kerman Province, Iran",
+        "type": "118",
+        "country": "Iran",
+        "description": "<h3>Soghan, Arzuiyeh County, Kerman Province, Iran</h3>\n<p><strong>Type:</strong> 118</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Soghan District (Persian: بخش صوغان‎) is a district (bakhsh) in Arzuiyeh County, Kerman Province, Iran. The District has no cities. The District has one rural district (dehestan): Soghan Rural District.\r\n\r\nSoghan Rural District (Persian: بخش صوغان‎) is...</p>\n<p><a href=\"https://www.mindat.org/loc-2012.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Material_1036",
+          "Material_1070",
+          "Material_1258",
+          "Material_1384",
+          "Material_1584",
+          "Material_1704",
+          "Material_1979",
+          "Material_223",
+          "Material_2353",
+          "Material_2482",
+          "Material_2538",
+          "Material_260",
+          "Material_2991",
+          "Material_3189",
+          "Material_3486",
+          "Material_3875",
+          "Material_4125",
+          "Material_7535",
+          "Material_820",
+          "Material_96",
+          "Material_975",
+          "Molybdenite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.6333333333,
+          35.3333333333
+        ]
+      },
+      "properties": {
+        "id": "mindat_262146",
+        "name": "Veramin meteorite, Karand, Tehran Province, Iran",
+        "type": "1",
+        "country": "Iran",
+        "description": "<h3>Veramin meteorite, Karand, Tehran Province, Iran</h3>\n<p><strong>Type:</strong> 1</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Mesosiderite-B2 (stony iron)\r\nFall, 18 Apr 1880; 54 kg\r\n\r\nThe fall of the Veramin mesosiderite was accompanied by ten or so very loud explosions, smoke, and the almost immediate recovery of a pitted 54 kg stone.  The stone soon came into the possession...</p>\n<p><a href=\"https://www.mindat.org/loc-262146.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Material_1036",
+          "Material_10967",
+          "Material_1168",
+          "Material_1384",
+          "Material_1740",
+          "Material_2013",
+          "Material_2047",
+          "Material_2143",
+          "Material_246",
+          "Material_29229",
+          "Material_3486",
+          "Material_3582",
+          "Material_3868",
+          "Material_3927",
+          "Material_4015",
+          "Material_4029",
+          "Material_419",
+          "Material_5293",
+          "Material_6577",
+          "Material_7630",
+          "Material_815",
+          "Material_8658",
+          "Material_9264"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.8375,
+          34.010833333333
+        ]
+      },
+      "properties": {
+        "id": "mindat_263358",
+        "name": "Naragh meteorite, Naragh (Naraq; Narāq; Narāk), Delijan County, Markazi Province, Iran",
+        "type": "1",
+        "country": "Iran",
+        "description": "<h3>Naragh meteorite, Naragh (Naraq; Narāq; Narāk), Delijan County, Markazi Province, Iran</h3>\n<p><strong>Type:</strong> 1</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Ordinary chondrite, H6.\r\n\r\nFallen at 09:20 a. m. local time on August 18, 1974, on the flat roof of a secondary school at Naragh (51°30'E, 33°45'N [note: apparently wrong coordinates - they place the fall about 90 km away from Naragh, and were therefor...</p>\n<p><a href=\"https://www.mindat.org/loc-263358.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Material_1013",
+          "Material_1036",
+          "Material_10964",
+          "Material_1384",
+          "Material_1584",
+          "Material_2047",
+          "Material_2143",
+          "Material_3868",
+          "Material_4029",
+          "Material_4280",
+          "Material_7630",
+          "Material_7765",
+          "Material_96"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.874166666667,
+          28.346388888889
+        ]
+      },
+      "properties": {
+        "id": "mindat_265116",
+        "name": "Sorkhan, Soghan, Arzuiyeh County, Kerman Province, Iran",
+        "type": "501",
+        "country": "Iran",
+        "description": "<h3>Sorkhan, Soghan, Arzuiyeh County, Kerman Province, Iran</h3>\n<p><strong>Type:</strong> 501</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Sorkhan (Persian: سرخان‎, also Romanized as Sorkhān) is a village in Soghan Rural District, Soghan District, Arzuiyeh County, Kerman Province, Iran.\r\n\r\nOphiolite melange.</p>\n<p><a href=\"https://www.mindat.org/loc-265116.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Material_1036",
+          "Material_1070",
+          "Material_1384",
+          "Material_1584",
+          "Material_1704",
+          "Material_2353",
+          "Material_2482",
+          "Material_260",
+          "Material_2991",
+          "Material_3189",
+          "Material_3486",
+          "Material_3875",
+          "Material_96",
+          "Molybdenite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.837777777778,
+          34.011111111111
+        ]
+      },
+      "properties": {
+        "id": "mindat_279396",
+        "name": "Naragh (Naraq; Narāq; Narāk), Delijan County, Markazi Province, Iran",
+        "country": "Iran",
+        "geomaterials": [
+          "Material_1013",
+          "Material_1036",
+          "Material_10964",
+          "Material_1384",
+          "Material_1584",
+          "Material_2047",
+          "Material_2143",
+          "Material_3868",
+          "Material_4029",
+          "Material_4280",
+          "Material_7630",
+          "Material_7765",
+          "Material_96"
+        ],
+        "description": "<h3>Naragh (Naraq; Narāq; Narāk), Delijan County, Markazi Province, Iran</h3>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-279396.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.117224,
+          28.650325
+        ]
+      },
+      "properties": {
+        "id": "mindat_287886",
+        "name": "Esfandaqeh, Jiroft County, Kerman Province, Iran",
+        "type": "529",
+        "country": "Iran",
+        "description": "<h3>Esfandaqeh, Jiroft County, Kerman Province, Iran</h3>\n<p><strong>Type:</strong> 529</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Esfandaqeh Rural District (Persian: دهستان اسفندقه) is a rural district (dehestan) in the Central District of Jiroft County, Kerman Province, Iran.\r\n\r\nThe rural district has 52 villages.</p>\n<p><a href=\"https://www.mindat.org/loc-287886.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Barite",
+          "Calcite",
+          "Chalcopyrite",
+          "Fluorite",
+          "Iron",
+          "Iron_Oxide",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_1016",
+          "Material_1036",
+          "Material_1437",
+          "Material_234",
+          "Material_3037",
+          "Material_3155",
+          "Material_3758",
+          "Material_3911",
+          "Material_3924",
+          "Material_3991",
+          "Material_8658",
+          "Material_9252",
+          "Molybdenite",
+          "Quartz",
+          "Sphalerite",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.766666666667,
+          29.866666666667
+        ]
+      },
+      "properties": {
+        "id": "mindat_337397",
+        "name": "Cheshmeh-Bid deposit, Neyriz County, Fars Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "geomaterials": [
+          "Calcite",
+          "Material_1016",
+          "Material_1036",
+          "Material_10967",
+          "Material_260",
+          "Material_8658",
+          "Material_9903"
+        ],
+        "description": "<h3>Cheshmeh-Bid deposit, Neyriz County, Fars Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-337397.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5,
+          38.583333333333
+        ]
+      },
+      "properties": {
+        "id": "mindat_415537",
+        "name": "Khoy ophiolite, Khoy County, West Azerbaijan Province, Iran",
+        "type": "313",
+        "country": "Iran",
+        "geomaterials": [
+          "Material_1036"
+        ],
+        "description": "<h3>Khoy ophiolite, Khoy County, West Azerbaijan Province, Iran</h3>\n<p><strong>Type:</strong> 313</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-415537.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.333055555556,
+          28.3
+        ]
+      },
+      "properties": {
+        "id": "mindat_457921",
+        "name": "Nain-Dehshir-Baft Ophiolitic Belt, Nain County, Isfahan Province, Iran",
+        "type": "639",
+        "country": "Iran",
+        "description": "<h3>Nain-Dehshir-Baft Ophiolitic Belt, Nain County, Isfahan Province, Iran</h3>\n<p><strong>Type:</strong> 639</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Crops out along the Nain-Baft fault, around the Central Iranian Microcontinent (CIM), comprises a set of dismembered ultramafic, mafic and sedimentary complexes. The northernmost branch of this ophiolitic belt is known as \"Nain ophiolitic mélange\" and ...</p>\n<p><a href=\"https://www.mindat.org/loc-457921.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Chalcopyrite",
+          "Chrysocolla",
+          "Covellite",
+          "Iron",
+          "Material_1016",
+          "Material_10272",
+          "Material_1036",
+          "Material_10967",
+          "Material_11135",
+          "Material_1294",
+          "Material_1384",
+          "Material_1666",
+          "Material_1755",
+          "Material_1839",
+          "Material_1930",
+          "Material_1974",
+          "Material_2047",
+          "Material_223",
+          "Material_29264",
+          "Material_29365",
+          "Material_3155",
+          "Material_3193",
+          "Material_3328",
+          "Material_3631",
+          "Material_3912",
+          "Material_3977",
+          "Material_419",
+          "Material_4223",
+          "Material_4343",
+          "Material_4354",
+          "Material_7630",
+          "Native_Copper",
+          "Pyrite",
+          "Quartz"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

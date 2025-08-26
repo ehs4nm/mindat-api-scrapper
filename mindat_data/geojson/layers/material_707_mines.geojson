@@ -1,0 +1,164 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.052,
+          31.081
+        ]
+      },
+      "properties": {
+        "id": "mindat_270427",
+        "name": "Mombi Bauxite Deposit, Kohgiluyeh County, Kohgiluyeh and Boyer-Ahmad Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Mombi Bauxite Deposit, Kohgiluyeh County, Kohgiluyeh and Boyer-Ahmad Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Located 165 km northwest from Dehdasht. It is within the Zagros Simply Fold Belt; it is present as layers within Upper Cretaceous carbonates of the Sarvak Formation.</p>\n<p><a href=\"https://www.mindat.org/loc-270427.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Limonite",
+          "Magnetite",
+          "Material_1016",
+          "Material_1285",
+          "Material_1624",
+          "Material_1689",
+          "Material_1719",
+          "Material_213",
+          "Material_3486",
+          "Material_707",
+          "Sphalerite",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.0333333333,
+          31.0833333333
+        ]
+      },
+      "properties": {
+        "id": "mindat_273045",
+        "name": "Mombi bauxite deposit, Qaleh Mombi, Bahmai County, Kohgiluyeh and Boyer-Ahmad Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Mombi bauxite deposit, Qaleh Mombi, Bahmai County, Kohgiluyeh and Boyer-Ahmad Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Bauxite deposit in the Zagros Mountains.\r\nLocated in 165 km northwest of Dehdasht city.</p>\n<p><a href=\"https://www.mindat.org/loc-273045.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Limonite",
+          "Magnetite",
+          "Material_1016",
+          "Material_1285",
+          "Material_1624",
+          "Material_1689",
+          "Material_1719",
+          "Material_213",
+          "Material_3486",
+          "Material_707",
+          "Sphalerite",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.1150898,
+          31.1074013
+        ]
+      },
+      "properties": {
+        "id": "mindat_281616",
+        "name": "Qaleh Mombi, Bahmai County, Kohgiluyeh and Boyer-Ahmad Province, Iran",
+        "type": "501",
+        "country": "Iran",
+        "geomaterials": [
+          "Limonite",
+          "Magnetite",
+          "Material_1016",
+          "Material_1285",
+          "Material_1624",
+          "Material_1689",
+          "Material_1719",
+          "Material_213",
+          "Material_3486",
+          "Material_707",
+          "Sphalerite",
+          "Tetrahedrite"
+        ],
+        "description": "<h3>Qaleh Mombi, Bahmai County, Kohgiluyeh and Boyer-Ahmad Province, Iran</h3>\n<p><strong>Type:</strong> 501</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-281616.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.628611111111,
+          30.159444444444
+        ]
+      },
+      "properties": {
+        "id": "mindat_310459",
+        "name": "Bidgol deposit, Marvdasht County, Fars Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "geomaterials": [
+          "Limonite",
+          "Magnetite",
+          "Material_1070",
+          "Material_1285",
+          "Material_1719",
+          "Material_213",
+          "Material_3486",
+          "Material_707",
+          "Material_967",
+          "Quartz",
+          "Tetrahedrite"
+        ],
+        "description": "<h3>Bidgol deposit, Marvdasht County, Fars Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-310459.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.633333333333,
+          31.891666666667
+        ]
+      },
+      "properties": {
+        "id": "mindat_424097",
+        "name": "Dopolan bauxite deposit, Kiar County, Chaharmahal and Bakhtiari Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Dopolan bauxite deposit, Kiar County, Chaharmahal and Bakhtiari Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>The Dopolan bauxite deposit has an estimated reserve of 8–15 million tons with an average grade of 45% Al2O3. The Dopolan bauxite deposit show that the bauxite formed as a continental deposit filling karstic cavities at the boundary of the Khaneh–Kat a...</p>\n<p><a href=\"https://www.mindat.org/loc-424097.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Barite",
+          "Limonite",
+          "Magnetite",
+          "Material_1285",
+          "Material_213",
+          "Material_2821",
+          "Material_2826",
+          "Material_3486",
+          "Material_707",
+          "Molybdenite",
+          "Quartz",
+          "Sphalerite"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

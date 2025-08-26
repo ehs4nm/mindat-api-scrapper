@@ -1,0 +1,1273 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.333,
+          33.578
+        ]
+      },
+      "properties": {
+        "id": "mindat_28816",
+        "name": "Mooteh Mine (Muteh Mine), Mooteh District (Muteh District), Golpayegan (Golpayan), Golpayegan County, Isfahan Province, Iran",
+        "type": "60",
+        "country": "Iran",
+        "description": "<h3>Mooteh Mine (Muteh Mine), Mooteh District (Muteh District), Golpayegan (Golpayan), Golpayegan County, Isfahan Province, Iran</h3>\n<p><strong>Type:</strong> 60</p>\n<p><strong>Location:</strong> Iran</p>\n<p>A gold mine, located between 1,800 and 2,200 m asl north of the village of Mooteh. Numerous old vertical surface diggings exist in the area, which are attributed to gold mining during the Sassanian and the Islamic periods (3rd-11th centuries). Presentl...</p>\n<p><a href=\"https://www.mindat.org/loc-28816.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Barite",
+          "Calcite",
+          "Chalcopyrite",
+          "Chrysocolla",
+          "Fluorite",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_1016",
+          "Material_1642",
+          "Material_1720",
+          "Material_18",
+          "Material_239",
+          "Material_2571",
+          "Material_3021",
+          "Material_305",
+          "Material_3328",
+          "Material_3375",
+          "Material_4011",
+          "Material_677",
+          "Material_684",
+          "Material_687",
+          "Material_852",
+          "Material_9252",
+          "Material_96",
+          "Molybdenite",
+          "Pyrite",
+          "Quartz",
+          "Sphalerite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.07,
+          38.4775
+        ]
+      },
+      "properties": {
+        "id": "mindat_207546",
+        "name": "Ahar, Ahar County, East Azerbaijan Province, Iran",
+        "type": "491",
+        "country": "Iran",
+        "geomaterials": [
+          "Barite",
+          "Calcite",
+          "Chalcopyrite",
+          "Fluorite",
+          "Iron",
+          "Iron_Oxide",
+          "Lead",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_1016",
+          "Material_10272",
+          "Material_1062",
+          "Material_1168",
+          "Material_1285",
+          "Material_1294",
+          "Material_1329",
+          "Material_1351",
+          "Material_1389",
+          "Material_161",
+          "Material_1624",
+          "Material_1668",
+          "Material_1719",
+          "Material_1720",
+          "Material_1755",
+          "Material_18",
+          "Material_1842",
+          "Material_1930",
+          "Material_207",
+          "Material_2078",
+          "Material_217",
+          "Material_223",
+          "Material_234",
+          "Material_239",
+          "Material_2538",
+          "Material_2583",
+          "Material_26894",
+          "Material_2746",
+          "Material_29229",
+          "Material_29365",
+          "Material_2976",
+          "Material_3323",
+          "Material_3328",
+          "Material_3486",
+          "Material_3647",
+          "Material_3662",
+          "Material_3875",
+          "Material_3911",
+          "Material_3977",
+          "Material_4003",
+          "Material_4011",
+          "Material_4223",
+          "Material_4323",
+          "Material_4421",
+          "Material_46861",
+          "Material_5574",
+          "Material_6252",
+          "Material_677",
+          "Material_7630",
+          "Material_8778",
+          "Material_8789",
+          "Material_9252",
+          "Material_9264",
+          "Material_934",
+          "Material_9581",
+          "Material_96",
+          "Material_9767",
+          "Molybdenite",
+          "Pyrite",
+          "Quartz",
+          "Sphalerite",
+          "Tetrahedrite",
+          "Uraninite"
+        ],
+        "description": "<h3>Ahar, Ahar County, East Azerbaijan Province, Iran</h3>\n<p><strong>Type:</strong> 491</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-207546.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.92425282,
+          38.67038594
+        ]
+      },
+      "properties": {
+        "id": "mindat_207549",
+        "name": "Anjerd Mine, Ahar, Ahar County, East Azerbaijan Province, Iran",
+        "type": "60",
+        "country": "Iran",
+        "description": "<h3>Anjerd Mine, Ahar, Ahar County, East Azerbaijan Province, Iran</h3>\n<p><strong>Type:</strong> 60</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Skarn-type iron-copper deposit in the Ahar batholith.\r\nLocated NW of Ahar.\r\nThe deposit, discovered in 1978, is estimated to contain 290 Mt with grades of 0.8% copper, 0.02% molybdenum, and 0.2 ppm gold. Patchy development of garnet and epidote skarn f...</p>\n<p><a href=\"https://www.mindat.org/loc-207549.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Barite",
+          "Calcite",
+          "Chalcopyrite",
+          "Fluorite",
+          "Iron",
+          "Iron_Oxide",
+          "Lead",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_1016",
+          "Material_10272",
+          "Material_1285",
+          "Material_1294",
+          "Material_1329",
+          "Material_1389",
+          "Material_161",
+          "Material_1668",
+          "Material_1719",
+          "Material_1720",
+          "Material_18",
+          "Material_1842",
+          "Material_1930",
+          "Material_207",
+          "Material_2078",
+          "Material_217",
+          "Material_223",
+          "Material_234",
+          "Material_239",
+          "Material_2538",
+          "Material_2583",
+          "Material_2746",
+          "Material_29229",
+          "Material_29365",
+          "Material_2976",
+          "Material_3323",
+          "Material_3328",
+          "Material_3486",
+          "Material_3662",
+          "Material_3875",
+          "Material_3911",
+          "Material_3977",
+          "Material_4003",
+          "Material_4011",
+          "Material_4223",
+          "Material_4323",
+          "Material_46861",
+          "Material_5574",
+          "Material_6252",
+          "Material_677",
+          "Material_7630",
+          "Material_8778",
+          "Material_8789",
+          "Material_9264",
+          "Material_934",
+          "Material_9581",
+          "Material_96",
+          "Material_9767",
+          "Molybdenite",
+          "Pyrite",
+          "Quartz",
+          "Sphalerite",
+          "Tetrahedrite",
+          "Uraninite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.991666666667,
+          28.333333333333
+        ]
+      },
+      "properties": {
+        "id": "mindat_221884",
+        "name": "Chahnaly deposit (Chahnali prospect), Bazman Volcano, Iranshahr County, Sistan and Baluchestan Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Chahnaly deposit (Chahnali prospect), Bazman Volcano, Iranshahr County, Sistan and Baluchestan Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Prospect on epithermal gold mineralisation.\r\nLocated northwest of the intermittently active Bazman stratovolcano.</p>\n<p><a href=\"https://www.mindat.org/loc-221884.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Barite",
+          "Calcite",
+          "Chalcopyrite",
+          "Epidote",
+          "Fluorite",
+          "Iron",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_1016",
+          "Material_1192",
+          "Material_1365",
+          "Material_1389",
+          "Material_1719",
+          "Material_1720",
+          "Material_1834",
+          "Material_1881",
+          "Material_2037",
+          "Material_2047",
+          "Material_2078",
+          "Material_239",
+          "Material_2402",
+          "Material_2623",
+          "Material_2746",
+          "Material_28",
+          "Material_2821",
+          "Material_2866",
+          "Material_2942",
+          "Material_3072",
+          "Material_3090",
+          "Material_3138",
+          "Material_3189",
+          "Material_3237",
+          "Material_3275",
+          "Material_3647",
+          "Material_3911",
+          "Material_3912",
+          "Material_39819",
+          "Material_47912",
+          "Material_59",
+          "Material_9581",
+          "Material_960",
+          "Molybdenite",
+          "Pyrite",
+          "Quartz",
+          "Sphalerite",
+          "Tetrahedrite",
+          "Uraninite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.0099563599,
+          28.0715389093
+        ]
+      },
+      "properties": {
+        "id": "mindat_221885",
+        "name": "Bazman Volcano, Iranshahr County, Sistan and Baluchestan Province, Iran",
+        "type": "231",
+        "country": "Iran",
+        "description": "<h3>Bazman Volcano, Iranshahr County, Sistan and Baluchestan Province, Iran</h3>\n<p><strong>Type:</strong> 231</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Stratovolcano (3490 m) with fumarolic activity.</p>\n<p><a href=\"https://www.mindat.org/loc-221885.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Barite",
+          "Calcite",
+          "Chalcopyrite",
+          "Epidote",
+          "Fluorite",
+          "Iron",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_1016",
+          "Material_1192",
+          "Material_1365",
+          "Material_1389",
+          "Material_1719",
+          "Material_1720",
+          "Material_1834",
+          "Material_1881",
+          "Material_2037",
+          "Material_2047",
+          "Material_2078",
+          "Material_239",
+          "Material_2402",
+          "Material_2623",
+          "Material_2746",
+          "Material_28",
+          "Material_2821",
+          "Material_2866",
+          "Material_2942",
+          "Material_3072",
+          "Material_3090",
+          "Material_3138",
+          "Material_3189",
+          "Material_3237",
+          "Material_3275",
+          "Material_3647",
+          "Material_3911",
+          "Material_3912",
+          "Material_39819",
+          "Material_47912",
+          "Material_59",
+          "Material_9581",
+          "Material_960",
+          "Molybdenite",
+          "Pyrite",
+          "Quartz",
+          "Sphalerite",
+          "Tetrahedrite",
+          "Uraninite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.2805555556,
+          31.0330555556
+        ]
+      },
+      "properties": {
+        "id": "mindat_223163",
+        "name": "Mehdi Abad Mine, Anar County, Kerman Province, Iran",
+        "type": "60",
+        "country": "Iran",
+        "description": "<h3>Mehdi Abad Mine, Anar County, Kerman Province, Iran</h3>\n<p><strong>Type:</strong> 60</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Mehdiabad is a world-class Zn–Pb-Ba-Cu (±Fe±Mn) deposit located in the southern YAMB. Like Irankuh, early Cretaceous carbonates and sandstones unconformably lie over Jurassic rocks in this deposit.  Recent exploration revealed the total geological reso...</p>\n<p><a href=\"https://www.mindat.org/loc-223163.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Barite",
+          "Calcite",
+          "Chalcopyrite",
+          "Fluorite",
+          "Iron_Oxide",
+          "Limonite",
+          "Magnetite",
+          "Material_1719",
+          "Material_1860",
+          "Material_1883",
+          "Material_1993",
+          "Material_233",
+          "Material_239",
+          "Material_2402",
+          "Material_2714",
+          "Material_3544",
+          "Material_3647",
+          "Material_3688",
+          "Material_4410",
+          "Material_8129",
+          "Material_934",
+          "Material_947",
+          "Pyrite",
+          "Quartz",
+          "Sphalerite",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.7636111111,
+          31.7525
+        ]
+      },
+      "properties": {
+        "id": "mindat_223166",
+        "name": "Kushk Mine (Koushk deposit), Bafq County, Yazd Province, Iran",
+        "type": "60",
+        "country": "Iran",
+        "description": "<h3>Kushk Mine (Koushk deposit), Bafq County, Yazd Province, Iran</h3>\n<p><strong>Type:</strong> 60</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Black shale-hosted, zinc-lead deposit, mined since 1939. In 1985, reserves were 1.5 million tons of ore grading at 15% Zn and 3% Pb.\r\n\r\nLocated 42 km northeast of Bafq.</p>\n<p><a href=\"https://www.mindat.org/loc-223166.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Barite",
+          "Calcite",
+          "Chalcopyrite",
+          "Limonite",
+          "Magnetite",
+          "Material_1016",
+          "Material_1740",
+          "Material_1784",
+          "Material_234",
+          "Material_239",
+          "Material_3647",
+          "Material_4156",
+          "Material_5499",
+          "Material_934",
+          "Material_96",
+          "Molybdenite",
+          "Quartz",
+          "Sphalerite",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.8927777778,
+          33.7375
+        ]
+      },
+      "properties": {
+        "id": "mindat_223238",
+        "name": "Lakan Mine, Khomeyn County, Markazi Province, Iran",
+        "type": "60",
+        "country": "Iran",
+        "description": "<h3>Lakan Mine, Khomeyn County, Markazi Province, Iran</h3>\n<p><strong>Type:</strong> 60</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Zinc-lead deposit.</p>\n<p><a href=\"https://www.mindat.org/loc-223238.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Barite",
+          "Calcite",
+          "Chalcopyrite",
+          "Chrysocolla",
+          "Fluorite",
+          "Iron_Oxide",
+          "Magnetite",
+          "Malachite",
+          "Material_239",
+          "Material_3647",
+          "Sphalerite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.51482744743,
+          32.29680671997
+        ]
+      },
+      "properties": {
+        "id": "mindat_223338",
+        "name": "Chador Malu Fe deposit, Rabatat Rural District, Kharanaq District, Ardakan County, Yazd Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Chador Malu Fe deposit, Rabatat Rural District, Kharanaq District, Ardakan County, Yazd Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>The Chadormalu deposit consists of two separate large massive orebodies. The main orebody, consisting of three closely spaced bodies in the northern part of the deposit, accounts for about 80% of the total ore reserve. Smaller orebodies displaying faul...</p>\n<p><a href=\"https://www.mindat.org/loc-223338.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Magnetite",
+          "Material_1016",
+          "Material_1572",
+          "Material_18",
+          "Material_239",
+          "Material_2538",
+          "Material_29229",
+          "Material_3647",
+          "Material_677",
+          "Material_9252",
+          "Material_9581",
+          "Material_96",
+          "Molybdenite",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.216666666667,
+          28.233333333333
+        ]
+      },
+      "properties": {
+        "id": "mindat_223578",
+        "name": "Zartorosht Au deposit, Jiroft, Jiroft County, Kerman Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Zartorosht Au deposit, Jiroft, Jiroft County, Kerman Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Located SW of Jiroft (Sabzevaran).\r\nOrogenic Tertiary</p>\n<p><a href=\"https://www.mindat.org/loc-223578.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Calcite",
+          "Chalcopyrite",
+          "Gersdorffite",
+          "Limonite",
+          "Magnetite",
+          "Material_1016",
+          "Material_1365",
+          "Material_1389",
+          "Material_1617",
+          "Material_1720",
+          "Material_239",
+          "Material_2402",
+          "Material_2571",
+          "Material_29212",
+          "Material_29229",
+          "Material_305",
+          "Material_3328",
+          "Material_3486",
+          "Material_424",
+          "Material_9252",
+          "Material_96",
+          "Molybdenite",
+          "Quartz",
+          "Sphalerite",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.2708163,
+          33.4572358
+        ]
+      },
+      "properties": {
+        "id": "mindat_233382",
+        "name": "Golpayegan (Golpayan), Golpayegan County, Isfahan Province, Iran",
+        "country": "Iran",
+        "geomaterials": [
+          "Barite",
+          "Calcite",
+          "Chalcopyrite",
+          "Chrysocolla",
+          "Fluorite",
+          "Gersdorffite",
+          "Iron_Oxide",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_1016",
+          "Material_1389",
+          "Material_1642",
+          "Material_1719",
+          "Material_1720",
+          "Material_18",
+          "Material_239",
+          "Material_2402",
+          "Material_2538",
+          "Material_2571",
+          "Material_3021",
+          "Material_305",
+          "Material_3328",
+          "Material_3375",
+          "Material_4003",
+          "Material_4011",
+          "Material_419",
+          "Material_677",
+          "Material_684",
+          "Material_687",
+          "Material_852",
+          "Material_9252",
+          "Material_96",
+          "Molybdenite",
+          "Pyrite",
+          "Quartz",
+          "Sphalerite",
+          "Tetrahedrite"
+        ],
+        "description": "<h3>Golpayegan (Golpayan), Golpayegan County, Isfahan Province, Iran</h3>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-233382.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.141666666667,
+          32.216666666667
+        ]
+      },
+      "properties": {
+        "id": "mindat_266628",
+        "name": "Chah-Gaz iron oxide-apatite ore deposit, Rabatat Rural District, Kharanaq District, Ardakan County, Yazd Province, Iran",
+        "type": "281",
+        "country": "Iran",
+        "description": "<h3>Chah-Gaz iron oxide-apatite ore deposit, Rabatat Rural District, Kharanaq District, Ardakan County, Yazd Province, Iran</h3>\n<p><strong>Type:</strong> 281</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Shale-hosted Pb-Zn mineralisation.\r\nThe Chah-Gaz magmatic complex occupies an area of ∼ 5 km². It consists of rhyolite/rhyodacite of the CVSU, and granite and alkaline gabbro-diorite that occur as elongated bodies bounded by NW–SE faults.[[1]]</p>\n<p><a href=\"https://www.mindat.org/loc-266628.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Chalcopyrite",
+          "Limonite",
+          "Magnetite",
+          "Material_1016",
+          "Material_10967",
+          "Material_11135",
+          "Material_1389",
+          "Material_18",
+          "Material_207",
+          "Material_239",
+          "Material_2538",
+          "Material_2750",
+          "Material_2821",
+          "Material_29229",
+          "Material_3193",
+          "Material_3486",
+          "Material_3521",
+          "Material_3647",
+          "Material_3875",
+          "Material_3946",
+          "Material_3977",
+          "Material_4011",
+          "Material_419",
+          "Material_4421",
+          "Material_46220",
+          "Material_6613",
+          "Material_677",
+          "Material_7630",
+          "Material_9252",
+          "Material_9264",
+          "Material_9581",
+          "Material_96",
+          "Molybdenite",
+          "Quartz",
+          "Sphalerite",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.0,
+          30.016666666667
+        ]
+      },
+      "properties": {
+        "id": "mindat_278302",
+        "name": "Shahr-e Babak, Shahr-e Babak County, Kerman Province, Iran",
+        "type": "491",
+        "country": "Iran",
+        "geomaterials": [
+          "Calcite",
+          "Chalcopyrite",
+          "Fluorite",
+          "Gersdorffite",
+          "Hematite",
+          "Iron",
+          "Iron_Oxide",
+          "Lead",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_1016",
+          "Material_1365",
+          "Material_1380",
+          "Material_1389",
+          "Material_1451",
+          "Material_1576",
+          "Material_1624",
+          "Material_1666",
+          "Material_1719",
+          "Material_1720",
+          "Material_2069",
+          "Material_207",
+          "Material_2299",
+          "Material_2308",
+          "Material_233",
+          "Material_234",
+          "Material_239",
+          "Material_2402",
+          "Material_246",
+          "Material_2461",
+          "Material_2538",
+          "Material_2746",
+          "Material_29229",
+          "Material_29338",
+          "Material_3138",
+          "Material_3234",
+          "Material_3247",
+          "Material_3323",
+          "Material_3406",
+          "Material_3486",
+          "Material_3647",
+          "Material_3924",
+          "Material_3977",
+          "Material_39819",
+          "Material_4060",
+          "Material_4395",
+          "Material_4421",
+          "Material_48009",
+          "Material_677",
+          "Material_817",
+          "Material_9252",
+          "Material_9264",
+          "Material_959",
+          "Material_960",
+          "Material_9767",
+          "Molybdenite",
+          "Pyrite",
+          "Quartz",
+          "Sphalerite",
+          "Tetrahedrite",
+          "Uraninite"
+        ],
+        "description": "<h3>Shahr-e Babak, Shahr-e Babak County, Kerman Province, Iran</h3>\n<p><strong>Type:</strong> 491</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-278302.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.740556,
+          28.678056
+        ]
+      },
+      "properties": {
+        "id": "mindat_279726",
+        "name": "Jiroft, Jiroft County, Kerman Province, Iran",
+        "type": "491",
+        "country": "Iran",
+        "description": "<h3>Jiroft, Jiroft County, Kerman Province, Iran</h3>\n<p><strong>Type:</strong> 491</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Jiroft (Persian: جيرفت, also Romanized as Jīroft; formerly, Sabzāwārān, Sabzevārān, Sabzevārān-e Jiroft, and Sabzvārān) is a city and capital of Jiroft County, Kerman Province, Iran.\r\n\r\nIt is located 230 kilometres (140 mi) south of the city of Kerman,...</p>\n<p><a href=\"https://www.mindat.org/loc-279726.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Calcite",
+          "Chalcopyrite",
+          "Gersdorffite",
+          "Limonite",
+          "Magnetite",
+          "Material_1016",
+          "Material_1365",
+          "Material_1389",
+          "Material_1617",
+          "Material_1720",
+          "Material_239",
+          "Material_2402",
+          "Material_2571",
+          "Material_29212",
+          "Material_29229",
+          "Material_305",
+          "Material_3328",
+          "Material_3486",
+          "Material_424",
+          "Material_9252",
+          "Material_96",
+          "Molybdenite",
+          "Quartz",
+          "Sphalerite",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.152493714631,
+          30.402099244865
+        ]
+      },
+      "properties": {
+        "id": "mindat_420835",
+        "name": "Chah-Mesi epithermal vein deposit, Shahr-e Babak, Shahr-e Babak County, Kerman Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "geomaterials": [
+          "Calcite",
+          "Chalcopyrite",
+          "Fluorite",
+          "Gersdorffite",
+          "Iron",
+          "Iron_Oxide",
+          "Lead",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_1016",
+          "Material_1365",
+          "Material_1380",
+          "Material_1389",
+          "Material_1451",
+          "Material_1576",
+          "Material_1624",
+          "Material_1666",
+          "Material_1719",
+          "Material_1720",
+          "Material_2069",
+          "Material_207",
+          "Material_2299",
+          "Material_2308",
+          "Material_233",
+          "Material_234",
+          "Material_239",
+          "Material_2402",
+          "Material_246",
+          "Material_2461",
+          "Material_2538",
+          "Material_2746",
+          "Material_29229",
+          "Material_29338",
+          "Material_3138",
+          "Material_3247",
+          "Material_3323",
+          "Material_3406",
+          "Material_3486",
+          "Material_3647",
+          "Material_3924",
+          "Material_39819",
+          "Material_48009",
+          "Material_677",
+          "Material_817",
+          "Material_9252",
+          "Material_9264",
+          "Material_960",
+          "Material_9767",
+          "Molybdenite",
+          "Pyrite",
+          "Quartz",
+          "Sphalerite",
+          "Tetrahedrite",
+          "Uraninite"
+        ],
+        "description": "<h3>Chah-Mesi epithermal vein deposit, Shahr-e Babak, Shahr-e Babak County, Kerman Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-420835.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.6,
+          32.533333333333
+        ]
+      },
+      "properties": {
+        "id": "mindat_422682",
+        "name": "Irankuh Mining District, Isfahan Province, Iran",
+        "type": "429",
+        "country": "Iran",
+        "description": "<h3>Irankuh Mining District, Isfahan Province, Iran</h3>\n<p><strong>Type:</strong> 429</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Sediment‐hosted Zn‐Pb (Ag‐Ba) deposits, sub‐seafloor diagenetic replacement SEDEX‐type deposits.\r\n\r\nThe Irankuh mineralization is hosted by carbonate rocks (dolostone and limestone) and minor clastic rocks as epigenetic. Mineralization has occurred as ...</p>\n<p><a href=\"https://www.mindat.org/loc-422682.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Barite",
+          "Calcite",
+          "Chalcopyrite",
+          "Iron_Oxide",
+          "Lead",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_1719",
+          "Material_1784",
+          "Material_1860",
+          "Material_1993",
+          "Material_233",
+          "Material_239",
+          "Material_2571",
+          "Material_2821",
+          "Material_29229",
+          "Material_3688",
+          "Material_9252",
+          "Material_934",
+          "Material_9424",
+          "Material_9532",
+          "Molybdenite",
+          "Quartz",
+          "Sphalerite",
+          "Tetrahedrite",
+          "Uraninite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.841666666667,
+          34.225
+        ]
+      },
+      "properties": {
+        "id": "mindat_426241",
+        "name": "Veshnaveh, Aran and Bidgol County, Isfahan Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Veshnaveh, Aran and Bidgol County, Isfahan Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Ancient copper mines.</p>\n<p><a href=\"https://www.mindat.org/loc-426241.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Calcite",
+          "Chrysocolla",
+          "Covellite",
+          "Fluorite",
+          "Gold",
+          "Hematite",
+          "Iron",
+          "Iron_Oxide",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_1016",
+          "Material_1070",
+          "Material_1294",
+          "Material_1745",
+          "Material_18",
+          "Material_1837",
+          "Material_1875",
+          "Material_2308",
+          "Material_2340",
+          "Material_239",
+          "Material_246",
+          "Material_2538",
+          "Material_2704",
+          "Material_2705",
+          "Material_2976",
+          "Material_3026",
+          "Material_3277",
+          "Material_3305",
+          "Material_3729",
+          "Material_419",
+          "Material_4395",
+          "Material_7630",
+          "Material_779",
+          "Material_9264",
+          "Material_96",
+          "Material_9767",
+          "Molybdenite",
+          "Pyrite",
+          "Quartz",
+          "Sphalerite",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.8375,
+          34.229166666667
+        ]
+      },
+      "properties": {
+        "id": "mindat_426242",
+        "name": "Mazrayeh mines, Veshnaveh, Aran and Bidgol County, Isfahan Province, Iran",
+        "type": "60",
+        "country": "Iran",
+        "geomaterials": [
+          "Limonite",
+          "Malachite",
+          "Material_1070",
+          "Material_1745",
+          "Material_239",
+          "Material_2976",
+          "Material_3026",
+          "Material_3277",
+          "Material_3305",
+          "Material_96",
+          "Material_9767",
+          "Molybdenite",
+          "Pyrite",
+          "Quartz",
+          "Tetrahedrite"
+        ],
+        "description": "<h3>Mazrayeh mines, Veshnaveh, Aran and Bidgol County, Isfahan Province, Iran</h3>\n<p><strong>Type:</strong> 60</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-426242.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.855555555556,
+          34.223611111111
+        ]
+      },
+      "properties": {
+        "id": "mindat_426243",
+        "name": "Lāghe Morād mines, Veshnaveh, Aran and Bidgol County, Isfahan Province, Iran",
+        "type": "60",
+        "country": "Iran",
+        "geomaterials": [
+          "Chrysocolla",
+          "Hematite",
+          "Iron",
+          "Limonite",
+          "Malachite",
+          "Material_1070",
+          "Material_1294",
+          "Material_1745",
+          "Material_239",
+          "Material_2704",
+          "Material_2976",
+          "Material_3026",
+          "Material_3277",
+          "Material_779",
+          "Material_96",
+          "Molybdenite",
+          "Pyrite",
+          "Quartz",
+          "Tetrahedrite"
+        ],
+        "description": "<h3>Lāghe Morād mines, Veshnaveh, Aran and Bidgol County, Isfahan Province, Iran</h3>\n<p><strong>Type:</strong> 60</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-426243.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.866666666667,
+          34.083333333333
+        ]
+      },
+      "properties": {
+        "id": "mindat_426855",
+        "name": "Kahak deposit, Delijan, Delijan County, Markazi Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Kahak deposit, Delijan, Delijan County, Markazi Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>The stratabound ores occur as replacement bodies within the Lower Cretaceous sedimentary (volcanic) rocks, as well as along major syn-sedimentary faults.</p>\n<p><a href=\"https://www.mindat.org/loc-426855.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Barite",
+          "Calcite",
+          "Chalcopyrite",
+          "Iron_Oxide",
+          "Limonite",
+          "Magnetite",
+          "Material_11125",
+          "Material_1719",
+          "Material_239",
+          "Material_2402",
+          "Material_3318",
+          "Material_3647",
+          "Material_9264",
+          "Quartz",
+          "Sphalerite",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.716666666667,
+          34.175
+        ]
+      },
+      "properties": {
+        "id": "mindat_426857",
+        "name": "Khoreh deposit, Delijan, Delijan County, Markazi Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "geomaterials": [
+          "Barite",
+          "Calcite",
+          "Chalcopyrite",
+          "Iron_Oxide",
+          "Limonite",
+          "Magnetite",
+          "Material_11125",
+          "Material_1719",
+          "Material_239",
+          "Material_2402",
+          "Material_3318",
+          "Material_3647",
+          "Material_9264",
+          "Quartz",
+          "Sphalerite",
+          "Tetrahedrite"
+        ],
+        "description": "<h3>Khoreh deposit, Delijan, Delijan County, Markazi Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-426857.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.5,
+          34.366666666667
+        ]
+      },
+      "properties": {
+        "id": "mindat_426858",
+        "name": "Raveh deposit, Delijan, Delijan County, Markazi Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Raveh deposit, Delijan, Delijan County, Markazi Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>NOTE: Coordinates put this in Qom County, Qom Province.</p>\n<p><a href=\"https://www.mindat.org/loc-426858.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Barite",
+          "Calcite",
+          "Chalcopyrite",
+          "Iron_Oxide",
+          "Limonite",
+          "Magnetite",
+          "Material_11125",
+          "Material_1719",
+          "Material_239",
+          "Material_2402",
+          "Material_3318",
+          "Material_3647",
+          "Material_9264",
+          "Quartz",
+          "Sphalerite",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.20776467,
+          30.7928536
+        ]
+      },
+      "properties": {
+        "id": "mindat_456570",
+        "name": "Cheshmeh Esi Fe deposit, Khorrambid County, Fars Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Cheshmeh Esi Fe deposit, Khorrambid County, Fars Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Iron oxide mineralization occurs in the form of small lenses and layers in Triassic–Jurassic dolomites and schists, ranging from 10 to 50 m in length and 2 to 4 m in thickness. The ore body outcrops with a northeast–southwest trend and a dip of approxi...</p>\n<p><a href=\"https://www.mindat.org/loc-456570.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Barite",
+          "Limonite",
+          "Magnetite",
+          "Material_1016",
+          "Material_1164",
+          "Material_1719",
+          "Material_239",
+          "Material_2538",
+          "Material_3304",
+          "Material_3318",
+          "Material_3359",
+          "Material_9252",
+          "Molybdenite",
+          "Quartz",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.24763205,
+          30.78728074
+        ]
+      },
+      "properties": {
+        "id": "mindat_456573",
+        "name": "Goli Fe deposit, Khorrambid County, Fars Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "geomaterials": [
+          "Barite",
+          "Limonite",
+          "Magnetite",
+          "Material_1016",
+          "Material_1164",
+          "Material_1719",
+          "Material_239",
+          "Material_2538",
+          "Material_3304",
+          "Material_3318",
+          "Material_3359",
+          "Material_9252",
+          "Molybdenite",
+          "Quartz",
+          "Tetrahedrite"
+        ],
+        "description": "<h3>Goli Fe deposit, Khorrambid County, Fars Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-456573.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.42596358,
+          30.64281506
+        ]
+      },
+      "properties": {
+        "id": "mindat_456576",
+        "name": "Cheshme Sorkh Fe deposit, Bavanat County, Fars Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "geomaterials": [
+          "Barite",
+          "Limonite",
+          "Magnetite",
+          "Material_1016",
+          "Material_1164",
+          "Material_1719",
+          "Material_239",
+          "Material_2538",
+          "Material_3304",
+          "Material_3318",
+          "Material_3359",
+          "Material_9252",
+          "Molybdenite",
+          "Quartz",
+          "Tetrahedrite"
+        ],
+        "description": "<h3>Cheshme Sorkh Fe deposit, Bavanat County, Fars Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-456576.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    }
+  ]
+}

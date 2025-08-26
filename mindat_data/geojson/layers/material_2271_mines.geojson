@@ -1,0 +1,37 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.6650002,
+          32.6707877
+        ]
+      },
+      "properties": {
+        "id": "mindat_233444",
+        "name": "Esfahan (Isfahan), Isfahan County, Isfahan Province, Iran",
+        "country": "Iran",
+        "geomaterials": [
+          "Malachite",
+          "Material_1860",
+          "Material_1993",
+          "Material_2271",
+          "Material_2402",
+          "Material_307",
+          "Material_3237",
+          "Material_3320",
+          "Material_3447",
+          "Material_3688",
+          "Material_422",
+          "Material_934",
+          "Tetrahedrite"
+        ],
+        "description": "<h3>Esfahan (Isfahan), Isfahan County, Isfahan Province, Iran</h3>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-233444.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    }
+  ]
+}

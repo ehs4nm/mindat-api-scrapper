@@ -1,0 +1,130 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.663055555556,
+          28.984166666667
+        ]
+      },
+      "properties": {
+        "id": "mindat_307914",
+        "name": "Dehoo manganese deposit, Dehoo, Zahedan County, Sistan and Baluchestan Province, Iran",
+        "country": "Iran",
+        "description": "<h3>Dehoo manganese deposit, Dehoo, Zahedan County, Sistan and Baluchestan Province, Iran</h3>\n<p><strong>Location:</strong> Iran</p>\n<p>A predominantly submarine hydrothermal Mn deposit complemented by terrigenous detrital mafic material. Situated in the central part of the Iranian Flysch Zone.\r\n\r\nLocated 52 km to the south-southwest of Zahedan and 7 km to the southeast of Dehoo.</p>\n<p><a href=\"https://www.mindat.org/loc-307914.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Iron_Oxide",
+          "Limonite",
+          "Material_1164",
+          "Material_1921",
+          "Material_2061",
+          "Material_2519",
+          "Material_3208",
+          "Material_3304",
+          "Material_3318",
+          "Material_3988",
+          "Material_691",
+          "Material_757",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.725,
+          33.793611111111
+        ]
+      },
+      "properties": {
+        "id": "mindat_457419",
+        "name": "Shamsabad Fe-Mn deposit, Arak County, Markazi Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Shamsabad Fe-Mn deposit, Arak County, Markazi Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Mineralization in the Shamsabad manganese-bearing iron deposit occurs as stratabound in dark gray, thickbedded to massive orbitolina-bearing limestones with a lower Cretaceous age. The Shamsabad ferromanganese deposit is\r\ndeposited from submarine-hydro...</p>\n<p><a href=\"https://www.mindat.org/loc-457419.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Barite",
+          "Chalcopyrite",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_1016",
+          "Material_1134",
+          "Material_1624",
+          "Material_1719",
+          "Material_2379",
+          "Material_2402",
+          "Material_2976",
+          "Material_3318",
+          "Material_3406",
+          "Material_3988",
+          "Material_677",
+          "Material_9252",
+          "Material_96",
+          "Molybdenite",
+          "Quartz",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.65,
+          33.983333333333
+        ]
+      },
+      "properties": {
+        "id": "mindat_457425",
+        "name": "Band-e-Cherk ferromanganese occurrence, Ardestan County, Isfahan Province, Iran",
+        "type": "281",
+        "country": "Iran",
+        "description": "<h3>Band-e-Cherk ferromanganese occurrence, Ardestan County, Isfahan Province, Iran</h3>\n<p><strong>Type:</strong> 281</p>\n<p><strong>Location:</strong> Iran</p>\n<p>The host sequence involves two units, from bottom to top: 1) Palaeozoic-Mesozoic metamorphic complex, and 2) Lower Cretaceous succession. Mineralization has occurred as vein/veinlet, replacement, banded, breccia, banded, spotted, and microbial remains ...</p>\n<p><a href=\"https://www.mindat.org/loc-457425.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Barite",
+          "Calcite",
+          "Chalcopyrite",
+          "Iron_Oxide",
+          "Lead",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_1016",
+          "Material_1624",
+          "Material_1719",
+          "Material_18",
+          "Material_1832",
+          "Material_207",
+          "Material_2402",
+          "Material_2519",
+          "Material_2538",
+          "Material_3004",
+          "Material_3304",
+          "Material_3318",
+          "Material_3359",
+          "Material_3988",
+          "Material_4011",
+          "Material_4015",
+          "Material_757",
+          "Material_9252",
+          "Material_9264",
+          "Material_960",
+          "Material_9767",
+          "Molybdenite",
+          "Quartz",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

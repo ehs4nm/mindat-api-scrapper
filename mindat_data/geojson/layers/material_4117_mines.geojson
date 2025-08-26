@@ -1,0 +1,37 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.85,
+          36.266666666667
+        ]
+      },
+      "properties": {
+        "id": "mindat_425605",
+        "name": "Kraftu cave, Divandarreh County, Kurdistan Province, Iran",
+        "type": "169",
+        "country": "Iran",
+        "description": "<h3>Kraftu cave, Divandarreh County, Kurdistan Province, Iran</h3>\n<p><strong>Type:</strong> 169</p>\n<p><strong>Location:</strong> Iran</p>\n<p>artificially cut rock chambers  dating back to the 3rd or 4th century BC</p>\n<p><a href=\"https://www.mindat.org/loc-425605.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Material_1593",
+          "Material_1784",
+          "Material_2385",
+          "Material_2917",
+          "Material_3197",
+          "Material_3728",
+          "Material_3890",
+          "Material_4117",
+          "Material_4280",
+          "Material_7260",
+          "Material_793",
+          "Material_938"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.65,
+          35.166666666667
+        ]
+      },
+      "properties": {
+        "id": "mindat_412528",
+        "name": "Ebrahim-Attar, Qorveh County, Kurdistan Province, Iran",
+        "type": "309",
+        "country": "Iran",
+        "description": "<h3>Ebrahim-Attar, Qorveh County, Kurdistan Province, Iran</h3>\n<p><strong>Type:</strong> 309</p>\n<p><strong>Location:</strong> Iran</p>\n<p>LCT type pegmatite</p>\n<p><a href=\"https://www.mindat.org/loc-412528.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Limonite",
+          "Material_118",
+          "Material_2704",
+          "Material_3026",
+          "Material_4003",
+          "Material_677",
+          "Material_819",
+          "Material_9264",
+          "Material_96",
+          "Molybdenite"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

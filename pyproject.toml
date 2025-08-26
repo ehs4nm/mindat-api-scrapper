@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mindat"
+version = "0.1.0"
+description = "Mindat API scraper utilities"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{ name = "Ehsan" }]
+dependencies = [
+  "requests>=2.31",
+  "PyYAML>=6.0",
+  "tqdm>=4.64",
+]
+
+[tool.setuptools]
+packages = { find = { where = ["."], include = ["mindat*"] } }

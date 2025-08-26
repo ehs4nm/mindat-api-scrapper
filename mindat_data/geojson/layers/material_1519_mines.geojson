@@ -1,0 +1,35 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.233333333333,
+          37.2
+        ]
+      },
+      "properties": {
+        "id": "mindat_337061",
+        "name": "Bardkish syenite, Urmia County, West Azerbaijan Province, Iran",
+        "type": "323",
+        "country": "Iran",
+        "description": "<h3>Bardkish syenite, Urmia County, West Azerbaijan Province, Iran</h3>\n<p><strong>Type:</strong> 323</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Bardkish peralkaline syenite is a part of Urumieh Complex. The intrusion has an area of c. 25 km².</p>\n<p><a href=\"https://www.mindat.org/loc-337061.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Limonite",
+          "Material_1519",
+          "Material_1624",
+          "Material_207",
+          "Material_29229",
+          "Material_31",
+          "Material_325",
+          "Material_3977",
+          "Material_4421",
+          "Material_6683"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.766666666667,
+          29.866666666667
+        ]
+      },
+      "properties": {
+        "id": "mindat_337397",
+        "name": "Cheshmeh-Bid deposit, Neyriz County, Fars Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "geomaterials": [
+          "Calcite",
+          "Material_1016",
+          "Material_1036",
+          "Material_10967",
+          "Material_260",
+          "Material_8658",
+          "Material_9903"
+        ],
+        "description": "<h3>Cheshmeh-Bid deposit, Neyriz County, Fars Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-337397.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    }
+  ]
+}

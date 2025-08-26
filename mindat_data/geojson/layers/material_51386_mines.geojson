@@ -1,0 +1,42 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.8233333333,
+          31.5763888889
+        ]
+      },
+      "properties": {
+        "id": "mindat_205979",
+        "name": "Darreh-Zerreshk Cu deposit, Taft County, Yazd Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Darreh-Zerreshk Cu deposit, Taft County, Yazd Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Porphyry copper deposit Miocene \r\n14-80 mg/t Au</p>\n<p><a href=\"https://www.mindat.org/loc-205979.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Calcite",
+          "Fluorite",
+          "Iron",
+          "Limonite",
+          "Magnetite",
+          "Material_1016",
+          "Material_10272",
+          "Material_1389",
+          "Material_161",
+          "Material_2078",
+          "Material_2538",
+          "Material_4060",
+          "Material_51386",
+          "Material_9252",
+          "Molybdenite",
+          "Pyrite",
+          "Sphalerite"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

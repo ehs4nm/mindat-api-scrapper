@@ -1,0 +1,59 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.000021740562,
+          34.177831884225
+        ]
+      },
+      "properties": {
+        "id": "mindat_223323",
+        "name": "Āhangarān Pb-Ag deposit, Malayer County, Hamadan Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Āhangarān Pb-Ag deposit, Malayer County, Hamadan Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Located about 20 km ESE of Malayer, besides the road leading to Arak.\r\n\r\n1.52 Mt @ 3.7 wt% Pb.\r\nStrata-bound Pb-Ag (Zn) sulfide mineralization in the Ahangaran deposit is hosted by dolomitic sandstone of the Kc3 unit. Sulfides and related gangue minera...</p>\n<p><a href=\"https://www.mindat.org/loc-223323.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Barite",
+          "Calcite",
+          "Chalcopyrite",
+          "Covellite",
+          "Fluorite",
+          "Iron_Oxide",
+          "Lead",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_10",
+          "Material_1134",
+          "Material_1380",
+          "Material_1437",
+          "Material_1451",
+          "Material_1605",
+          "Material_1624",
+          "Material_1719",
+          "Material_1860",
+          "Material_233",
+          "Material_2402",
+          "Material_2538",
+          "Material_2644",
+          "Material_3328",
+          "Material_3647",
+          "Material_3924",
+          "Material_4421",
+          "Material_741",
+          "Material_9252",
+          "Material_934",
+          "Molybdenite",
+          "Quartz",
+          "Sphalerite",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

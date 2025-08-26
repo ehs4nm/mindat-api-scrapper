@@ -1,0 +1,129 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.4075,
+          32.479722222222
+        ]
+      },
+      "properties": {
+        "id": "mindat_25131",
+        "name": "Kavir-e-Sagand, Saghand, Rabatat Rural District, Kharanaq District, Ardakan County, Yazd Province, Iran",
+        "type": "541",
+        "country": "Iran",
+        "description": "<h3>Kavir-e-Sagand, Saghand, Rabatat Rural District, Kharanaq District, Ardakan County, Yazd Province, Iran</h3>\n<p><strong>Type:</strong> 541</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Kavir-e-Sagand is the \"minerals deposit area\" located near Saghand (north of Yazd).</p>\n<p><a href=\"https://www.mindat.org/loc-25131.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Magnetite",
+          "Material_1124",
+          "Material_1126",
+          "Material_162",
+          "Material_182",
+          "Material_2078",
+          "Material_2193",
+          "Material_2696",
+          "Material_3081",
+          "Material_3267",
+          "Material_3428",
+          "Material_3859",
+          "Material_3878",
+          "Material_4203",
+          "Material_810",
+          "Material_845"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.905277777778,
+          28.309722222222
+        ]
+      },
+      "properties": {
+        "id": "mindat_275661",
+        "name": "Hajjiabad, Hajjiabad County, Hormozgan Province, Iran",
+        "type": "491",
+        "country": "Iran",
+        "description": "<h3>Hajjiabad, Hajjiabad County, Hormozgan Province, Iran</h3>\n<p><strong>Type:</strong> 491</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Hajjiabad (Persian: حاجي اباد or حاجی‌آباد, also Romanized as Ḩājjīābād and Hājiābād) is a city and capital of Hajjiabad County, Hormozgan Province, Iran. \r\n\r\nHajjiabad is located about 100 km north of Bandar Abbas (capital of Hormozgan Province) and i...</p>\n<p><a href=\"https://www.mindat.org/loc-275661.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Magnetite",
+          "Material_161",
+          "Material_2696",
+          "Material_3428",
+          "Material_36064",
+          "Material_4203",
+          "Material_733"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.242777777778,
+          32.529166666667
+        ]
+      },
+      "properties": {
+        "id": "mindat_285191",
+        "name": "Saghand, Rabatat Rural District, Kharanaq District, Ardakan County, Yazd Province, Iran",
+        "type": "501",
+        "country": "Iran",
+        "description": "<h3>Saghand, Rabatat Rural District, Kharanaq District, Ardakan County, Yazd Province, Iran</h3>\n<p><strong>Type:</strong> 501</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Saghand (Persian: ساغند, also Romanized as Sāghand; also known as Sagand and Sāqand) is a village in Rabatat Rural District, Kharanaq District, Ardakan County, Yazd Province, Iran.</p>\n<p><a href=\"https://www.mindat.org/loc-285191.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Barite",
+          "Cubanite",
+          "Limonite",
+          "Magnetite",
+          "Material_1016",
+          "Material_11135",
+          "Material_1124",
+          "Material_1126",
+          "Material_1232",
+          "Material_126",
+          "Material_162",
+          "Material_18",
+          "Material_182",
+          "Material_2013",
+          "Material_207",
+          "Material_2078",
+          "Material_2193",
+          "Material_2538",
+          "Material_2583",
+          "Material_2696",
+          "Material_2746",
+          "Material_29957",
+          "Material_3081",
+          "Material_3193",
+          "Material_3267",
+          "Material_3428",
+          "Material_3486",
+          "Material_3859",
+          "Material_3875",
+          "Material_3878",
+          "Material_3944",
+          "Material_3946",
+          "Material_3977",
+          "Material_4114",
+          "Material_4203",
+          "Material_46220",
+          "Material_810",
+          "Material_845",
+          "Material_96",
+          "Quartz",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

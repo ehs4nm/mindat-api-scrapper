@@ -1,0 +1,36 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.628611111111,
+          30.159444444444
+        ]
+      },
+      "properties": {
+        "id": "mindat_310459",
+        "name": "Bidgol deposit, Marvdasht County, Fars Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "geomaterials": [
+          "Limonite",
+          "Magnetite",
+          "Material_1070",
+          "Material_1285",
+          "Material_1719",
+          "Material_213",
+          "Material_3486",
+          "Material_707",
+          "Material_967",
+          "Quartz",
+          "Tetrahedrite"
+        ],
+        "description": "<h3>Bidgol deposit, Marvdasht County, Fars Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-310459.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.366666666667,
+          38.616666666667
+        ]
+      },
+      "properties": {
+        "id": "mindat_337057",
+        "name": "Sabalan volcanic plateau, Ahar County, East Azerbaijan Province, Iran",
+        "type": "205",
+        "country": "Iran",
+        "description": "<h3>Sabalan volcanic plateau, Ahar County, East Azerbaijan Province, Iran</h3>\n<p><strong>Type:</strong> 205</p>\n<p><strong>Location:</strong> Iran</p>\n<p>The area NW of Iran, immediately S of the border with Azerbaijan and W of the Caspian Sea, comprises a volcanic plateau, the southern margin of which is dominated by large Sabalan (Savalan) volcano. The plateau covers c. 15000km², while Sabalan extends...</p>\n<p><a href=\"https://www.mindat.org/loc-337057.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Material_1995",
+          "Material_207",
+          "Material_210",
+          "Material_248",
+          "Material_2538",
+          "Material_26411",
+          "Material_2705",
+          "Material_29229",
+          "Material_3521",
+          "Material_419",
+          "Material_677",
+          "Material_8658",
+          "Material_9264",
+          "Material_9581",
+          "Material_9767",
+          "Quartz"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

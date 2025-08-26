@@ -1,0 +1,33 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.975,
+          35.1186111111
+        ]
+      },
+      "properties": {
+        "id": "mindat_268831",
+        "name": "Famenin meteorite, Famenin County, Hamadan Province, Iran",
+        "type": "1",
+        "country": "Iran",
+        "description": "<h3>Famenin meteorite, Famenin County, Hamadan Province, Iran</h3>\n<p><strong>Type:</strong> 1</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Ordinary chondrite, unequilibrated (H/L3)\r\nFell, 27 June 2015; 630 g\r\n\r\nDuring the early morning a loud sound on the roof led to the discovery of several small fragments of a small stone on the roof and yard. The meteorite is an unequilibrated chondrit...</p>\n<p><a href=\"https://www.mindat.org/loc-268831.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Material_10663",
+          "Material_10967",
+          "Material_1584",
+          "Material_2047",
+          "Material_2143",
+          "Material_3328",
+          "Material_4029",
+          "Material_8658"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.216666666667,
+          28.233333333333
+        ]
+      },
+      "properties": {
+        "id": "mindat_223578",
+        "name": "Zartorosht Au deposit, Jiroft, Jiroft County, Kerman Province, Iran",
+        "type": "56",
+        "country": "Iran",
+        "description": "<h3>Zartorosht Au deposit, Jiroft, Jiroft County, Kerman Province, Iran</h3>\n<p><strong>Type:</strong> 56</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Located SW of Jiroft (Sabzevaran).\r\nOrogenic Tertiary</p>\n<p><a href=\"https://www.mindat.org/loc-223578.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Calcite",
+          "Chalcopyrite",
+          "Gersdorffite",
+          "Limonite",
+          "Magnetite",
+          "Material_1016",
+          "Material_1365",
+          "Material_1389",
+          "Material_1617",
+          "Material_1720",
+          "Material_239",
+          "Material_2402",
+          "Material_2571",
+          "Material_29212",
+          "Material_29229",
+          "Material_305",
+          "Material_3328",
+          "Material_3486",
+          "Material_424",
+          "Material_9252",
+          "Material_96",
+          "Molybdenite",
+          "Quartz",
+          "Sphalerite",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.740556,
+          28.678056
+        ]
+      },
+      "properties": {
+        "id": "mindat_279726",
+        "name": "Jiroft, Jiroft County, Kerman Province, Iran",
+        "type": "491",
+        "country": "Iran",
+        "description": "<h3>Jiroft, Jiroft County, Kerman Province, Iran</h3>\n<p><strong>Type:</strong> 491</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Jiroft (Persian: جيرفت, also Romanized as Jīroft; formerly, Sabzāwārān, Sabzevārān, Sabzevārān-e Jiroft, and Sabzvārān) is a city and capital of Jiroft County, Kerman Province, Iran.\r\n\r\nIt is located 230 kilometres (140 mi) south of the city of Kerman,...</p>\n<p><a href=\"https://www.mindat.org/loc-279726.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Calcite",
+          "Chalcopyrite",
+          "Gersdorffite",
+          "Limonite",
+          "Magnetite",
+          "Material_1016",
+          "Material_1365",
+          "Material_1389",
+          "Material_1617",
+          "Material_1720",
+          "Material_239",
+          "Material_2402",
+          "Material_2571",
+          "Material_29212",
+          "Material_29229",
+          "Material_305",
+          "Material_3328",
+          "Material_3486",
+          "Material_424",
+          "Material_9252",
+          "Material_96",
+          "Molybdenite",
+          "Quartz",
+          "Sphalerite",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    }
+  ]
+}

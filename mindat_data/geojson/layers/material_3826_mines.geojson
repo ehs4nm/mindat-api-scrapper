@@ -1,0 +1,291 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.45,
+          27.0666666667
+        ]
+      },
+      "properties": {
+        "id": "mindat_5689",
+        "name": "Hormuz Island, Qeshm County, Hormozgan Province, Iran",
+        "type": "187",
+        "country": "Iran",
+        "description": "<h3>Hormuz Island, Qeshm County, Hormozgan Province, Iran</h3>\n<p><strong>Type:</strong> 187</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Island in the Strait of Hormuz, 8 kilometres off the Iranian coast.\r\n\r\nEvaporitic rocks including a nearly circular-shaped salt plug (with solution caverns) exposed at the surface with a maximum length of 7 km along its east-west axis.\r\nHematite ore is...</p>\n<p><a href=\"https://www.mindat.org/loc-5689.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Barite",
+          "Iron_Oxide",
+          "Limonite",
+          "Magnetite",
+          "Material_1218",
+          "Material_1459",
+          "Material_1576",
+          "Material_1784",
+          "Material_18",
+          "Material_1804",
+          "Material_2078",
+          "Material_234",
+          "Material_2402",
+          "Material_29229",
+          "Material_3826",
+          "Material_419",
+          "Material_4433",
+          "Material_5574",
+          "Quartz",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.416667938232,
+          35.495834350586
+        ]
+      },
+      "properties": {
+        "id": "mindat_28087",
+        "name": "Delazian Mine, Delazian (Delagian; Dalijan; Delazeyan; Deliazan; Delaziyan), Semnan County, Semnan Province, Iran",
+        "type": "60",
+        "country": "Iran",
+        "description": "<h3>Delazian Mine, Delazian (Delagian; Dalijan; Delazeyan; Deliazan; Delaziyan), Semnan County, Semnan Province, Iran</h3>\n<p><strong>Type:</strong> 60</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Ref.: Rocks & Min.: 23: 225; Bureau of Mines Mineral Trade Notes (Oct, 1947). A sulfur mine in siliceous stone. Produced about 700 metric tons of sulfur per year.</p>\n<p><a href=\"https://www.mindat.org/loc-28087.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Material_3826"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.654167175293,
+          26.504167556763
+        ]
+      },
+      "properties": {
+        "id": "mindat_28088",
+        "name": "Bostaneh Mine, Bostaneh, Bandar Lengeh, Bandar Lengeh County, Hormozgan Province, Iran",
+        "type": "60",
+        "country": "Iran",
+        "description": "<h3>Bostaneh Mine, Bostaneh, Bandar Lengeh, Bandar Lengeh County, Hormozgan Province, Iran</h3>\n<p><strong>Type:</strong> 60</p>\n<p><strong>Location:</strong> Iran</p>\n<p>A sulfur mine located near Bandar-e Lengeh (Bandar-e Langeh; Bandar Langeh; Lengeh; Linja; Lingeh; Linjah). Produced about 5 to 10 tons of sulfur per month (1947 timeframe).</p>\n<p><a href=\"https://www.mindat.org/loc-28088.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Material_3826"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.109,
+          35.951
+        ]
+      },
+      "properties": {
+        "id": "mindat_107608",
+        "name": "Damavand mountain, Amol County, Mazandaran Province, Iran",
+        "type": "198",
+        "country": "Iran",
+        "description": "<h3>Damavand mountain, Amol County, Mazandaran Province, Iran</h3>\n<p><strong>Type:</strong> 198</p>\n<p><strong>Location:</strong> Iran</p>\n<p>Mount Damāvand or Donbavand is a sleeping stratovolcano of 5,610 meters high, which marks the highest point of the Elburz mountain range. Located in Iran, it is also the highest mountain in the Middle East and the highest volcano in Asia. It is located...</p>\n<p><a href=\"https://www.mindat.org/loc-107608.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Material_1124",
+          "Material_3826"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.495474345422,
+          26.621335241338
+        ]
+      },
+      "properties": {
+        "id": "mindat_192948",
+        "name": "Namakdan saltdome, Qeshm Island, Qeshm County, Hormozgan Province, Iran",
+        "country": "Iran",
+        "description": "<h3>Namakdan saltdome, Qeshm Island, Qeshm County, Hormozgan Province, Iran</h3>\n<p><strong>Location:</strong> Iran</p>\n<p>Salt dome.</p>\n<p><a href=\"https://www.mindat.org/loc-192948.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Barite",
+          "Calcite",
+          "Gold",
+          "Iron",
+          "Iron_Oxide",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_1070",
+          "Material_10790",
+          "Material_1294",
+          "Material_1389",
+          "Material_1784",
+          "Material_18",
+          "Material_1804",
+          "Material_207",
+          "Material_2078",
+          "Material_234",
+          "Material_29239",
+          "Material_3072",
+          "Material_3115",
+          "Material_3826",
+          "Quartz",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.478333333333,
+          27.576666666667
+        ]
+      },
+      "properties": {
+        "id": "mindat_192949",
+        "name": "Khurgu saltdome, Bandar Abbas County, Hormozgan Province, Iran",
+        "type": "274",
+        "country": "Iran",
+        "geomaterials": [
+          "Magnetite",
+          "Material_1784",
+          "Material_18",
+          "Material_1804",
+          "Material_234",
+          "Material_3826",
+          "Quartz",
+          "Tetrahedrite"
+        ],
+        "description": "<h3>Khurgu saltdome, Bandar Abbas County, Hormozgan Province, Iran</h3>\n<p><strong>Type:</strong> 274</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-192949.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.3083333333,
+          33.7666666667
+        ]
+      },
+      "properties": {
+        "id": "mindat_223294",
+        "name": "Deh Hosein prospect (Deh Hosein mine), Astaneh, Shazand County, Markazi Province, Iran",
+        "type": "73",
+        "country": "Iran",
+        "description": "<h3>Deh Hosein prospect (Deh Hosein mine), Astaneh, Shazand County, Markazi Province, Iran</h3>\n<p><strong>Type:</strong> 73</p>\n<p><strong>Location:</strong> Iran</p>\n<p>A copper-tin deposit, already mined in ancient times, with high contents of gold, hosted in Mesozoic schists and phyllites at the southern contact of the Astaneh intrusive complex.\r\n\r\nLocated southwest of Astaneh.</p>\n<p><a href=\"https://www.mindat.org/loc-223294.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "geomaterials": [
+          "Calcite",
+          "Chalcopyrite",
+          "Covellite",
+          "Epidote",
+          "Fluorite",
+          "Hematite_Variety",
+          "Iron",
+          "Lead",
+          "Limonite",
+          "Magnetite",
+          "Malachite",
+          "Material_1248",
+          "Material_1476",
+          "Material_1719",
+          "Material_1720",
+          "Material_2013",
+          "Material_2033",
+          "Material_2233",
+          "Material_2278",
+          "Material_233",
+          "Material_2402",
+          "Material_2426",
+          "Material_2571",
+          "Material_2750",
+          "Material_29229",
+          "Material_305",
+          "Material_3248",
+          "Material_3318",
+          "Material_3328",
+          "Material_3444",
+          "Material_3486",
+          "Material_363",
+          "Material_3747",
+          "Material_3825",
+          "Material_3826",
+          "Material_3912",
+          "Material_4003",
+          "Material_4333",
+          "Material_591",
+          "Material_682",
+          "Material_684",
+          "Material_686",
+          "Material_7323",
+          "Material_917",
+          "Material_9252",
+          "Material_934",
+          "Molybdenite",
+          "Sphalerite",
+          "Tetrahedrite"
+        ],
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.880556,
+          26.558056
+        ]
+      },
+      "properties": {
+        "id": "mindat_406365",
+        "name": "Bandar Lengeh, Bandar Lengeh County, Hormozgan Province, Iran",
+        "type": "491",
+        "country": "Iran",
+        "geomaterials": [
+          "Material_3826"
+        ],
+        "description": "<h3>Bandar Lengeh, Bandar Lengeh County, Hormozgan Province, Iran</h3>\n<p><strong>Type:</strong> 491</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-406365.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.655556,
+          26.510278
+        ]
+      },
+      "properties": {
+        "id": "mindat_406366",
+        "name": "Bostaneh, Bandar Lengeh, Bandar Lengeh County, Hormozgan Province, Iran",
+        "type": "501",
+        "country": "Iran",
+        "geomaterials": [
+          "Material_3826"
+        ],
+        "description": "<h3>Bostaneh, Bandar Lengeh, Bandar Lengeh County, Hormozgan Province, Iran</h3>\n<p><strong>Type:</strong> 501</p>\n<p><strong>Location:</strong> Iran</p>\n<p><a href=\"https://www.mindat.org/loc-406366.html\" target=\"_blank\">View on Mindat.org</a></p>",
+        "marker_type": "default"
+      }
+    }
+  ]
+}
