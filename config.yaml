@@ -1,0 +1,31 @@
+# Mindat runtime config
+base_url: "https://api.mindat.org/v1"
+api_key_file: "api_key.txt"
+
+timeouts:
+  connect: 10
+  read: 40
+
+retries:
+  total: 6
+  backoff_factor: 1.2
+  status_forcelist: [429, 500, 502, 503, 504]
+
+page_size: 100  # Mindat often caps ~200
+
+endpoints:
+  localities: "/localities/"
+  locality_detail: "/localities/{id}/"
+  locality_minerals: "/localityminerals/"
+
+# search strategies for "Mine" — ONLY Mindat params
+search_strategies:
+  - { param: "ltype", value: "60" }       # numeric Mine type (when supported)
+  - { param: "txt",   value: "Mine" }     # text search (often works)
+  - { param: "ltype", value: "Mine" }     # string ltype (sometimes supported)
+  - { param: "search", value: "Mine" }    # some deployments expose `search`
+
+save:
+  dir: "mindat_data"
+  format: "json"  # or "jsonl"
+  checkpoint_every: 1  # save after each locality
