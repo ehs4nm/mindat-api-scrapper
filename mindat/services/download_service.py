@@ -1,6 +1,6 @@
 from pathlib import Path
 from typing import Callable
-from ..api_client import MindatClient
+from ..mindat.api_client import MindatClient
 from ..repositories.localities_repo import LocalitiesRepository
 from ..utils.io import JsonAccumulator, JsonlWriter
 

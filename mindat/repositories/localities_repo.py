@@ -1,5 +1,5 @@
 from typing import Iterator
-from ..api_client import MindatClient
+from ..mindat.api_client import MindatClient
 
 class LocalitiesRepository:
     """
