@@ -1,63 +1,69 @@
-import argparse
-from pathlib import Path
-from typing import List, Dict
+import requests
+import json
+import time
 
-from mindat.config import load_config, read_api_key
-from mindat.http import HttpSession
-from mindat.utils.io import AtomicWriter
+# Your Mindat.org API token
+# Replace 'YOUR_TOKEN' with your actual token
+API_TOKEN = '5bece3c1ed62c85ddb63a8a43362b24f'
 
+# Base URL for the API endpoint
+BASE_URL = 'https://api.mindat.org/v1/geomaterials/'
 
-def fetch_all_geomaterials(http: HttpSession, base_url: str, page_size: int) -> List[Dict]:
+# Headers for authentication and content type
+headers = {
+    'Authorization': f'Token {API_TOKEN}',
+    'Accept': 'application/json'
+}
+
+def fetch_all_geomaterials(base_url, headers):
     """
-    Fetch all geomaterials by following pagination until 'next' is None.
-    Returns a list of geomaterial objects.
+    Fetches all pages of data from the Mindat geomaterials API.
+    Handles pagination by following the 'next' URL in the response.
     """
-    url = f"{base_url}/geomaterials/"
-    params = {"format": "json", "page_size": page_size}
+    all_data = []
+    current_url = base_url
 
-    out: List[Dict] = []
-    page = http.get_json(url, params)
-    results = page.get("results") if isinstance(page, dict) else None
-    if isinstance(results, list):
-        out.extend(results)
-    next_url = page.get("next") if isinstance(page, dict) else None
+    print("Starting data download from Mindat.org API...")
+    
+    while current_url:
+        try:
+            print(f"Fetching data from: {current_url}")
+            response = requests.get(current_url, headers=headers)
+            response.raise_for_status()  # Raise an exception for bad status codes
+            data = response.json()
+            
+            # Append the results from the current page to our list
+            all_data.extend(data.get('results', []))
+            
+            # Get the URL for the next page
+            current_url = data.get('next')
+            
+            # Be a good citizen and add a small delay to avoid overwhelming the API
+            if current_url:
+                time.sleep(1) # Delay of 1 second between requests
+        
+        except requests.exceptions.RequestException as e:
+            print(f"An error occurred: {e}")
+            break
+            
+    print(f"Download complete. Total items fetched: {len(all_data)}")
+    return all_data
 
-    while next_url:
-        page = http.get_json(next_url)
-        results = page.get("results") if isinstance(page, dict) else None
-        if isinstance(results, list):
-            out.extend(results)
-        next_url = page.get("next") if isinstance(page, dict) else None
+def save_data_to_json(data, filename='geomaterials_data.json'):
+    """
+    Saves a list of data dictionaries to a JSON file.
+    """
+    try:
+        with open(filename, 'w', encoding='utf-8') as f:
+            json.dump(data, f, ensure_ascii=False, indent=4)
+        print(f"Data successfully saved to {filename}")
+    except IOError as e:
+        print(f"Error saving file: {e}")
 
-    return out
+if __name__ == '__main__':
+    # Fetch all data from the API
+    geomaterials_data = fetch_all_geomaterials(BASE_URL, headers)
 
-
-def main():
-    ap = argparse.ArgumentParser("export-geomaterials")
-    ap.add_argument("--config", default="config.yaml", help="Path to YAML config (default: config.yaml)")
-    ap.add_argument("--page-size", type=int, default=None, help="Override configured page size")
-    ap.add_argument("--out", default=None, help="Output file path (default: save.dir/geomaterials.json)")
-    args = ap.parse_args()
-
-    cfg = load_config(args.config)
-    if args.page_size:
-        cfg.page_size = args.page_size
-
-    # Resolve output path
-    out_path = Path(args.out) if args.out else Path(cfg.save.dir) / "geomaterials.json"
-    out_path.parent.mkdir(parents=True, exist_ok=True)
-
-    # Auth + HTTP
-    api_key = read_api_key(cfg.api_key_file)
-    http = HttpSession(cfg.base_url, cfg.retries, cfg.timeouts, api_key)
-
-    # Fetch and persist
-    items = fetch_all_geomaterials(http, cfg.base_url, cfg.page_size)
-    writer = AtomicWriter(out_path)
-    writer.write_json({"results": items})
-
-    print(str(out_path))
-
-
-if __name__ == "__main__":
-    main()
+    # Save the fetched data to a JSON file
+    if geomaterials_data:
+        save_data_to_json(geomaterials_data)
