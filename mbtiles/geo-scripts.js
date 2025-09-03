@@ -127,7 +127,7 @@ function createInfoPanel() {
 
 // Create legend
 function createLegend() {
-    const legend = L.control({position: 'topleft'});
+    const legend = L.control({position: 'topright'});
     
     legend.onAdd = function (map) {
         const div = L.DomUtil.create('div', 'legend');
@@ -359,7 +359,7 @@ function loadLayer(url, layerType) {
 
             if (layerType === 'oil-gas') {
                 // Create marker cluster for oil & gas fields
-                const oilGasCluster = L.markerClusterGroup({
+                oilGasCluster = L.markerClusterGroup({
                     iconCreateFunction: function(cluster) {
                         return L.divIcon({
                             html: '<div style="background:#4CAF50;color:white;border-radius:50%;width:40px;height:40px;display:flex;align-items:center;justify-content:center;font-weight:bold;">' + cluster.getChildCount() + '</div>',
@@ -389,6 +389,9 @@ function loadLayer(url, layerType) {
                     }
                 });
                 
+                // Add feature layer to map to trigger data loading
+                esriLayer.addTo(map);
+                
                 // Add features to cluster after they're created
                 esriLayer.on('createfeature', function(e) {
                     if (e.layer) {
@@ -412,7 +415,7 @@ function loadLayer(url, layerType) {
                 
             } else if (layerType === 'earthquakes') {
                 // Create marker cluster for earthquakes
-                const earthquakeCluster = L.markerClusterGroup({
+                earthquakeCluster = L.markerClusterGroup({
                     iconCreateFunction: function(cluster) {
                         return L.divIcon({
                             html: '<div style="background:#FF4444;color:white;border-radius:50%;width:40px;height:40px;display:flex;align-items:center;justify-content:center;font-weight:bold;">' + cluster.getChildCount() + '</div>',
@@ -448,6 +451,9 @@ function loadLayer(url, layerType) {
                         return marker;
                     }
                 });
+                
+                // Add feature layer to map to trigger data loading
+                esriLayer.addTo(map);
                 
                 // Add features to cluster after they're created
                 esriLayer.on('createfeature', function(e) {
@@ -489,6 +495,9 @@ function loadLayer(url, layerType) {
                     }
                 });
                 
+                // Add to map to trigger data loading within current (Iran) bounds
+                layer.addTo(map);
+                
                 layer.on('load', function() {
                     console.log(`${layerType} load event fired`);
                     if (loadingTimer) clearTimeout(loadingTimer);
@@ -519,6 +528,9 @@ function loadLayer(url, layerType) {
                         addFeatureEvents(feature, layer, layerType);
                     }
                 });
+                
+                // Add to map to trigger data loading within current (Iran) bounds
+                layer.addTo(map);
                 
                 layer.on('load', function() {
                     console.log(`${layerType} load event fired`);
