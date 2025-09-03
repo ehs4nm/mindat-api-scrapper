@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iran Geology Data - ArcGIS Feature Server</title>
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="geo-style.css" />
+</head>
+<body>
+    <div class="header">
+        <h1>Iran Geological Survey Map</h1>
+        <p>Interactive visualization of Iran's geological features</p>
+    </div>
+    
+    <div id="map-container">
+        <div id="map"></div>
+        
+        <div class="loading" id="loading">
+            <div class="loading-spinner"></div>
+            <h3>Loading Geological Data</h3>
+            <p>Fetching data from ArcGIS REST service...</p>
+        </div>
+        
+        <div class="error-panel" id="error-panel">
+            <h4>Error Loading Data</h4>
+            <p id="error-message"></p>
+            <button onclick="retryLoading()">Retry</button>
+        </div>
+    </div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <!-- Leaflet MarkerCluster JS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
+    <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+    
+    <!-- Esri Leaflet JS -->
+    <script src="https://unpkg.com/esri-leaflet@3.0.18/dist/esri-leaflet.js"></script>
+    <script src="geo-scripts.js"></script>
+</body>
+</html>

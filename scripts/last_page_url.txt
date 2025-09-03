@@ -1,0 +1,1 @@
+https://api.mindat.org/v1/geomaterials/?page=2216
