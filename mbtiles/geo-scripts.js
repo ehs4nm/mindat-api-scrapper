@@ -1,10 +1,6 @@
 let map;
-let oilGasCluster = null;
-let earthquakeCluster = null;
-let provincesLayer = null;
-let geologyLayer = null;
-let cadasterLayer = null;
-let minesLayer = null;
+let layerGroups = {}; // Store all layer groups
+let esriLayers = {}; // Store raw esri layers for data loading
 
 // ArcGIS Feature Server URLs (without /query for esri-leaflet)
 const FEATURE_SERVER_BASE = 'https://services.arcgis.com/v01gqwM5QqNysAAi/ArcGIS/rest/services/Iran_Geology/FeatureServer';
@@ -47,13 +43,17 @@ function initMap() {
     const satelliteLayer = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
         attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
     });
-    
+  
+    const oceanLayer = L.tileLayer('https://server.arcgisonline.com/arcgis/rest/services/Ocean/World_Ocean_Base/MapServer/tile/{z}/{y}/{x}', {
+        attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
+    });
+
     const terrainLayer = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
         attribution: 'Map data: &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, <a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a>'
     });
 
-    // Cadaster raster tiles (XYZ) - create but don't add yet; respect toggle state later
-    cadasterLayer = L.tileLayer('https://map.zetamine.ai/services/output/tiles/{z}/{x}/{y}.png', {
+    // Create cadaster layer
+    layerGroups.cadaster = L.tileLayer('https://map.zetamine.ai/services/output/tiles/{z}/{x}/{y}.png', {
         attribution: 'Cadaster',
         maxZoom: 22
     });
@@ -74,14 +74,11 @@ function initMap() {
     // Create custom layer toggles
     createLayerToggles();
     
-    // Load all four layers
+    // Load all layers
     loadAllLayers();
 
     // Load local mines GeoJSON overlay
     loadMinesLayer();
-
-    // Initialize cadaster layer with proper toggle state
-    initializeCadasterLayer();
 }
 
 // Create info panel
@@ -175,13 +172,12 @@ function createLayerToggles() {
     
     toggleControl.addTo(map);
     
-    // Setup event listeners ONCE, right after control is added
+    // Setup event listeners after control is added
     setTimeout(() => setupLayerToggles(), 100);
 }
 
-// Setup layer toggle event listeners
+// Setup layer toggle event listeners - SIMPLIFIED VERSION
 function setupLayerToggles() {
-    // Prevent duplicate listener binding
     if (window._togglesBound) {
         console.log('Toggle listeners already bound, skipping...');
         return;
@@ -190,173 +186,62 @@ function setupLayerToggles() {
     console.log('Setting up layer toggles...');
     window._togglesBound = true;
 
-    // Oil & Gas toggle
-    const oilGasToggle = document.getElementById('toggle-oil-gas');
-    if (oilGasToggle) {
-        oilGasToggle.addEventListener('change', function() {
-            console.log('Oil gas toggle:', this.checked);
-            if (this.checked) {
-                if (oilGasCluster && !map.hasLayer(oilGasCluster)) oilGasCluster.addTo(map);
-            } else {
-                if (oilGasCluster && map.hasLayer(oilGasCluster)) map.removeLayer(oilGasCluster);
-            }
-        });
-    }
-    
-    // Earthquakes toggle
-    const earthquakesToggle = document.getElementById('toggle-earthquakes');
-    if (earthquakesToggle) {
-        earthquakesToggle.addEventListener('change', function() {
-            console.log('Earthquakes toggle:', this.checked);
-            if (this.checked) {
-                if (earthquakeCluster && !map.hasLayer(earthquakeCluster)) earthquakeCluster.addTo(map);
-            } else {
-                if (earthquakeCluster && map.hasLayer(earthquakeCluster)) map.removeLayer(earthquakeCluster);
-            }
-        });
-    }
-    
-    // Provinces toggle
-    const provincesToggle = document.getElementById('toggle-provinces');
-    if (provincesToggle) {
-        provincesToggle.addEventListener('change', function() {
-            console.log('Provinces toggle:', this.checked);
-            if (this.checked) {
-                if (provincesLayer && !map.hasLayer(provincesLayer)) provincesLayer.addTo(map);
-            } else {
-                if (provincesLayer && map.hasLayer(provincesLayer)) map.removeLayer(provincesLayer);
-            }
-        });
-    }
-    
-    // Geology toggle
-    const geologyToggle = document.getElementById('toggle-geology');
-    if (geologyToggle) {
-        geologyToggle.addEventListener('change', function() {
-            console.log('Geology toggle:', this.checked);
-            if (this.checked) {
-                if (geologyLayer && !map.hasLayer(geologyLayer)) geologyLayer.addTo(map);
-            } else {
-                if (geologyLayer && map.hasLayer(geologyLayer)) map.removeLayer(geologyLayer);
-            }
-        });
-    }
+    // Generic function to handle layer toggles
+    function setupToggle(layerName, checkboxId, opacityId, opacityValueId) {
+        const checkbox = document.getElementById(checkboxId);
+        const opacitySlider = document.getElementById(opacityId);
+        const opacityValue = document.getElementById(opacityValueId);
 
-    // Cadaster toggle
-    const cadasterToggle = document.getElementById('toggle-cadaster');
-    if (cadasterToggle) {
-        cadasterToggle.addEventListener('change', function() {
-            console.log('Cadaster toggle:', this.checked, 'Layer exists:', !!cadasterLayer);
-            if (this.checked) {
-                if (cadasterLayer && !map.hasLayer(cadasterLayer)) {
-                    cadasterLayer.addTo(map);
-                    console.log('Cadaster added to map');
+        if (checkbox) {
+            checkbox.addEventListener('change', function() {
+                console.log(`${layerName} toggle:`, this.checked);
+                const layer = layerGroups[layerName];
+                
+                if (this.checked && layer) {
+                    if (!map.hasLayer(layer)) {
+                        layer.addTo(map);
+                        console.log(`${layerName} added to map`);
+                    }
+                } else if (layer) {
+                    if (map.hasLayer(layer)) {
+                        map.removeLayer(layer);
+                        console.log(`${layerName} removed from map`);
+                    }
                 }
-            } else {
-                if (cadasterLayer && map.hasLayer(cadasterLayer)) {
-                    map.removeLayer(cadasterLayer);
-                    console.log('Cadaster removed from map');
+            });
+        }
+
+        if (opacitySlider && opacityValue) {
+            opacitySlider.addEventListener('input', function() {
+                const opacity = this.value / 100;
+                opacityValue.textContent = this.value + '%';
+                
+                const layer = layerGroups[layerName];
+                if (layer) {
+                    if (layer.setOpacity) {
+                        layer.setOpacity(opacity);
+                    } else if (layer.getLayers) {
+                        // For layer groups, set opacity on all child layers
+                        layer.getLayers().forEach(childLayer => {
+                            if (childLayer.setOpacity) {
+                                childLayer.setOpacity(opacity);
+                            } else if (childLayer.setStyle) {
+                                childLayer.setStyle({ opacity: opacity, fillOpacity: opacity * 0.8 });
+                            }
+                        });
+                    }
                 }
-            }
-        });
+            });
+        }
     }
 
-    // Mines toggle
-    const minesToggle = document.getElementById('toggle-mines');
-    if (minesToggle) {
-        minesToggle.addEventListener('change', function() {
-            console.log('Mines toggle:', this.checked, 'Layer exists:', !!minesLayer);
-            if (this.checked) {
-                if (minesLayer && !map.hasLayer(minesLayer)) {
-                    minesLayer.addTo(map);
-                    console.log('Mines added to map');
-                }
-            } else {
-                if (minesLayer && map.hasLayer(minesLayer)) {
-                    map.removeLayer(minesLayer);
-                    console.log('Mines removed from map');
-                }
-            }
-        });
-    }
-
-    // Cadaster opacity slider
-    const cadasterOpacity = document.getElementById('cadaster-opacity');
-    if (cadasterOpacity) {
-        cadasterOpacity.addEventListener('input', function() {
-            const opacity = this.value / 100;
-            const valueEl = document.getElementById('cadaster-opacity-value');
-            if (valueEl) valueEl.textContent = this.value + '%';
-            if (cadasterLayer) {
-                cadasterLayer.setOpacity(opacity);
-            }
-        });
-    }
-
-    // Mines opacity slider
-    const minesOpacity = document.getElementById('mines-opacity');
-    if (minesOpacity) {
-        minesOpacity.addEventListener('input', function() {
-            const opacity = this.value / 100;
-            const valueEl = document.getElementById('mines-opacity-value');
-            if (valueEl) valueEl.textContent = this.value + '%';
-            if (minesLayer) {
-                minesLayer.setOpacity(opacity);
-            }
-        });
-    }
-
-    // Oil & Gas opacity slider
-    const oilGasOpacity = document.getElementById('oil-gas-opacity');
-    if (oilGasOpacity) {
-        oilGasOpacity.addEventListener('input', function() {
-            const opacity = this.value / 100;
-            const valueEl = document.getElementById('oil-gas-opacity-value');
-            if (valueEl) valueEl.textContent = this.value + '%';
-            if (oilGasCluster) {
-                oilGasCluster.setOpacity(opacity);
-            }
-        });
-    }
-
-    // Earthquakes opacity slider
-    const earthquakesOpacity = document.getElementById('earthquakes-opacity');
-    if (earthquakesOpacity) {
-        earthquakesOpacity.addEventListener('input', function() {
-            const opacity = this.value / 100;
-            const valueEl = document.getElementById('earthquakes-opacity-value');
-            if (valueEl) valueEl.textContent = this.value + '%';
-            if (earthquakeCluster) {
-                earthquakeCluster.setOpacity(opacity);
-            }
-        });
-    }
-
-    // Provinces opacity slider
-    const provincesOpacity = document.getElementById('provinces-opacity');
-    if (provincesOpacity) {
-        provincesOpacity.addEventListener('input', function() {
-            const opacity = this.value / 100;
-            const valueEl = document.getElementById('provinces-opacity-value');
-            if (valueEl) valueEl.textContent = this.value + '%';
-            if (provincesLayer) {
-                provincesLayer.setOpacity(opacity);
-            }
-        });
-    }
-
-    // Geology opacity slider
-    const geologyOpacity = document.getElementById('geology-opacity');
-    if (geologyOpacity) {
-        geologyOpacity.addEventListener('input', function() {
-            const opacity = this.value / 100;
-            const valueEl = document.getElementById('geology-opacity-value');
-            if (valueEl) valueEl.textContent = this.value + '%';
-            if (geologyLayer) {
-                geologyLayer.setOpacity(opacity);
-            }
-        });
-    }
+    // Setup toggles for each layer
+    setupToggle('oil-gas', 'toggle-oil-gas', 'oil-gas-opacity', 'oil-gas-opacity-value');
+    setupToggle('earthquakes', 'toggle-earthquakes', 'earthquakes-opacity', 'earthquakes-opacity-value');
+    setupToggle('provinces', 'toggle-provinces', 'provinces-opacity', 'provinces-opacity-value');
+    setupToggle('geology', 'toggle-geology', 'geology-opacity', 'geology-opacity-value');
+    setupToggle('cadaster', 'toggle-cadaster', 'cadaster-opacity', 'cadaster-opacity-value');
+    setupToggle('mines', 'toggle-mines', 'mines-opacity', 'mines-opacity-value');
     
     console.log('All toggle listeners set up successfully');
 }
@@ -382,15 +267,15 @@ function getColor(glg) {
     return colorMap[glg] || '#6464C8';
 }
 
-// Load all four layers with timeout handling
+// Load all layers
 function loadAllLayers() {
     showLoading(true);
     
     const layerPromises = [
-        loadLayerWithTimeout(EARTHQUAKE_URL, 'earthquakes', 15000),
-        loadLayerWithTimeout(OIL_GAS_URL, 'oil-gas', 15000),
-        loadLayerWithTimeout(GEOLOGY_URL, 'geology', 15000),
-        loadLayerWithTimeout(PROVINCES_URL, 'provinces', 15000)
+        loadLayer(EARTHQUAKE_URL, 'earthquakes'),
+        loadLayer(OIL_GAS_URL, 'oil-gas'),
+        loadLayer(GEOLOGY_URL, 'geology'),
+        // loadLayer(PROVINCES_URL, 'provinces')
     ];
     
     Promise.allSettled(layerPromises).then(results => {
@@ -411,12 +296,10 @@ function loadAllLayers() {
         });
         
         if (successCount > 0) {
-            // DON'T call setupLayerToggles again - it was already called!
-            
             // Fit map to Iran bounds
             const mapBounds = [
-                [iranBounds.south, iranBounds.west], // Southwest
-                [iranBounds.north, iranBounds.east]  // Northeast
+                [iranBounds.south, iranBounds.west],
+                [iranBounds.north, iranBounds.east]
             ];
             map.fitBounds(mapBounds, { padding: [20, 20] });
             
@@ -431,55 +314,28 @@ function loadAllLayers() {
     });
 }
 
-// Wrapper function to add timeout to layer loading
-function loadLayerWithTimeout(url, layerType, timeout = 10000) {
-    return Promise.race([
-        loadLayer(url, layerType),
-        new Promise((_, reject) => 
-            setTimeout(() => reject(new Error(`Timeout loading ${layerType}`)), timeout)
-        )
-    ]);
-}
-
-// Load individual layer using esri-leaflet with proper promise handling
+// Load individual layer - SIMPLIFIED VERSION
 function loadLayer(url, layerType) {
     return new Promise((resolve, reject) => {
         console.log(`Loading ${layerType} from: ${url}`);
         
-        let layer;
-        let esriLayer;
-        let loadingTimer = null;
-        let hasData = false;
-        
         try {
-            // Create loading timer with cleanup
-            loadingTimer = setTimeout(() => {
-                console.log(`${layerType} loading timeout reached`);
-                if (hasData) {
-                    console.log(`${layerType} resolved with partial data after timeout`);
-                    resolve(layer);
-                } else {
-                    reject(new Error(`${layerType} loading timeout - no data received`));
-                }
-            }, 15000); // Increased timeout to 15 seconds
-
             if (layerType === 'oil-gas') {
-                // Create marker cluster for oil & gas fields
-                oilGasCluster = L.markerClusterGroup({
+                // Create marker cluster group
+                const cluster = L.markerClusterGroup({
                     iconCreateFunction: function(cluster) {
                         return L.divIcon({
-                            html: '<div style="background:#4CAF50;color:white;border-radius:50%;width:40px;height:40px;display:flex;align-items:center;justify-content:center;font-weight:bold;">' + cluster.getChildCount() + '</div>',
+                            html: `<div style="background:#4CAF50;color:white;border-radius:50%;width:40px;height:40px;display:flex;align-items:center;justify-content:center;font-weight:bold;">${cluster.getChildCount()}</div>`,
                             className: 'custom-cluster-icon',
                             iconSize: [40, 40]
                         });
                     }
                 });
-                
-                // Use esri-leaflet featureLayer
-                esriLayer = L.esri.featureLayer({
+
+                // Create esri layer but don't add to map directly
+                const esriLayer = L.esri.featureLayer({
                     url: url,
                     pointToLayer: function(feature, latlng) {
-                        hasData = true;
                         const marker = L.circleMarker(latlng, {
                             radius: 6,
                             fillColor: '#4CAF50',
@@ -489,61 +345,55 @@ function loadLayer(url, layerType) {
                             fillOpacity: 0.8
                         });
                         
-                        // Add feature events
                         addFeatureEvents(feature, marker, layerType);
                         return marker;
                     }
                 });
-                
-                // Add feature layer to map to trigger data loading
-                esriLayer.addTo(map);
-                
-                // Add features to cluster after they're created
+
+                // Add features to cluster as they're created
                 esriLayer.on('createfeature', function(e) {
                     if (e.layer) {
-                        oilGasCluster.addLayer(e.layer);
+                        cluster.addLayer(e.layer);
                     }
                 });
-                
+
                 esriLayer.on('load', function() {
-                    console.log(`${layerType} load event fired, hasData: ${hasData}`);
-                    if (loadingTimer) clearTimeout(loadingTimer);
-                    // Store reference globally
-                    window.oilGasCluster = oilGasCluster;
-                    resolve(oilGasCluster);
+                    console.log(`${layerType} loaded`);
+                    layerGroups[layerType] = cluster;
+                    cluster.addTo(map); // Add by default
+                    resolve(cluster);
                 });
-                
+
                 esriLayer.on('error', function(error) {
                     console.error(`${layerType} error:`, error);
-                    if (loadingTimer) clearTimeout(loadingTimer);
                     reject(error);
                 });
-                
-                layer = oilGasCluster;
-                
+
+                // Add to map to trigger loading
+                esriLayer.addTo(map);
+                esriLayers[layerType] = esriLayer;
+
             } else if (layerType === 'earthquakes') {
-                // Create marker cluster for earthquakes
-                earthquakeCluster = L.markerClusterGroup({
+                // Create marker cluster group
+                const cluster = L.markerClusterGroup({
                     iconCreateFunction: function(cluster) {
                         return L.divIcon({
-                            html: '<div style="background:#FF4444;color:white;border-radius:50%;width:40px;height:40px;display:flex;align-items:center;justify-content:center;font-weight:bold;">' + cluster.getChildCount() + '</div>',
+                            html: `<div style="background:#FF4444;color:white;border-radius:50%;width:40px;height:40px;display:flex;align-items:center;justify-content:center;font-weight:bold;">${cluster.getChildCount()}</div>`,
                             className: 'custom-cluster-icon',
                             iconSize: [40, 40]
                         });
                     }
                 });
-                
-                // Use esri-leaflet featureLayer with Iran bounds
-                esriLayer = L.esri.featureLayer({
+
+                // Create esri layer with Iran bounds filter
+                const esriLayer = L.esri.featureLayer({
                     url: url,
                     where: `latitude >= ${iranBounds.south} AND latitude <= ${iranBounds.north} AND longitude >= ${iranBounds.west} AND longitude <= ${iranBounds.east}`,
                     pointToLayer: function(feature, latlng) {
-                        // Additional Iran bounds check for safety
                         if (!isPointInIran(latlng.lat, latlng.lng)) {
                             return null;
                         }
                         
-                        hasData = true;
                         const magnitude = feature.properties.magnitude || feature.properties.mag || 1;
                         const marker = L.circleMarker(latlng, {
                             radius: Math.max(4, magnitude * 2),
@@ -554,113 +404,85 @@ function loadLayer(url, layerType) {
                             fillOpacity: 0.7
                         });
                         
-                        // Add feature events
                         addFeatureEvents(feature, marker, layerType);
                         return marker;
                     }
                 });
-                
-                // Add feature layer to map to trigger data loading
-                esriLayer.addTo(map);
-                
-                // Add features to cluster after they're created
+
+                // Add features to cluster as they're created
                 esriLayer.on('createfeature', function(e) {
                     if (e.layer) {
-                        earthquakeCluster.addLayer(e.layer);
+                        cluster.addLayer(e.layer);
                     }
                 });
-                
+
                 esriLayer.on('load', function() {
-                    console.log(`${layerType} load event fired, hasData: ${hasData}`);
-                    if (loadingTimer) clearTimeout(loadingTimer);
-                    // Store reference globally
-                    window.earthquakeCluster = earthquakeCluster;
-                    resolve(earthquakeCluster);
+                    console.log(`${layerType} loaded`);
+                    layerGroups[layerType] = cluster;
+                    cluster.addTo(map); // Add by default
+                    resolve(cluster);
                 });
-                
+
                 esriLayer.on('error', function(error) {
                     console.error(`${layerType} error:`, error);
-                    if (loadingTimer) clearTimeout(loadingTimer);
                     reject(error);
                 });
-                
-                layer = earthquakeCluster;
-                
-            } else if (layerType === 'provinces') {
-                // Use esri-leaflet featureLayer for provinces
-                layer = L.esri.featureLayer({
+
+                // Add to map to trigger loading
+                esriLayer.addTo(map);
+                esriLayers[layerType] = esriLayer;
+
+            } else if (layerType === 'provinces' || layerType === 'geology') {
+                // Create layer group for polygon layers
+                const layerGroup = L.layerGroup();
+
+                // Create esri layer
+                const esriLayer = L.esri.featureLayer({
                     url: url,
                     style: function(feature) {
-                        return {
-                            fillColor: '#FF5500',
-                            weight: 2,
-                            opacity: 1,
-                            color: '#FF5500',
-                            fillOpacity: 0.3
-                        };
+                        if (layerType === 'provinces') {
+                            return {
+                                fillColor: '#FF5500',
+                                weight: 2,
+                                opacity: 1,
+                                color: '#FF5500',
+                                fillOpacity: 0.3
+                            };
+                        } else { // geology
+                            return {
+                                fillColor: getColor(feature.properties.GLG),
+                                weight: 1,
+                                opacity: 1,
+                                color: 'white',
+                                fillOpacity: 0.8
+                            };
+                        }
                     },
                     onEachFeature: function(feature, layer) {
-                        hasData = true;
                         addFeatureEvents(feature, layer, layerType);
+                        layerGroup.addLayer(layer);
                     }
                 });
-                
-                // Add to map to trigger data loading within current (Iran) bounds
-                layer.addTo(map);
-                
-                layer.on('load', function() {
-                    console.log(`${layerType} load event fired`);
-                    if (loadingTimer) clearTimeout(loadingTimer);
-                    // Store reference globally for provinces
-                    window.provincesLayer = layer;
-                    provincesLayer = layer;
-                    resolve(layer);
+
+                esriLayer.on('load', function() {
+                    console.log(`${layerType} loaded`);
+                    layerGroups[layerType] = layerGroup;
+                    layerGroup.addTo(map); // Add by default
+                    resolve(layerGroup);
                 });
-                
-                layer.on('error', function(error) {
+
+                esriLayer.on('error', function(error) {
                     console.error(`${layerType} error:`, error);
-                    if (loadingTimer) clearTimeout(loadingTimer);
                     reject(error);
                 });
-                
-            } else if (layerType === 'geology') {
-                // Use esri-leaflet featureLayer for geology
-                layer = L.esri.featureLayer({
-                    url: url,
-                    style: function(feature) {
-                        return {
-                            fillColor: getColor(feature.properties.GLG),
-                            weight: 1,
-                            opacity: 1,
-                            color: 'white',
-                            fillOpacity: 0.8
-                        };
-                    },
-                    onEachFeature: function(feature, layer) {
-                        hasData = true;
-                        addFeatureEvents(feature, layer, layerType);
-                    }
-                });
-                
-                // Add to map to trigger data loading within current (Iran) bounds
-                layer.addTo(map);
-                
-                layer.on('load', function() {
-                    console.log(`${layerType} load event fired`);
-                    if (loadingTimer) clearTimeout(loadingTimer);
-                    resolve(layer);
-                });
-                
-                layer.on('error', function(error) {
-                    console.error(`${layerType} error:`, error);
-                    if (loadingTimer) clearTimeout(loadingTimer);
-                    reject(error);
-                });
+
+                // Add to map to trigger loading
+                esriLayer.addTo(map);
+                esriLayers[layerType] = esriLayer;
             }
-            
+
         } catch (error) {
             console.error(`Error creating ${layerType} layer:`, error);
-            if (loadingTimer) clearTimeout(loadingTimer);
             reject(error);
         }
     });
@@ -732,44 +554,7 @@ function addFeatureEvents(feature, layer, layerType) {
     });
 }
 
-// Show loading indicator
-function showLoading(show) {
-    const loadingEl = document.getElementById('loading');
-    if (loadingEl) {
-        loadingEl.style.display = show ? 'block' : 'none';
-    }
-}
-
-// Show error
-function showError(message) {
-    const errorPanel = document.getElementById('error-panel');
-    const errorMessage = document.getElementById('error-message');
-    if (errorPanel && errorMessage) {
-        errorMessage.textContent = message;
-        errorPanel.style.display = 'block';
-    } else {
-        console.error('Error:', message);
-        alert('Error loading layers: ' + message);
-    }
-}
-
-// Initialize cadaster layer with proper toggle state
-function initializeCadasterLayer() {
-    console.log('Initializing cadaster layer...');
-    // Respect toggle state: only add if enabled
-    const cadasterToggle = document.getElementById('toggle-cadaster');
-    if (cadasterToggle && cadasterToggle.checked && cadasterLayer) {
-        cadasterLayer.addTo(map);
-        console.log('Cadaster layer added on initialization');
-    }
-    // Set initial opacity
-    const opacitySlider = document.getElementById('cadaster-opacity');
-    if (opacitySlider && cadasterLayer) {
-        cadasterLayer.setOpacity(opacitySlider.value / 100);
-    }
-}
-
-// Load mines GeoJSON overlay (iran_mines.geojson)
+// Load mines GeoJSON overlay
 function loadMinesLayer() {
     fetch('iran_mines.geojson')
         .then(res => {
@@ -777,7 +562,7 @@ function loadMinesLayer() {
             return res.json();
         })
         .then(data => {
-            minesLayer = L.geoJSON(data, {
+            layerGroups.mines = L.geoJSON(data, {
                 style: function(feature) {
                     const geomType = feature.geometry && feature.geometry.type;
                     if (geomType === 'Polygon' || geomType === 'MultiPolygon') {
@@ -801,20 +586,44 @@ function loadMinesLayer() {
                     });
                 }
             });
-            // Respect toggle state: only add if enabled
+
+            // Add by default (respect checkbox state)
             const minesToggle = document.getElementById('toggle-mines');
             if (!minesToggle || minesToggle.checked) {
-                minesLayer.addTo(map);
+                layerGroups.mines.addTo(map);
             }
+
             // Set initial opacity
             const opacitySlider = document.getElementById('mines-opacity');
-            if (opacitySlider && minesLayer) {
-                minesLayer.setOpacity(opacitySlider.value / 100);
+            if (opacitySlider) {
+                const opacity = opacitySlider.value / 100;
+                layerGroups.mines.setStyle({ opacity: opacity, fillOpacity: opacity * 0.8 });
             }
         })
         .catch(err => {
             console.error('Failed to load iran_mines.geojson:', err);
         });
+}
+
+// Show loading indicator
+function showLoading(show) {
+    const loadingEl = document.getElementById('loading');
+    if (loadingEl) {
+        loadingEl.style.display = show ? 'block' : 'none';
+    }
+}
+
+// Show error
+function showError(message) {
+    const errorPanel = document.getElementById('error-panel');
+    const errorMessage = document.getElementById('error-message');
+    if (errorPanel && errorMessage) {
+        errorMessage.textContent = message;
+        errorPanel.style.display = 'block';
+    } else {
+        console.error('Error:', message);
+        alert('Error loading layers: ' + message);
+    }
 }
 
 // Retry loading data
@@ -825,19 +634,31 @@ function retryLoading() {
     }
     
     // Clear existing layers
-    if (oilGasCluster) map.removeLayer(oilGasCluster);
-    if (earthquakeCluster) map.removeLayer(earthquakeCluster);
-    if (provincesLayer) map.removeLayer(provincesLayer);
-    if (geologyLayer) map.removeLayer(geologyLayer);
+    Object.values(layerGroups).forEach(layer => {
+        if (layer && map.hasLayer(layer)) {
+            map.removeLayer(layer);
+        }
+    });
+    
+    Object.values(esriLayers).forEach(layer => {
+        if (layer && map.hasLayer(layer)) {
+            map.removeLayer(layer);
+        }
+    });
     
     // Reset layer variables
-    oilGasCluster = null;
-    earthquakeCluster = null;
-    provincesLayer = null;
-    geologyLayer = null;
+    layerGroups = {};
+    esriLayers = {};
+    
+    // Recreate cadaster layer
+    layerGroups.cadaster = L.tileLayer('https://map.zetamine.ai/services/output/tiles/{z}/{x}/{y}.png', {
+        attribution: 'Cadaster',
+        maxZoom: 22
+    });
     
     // Reload all layers
     loadAllLayers();
+    loadMinesLayer();
 }
 
 // Download GeoJSON data
