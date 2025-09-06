@@ -21,6 +21,105 @@
     
     <div id="map-container">
         <div id="map"></div>
+
+        <!-- Layer Toggles Control moved to HTML -->
+        <div id="layer-toggles" class="layer-toggles" style="position: absolute; bottom: 10px; right: 10px; z-index: 1000;">
+            <div style="background: rgba(255,255,255,0.95); padding: 15px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.3); min-width: 200px;">
+                <h4 style="margin: 0 0 10px 0; color: #333; font-size: 16px;"><i class="fas fa-layers"></i> Layer Controls</h4>
+
+                <div style="margin-bottom: 12px;">
+                    <label style="display: flex; align-items: center; cursor: pointer; margin-bottom: 4px;">
+                        <input type="checkbox" id="toggle-oil-gas" checked style="margin-right: 8px;">
+                        <div style="width: 12px; height: 12px; background: #4CAF50; border-radius: 50%; margin-right: 8px;"></div>
+                        <span style="font-size: 14px;">Oil & Gas Fields</span>
+                    </label>
+                    <div style="margin-left: 28px; margin-top: 4px;">
+                        <div style="display: flex; justify-content: space-between; font-size: 12px; color: #666; margin-bottom: 2px;">
+                            <span>Opacity</span>
+                            <span id="oil-gas-opacity-value">100%</span>
+                        </div>
+                        <input type="range" id="oil-gas-opacity" min="0" max="100" value="100" style="width: 100%; height: 4px; background: #ddd; outline: none; border-radius: 2px;">
+                    </div>
+                </div>
+
+                <div style="margin-bottom: 12px;">
+                    <label style="display: flex; align-items: center; cursor: pointer; margin-bottom: 4px;">
+                        <input type="checkbox" id="toggle-earthquakes" checked style="margin-right: 8px;">
+                        <div style="width: 12px; height: 12px; background: #FF4444; border-radius: 50%; margin-right: 8px;"></div>
+                        <span style="font-size: 14px;">Earthquakes (Iran)</span>
+                    </label>
+                    <div style="margin-left: 28px; margin-top: 4px;">
+                        <div style="display: flex; justify-content: space-between; font-size: 12px; color: #666; margin-bottom: 2px;">
+                            <span>Opacity</span>
+                            <span id="earthquakes-opacity-value">100%</span>
+                        </div>
+                        <input type="range" id="earthquakes-opacity" min="0" max="100" value="100" style="width: 100%; height: 4px; background: #ddd; outline: none; border-radius: 2px;">
+                    </div>
+                </div>
+
+                <div style="margin-bottom: 12px;">
+                    <label style="display: flex; align-items: center; cursor: pointer; margin-bottom: 4px;">
+                        <input type="checkbox" id="toggle-provinces" checked style="margin-right: 8px;">
+                        <div style="width: 12px; height: 12px; background: rgba(255,85,0,0.6); border: 2px solid #FF5500; margin-right: 8px;"></div>
+                        <span style="font-size: 14px;">Geologic Provinces</span>
+                    </label>
+                    <div style="margin-left: 28px; margin-top: 4px;">
+                        <div style="display: flex; justify-content: space-between; font-size: 12px; color: #666; margin-bottom: 2px;">
+                            <span>Opacity</span>
+                            <span id="provinces-opacity-value">70%</span>
+                        </div>
+                        <input type="range" id="provinces-opacity" min="0" max="100" value="70" style="width: 100%; height: 4px; background: #ddd; outline: none; border-radius: 2px;">
+                    </div>
+                </div>
+
+                <div style="margin-bottom: 12px;">
+                    <label style="display: flex; align-items: center; cursor: pointer; margin-bottom: 4px;">
+                        <input type="checkbox" id="toggle-geology" checked style="margin-right: 8px;">
+                        <div style="width: 12px; height: 12px; background: rgba(100,100,200,0.6); border: 2px solid #6464C8; margin-right: 8px;"></div>
+                        <span style="font-size: 14px;">Geology Formations</span>
+                    </label>
+                    <div style="margin-left: 28px; margin-top: 4px;">
+                        <div style="display: flex; justify-content: space-between; font-size: 12px; color: #666; margin-bottom: 2px;">
+                            <span>Opacity</span>
+                            <span id="geology-opacity-value">80%</span>
+                        </div>
+                        <input type="range" id="geology-opacity" min="0" max="100" value="80" style="width: 100%; height: 4px; background: #ddd; outline: none; border-radius: 2px;">
+                    </div>
+                </div>
+
+                <hr style="margin: 10px 0; border: none; border-top: 1px solid #ddd;" />
+
+                <div style="margin-bottom: 12px;">
+                    <label style="display: flex; align-items: center; cursor: pointer; margin-bottom: 4px;">
+                        <input type="checkbox" id="toggle-cadaster" checked style="margin-right: 8px;">
+                        <div style="width: 12px; height: 12px; background: #bdbdbd; border: 2px solid #616161; margin-right: 8px;"></div>
+                        <span style="font-size: 14px;">Cadaster Tiles</span>
+                    </label>
+                    <div style="margin-left: 28px; margin-top: 4px;">
+                        <div style="display: flex; justify-content: space-between; font-size: 12px; color: #666; margin-bottom: 2px;">
+                            <span>Opacity</span>
+                            <span id="cadaster-opacity-value">100%</span>
+                        </div>
+                        <input type="range" id="cadaster-opacity" min="0" max="100" value="100" style="width: 100%; height: 4px; background: #ddd; outline: none; border-radius: 2px;">
+                    </div>
+                </div>
+
+                <div style="margin-bottom: 12px;">
+                    <label style="display: flex; align-items: center; cursor: pointer; margin-bottom: 4px;">
+                        <input type="checkbox" id="toggle-mines" checked style="margin-right: 8px;">
+                        <div style="width: 12px; height: 12px; background: #e85d04; border: 2px solid #000; margin-right: 8px;"></div>
+                        <span style="font-size: 14px;">Mines (GeoJSON)</span>
+                    </label>
+                    <div style="margin-left: 28px; margin-top: 4px;">
+                        <div style="display: flex; justify-content: space-between; font-size: 12px; color: #666; margin-bottom: 2px;">
+                            <span>Opacity</span>
+                            <span id="mines-opacity-value">80%</span>
+                        </div>
+                        <input type="range" id="mines-opacity" min="0" max="100" value="80" style="width: 100%; height: 4px; background: #ddd; outline: none; border-radius: 2px;">
+                    </div>
+                </div>
+            </div>
+        </div>
         
         <div class="loading" id="loading">
             <div class="loading-spinner"></div>

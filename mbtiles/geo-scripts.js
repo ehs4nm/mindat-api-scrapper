@@ -3,6 +3,8 @@ let oilGasCluster = null;
 let earthquakeCluster = null;
 let provincesLayer = null;
 let geologyLayer = null;
+let cadasterLayer = null;
+let minesLayer = null;
 
 // ArcGIS Feature Server URLs (without /query for esri-leaflet)
 const FEATURE_SERVER_BASE = 'https://services.arcgis.com/v01gqwM5QqNysAAi/ArcGIS/rest/services/Iran_Geology/FeatureServer';
@@ -49,6 +51,12 @@ function initMap() {
     const terrainLayer = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
         attribution: 'Map data: &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, <a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a>'
     });
+
+    // Cadaster raster tiles (XYZ) - create but don't add yet; respect toggle state later
+    cadasterLayer = L.tileLayer('https://map.zetamine.ai/services/output/tiles/{z}/{x}/{y}.png', {
+        attribution: 'Cadaster',
+        maxZoom: 22
+    });
     
     // Add layer control
     const baseMaps = {
@@ -68,6 +76,12 @@ function initMap() {
     
     // Load all four layers
     loadAllLayers();
+
+    // Load local mines GeoJSON overlay
+    loadMinesLayer();
+
+    // Initialize cadaster layer with proper toggle state
+    initializeCadasterLayer();
 }
 
 // Create info panel
@@ -147,111 +161,204 @@ function createLayerToggles() {
     const toggleControl = L.control({position: 'bottomright'});
     
     toggleControl.onAdd = function (map) {
+        const existing = document.getElementById('layer-toggles');
+        if (existing) {
+            // Prevent map interactions when clicking on the control
+            L.DomEvent.disableClickPropagation(existing);
+            L.DomEvent.disableScrollPropagation(existing);
+            return existing;
+        }
+        // Fallback: create empty container if not found
         const div = L.DomUtil.create('div', 'layer-toggles');
-        div.innerHTML = `
-            <div style="background: rgba(255,255,255,0.95); padding: 15px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.3); min-width: 200px;">
-                <h4 style="margin: 0 0 10px 0; color: #333; font-size: 16px;"><i class="fas fa-layers"></i> Layer Controls</h4>
-                
-                <div style="margin-bottom: 8px;">
-                    <label style="display: flex; align-items: center; cursor: pointer;">
-                        <input type="checkbox" id="toggle-oil-gas" checked style="margin-right: 8px;">
-                        <div style="width: 12px; height: 12px; background: #4CAF50; border-radius: 50%; margin-right: 8px;"></div>
-                        <span style="font-size: 14px;">Oil & Gas Fields</span>
-                    </label>
-                </div>
-                
-                <div style="margin-bottom: 8px;">
-                    <label style="display: flex; align-items: center; cursor: pointer;">
-                        <input type="checkbox" id="toggle-earthquakes" checked style="margin-right: 8px;">
-                        <div style="width: 12px; height: 12px; background: #FF4444; border-radius: 50%; margin-right: 8px;"></div>
-                        <span style="font-size: 14px;">Earthquakes (Iran)</span>
-                    </label>
-                </div>
-                
-                <div style="margin-bottom: 8px;">
-                    <label style="display: flex; align-items: center; cursor: pointer;">
-                        <input type="checkbox" id="toggle-provinces" checked style="margin-right: 8px;">
-                        <div style="width: 12px; height: 12px; background: rgba(255,85,0,0.6); border: 2px solid #FF5500; margin-right: 8px;"></div>
-                        <span style="font-size: 14px;">Geologic Provinces</span>
-                    </label>
-                </div>
-                
-                <div style="margin-bottom: 8px;">
-                    <label style="display: flex; align-items: center; cursor: pointer;">
-                        <input type="checkbox" id="toggle-geology" checked style="margin-right: 8px;">
-                        <div style="width: 12px; height: 12px; background: rgba(100,100,200,0.6); border: 2px solid #6464C8; margin-right: 8px;"></div>
-                        <span style="font-size: 14px;">Geology Formations</span>
-                    </label>
-                </div>
-            </div>
-        `;
-        
-        // Prevent map interactions when clicking on the control
-        L.DomEvent.disableClickPropagation(div);
-        L.DomEvent.disableScrollPropagation(div);
-        
         return div;
     };
     
     toggleControl.addTo(map);
     
-    // Add event listeners for toggles (will be activated after layers are loaded)
-    window.layerTogglesReady = false;
+    // Setup event listeners ONCE, right after control is added
+    setTimeout(() => setupLayerToggles(), 100);
 }
 
 // Setup layer toggle event listeners
 function setupLayerToggles() {
+    // Prevent duplicate listener binding
+    if (window._togglesBound) {
+        console.log('Toggle listeners already bound, skipping...');
+        return;
+    }
+    
+    console.log('Setting up layer toggles...');
+    window._togglesBound = true;
+
     // Oil & Gas toggle
-    document.getElementById('toggle-oil-gas').addEventListener('change', function() {
-        if (this.checked) {
-            if (oilGasCluster) oilGasCluster.addTo(map);
-        } else {
-            if (oilGasCluster) map.removeLayer(oilGasCluster);
-        }
-    });
+    const oilGasToggle = document.getElementById('toggle-oil-gas');
+    if (oilGasToggle) {
+        oilGasToggle.addEventListener('change', function() {
+            console.log('Oil gas toggle:', this.checked);
+            if (this.checked) {
+                if (oilGasCluster && !map.hasLayer(oilGasCluster)) oilGasCluster.addTo(map);
+            } else {
+                if (oilGasCluster && map.hasLayer(oilGasCluster)) map.removeLayer(oilGasCluster);
+            }
+        });
+    }
     
     // Earthquakes toggle
-    document.getElementById('toggle-earthquakes').addEventListener('change', function() {
-        if (this.checked) {
-            if (earthquakeCluster) earthquakeCluster.addTo(map);
-        } else {
-            if (earthquakeCluster) map.removeLayer(earthquakeCluster);
-        }
-    });
+    const earthquakesToggle = document.getElementById('toggle-earthquakes');
+    if (earthquakesToggle) {
+        earthquakesToggle.addEventListener('change', function() {
+            console.log('Earthquakes toggle:', this.checked);
+            if (this.checked) {
+                if (earthquakeCluster && !map.hasLayer(earthquakeCluster)) earthquakeCluster.addTo(map);
+            } else {
+                if (earthquakeCluster && map.hasLayer(earthquakeCluster)) map.removeLayer(earthquakeCluster);
+            }
+        });
+    }
     
     // Provinces toggle
-    document.getElementById('toggle-provinces').addEventListener('change', function() {
-        if (this.checked) {
-            if (provincesLayer) provincesLayer.addTo(map);
-        } else {
-            if (provincesLayer) map.removeLayer(provincesLayer);
-        }
-    });
+    const provincesToggle = document.getElementById('toggle-provinces');
+    if (provincesToggle) {
+        provincesToggle.addEventListener('change', function() {
+            console.log('Provinces toggle:', this.checked);
+            if (this.checked) {
+                if (provincesLayer && !map.hasLayer(provincesLayer)) provincesLayer.addTo(map);
+            } else {
+                if (provincesLayer && map.hasLayer(provincesLayer)) map.removeLayer(provincesLayer);
+            }
+        });
+    }
     
     // Geology toggle
-    document.getElementById('toggle-geology').addEventListener('change', function() {
-        if (this.checked) {
-            if (geologyLayer) geologyLayer.addTo(map);
-        } else {
-            if (geologyLayer) map.removeLayer(geologyLayer);
-        }
-    });
+    const geologyToggle = document.getElementById('toggle-geology');
+    if (geologyToggle) {
+        geologyToggle.addEventListener('change', function() {
+            console.log('Geology toggle:', this.checked);
+            if (this.checked) {
+                if (geologyLayer && !map.hasLayer(geologyLayer)) geologyLayer.addTo(map);
+            } else {
+                if (geologyLayer && map.hasLayer(geologyLayer)) map.removeLayer(geologyLayer);
+            }
+        });
+    }
+
+    // Cadaster toggle
+    const cadasterToggle = document.getElementById('toggle-cadaster');
+    if (cadasterToggle) {
+        cadasterToggle.addEventListener('change', function() {
+            console.log('Cadaster toggle:', this.checked, 'Layer exists:', !!cadasterLayer);
+            if (this.checked) {
+                if (cadasterLayer && !map.hasLayer(cadasterLayer)) {
+                    cadasterLayer.addTo(map);
+                    console.log('Cadaster added to map');
+                }
+            } else {
+                if (cadasterLayer && map.hasLayer(cadasterLayer)) {
+                    map.removeLayer(cadasterLayer);
+                    console.log('Cadaster removed from map');
+                }
+            }
+        });
+    }
+
+    // Mines toggle
+    const minesToggle = document.getElementById('toggle-mines');
+    if (minesToggle) {
+        minesToggle.addEventListener('change', function() {
+            console.log('Mines toggle:', this.checked, 'Layer exists:', !!minesLayer);
+            if (this.checked) {
+                if (minesLayer && !map.hasLayer(minesLayer)) {
+                    minesLayer.addTo(map);
+                    console.log('Mines added to map');
+                }
+            } else {
+                if (minesLayer && map.hasLayer(minesLayer)) {
+                    map.removeLayer(minesLayer);
+                    console.log('Mines removed from map');
+                }
+            }
+        });
+    }
+
+    // Cadaster opacity slider
+    const cadasterOpacity = document.getElementById('cadaster-opacity');
+    if (cadasterOpacity) {
+        cadasterOpacity.addEventListener('input', function() {
+            const opacity = this.value / 100;
+            const valueEl = document.getElementById('cadaster-opacity-value');
+            if (valueEl) valueEl.textContent = this.value + '%';
+            if (cadasterLayer) {
+                cadasterLayer.setOpacity(opacity);
+            }
+        });
+    }
+
+    // Mines opacity slider
+    const minesOpacity = document.getElementById('mines-opacity');
+    if (minesOpacity) {
+        minesOpacity.addEventListener('input', function() {
+            const opacity = this.value / 100;
+            const valueEl = document.getElementById('mines-opacity-value');
+            if (valueEl) valueEl.textContent = this.value + '%';
+            if (minesLayer) {
+                minesLayer.setOpacity(opacity);
+            }
+        });
+    }
+
+    // Oil & Gas opacity slider
+    const oilGasOpacity = document.getElementById('oil-gas-opacity');
+    if (oilGasOpacity) {
+        oilGasOpacity.addEventListener('input', function() {
+            const opacity = this.value / 100;
+            const valueEl = document.getElementById('oil-gas-opacity-value');
+            if (valueEl) valueEl.textContent = this.value + '%';
+            if (oilGasCluster) {
+                oilGasCluster.setOpacity(opacity);
+            }
+        });
+    }
+
+    // Earthquakes opacity slider
+    const earthquakesOpacity = document.getElementById('earthquakes-opacity');
+    if (earthquakesOpacity) {
+        earthquakesOpacity.addEventListener('input', function() {
+            const opacity = this.value / 100;
+            const valueEl = document.getElementById('earthquakes-opacity-value');
+            if (valueEl) valueEl.textContent = this.value + '%';
+            if (earthquakeCluster) {
+                earthquakeCluster.setOpacity(opacity);
+            }
+        });
+    }
+
+    // Provinces opacity slider
+    const provincesOpacity = document.getElementById('provinces-opacity');
+    if (provincesOpacity) {
+        provincesOpacity.addEventListener('input', function() {
+            const opacity = this.value / 100;
+            const valueEl = document.getElementById('provinces-opacity-value');
+            if (valueEl) valueEl.textContent = this.value + '%';
+            if (provincesLayer) {
+                provincesLayer.setOpacity(opacity);
+            }
+        });
+    }
+
+    // Geology opacity slider
+    const geologyOpacity = document.getElementById('geology-opacity');
+    if (geologyOpacity) {
+        geologyOpacity.addEventListener('input', function() {
+            const opacity = this.value / 100;
+            const valueEl = document.getElementById('geology-opacity-value');
+            if (valueEl) valueEl.textContent = this.value + '%';
+            if (geologyLayer) {
+                geologyLayer.setOpacity(opacity);
+            }
+        });
+    }
     
-    window.layerTogglesReady = true;
-    
-    // Initially add all layers based on checkbox state
-    if (document.getElementById('toggle-oil-gas').checked && oilGasCluster) {
-        oilGasCluster.addTo(map);
-    }
-    if (document.getElementById('toggle-earthquakes').checked && earthquakeCluster) {
-        earthquakeCluster.addTo(map);
-    }
-    if (document.getElementById('toggle-provinces').checked && provincesLayer) {
-        provincesLayer.addTo(map);
-    }
-    if (document.getElementById('toggle-geology').checked && geologyLayer) {
-        geologyLayer.addTo(map);
-    }
+    console.log('All toggle listeners set up successfully');
 }
 
 // Function to get color based on geological type
@@ -304,8 +411,7 @@ function loadAllLayers() {
         });
         
         if (successCount > 0) {
-            // Setup toggle event listeners for successfully loaded layers
-            setupLayerToggles();
+            // DON'T call setupLayerToggles again - it was already called!
             
             // Fit map to Iran bounds
             const mapBounds = [
@@ -318,7 +424,7 @@ function loadAllLayers() {
                 console.warn(`${successCount} layers loaded successfully, ${errors.length} failed:`, errors);
             }
         } else {
-            showError('Failed to load any layers: ' + errors.join(', '));
+            showError('Failed to load all layers: ' + errors.join(', '));
         }
         
         showLoading(false);
@@ -402,6 +508,8 @@ function loadLayer(url, layerType) {
                 esriLayer.on('load', function() {
                     console.log(`${layerType} load event fired, hasData: ${hasData}`);
                     if (loadingTimer) clearTimeout(loadingTimer);
+                    // Store reference globally
+                    window.oilGasCluster = oilGasCluster;
                     resolve(oilGasCluster);
                 });
                 
@@ -465,6 +573,8 @@ function loadLayer(url, layerType) {
                 esriLayer.on('load', function() {
                     console.log(`${layerType} load event fired, hasData: ${hasData}`);
                     if (loadingTimer) clearTimeout(loadingTimer);
+                    // Store reference globally
+                    window.earthquakeCluster = earthquakeCluster;
                     resolve(earthquakeCluster);
                 });
                 
@@ -501,6 +611,9 @@ function loadLayer(url, layerType) {
                 layer.on('load', function() {
                     console.log(`${layerType} load event fired`);
                     if (loadingTimer) clearTimeout(loadingTimer);
+                    // Store reference globally for provinces
+                    window.provincesLayer = layer;
+                    provincesLayer = layer;
                     resolve(layer);
                 });
                 
@@ -638,6 +751,70 @@ function showError(message) {
         console.error('Error:', message);
         alert('Error loading layers: ' + message);
     }
+}
+
+// Initialize cadaster layer with proper toggle state
+function initializeCadasterLayer() {
+    console.log('Initializing cadaster layer...');
+    // Respect toggle state: only add if enabled
+    const cadasterToggle = document.getElementById('toggle-cadaster');
+    if (cadasterToggle && cadasterToggle.checked && cadasterLayer) {
+        cadasterLayer.addTo(map);
+        console.log('Cadaster layer added on initialization');
+    }
+    // Set initial opacity
+    const opacitySlider = document.getElementById('cadaster-opacity');
+    if (opacitySlider && cadasterLayer) {
+        cadasterLayer.setOpacity(opacitySlider.value / 100);
+    }
+}
+
+// Load mines GeoJSON overlay (iran_mines.geojson)
+function loadMinesLayer() {
+    fetch('iran_mines.geojson')
+        .then(res => {
+            if (!res.ok) throw new Error('Failed to fetch iran_mines.geojson');
+            return res.json();
+        })
+        .then(data => {
+            minesLayer = L.geoJSON(data, {
+                style: function(feature) {
+                    const geomType = feature.geometry && feature.geometry.type;
+                    if (geomType === 'Polygon' || geomType === 'MultiPolygon') {
+                        return {
+                            color: '#e85d04',
+                            weight: 1,
+                            opacity: 1,
+                            fillOpacity: 0.3
+                        };
+                    }
+                    return undefined;
+                },
+                pointToLayer: function(feature, latlng) {
+                    return L.circleMarker(latlng, {
+                        radius: 4,
+                        fillColor: '#e85d04',
+                        color: '#000000',
+                        weight: 1,
+                        opacity: 1,
+                        fillOpacity: 0.8
+                    });
+                }
+            });
+            // Respect toggle state: only add if enabled
+            const minesToggle = document.getElementById('toggle-mines');
+            if (!minesToggle || minesToggle.checked) {
+                minesLayer.addTo(map);
+            }
+            // Set initial opacity
+            const opacitySlider = document.getElementById('mines-opacity');
+            if (opacitySlider && minesLayer) {
+                minesLayer.setOpacity(opacitySlider.value / 100);
+            }
+        })
+        .catch(err => {
+            console.error('Failed to load iran_mines.geojson:', err);
+        });
 }
 
 // Retry loading data
